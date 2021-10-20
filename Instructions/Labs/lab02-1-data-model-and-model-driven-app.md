@@ -78,37 +78,35 @@ In this exercise, you will create Tables, Columns, and the Relationships you ide
 
 1.  Enter **Building** for **Display name** and click **Create**.
 
-    ![A screenshot of the new table window with the relevant value in each field](02-1/media/image002.png)
+    ![A screenshot of the new table window with the relevant value in each field](02-1/media/image002.jpg)
 
-4.  Go back to the solution by clicking on the solution name.
+1.  Go back to the solution by clicking on the solution name.
 
-5.  Click **+ New** and select **Table** again.
+1.  Click **+ New** and select **Table** again.
 
-6.  Enter **Department** for **Display name** and click **Create**.
+1.  Enter **Department** for **Display name** and click **Create**.
 
-![A screenshot of the new table window with the relevant value in each field](02-1/media/image7.png)
+    ![A screenshot of the new table window with the relevant value in each field](02-1/media/image003.jpg)
 
-7.  Go back to the solution by clicking on the solution name.
+1.  Go back to the solution by clicking on the solution name.
 
-![Building Table properties - screenshot](02-1/media/image99.png)
+1.  Click **+ New** and select **Table** one more time.
 
-8.  Click **+ New** and select **Table** one more time.
+1.  Enter **Problem Report** for **Display name**, change the **Primary Column** **Display name** to **Title**, and click **More settings**.
 
-9.  Enter **Problem Report** for **Display name**, change the **Primary Column** **Display name** to **Title**, and click **More settings**.
+    ![A screenshot with a border around the primary name column settings: display name and name. There is also an arrow pointing to the more settings button below](02-1/media/image8.png)
 
-![A screenshot with a border around the primary name column settings: display name and name. There is also an arrow pointing to the more settings button below](02-1/media/image8.png)
+1. Click to expand the **Collaboration** section.
 
-10. Click to expand the **Collaboration** section.
+    ![A Screenshot with an arrow pointing to the collaboration button](02-1/media/image9.png)
 
-![A Screenshot with an arrow pointing to the collaboration button](02-1/media/image9.png)
+1. Check the **Enable queues** checkbox and click **Create**. Enabling queues allows Problem Report Rows to be associated with one or more queues to help facilitate routing to the different departments.
 
-11. Check the **Enable queues** checkbox and click **Create**. Enabling queues allows Problem Report Rows to be associated with one or more queues to help facilitate routing to the different departments.
+    ![A screenshot of the enable queues checkbox highlighted](02-1/media/image10.png)
 
-![A screenshot of the enable queues checkbox highlighted](02-1/media/image10.png)
+1. Click **Okay** on the **Confirm changes** popup.
 
-12. Click **Okay** on the **Confirm changes** popup.
-
-![A screenshot of the confirm changes popup](02-1/media/image11.png)
+    ![A screenshot of the confirm changes popup](02-1/media/image11.png)
 
 #### Task 2: Add Columns
 
