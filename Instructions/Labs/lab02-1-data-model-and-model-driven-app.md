@@ -1,16 +1,3 @@
----
-lab:
-    title: 'Lab 02.1: Data model and model-driven app'
-    module: 'Module 02: Create a model-driven app'
----
-
-> [!NOTE]
-> Effective November 2020:
-> - Common Data Service has been renamed to Microsoft Dataverse. [Learn more](https://aka.ms/PAuAppBlog)
-> - Some terminology in Microsoft Dataverse has been updated. For example, *entity* is now *table* and *field* is now *column*. [Learn more](https://go.microsoft.com/fwlink/?linkid=2147247)
->
-
-
 # Lab 02.1: Data model and model-driven app
 
 In this lab you will be implementing the data model for the solution and building a model-driven app that will be used for fixing problems or managing the overall effort.
@@ -57,27 +44,27 @@ In this exercise, you will create a custom solution publisher and a solution. Th
 
 1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in the practice environment you created.
 
-2.  Select **Solutions** and click **+ New solution**.
+1.  Select **Solutions** and click **+ New solution**.
 
-3.  Enter **Company 311** for **Display name** and click.
+1.  Enter **Company 311** for **Display name**.
 
-4.  Click on the **Publisher** dropdown and select **+ Publisher**.
+1.  Click on the **Publisher** dropdown and select **+ Publisher**.
 
-![A Screenshot with an arrow pointing to the new publisher button](02-1/media/image1.png)
+    ![A Screenshot with an arrow pointing to the new publisher button](02-1/media/image1.png)
 
-5.  Enter **Lamna Healthcare** for **Display name**, **lamnahealthcare** for **Name**, **lh** for **Prefix**, **88186** for Choice value prefix, and click **Save**.
+1.  Enter **Lamna Healthcare** for **Display name**, **lamnahealthcare** for **Name**, **lh** for **Prefix**, **88186** for Choice value prefix, and click **Save**.
 
-![A screenshot of the new publisher properties pane](02-1/media/image105.png)
+    ![A screenshot of the new publisher properties pane](02-1/media/image105.png)
 
-6.  Click on the **Publisher** dropdown again and select the **Lamna Healthcare** publisher you created.
+1.  Click on the **Publisher** dropdown again and select the **Lamna Healthcare** publisher you created.
 
-8.  Click **Create**.
+1.  Click **Create**.
 
-![A screenshot of the new solution pane](02-1/media/image3.png)
+    ![A screenshot of the new solution pane](02-1/media/image3.png)
 
-9.  You should now see the solution you created in the solution list.
+1.  You should now see the solution you created in the solution list.
 
-![A screenshot with a border around your solution](02-1/media/image4.png)
+    ![A screenshot with a border around your solution](02-1/media/image4.png)
 
 ### Exercise 2: Implement data model
 
@@ -87,11 +74,11 @@ In this exercise, you will create Tables, Columns, and the Relationships you ide
 
 1.  In the [Power Apps maker portal](https://make.powerapps.com/) select **Solutions** and click to open the **Company 311** solution you created in Exercise 1.
 
-2.  Click **+ New** and select **Table**.
+1.  Click **+ New** and select **Table**.
 
-3.  Enter **Building** for **Display name** and click **Create**.
+1.  Enter **Building** for **Display name** and click **Create**.
 
-![A screenshot of the new table window with the relevant value in each field](02-1/media/image5.png)
+    ![A screenshot of the new table window with the relevant value in each field](02-1/media/image002.png)
 
 4.  Go back to the solution by clicking on the solution name.
 
