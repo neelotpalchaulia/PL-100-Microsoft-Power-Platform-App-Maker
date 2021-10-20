@@ -47,7 +47,7 @@ In this exercise, you will create a **Practice** environment that you will use t
 
 1.  Navigate to [Power Platform admin center](https://admin.Powerplatform.microsoft.com) and log in the credentials if prompted again.
 
-2. Select **Environments** and click **+ New**.
+1. Select **Environments** and click **+ New**.
 
     - For **Name**, enter **[my initials] Practice**. (Example: AJ Practice.)
     
@@ -59,8 +59,10 @@ In this exercise, you will create a **Practice** environment that you will use t
 
     - On the next tab, leave all selections to default and click **Save**.
 
-3. Your **Practice** environment should now show in the list of Environments. 
+     ![](00/image001.jpg)
 
-4. Your environment may take a few minutes to provision. Refresh the page if needed. When your environment is prepared, select your **Practice** environment by clicking on the ellipses next to its name to expand the drop down menu and select **Settings.** 
+1. Your **Practice** environment should now show in the list of Environments. 
 
-5.  Explore the different areas in **Settings** that you are interested in but do not make any changes. 
+1. Your environment may take a few minutes to provision. Refresh the page if needed. When your environment is prepared, select your **Practice** environment by clicking on the ellipses next to its name to expand the drop down menu and select **Settings.** 
+
+1.  Explore the different areas in **Settings** that you are interested in but do not make any changes. 
