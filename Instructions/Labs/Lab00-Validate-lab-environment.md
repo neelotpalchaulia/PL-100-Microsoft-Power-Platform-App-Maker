@@ -1,17 +1,3 @@
----
-lab:
-    title: 'Lab 00: Validate lab environment'
-    module: 'Module 01: Course introduction'
----
-
-
-> [!NOTE]
-> Effective November 2020:
-> - Common Data Service has been renamed to Microsoft Dataverse. [Learn more](https://aka.ms/PAuAppBlog)
-> - Some terminology in Microsoft Dataverse has been updated. For example, *entity* is now *table* and *field* is now *column*. [Learn more](https://go.microsoft.com/fwlink/?linkid=2147247)
->
-
-
 Module 0: Course introduction
 =================================
 
@@ -25,22 +11,32 @@ In this Module 0 lab, you will acquire a Power Platform trial tenant and access 
 Exercise 1 – Acquire your Power Platform trial tenant 
 ------------------------------------------
 
-1. Copy your **Microsoft 365 credentials** from the Authorized Lab Hoster.
-2. Navigate to [Power Apps](https://.<powerapps.microsoft.com) and click **Start free**.
-3. Under **Work email**, enter the email address from your Microsoft 365 credentials and click **Next**.
-4. You will see a prompt that you have an existing account with Microsoft. Select **Sign in**.
-5. Enter the password provided by the Authorized Lab Hoster. 
-6. Select **Yes** to stay signed in.
-7. Enter your country or region and Phone Number. Select **Get Started**.
-8. Click **Get Started** again.
+1. Navigate to [Power Apps](https://powerapps.microsoft.com) and click **Start free**.
 
-> [!NOTE]
-> If you encounter an error: "Sorry, there's been a disconnect", you can follow the steps below. If not, you can continue to **Exercise 2**.
->
-> 1. Navigate to [Power Apps Maker Portal](https://make.powerapps.com).
-> 2. Select the **Gear Icon** (Settings) from top-right corner on the header of the page.
->3. Select **Plan(s)** and verify if you have **Power Apps Per User Plan Trial**. 
-> 4. If you have the above mentioned license, please proceed to **Exercise 2** otherwise repeat **Exercise 1**.
+1. Under **Let's get you started**, enter the email address Provided in the **Environment** Tab and click **Next**.
+
+1. You will see a prompt that you have an existing account with Microsoft. Select **Sign in**.
+
+1. Enter the password provided by the Authorized Lab Hoster. 
+
+1. enter the **Password** Provided in the **Environment** Tab. Select **Sign in**
+
+1. Select **Yes** to stay signed in.
+
+1. Enter your country or region and Phone Number. Select **Get Started**.
+
+1. Click **Get Started** again.
+
+      **NOTE**: If you encounter an error: "Sorry, there's been a disconnect", you can follow the steps below. If not, you can continue to **Exercise 2**.
+    
+        1. Navigate to https://make.powerapps.com.
+    
+        2. Select the **Gear Icon** (Settings) from top-right corner on the header of the page.
+    
+        3. Select **Plan(s)** and verify if you have **Power Apps Per User Plan Trial**.
+    
+        4. If you have the above mentioned license, please proceed to **Exercise 2** otherwise repeat **Exercise 1**.
+        
 
 Exercise 2 - Create your environment 
 ------------------------------------------
@@ -49,7 +45,7 @@ In this exercise, you will create a **Practice** environment that you will use t
 
 ### Task 1 – Create environment
 
-1.  Navigate to [Power Platform admin center](<https://admin.Powerplatform.microsoft.com) and log in with your Microsoft 365 credentials if prompted again.
+1.  Navigate to [Power Platform admin center](https://admin.Powerplatform.microsoft.com) and log in the credentials if prompted again.
 
 2. Select **Environments** and click **+ New**.
 
