@@ -83,6 +83,8 @@ In this exercise, you will create Tables, Columns, and the Relationships you ide
 1.  Go back to the solution by clicking on the back arrow .
 
     ![](02-1/media/image004.jpg)
+    
+1.  Select Solutions and click to open the Company 311 solution
 
 1.  Click **+ New** and select **Table** again.
 
