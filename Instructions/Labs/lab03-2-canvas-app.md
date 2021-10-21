@@ -1,16 +1,3 @@
----
-lab:
-    title: 'Lab 03.2: Canvas app'
-    module: 'Module 03: Create a canvas app'
----
-
-> [!NOTE]
-> Effective November 2020:
-> - Common Data Service has been renamed to Microsoft Dataverse. [Learn more](https://aka.ms/PAuAppBlog)
-> - Some terminology in Microsoft Dataverse has been updated. For example, *entity* is now *table* and *field* is now *column*. [Learn more](https://go.microsoft.com/fwlink/?linkid=2147247)
->
-
-
 # Lab 03.2: Canvas app
 
 In this module you will design and build a canvas app for the company employees to submit problem reports.
@@ -49,46 +36,47 @@ In this task, you will import the shared components solution into your environme
 
 1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) page and make sure you are in the correct environment.
 
-2.  Select **Solutions** and click **Import**.
+1.  Select **Solutions** and click **Import**.
 
-![A Screenshot with an arrow pointing to the import button](03-2/media/image1.png)
+	![A Screenshot with an arrow pointing to the import button](03-2/media/image1.png)
 
-3.  Click **Browse**.
+1.  Click **Browse**.
 
-4.  Go to the course resources folder, select the **Shared components** solution, and click **Open**.
+1.  Go to the course resources folder, select the **Shared components** solution, and click **Open**.
 
-5.  Click **Next**.
+1.  Click **Next**.
 
-6.  Click **Import** and wait for the import to complete.
+1.  Click **Import** and wait for the import to complete.
 
-7.  Click **Publish All Customizations** and wait for the publishing to complete.
+1.  Click **Publish All Customizations** and wait for the publishing to complete.
 
-8.  You should now see the **Shared Components** solution you imported. Click to open the **Shared Components** solution.
+1.  You should now see the **Shared Components** solution you imported. Click to open the **Shared Components** solution.
 
-9. The solution should have one item in it. (**Lamna Healthcare Shared Components**)
+1. The solution should have one item in it. (**Lamna Healthcare Shared Components**)
 
-![A screenshot of the shared components window with the Lamna Healthcare shared components item](03-2/media/image2.png)
+	![A screenshot of the shared components window with the Lamna Healthcare shared components item](03-2/media/image2.png)
 
-> [!IMPORTANT]
-> There is an issue where importing the app as part of a solution may not add it to your components library. The following steps are designed to resolve the issue.
+	**IMPORTANT**: There is an issue where importing the app as part of a solution may not add it to your components library. The following steps are designed to resolve the issue.
 
-10. Navigate to **Apps**, Select the **Lamna Healthcare Shared Components App**.
-11. Click the **Edit Icon** to edit the app.
+1. Navigate to **Apps**, Select the **Lamna Healthcare Shared Components App**.
 
-![A Screenshot with an arrow pointing to the edit button](03-2/media/image2-1.png)
+1. Click the **Edit Icon** to edit the app.
 
-12. Select your **Region/Country** and click **Get started** if prompted.
+	![A Screenshot with an arrow pointing to the edit button](03-2/media/image2-1.png)
+
+1. Select your **Region/Country** and click **Get started** if prompted.
     
-    > [!Note]
-    >
-    > When the app is open in Edit mode, move on to next step, as the Preloader component shows a Loading icon but it is not actually waiting for something to load.
-13. After the app opens, click **File** > **Save As**.
-14. Save the app as **Lamna Healthcare Share Components A**.
+    **Note**: When the app is open in Edit mode, move on to next step, as the Preloader component shows a Loading icon but it is not actually waiting for something to load.
 
-![A screenshot with a border around the app name saved as Lamna Healthcare Shared Components A](03-2/media/image2-2.png)
+1. After the app opens, click **File** > **Save As**.
 
-14. Click **OK**.
-15. Close the **Lamna Healthcare Shared Components** tab in your browser.
+1. Save the app as **Lamna Healthcare Share Components A**.
+
+	![A screenshot with a border around the app name saved as Lamna Healthcare Shared Components A](03-2/media/image2-2.png)
+
+1. Click **OK**.
+
+1. Close the **Lamna Healthcare Shared Components** tab in your browser.
 
 #### Task 2: Create view
 
@@ -96,31 +84,31 @@ In this task, you will create a view that will show the current user’s problem
 
 1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) page and make sure you are in the correct environment.
 
-2.  Select **Solutions** and click to open the **Company 311** solution.
+1.  Select **Solutions** and click to open the **Company 311** solution.
 
-3.  Locate and click to open the **Problem Reports** Table.
+1.  Locate and click to open the **Problem Reports** Table.
 
-4.  Select the **Views** tab and click to open the **Active Problem Reports** view.
+1.  Select the **Views** tab and click to open the **Active Problem Reports** view.
 
-![A Screenshot with an arrow pointing to the active problem reports view button](03-2/media/image3.png)
+	![A Screenshot with an arrow pointing to the active problem reports view button](03-2/media/image3.png)
 
-5.  Click **Edit filters**.
+1.  Click **Edit filters**.
 
-![A Screenshot with an arrow pointing to the edit filters button](03-2/media/image4.png)
+	![A Screenshot with an arrow pointing to the edit filters button](03-2/media/image4.png)
 
-6.  Change the filter to **Created By Equals current user** and click **OK**.
+1.  Change the filter to **Created By Equals current user** and click **OK**.
 
-![A screenshot of the edit filters window](03-2/media/image5.png)
+	![A screenshot of the edit filters window](03-2/media/image5.png)
 
-7.  Click on the chevron button next to the Save button and select **Save As**.
+1.  Click on the chevron button next to the Save button and select **Save As**.
 
-![A Screenshot with an arrow pointing to the save as button](03-2/media/image6.png)
+	![A Screenshot with an arrow pointing to the save as button](03-2/media/image6.png)
 
-8.  Enter **My Reports** for **Name** and click **Save**.
+1.  Enter **My Reports** for **Name** and click **Save**.
 
-9.  Click **Publish** and wait for the publishing to complete.
+1.  Click **Publish** and wait for the publishing to complete.
 
-10. Click on the **Back** button in your browser tab to go back to the Problem Report table details.
+1. Click on the **Back** button in your browser tab to go back to the Problem Report table details.
 
 #### Task 3: Create the user application
 
@@ -128,58 +116,57 @@ In this task, you will create a canvas application using the phone form factor.
 
 1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) page and make sure you are in the correct environment.
 
-2.  Select **Solutions** and click to open the **Company 311** solution.
+1.  Select **Solutions** and click to open the **Company 311** solution.
 
-3.  Click **+ New | App |Canvas app**.
+1.  Click **+ New | App |Canvas app**.
 
-![A Screenshot with an arrow pointing to the new button with the drop down menu under app upon and a border around the canvas app button](03-2/media/image7.png)
+	![A Screenshot with an arrow pointing to the new button with the drop down menu under app upon and a border around the canvas app button](03-2/media/image7.png)
 
-4.  Enter **Company 311 Phone App**, select **Phone** for format, and click **Create**.
+1.  Enter **Company 311 Phone App**, select **Phone** for format, and click **Create**.
 
-5.  Select **Skip**.
+1.  Select **Skip**.
 
-6.  Go to the Tree view and double click **Screen1**.
+1.  Go to the Tree view and double click **Screen1**.
 
-![A Screenshot with an arrow pointing to the screen 1 button](03-2/media/image9.png)
+	![A Screenshot with an arrow pointing to the screen 1 button](03-2/media/image9.png)
 
-10. Rename the screen **Main Screen**. It’s always a good idea to give your screens a meaningful name.
+1. Rename the screen **Main Screen**. It’s always a good idea to give your screens a meaningful name.
 
-![A screenshot with the Screen 1 name highlighted and renamed Main Screen](03-2/media/image10.png)
+	![A screenshot with the Screen 1 name highlighted and renamed Main Screen](03-2/media/image10.png)
 
-11. Select the **Main Screen** and click **Insert**.
+1. Select the **Main Screen** and click **Insert**.
 
-![A Screenshot with an arrow pointing to the plus icon for insert](03-2/media/image11.png)
+	![A Screenshot with an arrow pointing to the plus icon for insert](03-2/media/image11.png)
 
-12. Select **Get more Components**.
+1. Select **Get more Components**.
 
-![A screenshot with a border around the get more components button](03-2/media/image12-1.png)
+	![A screenshot with a border around the get more components button](03-2/media/image12-1.png)
 
-13.  Expand the **Lamna Healthcare Shared Components A** Library, select **Header** and **Tab Control**, and then click **Import**.
+1.  Expand the **Lamna Healthcare Shared Components A** Library, select **Header** and **Tab Control**, and then click **Import**.
 
-![A screenshot of the import components window with Ta control and header selected](03-2/media/image12-2.png)
+	![A screenshot of the import components window with Ta control and header selected](03-2/media/image12-2.png)
 
+1.  Expand **Library components**, select **Header Control** and **Tab Control**. These are both components from the library you imported earlier in the lab.
 
-14.  Expand **Library components**, select **Header Control** and **Tab Control**. These are both components from the library you imported earlier in the lab.
+	![A screenshot with a border around the library components Header and Tab control](03-2/media/image12-3.png)
 
-![A screenshot with a border around the library components Header and Tab control](03-2/media/image12-3.png)
+1. Move the **Tab Control** to the bottom of the screen and the **Header Control** to the top of the screens.
 
-15. Move the **Tab Control** to the bottom of the screen and the **Header Control** to the top of the screens.
+1. Select the **Header Control** and change the **Text** value to **"Company 311".**
 
-16. Select the **Header Control** and change the **Text** value to **"Company 311".**
+	![A screenshot of a border around the expression tab with the text value set to company 311](03-2/media/image13.png)
 
-![A screenshot of a border around the expression tab with the text value set to company 311](03-2/media/image13.png)
+1. Set the **Height** of the **Header Control** to **75**.
 
-17. Set the **Height** of the **Header Control** to **75**.
+	![Set Height - Header](03-2/media/image37.png)
 
-    ![Set Height - Header](03-2/media/image37.png)
+1. Right click on the Main Screen and select **Duplicate screen**.
 
-18. Right click on the Main Screen and select **Duplicate screen**.
+	![A screenshot with a border around the duplicate screen button](03-2/media/image14.png)
 
-![A screenshot with a border around the duplicate screen button](03-2/media/image14.png)
+1. Rename the new screen **New Reports Screen**.
 
-18. Rename the new screen **New Reports Screen**.
-
-19. Select the **Tree view**, select **App** and change the **OnStart** value to the formula below. This formula will create a new variable named My Tabs and set it to a table of tab items.
+1. Select the **Tree view**, select **App** and change the **OnStart** value to the formula below. This formula will create a new variable named My Tabs and set it to a table of tab items.
 
 ```javascript
 Set('My Tabs', Table( {
@@ -197,33 +184,33 @@ Set('My Tabs', Table( {
 ))
 ```
 
-> [!IMPORTANT]
-> When expressions are copied, the quotes and double quotes are sometimes replaced with their "smart" counterparts which are not valid in formulas. If you copy and paste the expression above, make sure the resulting formula does not contain any errors.     
+  **IMPORTANT:** When expressions are copied, the quotes and double quotes are sometimes replaced with their "smart" counterparts which are not valid in formulas. If you copy and paste the expression above, make sure the resulting formula does not contain any errors.     
 
-![A screenshot of the copied expression into the expression tab](03-2/media/image15.png)
+	![A screenshot of the copied expression into the expression tab](03-2/media/image15.png)
 
-20. Select the **Tab Control** in the **Main Screen** and change the **Items** value to **‘My Tabs’**.
+1. Select the **Tab Control** in the **Main Screen** and change the **Items** value to **‘My Tabs’**.
 
-![A screenshot of the items value set to my tabs for Tab control](03-2/media/image16.png)
+	![A screenshot of the items value set to my tabs for Tab control](03-2/media/image16.png)
 
-21. Change the **SelectedColor** value to **WhiteSmoke**.
+1. Change the **SelectedColor** value to **WhiteSmoke**.
 
-22. Select the **Tab Control** inside the **New Report Screen** and set the Item value to **‘My Tabs’**.
+1. Select the **Tab Control** inside the **New Report Screen** and set the Item value to **‘My Tabs’**.
 
-23. Change the **SelectedColor** value to **WhiteSmoke**.
+1. Change the **SelectedColor** value to **WhiteSmoke**.
 
-24. Click on the **…** button of the **App** and select **Run OnStart**.
+1. Click on the **…** button of the **App** and select **Run OnStart**.
 
-![A screenshot of the run on start button coming from the ellipsis icon for see more under the app button](03-2/media/image17.png)
+	![A screenshot of the run on start button coming from the ellipsis icon for see more under the app button](03-2/media/image17.png)
 
-25. Your tabs should now show the two tabs you added.
+1. Your tabs should now show the two tabs you added.
 
-![A screenshot of the two tabs you added](03-2/media/image18.png)
+	![A screenshot of the two tabs you added](03-2/media/image18.png)
 
-26. Click **File** and then click **Save**.
-27. Click on the **<- back** button.
+1. Click **File** and then click **Save**.
 
-28. Do not navigate away from this page.
+1. Click on the **<- back** button.
+
+1. Do not navigate away from this page.
 
 ### Exercise 2: My reports
 
@@ -233,33 +220,33 @@ In this exercise, you will add a gallery that will show reports created by the c
 
 1.  Select the **Main Screen**, go to the **Insert** tab, click **Gallery**, and select **Vertical**.
 
-![A Screenshot with an arrow pointing to the vertical gallery option](03-2/media/image19.png)
+	![A Screenshot with an arrow pointing to the vertical gallery option](03-2/media/image19.png)
 
-2.  Rename the new gallery **My Reports Gallery**.
+1.  Rename the new gallery **My Reports Gallery**.
 
-3.  Resize and reposition **My Reports Gallery** and make sure the screen looks like the image below.
+1.  Resize and reposition **My Reports Gallery** and make sure the screen looks like the image below.
 
-![A screenshot of the my reports gallery selected](03-2/media/image20.png)
+	![A screenshot of the my reports gallery selected](03-2/media/image20.png)
 
-4.  Select **My Reports Gallery**, go to the **Properties** pane, and select **Problem Reports** for **Data Source**. If you do not see Problem Reports, click **See all tables** or **Search** for the table.
+1.  Select **My Reports Gallery**, go to the **Properties** pane, and select **Problem Reports** for **Data Source**. If you do not see Problem Reports, click **See all tables** or **Search** for the table.
 
-![A screenshot of the my reports gallery window and the properties pane with problem reports selected for data source](03-2/media/image21.png)
+	![A screenshot of the my reports gallery window and the properties pane with problem reports selected for data source](03-2/media/image21.png)
 
-5.  Select the **My Reports** view you created for **View**.
+1.  Select the **My Reports** view you created for **View**.
 
-6.  Click **Edit fields**.
+1.  Click **Edit fields**.
 
-![A Screenshot with an arrow pointing to the edit button](03-2/media/image22.png)
+	![A Screenshot with an arrow pointing to the edit button](03-2/media/image22.png)
 
-7.  Change Subtitle1 to **statuscode**. This is the Status Reason Column.
+1.  Change Subtitle1 to **statuscode**. This is the Status Reason Column.
 
-![A screenshot of a border around subtitle 1 changed to the correct name](03-2/media/image23.png)
+	![A screenshot of a border around subtitle 1 changed to the correct name](03-2/media/image23.png)
 
-8.  Click **File** and then click **Save**.
+1.  Click **File** and then click **Save**.
 
-9.  Click on the **<- Back** button.
+1.  Click on the **<- Back** button.
 
-10. Do not navigate away from this page.
+1. Do not navigate away from this page.
 
 ### Exercise 3: Allow removing reports
 
