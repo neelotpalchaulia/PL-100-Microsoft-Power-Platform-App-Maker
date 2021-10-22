@@ -256,29 +256,29 @@ In this exercise, you will allow unassigned reports to be removed. This will all
 
 1.  Expand the **My Reports Gallery**.
 
-2.  Select the **Icon** inside the **My Reports Gallery**.
+1.  Select the **Icon** inside the **My Reports Gallery**.
 
-![A screenshot of the arrow icon inside the my reports gallery](03-2/media/image24.png)
+	![A screenshot of the arrow icon inside the my reports gallery](03-2/media/image24.png)
 
-3.  Change the **Icon** value to **Icon.Trash**.
+1.  Change the **Icon** value to **Icon.Trash**.
 
-![A screenshot of icon.trash typed into the expression tab](03-2/media/image25.png)
+	![A screenshot of icon.trash typed into the expression tab](03-2/media/image25.png)
 
-4.  Change the **Visible** value to the formula below. This formula will hide the icon if the status reason is not New.
+1.  Change the **Visible** value to the formula below. This formula will hide the icon if the status reason is not New.
 
 `If(Text(ThisItem.'Status Reason') = "New", true, false)`
 
-![A screenshot of the expression tab with the relevant command pasted in](03-2/media/image26.png)
+	![A screenshot of the expression tab with the relevant command pasted in](03-2/media/image26.png)
 
-5.  Make sure you still have the icon selected. Change the **OnSelect** value to the formula below. This formula will remove item from the data source.
+1.  Make sure you still have the icon selected. Change the **OnSelect** value to the formula below. This formula will remove item from the data source.
 
 `Remove('Problem Reports', ThisItem)`
 
-6.  Click **File** and then click **Save**.
+1.  Click **File** and then click **Save**.
 
-7.  Click on the **<-** **Back** button.
+1.  Click on the **<-** **Back** button.
 
-8.  Do not navigate away from this page.
+1.  Do not navigate away from this page.
 
 ### Exercise 4: Add new report
 
@@ -288,65 +288,69 @@ In this exercise, you will add a form to submit new problem reports.
 
 1.  Select the **New Report Screen**, go to the **Insert** tab, click **Form**, and select **Edit**.
 
-![A screenshot of the inset tab and forms button selected](03-2/media/image27.png)
+	![A screenshot of the inset tab and forms button selected](03-2/media/image27.png)
 
-2.  Rename the form to **New Report Form**.
+1.  Rename the form to **New Report Form**.
 
-3.  Select **New Report Form**, go to the **Properties** pane, and select **Problem Report** for **Data source**.
+1.  Select **New Report Form**, go to the **Properties** pane, and select **Problem Report** for **Data source**.
 
-4.  Click **Edit fields**.
+1.  Click **Edit fields**.
 
-![A Screenshot with an arrow pointing to the edit fields button](03-2/media/image28.png)
+	![A Screenshot with an arrow pointing to the edit fields button](03-2/media/image28.png)
 
-5.  Remove the **Status Reason** Column.
+1.  Remove the **Status Reason** Column.
 
-![A Screenshot with an arrow pointing to the ellipses icon for more options and a border around the remove button](03-2/media/image29.png)
+	![A Screenshot with an arrow pointing to the ellipses icon for more options and a border around the remove button](03-2/media/image29.png)
 
-6.  Remove the **Created On** Column.
+1.  Remove the **Created On** Column.
 
-7.  Remove the **Location** Column.
+1.  Remove the **Location** Column.
 
-8.  Click **+ Add field**.
+1.  Click **+ Add field**.
 
-9.  Select **Details**, **Building**, **Department**, and **Photo**, and then click **Add**.
+1.  Select **Details**, **Building**, **Department**, and **Photo**, and then click **Add**.
 
-![A screenshot of photo, details, building, and location selected in the fields window](03-2/media/image30.png)
+	![A screenshot of photo, details, building, and location selected in the fields window](03-2/media/image30.png)
 
-10. Resize and reposition the form so it takes most of the page and leave enough room for a button in the bottom.
+1. Resize and reposition the form so it takes most of the page and leave enough room for a button in the bottom.
 
-![A screenshot of the form resized and reposition for room at the bottom for a button](03-2/media/image31.png)
+	![A screenshot of the form resized and reposition for room at the bottom for a button](03-2/media/image31.png)
 
-11. Select the **New Report Screen**.
+1. Select the **New Report Screen**.
 
-12. Go to the **Insert** tab and select **Button**.
+1. Go to the **Insert** tab and select **Button**.
 
-13. Rename the button **Submit Report**.
+1. Rename the button **Submit Report**.
 
-14. Place the button below the form and make it stretch across the screen
+1. Place the button below the form and make it stretch across the screen
 
-15. Change the **Submit Report** button's **text** property to **Submit**.
+1. Change the **Submit Report** button's **text** property to **Submit**.
 
-16. Select the Submit Report button and change the **OnSelect** value to the formula below. This formula will create a new Row in the Problem Reports table.
+1. Select the Submit Report button and change the **OnSelect** value to the formula below. This formula will create a new Row in the Problem Reports table.
 
 `SubmitForm('New Report Form') `
 
-17. Select the **New Report Form**.
+1. Select the **New Report Form**.
 
-18. Change the **OnSuccess** value to the formula below. This formula will show a notification after the new Row gets created and clear the form when the record creation is successful.
+1. Change the **OnSuccess** value to the formula below. This formula will show a notification after the new Row gets created and clear the form when the record creation is successful.
 
 `Notify("Created new problem report row");NewForm('New Report Form')`
 
-19. Select the **New Report Screen**.
+1. Select the **New Report Screen**.
 
-20. Set the **OnVisible** value to the formula below. This formula will create a new form when the screen becomes visible.
+1. Set the **OnVisible** value to the formula below. This formula will create a new form when the screen becomes visible.
 
 `NewForm('New Report Form')`
 
-21. Click **File** and then click **Save**.
-22. Click **Publish**.
-23. Click **Publish this version** and wait for the publishing to complete.
-24. Click on the **<-** **Back** button.
-25. Do not navigate away from this page.
+1. Click **File** and then click **Save**.
+
+1. Click **Publish**.
+
+1. Click **Publish this version** and wait for the publishing to complete.
+
+1. Click on the **<-** **Back** button.
+
+1. Do not navigate away from this page.
 
 
 ### Exercise 5: Test the application
@@ -357,36 +361,37 @@ In this exercise, you will test the canvas application you created by submitting
 
 1.  Select the **Main Screen** and click **Preview the app**.
 
-![A Screenshot with an arrow pointing to the play icon to preview the app](03-2/media/image32.png)
+	![A Screenshot with an arrow pointing to the play icon to preview the app](03-2/media/image32.png)
 
-2.  The application should load, and the list should show all the reports you created.
+1.  The application should load, and the list should show all the reports you created.
 
-![A screen of your loaded application](03-2/media/image33.png)
+	![A screen of your loaded application](03-2/media/image33.png)
 
-3.  Select the **New Report** tab.
+1.  Select the **New Report** tab.
 
-4.  The **New Report Form** should load. Fill out the form and click on the **Photo** Column.
+1.  The **New Report Form** should load. Fill out the form and click on the **Photo** Column.
 
-5.  Select an image.
+1.  Select an image.
 
-6.  Click **Submit**
+1.  Click **Submit**
 
-7.  The Row should get created successfully and you should see the success message.
+1.  The Row should get created successfully and you should see the success message.
 
-![A screen of the success message reading "created new problem report record"](03-2/media/image38.png)
+	![A screen of the success message reading "created new problem report record"](03-2/media/image38.png)
 
-8.  Select the **My Reports** tab.
+1.  Select the **My Reports** tab.
 
-9.  You should see the new report you created. Click **Delete** to test the delete.
+1.  You should see the new report you created. Click **Delete** to test the delete.
 
-![A Screenshot with an arrow pointing to the trash can icon to delete](03-2/media/image35.png)
+	![A Screenshot with an arrow pointing to the trash can icon to delete](03-2/media/image35.png)
 
-10. The Row should be deleted and removed from the list.
+1. The Row should be deleted and removed from the list.
 
-![A screenshot of the row deleted and removed from the list](03-2/media/image36.png)
+	![A screenshot of the row deleted and removed from the list](03-2/media/image36.png)
 
-11. **Close** the preview.
-12. **Close** the app studio by closing the browser tab.
+1. **Close** the preview.
+
+1. **Close** the app studio by closing the browser tab.
 
 ### Exercise 6: Embed canvas app in Microsoft Teams
 
@@ -398,54 +403,53 @@ In this task, you will setup a **Microsoft Teams** team for the Lamna Healthcare
 
 1.  Navigate to [Microsoft Teams](https://teams.microsoft.com) and sign in with the same credentials you have been using previously.
 
-2.  Select **Use the web app instead** on the welcome screen.
+1.  Select **Use the web app instead** on the welcome screen.
 
-![A screenshot of the Microsoft Teams web browser landing page with a border around the use the web app instead button](03-2/media/image-3-teams.png)
+	![A screenshot of the Microsoft Teams web browser landing page with a border around the use the web app instead button](03-2/media/image-3-teams.png)
 
-3.  When the Microsoft Teams window opens, dismiss the welcome messages.
+1.  When the Microsoft Teams window opens, dismiss the welcome messages.
 
-4.  Select **Teams**.
-5.  On the bottom left corner, choose **Join or create a team**.
+1.  Select **Teams**.
 
-6.  Select **Create a team**.
+1.  On the bottom left corner, choose **Join or create a team**.
 
-![A screenshot of a border around the join or create a team button and another border around the create a team button](03-2/media/image-3-createteam.png)
+1.  Select **Create a team**.
 
-6.  Press **From scratch**.
+	![A screenshot of a border around the join or create a team button and another border around the create a team button](03-2/media/image-3-createteam.png)
 
-7.  Select **Public**.
+1.  Press **From scratch**.
 
-8.  For the Team name enter **Company 311** and select **Create**.
+1.  Select **Public**.
 
-9.  Select **Skip** adding members to Company 311.
-10. Do not navigate away from this page.
+1.  For the Team name enter **Company 311** and select **Create**.
 
+1.  Select **Skip** adding members to Company 311.
+
+1. Do not navigate away from this page.
 
 #### Task 2: Add canvas app to Teams
 
 1.  Select the **General** channel of the **Company 311** team.
 
-2.  On the top of the page, press the **+** symbol to add a new tab.
+1.  On the top of the page, press the **+** symbol to add a new tab.
 
-![A screenshot of a border around the plus icon to add a new tab](03-2/media/image-3-addpowerbitab.png)
+	![A screenshot of a border around the plus icon to add a new tab](03-2/media/image-3-addpowerbitab.png)
 
-4.  Search for **power** and select **PowerApps** from the results.
+1.  Search for **power** and select **PowerApps** from the results.
 
-5.  Select **Add** to add Power Apps to Teams
+1.  Select **Add** to add Power Apps to Teams
 
-![A screenshot of the prompt to add Power Apps to Teams](03-2/media/image-3-powerappsteams.png)
+	![A screenshot of the prompt to add Power Apps to Teams](03-2/media/image-3-powerappsteams.png)
 
-6. Select the **Company 311 Phone App** that you created earlier in this lab. 
+1. Select the **Company 311 Phone App** that you created earlier in this lab. 
 
-> [!IMPORTANT]
-> If you do not see the app you need to go back to the app editor and publish the app
+	**IMPORTANT:** If you do not see the app you need to go back to the app editor and publish the app
 
-7. Select **Save**.
+1. Select **Save**.
 
-8. The **Company 311** app should now appear on a tab in Microsoft Teams.
+1. The **Company 311** app should now appear on a tab in Microsoft Teams.
 
-![A screenshot of the company 311 app appearing on a tab in Microsoft Teams](03-2/media/image-3-powerappinteams.png)
-
+	![A screenshot of the company 311 app appearing on a tab in Microsoft Teams](03-2/media/image-3-powerappinteams.png)
 
 
 ### Exercise 7: Embed canvas in model-driven app
@@ -455,243 +459,280 @@ In this exercise, you will create a canvas application and add it to the model-d
 #### Task 1: Add canvas app to the form
 
 1. Navigate to [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in your practice environment.
-2. Select **Solutions** and click to open the **Company 311** solutions.
-3. Locate and click to open the **Building** table.
-4. Select the **Forms** tab and click to open the **Information** form of type **Main**.
 
-![A Screenshot with an arrow pointing to the word information with a border around the form type being main](03-2/media/opentableform.png)
+1. Select **Solutions** and click to open the **Company 311** solutions.
 
-5. Select the **form section**.
-6. Go to the Properties pane and click to expand **Formatting**.
-7. Change the **Columns** value to **2**.
+1. Locate and click to open the **Building** table.
 
-![A screenshot with a border around the number of columns](03-2/media/formsectioncolumns.png)
+1. Select the **Forms** tab and click to open the **Information** form of type **Main**.
 
-8. Make sure you still have the section selected. Select the **Table columns** tab.
-9. Uncheck the **Show only unused table columns** checkbox and click on the **Name** column.
+	![A Screenshot with an arrow pointing to the word information with a border around the form type being main](03-2/media/opentableform.png)
 
-![A Screenshot with an arrow pointing to the name button](03-2/media/addcolumntoform.png)
+1. Select the **form section**.
 
-10. The column should now appear on right side column of the section. Select the **Name** column on the form.
-11. Check the **Hide label** checkbox and click **Save**.
+1. Go to the Properties pane and click to expand **Formatting**.
 
-![A Screenshot with an arrow pointing to the save button](03-2/media/saveform.png)
+1. Change the **Columns** value to **2**.
 
-12.  Click on the **Switch to classic** button. Select **Skip** if prompted.
+	![A screenshot with a border around the number of columns](03-2/media/formsectioncolumns.png)
 
-![A Screenshot with an arrow pointing to the switch to class button](03-2/media/switchtoclassic.png)
+1. Make sure you still have the section selected. Select the **Table columns** tab.
 
-13.   Double click on the **Name** column you added to the form.
-14.   Select the **Controls** tab and click **Add control**.
+1. Uncheck the **Show only unused table columns** checkbox and click on the **Name** column.
 
-![A Screenshot with an arrow pointing to the add control button](03-2/media/ex_7_addcontrol.png)
+	![A Screenshot with an arrow pointing to the name button](03-2/media/addcolumntoform.png)
 
-15.   Select **Canvas app** and click **Add**.
-16.   Click **Customize**.
+1. The column should now appear on right side column of the section. Select the **Name** column on the form.
 
-![A Screenshot with an arrow pointing to the customize button](03-2/media/ex_7_customizeapp.png)
+1. Check the **Hide label** checkbox and click **Save**.
 
-17.   A new browser window or tab should open and load the app studio.
-18.   Do not navigate away from this page.
+	![A Screenshot with an arrow pointing to the save button](03-2/media/saveform.png)
+
+1.  Click on the **Switch to classic** button. Select **Skip** if prompted.
+
+	![A Screenshot with an arrow pointing to the switch to class button](03-2/media/switchtoclassic.png)
+
+1.   Double click on the **Name** column you added to the form.
+
+1.   Select the **Controls** tab and click **Add control**.
+
+	![A Screenshot with an arrow pointing to the add control button](03-2/media/ex_7_addcontrol.png)
+
+1.   Select **Canvas app** and click **Add**.
+
+1.   Click **Customize**.
+
+	![A Screenshot with an arrow pointing to the customize button](03-2/media/ex_7_customizeapp.png)
+
+1.   A new browser window or tab should open and load the app studio.
+
+1.   Do not navigate away from this page.
 
 #### Task 2: Customize the app
 
 1.  Right click on **Form1** and select **Delete**.
 
-![A screenshot with a border around the delete button](03-2/media/ex_7_deleteform.png)
+	![A screenshot with a border around the delete button](03-2/media/ex_7_deleteform.png)
 
-2.  Click **File**.
-4.  Select **The cloud**, enter **Model embed app** for name, and click **Save**.
+1.  Click **File**.
 
-![A screenshot of the Save As prompt](03-2/media/ex_7_saveapp.png)
+1.  Select **The cloud**, enter **Model embed app** for name, and click **Save**.
 
-5.  Select **Settings**.
-6.  Select **Display**.
-7.  Enter **400** for Width.
+	![A screenshot of the Save As prompt](03-2/media/ex_7_saveapp.png)
 
-![A screenshot with a border around the width changed to 400](03-2/media/ex_7_displaywidth.png)
+1.  Select **Settings**.
 
-8.   Click **Apply** on the popup.
-9.   Enter **500** for Width.
-10.  Click **Apply** on the popup.
-11.  Close the Settings popup window.
-12.  Select the **App** object from the Tree view.
-13.  Select the **OnStart** of the **App** object and set it to the formula below. This formula will create two variables one to keep track of the current index of the reports table and another to keep track of the current item row.
+1.  Select **Display**.
+
+1.  Enter **400** for Width.
+
+	![A screenshot with a border around the width changed to 400](03-2/media/ex_7_displaywidth.png)
+
+1.   Click **Apply** on the popup.
+
+1.   Enter **500** for Width.
+
+1.  Click **Apply** on the popup.
+
+1.  Close the Settings popup window.
+
+1.  Select the **App** object from the Tree view.
+
+1.  Select the **OnStart** of the **App** object and set it to the formula below. This formula will create two variables one to keep track of the current index of the reports table and another to keep track of the current item row.
 
 ```Set(currentIndex,1);Set(CurrentItem, Last(FirstN([@ModelDrivenFormIntegration].Item.'Problem Reports',currentIndex)))```
 
-![A screenshot with a border around the app object changed to onstart and set to the aforementioned formula. There is also another border around the app button selected](03-2/media/ex_7_apponstart.png)
+	![A screenshot with a border around the app object changed to onstart and set to the aforementioned formula. There is also another border around the app button selected](03-2/media/ex_7_apponstart.png)
 
-14.  Select the **Insert** insert tab, click **Media**, and select **Image**.
+1.  Select the **Insert** insert tab, click **Media**, and select **Image**.
 
-![A screenshot of a border around the image button](03-2/media/ex_7_insertimage.png)
+	![A screenshot of a border around the image button](03-2/media/ex_7_insertimage.png)
 
-15.  Select the image you just added and set the **Image** value to the formula below.
+1.  Select the image you just added and set the **Image** value to the formula below.
 
 ```CurrentItem.Photo```
 
-16.   Click on the **...** button of the **App** object and select **Run OnStart**.
+1.   Click on the **...** button of the **App** object and select **Run OnStart**.
 
-![A Screenshot with an arrow pointing to the ellipses icon for more options and a border around the run on start button](03-2/media/ex_7_runonstart.png)
+	![A Screenshot with an arrow pointing to the ellipses icon for more options and a border around the run on start button](03-2/media/ex_7_runonstart.png)
 
-17.  You should see the photo. Select **Image control** from Tree View.
+1.  You should see the photo. Select **Image control** from Tree View.
 
-![A screenshot of an icon of a broken door](03-2/media/ex_7_imagephoto.png)
+	![A screenshot of an icon of a broken door](03-2/media/ex_7_imagephoto.png)
 
-18. Set the **X** value of the image to **0**.
-19. Set the **Y** value of the image to **0**.
-20. Set the **Width** value of the image to the formula below.
+1. Set the **X** value of the image to **0**.
+
+1. Set the **Y** value of the image to **0**.
+
+1. Set the **Width** value of the image to the formula below.
 
 ```Parent.Width```
 
-21. Set the **Height** value of the image to the formula below.
+1. Set the **Height** value of the image to the formula below.
 
 ```Parent.Height```
 
-22. Go to the **Properties** pane and select **Fill** for **Image position**.
+1. Go to the **Properties** pane and select **Fill** for **Image position**.
 
-![A Screenshot with an arrow pointing to the the file tab](03-2/media/ex_7_imageposition.png)
+	![A Screenshot with an arrow pointing to the the file tab](03-2/media/ex_7_imageposition.png)
 
-23. Click **File** and then click **Save** to save your progress.
-24. Click on the **<-** **Back** button.
-25. Do not navigate away from this page.
+1. Click **File** and then click **Save** to save your progress.
+
+1. Click on the **<-** **Back** button.
+
+1. Do not navigate away from this page.
 
 
 #### Task 3: Add controls
 
 1.  Select the **Insert** tab and click **Label**.
-2.  Select the label you just added and set the **Text** value to the formula below.
+
+1.  Select the label you just added and set the **Text** value to the formula below.
 
 ```CurrentItem.Title```
 
-3.  Set the **Height** value of the label to **60**.
-4.  Set the **X** value of the label to **0**.
-5.  Set the **Y** value of the label to formula below.
+1.  Set the **Height** value of the label to **60**.
+
+1.  Set the **X** value of the label to **0**.
+
+1.  Set the **Y** value of the label to formula below.
 
 ```Parent.Height -Self.Height```
 
-6.  Set the the **Width** value of the label to formula below.
+1.  Set the the **Width** value of the label to formula below.
 
 ```Parent.Width```
 
-7.  Set the **Fill** value of the label to **RGBA(0, 108, 191, .5)**.
-8.  Set the **Color** value of the label to **RGBA(255, 255, 255, 1)**.
-9.  Set the **Align** value to the formula below.
+1.  Set the **Fill** value of the label to **RGBA(0, 108, 191, .5)**.
+
+1.  Set the **Color** value of the label to **RGBA(255, 255, 255, 1)**.
+
+1.  Set the **Align** value to the formula below.
 
 ```Align.Center```
 
-10. The label should now look like the image below. If you don't see the title, click on the **...** button of the **App** object and **Run OnStart** again.
+1. The label should now look like the image below. If you don't see the title, click on the **...** button of the **App** object and **Run OnStart** again.
 
-![A screenshot of the broken door icon now with a label](03-2/media/ex_7_resizedlabel.png)
+	![A screenshot of the broken door icon now with a label](03-2/media/ex_7_resizedlabel.png)
 
-11.  From the **Insert** tab, click **Icons** and select **Next**.
-12.  Double click on the icon you just added and rename it **Next icon**.
-13.  From the **Insert** tab, click **Icons** and select **Back**.
-14.  Double click on the second icon you just added and rename it **Back icon**.
-15.  Drag and place the the **Next icon** above the right side of the label.
-16.  Drag and place the the **Back icon** above the left side of the label.
-17.  The icons should now look like the image below.
+1.  From the **Insert** tab, click **Icons** and select **Next**.
 
-![A screenshot of the broken door icon with the next and back icons](03-2/media/ex_7_iconlocation.png)
+1.  Double click on the icon you just added and rename it **Next icon**.
 
-18.  Select the **Next icon** and set the **OnSelect** value to the formula below.
+1.  From the **Insert** tab, click **Icons** and select **Back**.
+
+1.  Double click on the second icon you just added and rename it **Back icon**.
+
+1.  Drag and place the the **Next icon** above the right side of the label.
+
+1.  Drag and place the the **Back icon** above the left side of the label.
+
+1.  The icons should now look like the image below.
+
+	![A screenshot of the broken door icon with the next and back icons](03-2/media/ex_7_iconlocation.png)
+
+1.  Select the **Next icon** and set the **OnSelect** value to the formula below.
 
 ```UpdateContext({CurrentItem: Last(FirstN([@ModelDrivenFormIntegration].Item.'Problem Reports',currentIndex))});Set(currentIndex, currentIndex +1)```
 
-19.  Set the **DisplayMode** value of the **Next icon** to the formula below.
+1.  Set the **DisplayMode** value of the **Next icon** to the formula below.
 
 ```If(currentIndex = CountRows([@ModelDrivenFormIntegration].Item.'Problem Reports'), DisplayMode.Disabled, DisplayMode.Edit)```
 
-20.  Select the **Back icon** and set the **OnSelect** value to the formula below.
+1.  Select the **Back icon** and set the **OnSelect** value to the formula below.
 
 ```UpdateContext({CurrentItem: Last(FirstN([@ModelDrivenFormIntegration].Item.'Problem Reports',currentIndex))});Set(currentIndex, currentIndex -1);```
 
-21.  Set the **DisplayMode** value of the **Back icon** to the formula below.
+1.  Set the **DisplayMode** value of the **Back icon** to the formula below.
 
 ```If(currentIndex > 1, DisplayMode.Edit, DisplayMode.Disabled)```
 
-22. Click **File** and then click **Save**.
+1. Click **File** and then click **Save**.
 
-23. Open a new browser tab and navigate to [Power Apps maker portal](https://make.powerapps.com/) page and make sure you are in the correct environment
+1. Open a new browser tab and navigate to [Power Apps maker portal](https://make.powerapps.com/) page and make sure you are in the correct environment
 
-24. Select the **Apps** and click to launch the **Company 311 Admin** application.
+1. Select the **Apps** and click to launch the **Company 311 Admin** application.
 
-25. Click **Change Area** and Select **Settings**.
+1. Click **Change Area** and Select **Settings**.
 
-![Change sitemap area - screenshot](03-2/media/image39.png)
+	![Change sitemap area - screenshot](03-2/media/image39.png)
 
-26. Select **Buildings**. 
+1. Select **Buildings**. 
 
-27. Sort the Buildings rows on **Created On** Column in **Oldest to Newest** order. Keep a note of the oldest record.
+1. Sort the Buildings rows on **Created On** Column in **Oldest to Newest** order. Keep a note of the oldest record.
 
-28. Click **Change Area** and Select **Manage Problems**.
+1. Click **Change Area** and Select **Manage Problems**.
 
-29. Select **Problem Reports**.
+1. Select **Problem Reports**.
 
-30. Click **+New**. 
+1. Click **+New**. 
 
-31. Enter **Broken Tap** for Name, select the oldest building in the **Building** column and enter **The Tap is broken and the water is continuously flowing.** in the Details column. Add any image of your choice in the **Photo** column.
+1. Enter **Broken Tap** for Name, select the oldest building in the **Building** column and enter **The Tap is broken and the water is continuously flowing.** in the Details column. Add any image of your choice in the **Photo** column.
 
-32. Click **Save**.
+1. Click **Save**.
 
-33. Click **+New**.
+1. Click **+New**.
 
-34. Enter **Roof Leaks** for Name, select the oldest building in the **Building** column and enter **Water is seeping through the ceiling.** in the Details column. Add any image of your choice in the **Photo** column.
+1. Enter **Roof Leaks** for Name, select the oldest building in the **Building** column and enter **Water is seeping through the ceiling.** in the Details column. Add any image of your choice in the **Photo** column.
 
-35. Click **Save** and close the browser tab of the Model Driven App.
+1. Click **Save** and close the browser tab of the Model Driven App.
 
-36. Open the Canvas App Editor for the **Model embed app** application. Select **Data** icon on the left menu.
+1. Open the Canvas App Editor for the **Model embed app** application. Select **Data** icon on the left menu.
 
-    ![Select Data - screenshot](03-2/media/image40.png)
+	![Select Data - screenshot](03-2/media/image40.png)
 
-37. Locate **Problem Reports** and click on the **ellipsis** and then click on **Refresh**.
+1. Locate **Problem Reports** and click on the **ellipsis** and then click on **Refresh**.
 
-38. Click on the **...** button of the **App** object and select **Run OnStart**.
+1. Click on the **...** button of the **App** object and select **Run OnStart**.
 
-39. Select **Tree View** from the left menu and select **FormScreen** screen.
+1. Select **Tree View** from the left menu and select **FormScreen** screen.
 
-40. Click **Play**.
+1. Click **Play**.
 
-41. Click on the next and back icons and make sure the image changes.
+1. Click on the next and back icons and make sure the image changes.
 
-42. Close the preview.
+1. Close the preview.
 
-43. Click **File**.
+1. Click **File**.
 
-44. Click **Save**.
+1. Click **Save**.
 
-45. Click **Publish**.
+1. Click **Publish**.
 
-46. Click **Publish this version** and wait for the publishing to complete.
+1. Click **Publish this version** and wait for the publishing to complete.
 
-47. Close the app studio browser window or tab.
+1. Close the app studio browser window or tab.
 
-48. You should now be back on the **Field Properties**. Select **Web, Phone, Tablet** and click **OK**.
+1. You should now be back on the **Field Properties**. Select **Web, Phone, Tablet** and click **OK**.
 
-![A screenshot with a border around the canvas app item under control with web, phone, and tablet selected. There is also an arrow pointing to the ok button at the bottom of the window](03-2/media/ex_7_fieldproperties.png)
+	![A screenshot with a border around the canvas app item under control with web, phone, and tablet selected. There is also an arrow pointing to the ok button at the bottom of the window](03-2/media/ex_7_fieldproperties.png)
 
-49. Click **Save** on the classic form editor.
-50. Close the classic form editor browser window or tab.
-51. You should now be back on the modern form editor. Click on **<-** **Back** button.
+1. Click **Save** on the classic form editor.
 
-![A Screenshot with an arrow pointing to the back button](03-2/media/ex_7_backtomaker.png)
+1. Close the classic form editor browser window or tab.
 
-52. Select **Solutions**.
-53. Click **Publish all customizations** and wait for the publishing to complete.
+1. You should now be back on the modern form editor. Click on **<-** **Back** button.
+
+	![A Screenshot with an arrow pointing to the back button](03-2/media/ex_7_backtomaker.png)
+
+1. Select **Solutions**.
+
+1. Click **Publish all customizations** and wait for the publishing to complete.
 
 
 #### Task 4: Test app
 
 1. Select the **Apps** and click to launch the **Company 311 Admin** application.
 
-   ![A Screenshot with an arrow pointing to the company 311 admin application](03-2/media/ex_7_launchmodelapp.png)
+	![A Screenshot with an arrow pointing to the company 311 admin application](03-2/media/ex_7_launchmodelapp.png)
 
-2. Select **Problem reports** and click to open one of the problem report rows.
-3. Make sure the problem has a photo and click on the **Building** lookup.
+1. Select **Problem reports** and click to open one of the problem report rows.
 
-   ![A Screenshot with an arrow pointing to the building lookup](03-2/media/ex_7_lookup.png)
+1. Make sure the problem has a photo and click on the **Building** lookup.
 
-4. The Canvas app should load inside the Model-Driven application. Click on the Next/Back icons and make sure the application behaves as expected.
+	![A Screenshot with an arrow pointing to the building lookup](03-2/media/ex_7_lookup.png)
 
-   ![A screenshot of the broken door icon in the context of the canvas app inside the Model-Driven Application](03-2/media/ex_7_canvasinmodel.png)
+1. The Canvas app should load inside the Model-Driven application. Click on the Next/Back icons and make sure the application behaves as expected.
+
+	![A screenshot of the broken door icon in the context of the canvas app inside the Model-Driven Application](03-2/media/ex_7_canvasinmodel.png)
 
