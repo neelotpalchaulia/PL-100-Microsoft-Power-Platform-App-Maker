@@ -508,7 +508,7 @@ In this exercise, you will create model-driven application.
 
 1.   Select **Table** for **Content type**, **Building** for **Table** and click **Add**.
 
-    ![A screenshot of the New Subarea window and the content type changed](02-1/media/image74.png)
+  ![A screenshot of the New Subarea window and the content type changed](02-1/media/image74.png)
 
 1.  Select the **Taxonomy** group, click **+ Add** and select **Subarea** again.
 
