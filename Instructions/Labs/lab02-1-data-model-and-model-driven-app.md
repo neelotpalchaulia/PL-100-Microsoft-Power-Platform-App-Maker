@@ -468,7 +468,7 @@ In this exercise, you will create model-driven application.
 
   **Note:** If the pop-ups are not enabled on the browser, the classic view will not open. Make sure that you have enabled open popups and redirects on the browser tab. 
 
-    ![Select Save and continue - screenshot](02-1/media/image103.png)
+   ![Select Save and continue - screenshot](02-1/media/image103.png)
 
 1. Click **Edit** on the Site Map.
 
@@ -476,7 +476,7 @@ In this exercise, you will create model-driven application.
 
 1.   Click **+ Add** and select **Area**.
 
-    ![A Screenshot with an arrow pointing to the add button and a border around the area button](02-1/media/image96.png)
+   ![A Screenshot with an arrow pointing to the add button and a border around the area button](02-1/media/image96.png)
 
 1.   Select the **New Area** you just added.
 
