@@ -209,7 +209,7 @@ In this task, you will edit the application by filters for gadgets that are avai
 
 1.   Search for display and change the **DisplayMode** value to **DisplayMode.View**.
 
-    ![A screenshot with a border around the display mode field](03-1/media/ex2-t4-image5_3.png)
+  ![A screenshot with a border around the display mode field](03-1/media/ex2-t4-image5_3.png)
 
 1.  Select the **Browse gallery**.
 
