@@ -227,11 +227,11 @@ In this task, you will edit the application by filters for gadgets that are avai
 
 ```ThisItem.Photo```
 
-    ![A screenshot of the relevant command put into the formula bar](03-1/media/ex2-t4-image8.png)
+   ![A screenshot of the relevant command put into the formula bar](03-1/media/ex2-t4-image8.png)
 
 1.   Select the **Data** tab, click on the **...More actions** button of the **Gadgets** table and select **Refresh**.
 
-    ![A Screenshot with an arrow pointing to the ellipsis icon for more actions and a border around the refresh button](03-1/media/ex2-t4-image9.png)
+   ![A Screenshot with an arrow pointing to the ellipsis icon for more actions and a border around the refresh button](03-1/media/ex2-t4-image9.png)
 
 1.  Click **Save** and wait for the app to be saved.
 
@@ -267,7 +267,7 @@ In this task, you will add buttons that will let users reserve and/or pick up it
 
 ```Set(CurrentUser, First(Filter(Users, 'Primary Email' = User().Email)))```
 
-    ![A screenshot with a border around app selected in the screens tab on the left and another border around the formula bar with the relevant command typed in](03-1/media/ex2-t5-image1.png)
+   ![A screenshot with a border around app selected in the screens tab on the left and another border around the formula bar with the relevant command typed in](03-1/media/ex2-t5-image1.png)
 
 1. Select App, select **ellipsis** and select **Run OnStart**.
 
