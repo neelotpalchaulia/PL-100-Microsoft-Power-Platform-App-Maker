@@ -496,13 +496,13 @@ In this exercise, you will create a canvas application and add it to the model-d
 
 1.   Select the **Controls** tab and click **Add control**.
 
-	![A Screenshot with an arrow pointing to the add control button](03-2/media/ex_7_addcontrol.png)
+![A Screenshot with an arrow pointing to the add control button](03-2/media/ex_7_addcontrol.png)
 
 1.   Select **Canvas app** and click **Add**.
 
 1.   Click **Customize**.
 
-	![A Screenshot with an arrow pointing to the customize button](03-2/media/ex_7_customizeapp.png)
+![A Screenshot with an arrow pointing to the customize button](03-2/media/ex_7_customizeapp.png)
 
 1.   A new browser window or tab should open and load the app studio.
 
