@@ -534,7 +534,7 @@ In this task, you will publish the bot you created.
 
 1.  Click **Publish**.
 
-    ![A Screenshot with an arrow pointing to the publish button](06/media/ex2-t2-image3.png)
+   ![A Screenshot with an arrow pointing to the publish button](06/media/ex2-t2-image3.png)
 
 1. Click **Publish** again.
 
@@ -542,22 +542,22 @@ In this task, you will publish the bot you created.
 
 1. Click to expand **Manage** and select **Channels**.
 
-    ![A screenshot with a box around the channels button](06/media/ex2-t2-image4.png)
+   ![A screenshot with a box around the channels button](06/media/ex2-t2-image4.png)
 
 1. Select **Microsoft Teams**.
 
 1. Click **Availability options**.
 
-    ![A screenshot of a box around the add to teams button](06/media/image100.jpg)
+   ![A screenshot of a box around the add to teams button](06/media/image100.jpg)
 
 1. Select **Show to my teammates and shared users**.
 
 1. Go back as shown in the image.
 
-    ![A screenshot of a box around the add to teams button](06/media/image101.jpg)
+   ![A screenshot of a box around the add to teams button](06/media/image101.jpg)
 
 1. Click **open bot**.
 
-    ![A screenshot of a box around the add to teams button](06/media/image102.jpg)
+   ![A screenshot of a box around the add to teams button](06/media/image102.jpg)
 
 1. The bot should greet you. You may test the bot again.
