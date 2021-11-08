@@ -110,8 +110,6 @@ In this task, you will create a flow that send notification when the status of p
 
 `triggerOutputs()?['body/_statuscode_label']`
 
-    ![A Screenshot with an arrow pointing to the ok button under the expression tab with the relevant expression pasted into it](04/media/image6.png)
-
 1. Click on the **… Menu** button of the new step and select **Rename**.
 
 1. Rename the **Notify problem creator**.
