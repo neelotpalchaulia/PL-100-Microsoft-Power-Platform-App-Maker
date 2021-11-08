@@ -408,6 +408,7 @@ In this task, you will create a flow that will add the item to the recycle list 
 1. Do not navigate away from this page.
 
 #### Task 7 - Call flow 
+
 In this task, you will call the flow as an action from the Power Virtual Agents bot.
 
 1.  Go to the last question, click **+ Add node** and select **Call an action**.
