@@ -114,13 +114,13 @@ We will follow the below steps to design and create the Power BI dashboard:
 
 1. Complete the formula as below and press ENTER or click checkmark button. That will add a new column with the building name into the problem report data.
 
-```Building = RELATED(lh_Building[lh_name])```
+      ```Building = RELATED(lh_Building[lh_name])```
 
-  ![A Screenshot with an arrow pointing to the checkmark icon](05/media/image-6-13.png)
+      ![A Screenshot with an arrow pointing to the checkmark icon](05/media/image-6-13.png)
 
 1. Repeat the three previous steps on **lh_problemreports** node to add a column **Department** with the below formula.
 
-```Department = RELATED(lh_Department[lh_name])```
+      ```Department = RELATED(lh_Department[lh_name])```
 
 1.  Click ... next on the **lh_problemreportid** column of the **lh_problemreport** table and select **Rename**. Enter **Problem Report** as the column name.
 
@@ -163,7 +163,7 @@ We will follow the below steps to design and create the Power BI dashboard:
     * Select various building slices on the pie chart and observe changes on the stacked column chart.
     * Select various bars on the stacked column chart and observe changes on the pie report.
 
-![A Screenshot with an arrow pointing to the pie chart to observe changed to the data after changing data on the stacked column chart](05/media/image-6-18.png)
+      ![A Screenshot with an arrow pointing to the pie chart to observe changed to the data after changing data on the stacked column chart](05/media/image-6-18.png)
 
 1. Select the **Insert**, and click **Q&A**.
 
@@ -469,9 +469,9 @@ In this exercise, you will add embedded canvas application to Power BI as a visu
 
 1.  Select the **OnStart** of the **App** object and set it to the formula below. This formula will create two variables one to keep track of the current index of the reports table and another to keep track of the current item row.
 
-```Set(currentIndex,1);Set(CurrentItem, LookUp('Problem Reports', 'Problem Report' = GUID(Last(FirstN([@PowerBIIntegration].Data,currentIndex)).'Problem Report')))```
+      ```Set(currentIndex,1);Set(CurrentItem, LookUp('Problem Reports', 'Problem Report' = GUID(Last(FirstN([@PowerBIIntegration].Data,currentIndex)).'Problem Report')))```
 
-![A screentshot showing OnStart property set to the expression described on the previous step](05/media/ex_5_apponstart.png)
+      ![A screentshot showing OnStart property set to the expression described on the previous step](05/media/ex_5_apponstart.png)
 
 1.   Select the **Insert** tab, click **Media**, and select **Image**.
 
@@ -479,7 +479,7 @@ In this exercise, you will add embedded canvas application to Power BI as a visu
 
 1.  Set the **Image** value to the formula below.
 
-```CurrentItem.Photo```
+      ```CurrentItem.Photo```
 
 1.  Click on the **...** button of the **App** object and select **Run OnStart**.
 
@@ -495,11 +495,11 @@ In this exercise, you will add embedded canvas application to Power BI as a visu
 
 1.  Set the **Width** value of the image to the formula below.
 
-```Parent.Width```
+      ```Parent.Width```
 
 1. Set the **Height** value of the image to the formula below.
 
-```Parent.Height```
+      ```Parent.Height```
 
 1.  The image should fill the screen.
 
@@ -514,7 +514,7 @@ In this exercise, you will add embedded canvas application to Power BI as a visu
 
 1.  Select the label you just added and set the **Text** value to the formula below.
 
-```CurrentItem.Title```
+      ```CurrentItem.Title```
 
 1.  Set the **Height** value of the labe to **60**.
 
@@ -522,11 +522,11 @@ In this exercise, you will add embedded canvas application to Power BI as a visu
 
 1.  Set the **Y** value of the label to formula below.
 
-```Parent.Height -Self.Height```
+      ```Parent.Height -Self.Height```
 
 1.  Set the the **Width** value of the label to formula below.
 
-```Parent.Width```
+      ```Parent.Width```
 
 1.  Set the **Fill** value of the label to **RGBA(0, 108, 191, .5)**.
 
@@ -534,7 +534,7 @@ In this exercise, you will add embedded canvas application to Power BI as a visu
 
 1.  Set the **Align** value to the formula below.
 
-```Align.Center```
+      ```Align.Center```
 
 1. The label should now look like the image below. If you don't see the title, click on the **...** button of the **App** object and **Run OnStart** again.
 
@@ -558,19 +558,19 @@ In this exercise, you will add embedded canvas application to Power BI as a visu
 
 1.  Select the **Next icon** and set the **OnSelect** value to the formula below.
 
-```UpdateContext({CurrentItem: LookUp('Problem Reports', 'Problem Report' = GUID(Last(FirstN([@PowerBIIntegration].Data,currentIndex)).'Problem Report'))});UpdateContext({currentIndex: currentIndex +1})```
+      ```UpdateContext({CurrentItem: LookUp('Problem Reports', 'Problem Report' = GUID(Last(FirstN([@PowerBIIntegration].Data,currentIndex)).'Problem Report'))});UpdateContext({currentIndex: currentIndex +1})```
 
 1.  Set the **DisplayMode** value of the **Next icon** to the formula below.
 
-```If(currentIndex = CountRows([@PowerBIIntegration].Data), DisplayMode.Disabled, DisplayMode.Edit)```
+      ```If(currentIndex = CountRows([@PowerBIIntegration].Data), DisplayMode.Disabled, DisplayMode.Edit)```
 
 1.  Select the **Back icon** and set the **OnSelect** value to the formula below.
 
-```UpdateContext({CurrentItem: LookUp('Problem Reports', 'Problem Report' = GUID(Last(FirstN([@PowerBIIntegration].Data,currentIndex)).'Problem Report'))});UpdateContext({currentIndex: currentIndex -1})```
+      ```UpdateContext({CurrentItem: LookUp('Problem Reports', 'Problem Report' = GUID(Last(FirstN([@PowerBIIntegration].Data,currentIndex)).'Problem Report'))});UpdateContext({currentIndex: currentIndex -1})```
 
 1.   Set the **DisplayMode** value of the **Back icon** to the formula below.
 
-```If(currentIndex > 1, DisplayMode.Edit, DisplayMode.Disabled)```
+      ```If(currentIndex > 1, DisplayMode.Edit, DisplayMode.Disabled)```
 
 1.   Go to the **Insert** tab, click **Icons** and select **Check**.
 
