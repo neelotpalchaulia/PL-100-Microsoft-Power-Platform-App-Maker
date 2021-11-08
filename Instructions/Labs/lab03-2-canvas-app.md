@@ -542,10 +542,9 @@ In this exercise, you will create a canvas application and add it to the model-d
 
 ```Set(currentIndex,1);Set(CurrentItem, Last(FirstN([@ModelDrivenFormIntegration].Item.'Problem Reports',currentIndex)))```
 
-	![A screenshot with a border around the app object changed to onstart and set to the aforementioned formula. There is also another border around the app button selected](03-2/media/ex_7_apponstart.png)
+![A screenshot with a border around the app object changed to onstart and set to the aforementioned formula. There is also another border around the app button selected](03-2/media/ex_7_apponstart.png)
 
 1.  Select the **Insert** insert tab, click **Media**, and select **Image**.
-
 	![A screenshot of a border around the image button](03-2/media/ex_7_insertimage.png)
 
 1.  Select the image you just added and set the **Image** value to the formula below.
@@ -574,8 +573,6 @@ In this exercise, you will create a canvas application and add it to the model-d
 
 1. Go to the **Properties** pane and select **Fill** for **Image position**.
 
-	![A Screenshot with an arrow pointing to the the file tab](03-2/media/ex_7_imageposition.png)
-
 1. Click **File** and then click **Save** to save your progress.
 
 1. Click on the **<-** **Back** button.
@@ -587,9 +584,9 @@ In this exercise, you will create a canvas application and add it to the model-d
 
 1.  Select the **Insert** tab and click **Label**.
 
-1.  Select the label you just added and set the **Text** value to the formula below.
+1.  Select the label you just added and set the **Text** value.
 
-```CurrentItem.Title```
+```Broken door```
 
 1.  Set the **Height** value of the label to **60**.
 
