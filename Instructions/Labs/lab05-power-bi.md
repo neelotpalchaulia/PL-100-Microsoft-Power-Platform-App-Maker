@@ -114,13 +114,13 @@ We will follow the below steps to design and create the Power BI dashboard:
 
 1. Complete the formula as below and press ENTER or click checkmark button. That will add a new column with the building name into the problem report data.
 
-      ```Building = RELATED(lh_Building[lh_name])```
+        ```Building = RELATED(lh_Building[lh_name])```
 
       ![A Screenshot with an arrow pointing to the checkmark icon](05/media/image-6-13.png)
 
 1. Repeat the three previous steps on **lh_problemreports** node to add a column **Department** with the below formula.
 
-      ```Department = RELATED(lh_Department[lh_name])```
+        ```Department = RELATED(lh_Department[lh_name])```
 
 1.  Click ... next on the **lh_problemreportid** column of the **lh_problemreport** table and select **Rename**. Enter **Problem Report** as the column name.
 
