@@ -201,8 +201,6 @@ In this task, you will create a new topic for the bot so it can respond to inqui
 
 1.   Click on the **Identify** dropdown and select **User's entire response**.
 
-   ![A Screenshot with an arrow pointing to the drop down icon in the identify field and a box around the user's entire response button](06/media/ex1-t5-image10.png)
-
 1.  Click on the **Edit variable** icon.
 
     ![A Screenshot with an arrow pointing to the pencil icon in the box under the text save response as](06/media/ex1-t5-image11.png)
