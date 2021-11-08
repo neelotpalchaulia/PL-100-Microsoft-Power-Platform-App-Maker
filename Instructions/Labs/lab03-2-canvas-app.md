@@ -186,8 +186,6 @@ Set('My Tabs', Table( {
 
   **IMPORTANT:** When expressions are copied, the quotes and double quotes are sometimes replaced with their "smart" counterparts which are not valid in formulas. If you copy and paste the expression above, make sure the resulting formula does not contain any errors.     
 
-	![A screenshot of the copied expression into the expression tab](03-2/media/image15.png)
-
 1. Select the **Tab Control** in the **Main Screen** and change the **Items** value to **‘My Tabs’**.
 
 	![A screenshot of the items value set to my tabs for Tab control](03-2/media/image16.png)
@@ -267,8 +265,6 @@ In this exercise, you will allow unassigned reports to be removed. This will all
 1.  Change the **Visible** value to the formula below. This formula will hide the icon if the status reason is not New.
 
 `If(Text(ThisItem.'Status Reason') = "New", true, false)`
-
-	![A screenshot of the expression tab with the relevant command pasted in](03-2/media/image26.png)
 
 1.  Make sure you still have the icon selected. Change the **OnSelect** value to the formula below. This formula will remove item from the data source.
 
@@ -552,8 +548,6 @@ In this exercise, you will create a canvas application and add it to the model-d
 ```CurrentItem.Photo```
 
 1.   Click on the **...** button of the **App** object and select **Run OnStart**.
-
-	![A Screenshot with an arrow pointing to the ellipses icon for more options and a border around the run on start button](03-2/media/ex_7_runonstart.png)
 
 1.  You should see the photo. Select **Image control** from Tree View.
 
