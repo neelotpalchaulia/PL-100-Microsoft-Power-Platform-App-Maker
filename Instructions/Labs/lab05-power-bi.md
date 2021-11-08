@@ -503,7 +503,7 @@ In this exercise, you will add embedded canvas application to Power BI as a visu
 
 1.  The image should fill the screen.
 
-      ![Image position - screenshot](05/media/ex_7_imageposition.png)
+      ![Image position - screenshot](05/media/image98.jpg)
 
 1.  Do not navigate away from this page.
 
@@ -580,7 +580,7 @@ In this exercise, you will add embedded canvas application to Power BI as a visu
 
 1.   Set the OnSelect of the **Check icon** to the formula below. This formula will update the status of the row to completed and then refresh Power BI.
 
-```Patch('Problem Reports', CurrentItem, {'Status Reason': 'Status Reason (Problem Reports)'.Completed}); PowerBIIntegration.Refresh()```
+      ```Patch('Problem Reports', CurrentItem, {'Status Reason': 'Status Reason (Problem Reports)'.Completed}); PowerBIIntegration.Refresh()```
 
 1.   Click **Play**.
 
@@ -602,7 +602,7 @@ In this exercise, you will add embedded canvas application to Power BI as a visu
 
 1. Click on the **Next** and **Back** icons to make sure the application loads the images.
 
-      ![Canvas inside Power BI report - screenshot](05/media/ex_7_canvasembedded.png)
+      ![Canvas inside Power BI report - screenshot](05/media/image99.jpg)
 
 1. Select the **Completed** column of the stacked column chart and make a note how many rows are completed.
 
