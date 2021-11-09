@@ -323,7 +323,7 @@ In this task, you will create a flow that will add the item to the recycle list 
 
 1.  Search for add a row and select **Add a row into a table** from Excel Online (Business).
 
-   ![A screenshot with a box around the add a row into a table button](06/media/ex1-t6-image12.png)
+    ![A screenshot with a box around the add a row into a table button](06/media/ex1-t6-image12.png)
 
 1.  Select **OneDrive for Business** for Location, **OneDrive** for Document Library, **Recycle.xlsx** for File and **PickupTable** for table.
 
@@ -349,7 +349,7 @@ In this task, you will create a flow that will add the item to the recycle list 
 
 1.  Select **Response to bot** for name, click Value field and select **ItemName** from the dynamic content pane.
 
-   ![A Screenshot with an arrow pointing to the item name option in the dynamic content pane](06/media/ex1-t6-image16.png)
+    ![A Screenshot with an arrow pointing to the item name option in the dynamic content pane](06/media/ex1-t6-image16.png)
 
 1. Add the text below after the ItemName.
 
