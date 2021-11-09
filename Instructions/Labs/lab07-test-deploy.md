@@ -62,7 +62,7 @@ In this exercise, you will create security roles for users.
 
 1. Set all privileges for **Model-driven app**.
 
-![A screenshot of the security role edit dialog with all privileges selected for Model Driven app table](07/media/image25.png)
+   ![A screenshot of the security role edit dialog with all privileges selected for Model Driven app table](07/media/image25.png)
 
 1. Click **Save and Close**.
 
@@ -88,7 +88,7 @@ In this exercise, you will run the solution checker on the Company 311 solution.
 
 1. **Refresh** the page and select the solution again, click **Solution checker**, and select **View results**.
 
-![A Screenshot with an arrow pointing to the solution checked drop down icon and a border around the view results button](07/media/image5.png)
+   ![A Screenshot with an arrow pointing to the solution checked drop down icon and a border around the view results button](07/media/image5.png)
 
 1. Review the solution check results and make sure there are no issues.
 
@@ -181,7 +181,7 @@ In this exercise, you will export the company 311 solution and import it into a 
 
 1.  Click **+ Add existing** and select **More** and then select **Connection Reference**.
 
-![A Screenshot with an arrow pointing to the add existing drop down icon](07/media/add_connection_ref.png)
+    ![A Screenshot with an arrow pointing to the add existing drop down icon](07/media/add_connection_ref.png)
 
 1.  Select all of the connection references and click **Add**.
 
@@ -189,7 +189,7 @@ In this exercise, you will export the company 311 solution and import it into a 
 
 1.  Go back to **Solutions** and select **Company 311** and Click **Export**.
 
-![A Screenshot with an arrow pointing to the export button](07/media/image8.png)
+    ![A Screenshot with an arrow pointing to the export button](07/media/image8.png)
 
 1.  Click **Next**.
 
@@ -231,7 +231,7 @@ In this exercise, you will export the company 311 solution and import it into a 
 
 1.  Click **Select connection** for outlook and then click **+ New connection**.
 
-![A Screenshot with an arrow pointing to the drop down icon and a border around the plus new connection button](07/media/new_connection.png)
+    ![A Screenshot with an arrow pointing to the drop down icon and a border around the plus new connection button](07/media/new_connection.png)
 
 1. It will open a new window. Click **Create**.
 
@@ -279,7 +279,7 @@ In this task, you will create the Lunchtime Sports team.
 
 1.  Select **Teams** and click **Join or create a team**.
 
-![A Screenshot with an arrow pointing to the join or create a team button](07/media/join_create_team.png)
+    ![A Screenshot with an arrow pointing to the join or create a team button](07/media/join_create_team.png)
 
 1.  Click **Create team**.
 
@@ -300,13 +300,13 @@ In this task, you create a flow that will get triggered when someone is added to
 
 1.  Click **+ New flow** and select **Automated cloud flow**.
 
-![A Screenshot with an arrow pointing to the new flow button](07/media/image11.png)
+    ![A Screenshot with an arrow pointing to the new flow button](07/media/image11.png)
 
 1.  Click **Skip**.
 
 1.  Search for groups and select **When a group member is added or removed** Office 365.
 
-![A screenshot with a border around the when a group member is added is added or removed button](07/media/image12.png)
+    ![A screenshot with a border around the when a group member is added is added or removed button](07/media/image12.png)
 
 1.  Click **Sign in**.
 
@@ -340,12 +340,11 @@ In this task, you create a flow that will get triggered when someone is added to
 
 1. Type **was added to the Lunchtime Sports team, find out what sports this member is interested in.** after the Display Name.
 
-![A screenshot of the send me an email notification command in the flow with the relevant text in the subject and body field](07/media/image15.png)
+    ![A screenshot of the send me an email notification command in the flow with the relevant text in the subject and body field](07/media/image15.png)
 
 1. Rename the flow **Notify me when a member is added to the Lunchtime Sports group** and click **Save**.
 
     ![A screenshot with a box around new name of the flow and an arrow pointing to the save button](07/media/image16.png)
-
 
 
 #### Task 3: Test the flow
@@ -355,7 +354,7 @@ In this task, you will test the flow.
 
 1. Click on the **... More options** button of the Lunchtime Sports team and select **Manage team**.
 
-   ![A Screenshot with an arrow pointing to the ellipsis icon for more options and a border around the manage team button](07/media/image17.png)
+    ![A Screenshot with an arrow pointing to the ellipsis icon for more options and a border around the manage team button](07/media/image17.png)
 
 1. Click **Add member**.
 
@@ -371,7 +370,7 @@ In this task, you will test the flow.
 
 1. The email should look like the image below.
 
-   ![A screenshot of how the email should look](07/media/image18.png)
+    ![A screenshot of how the email should look](07/media/image18.png)
 
 
 #### Task 4: Add flow to solution
@@ -385,7 +384,7 @@ In this task, you will add the flow to the Company 311 solution.
 
 1. Select the **Outside Dataverse** tab, select the flow you created, and click **Add**.
 
-   ![A screenshot of the flow you created selected and an add button below](07/media/image19.png)
+    ![A screenshot of the flow you created selected and an add button below](07/media/image19.png)
 
 1. Click **Publish all customizations** and wait for the publishing to complete.
 
@@ -420,7 +419,7 @@ In this task, you will import the solution into another environment.
 
 1.  You should get a message **This solution package contains an update for a solution that is already installed** click **Import**.
 
-![A screenshot of the import a solution pane with the message mentioned in step six having appeared.](07/media/image27.png)
+    ![A screenshot of the import a solution pane with the message mentioned in step six having appeared.](07/media/image27.png)
 
 1.  Wait for the solution import to complete.
 
@@ -428,7 +427,7 @@ In this task, you will import the solution into another environment.
 
 1. Locate the flow you added to the solution and click to open it.
 
-![A Screenshot with an arrow pointing to the name of the flow you added to the solution](07/media/image21.png)
+    ![A Screenshot with an arrow pointing to the name of the flow you added to the solution](07/media/image21.png)
 
 1. Click **Edit**.
 
@@ -438,7 +437,7 @@ In this task, you will import the solution into another environment.
 
 1. Click **+ Add new connection**.
 
-![A Screenshot with an arrow pointing to the add new connection button](07/media/image23.png)
+    ![A Screenshot with an arrow pointing to the add new connection button](07/media/image23.png)
 
 1. Click to expand the condition..
 
