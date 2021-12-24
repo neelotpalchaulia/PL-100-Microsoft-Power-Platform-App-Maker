@@ -643,7 +643,9 @@ In this exercise, you will create a canvas application and add it to the model-d
 
 30. Click **+New**. 
 
-31. Enter **Broken Tap** for Name, select the oldest building in the **Building** column and enter **The Tap is broken and the water is continuously flowing.** in the Details column. Add any image of your choice in the **Photo** column.
+31. Enter **Broken Tap** for Name, select the oldest building in the **Building** column and enter **The Tap is broken and the water is continuously flowing.** in the Details column. Add any image of your choice in the **Photo** column. 
+
+**Note:** If any message shown **The record hasn’t been created yet. To enable image upload, create the record** for the photo insertion, save the record first and then try to insert the photo.  
 
 32. Click **Save**.
 
