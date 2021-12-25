@@ -50,7 +50,7 @@ In this exercise, you will create security roles for users.
 
 1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in the correct environment.
 2.  Select **Solutions** and click to open the **Company 311** solution.
-3.  Click **+ New** and select **Other** and then select **Security Role**.
+3.  Click **+ New >> Security** and select **Security Role**.
 4.  Enter **Company 311 User** for **Role Name** and select the **Custom Entities** tab.
 5.  Set the read privilege of the **Building** Table to **Organization**.
 6.  Set the read privilege of the **Problem Report** Table to **User**.
@@ -210,7 +210,7 @@ In this exercise, you will export the company 311 solution and import it into a 
 5.  Navigate to [Power Platform Admin Center](https://admin.powerplatform.microsoft.com/environments) to see a new environment had been created by the system. We will refer to it as "Prod" environment for the rest of this course (the environment name will be <your account name>'s Environment).
 6.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and select the environment you just created.
 7.  Select **Solutions** and click **Import**.
-8.  Click **Choose File**.
+8.  Click **Browse**.
 9.  Select the managed solution you exported and click **Open**.
     ![A screenshot of a border around a zip file of the managed solution you exported](07/media/image10.png)
 10.  Click **Next**.
