@@ -326,7 +326,7 @@ In this task, you will add the flow to the Company 311 solution.
 
 1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in the correct environment.
 2.  Select **Solutions** and click to open the **Company 311** solutions.
-3.  Click **+ Add existing** and select **Cloud flow**.
+3.  Click **+ Add existing** and select **Automation >> Cloud flow**.
 4. Select the **Outside Dataverse** tab, select the flow you created, and click **Add**.
 
    ![A screenshot of the flow you created selected and an add button below](07/media/image19.png)
