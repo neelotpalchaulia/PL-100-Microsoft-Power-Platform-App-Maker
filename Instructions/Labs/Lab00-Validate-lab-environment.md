@@ -17,8 +17,6 @@ Exercise 1 – Acquire your Power Platform trial tenant
 
 1. You will see a prompt that you have an existing account with Microsoft. Select **Sign in**.
 
-1. Enter the password provided in the **Environment** Tab. 
-
 1. enter the **Password** Provided in the **Environment** Tab. Select **Sign in**
 
 1. Select **Yes** to stay signed in.
