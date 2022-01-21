@@ -132,7 +132,7 @@ In this task, you will create a business process flow for the problem report Tab
 
     ![A Screenshot of a Business Process Designer with an arrow pointing to the save button](02-2/media/image9.png)
 
-1. Click **Activate**.
+1. Click **Activate Bussiness Process Flow**.
 
 1. Click **Activate** again on the pop-up.
 
@@ -218,7 +218,7 @@ In this exercise, you will create a business rule that will block completion of 
 
     ![A Screenshot with an arrow pointing to the save button](02-2/media/image20.png)
 
-1. Click **Activate**.
+1. Click **Activate the rule**.
 
 1. Click **Activate** again on the pop-up.
 
