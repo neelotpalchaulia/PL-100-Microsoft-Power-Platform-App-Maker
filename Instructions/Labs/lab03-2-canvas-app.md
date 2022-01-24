@@ -74,7 +74,7 @@ In this task, you will import the shared components solution into your environme
 
 	![A screenshot with a border around the app name saved as Lamna Healthcare Shared Components A](03-2/media/image2-2.png)
 
-1. Click **OK**.
+1. Click **Save**, and Click **OK**.
 
 1. Close the **Lamna Healthcare Shared Components** tab in your browser.
 
@@ -192,7 +192,7 @@ Set('My Tabs', Table( {
 
 1. Change the **SelectedColor** value to **WhiteSmoke**.
 
-1. Select the **Tab Control** inside the **New Report Screen** and set the Item value to **‘My Tabs’**.
+1. Select the **Tab Control** inside the **New Report Screen** and set the Items value to **‘My Tabs’**.
 
 1. Change the **SelectedColor** value to **WhiteSmoke**.
 
