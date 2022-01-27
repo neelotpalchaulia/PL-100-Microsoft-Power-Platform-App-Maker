@@ -557,8 +557,6 @@ In this task, you will publish the bot you created.
 
    ![A screenshot of a box around the add to teams button](06/media/image101.jpg)
 
-1. Click **open bot**.
-
-   ![A screenshot of a box around the add to teams button](06/media/image102.jpg)
+1. Click **add**.
 
 1. The bot should greet you. You may test the bot again.
