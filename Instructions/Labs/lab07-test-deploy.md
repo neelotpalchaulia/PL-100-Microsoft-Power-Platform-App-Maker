@@ -380,7 +380,7 @@ In this task, you will add the flow to the Company 311 solution.
 
 1.  Select **Solutions** and click to open the **Company 311** solutions.
 
-1.  Click **+ Add existing** and select **Cloud flow**.
+1.  Click **+ Add existing** and select **Automate** and click on **Cloud flow**.
 
 1. Select the **Outside Dataverse** tab, select the flow you created, and click **Add**.
 
