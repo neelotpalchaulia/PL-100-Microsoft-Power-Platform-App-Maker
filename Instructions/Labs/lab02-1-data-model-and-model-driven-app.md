@@ -61,7 +61,7 @@ In this exercise, you will create a custom solution publisher and a solution. Th
 
 3.  Enter **Company 311** for **Display name** and click.
 
-4.  Click on the **Publisher** dropdown and select **+ Publisher**.
+4.  Click on the **+ New Publisher**, under the **Publisher** option.
 
 ![A Screenshot with an arrow pointing to the new publisher button](02-1/media/image1.png)
 
@@ -69,7 +69,7 @@ In this exercise, you will create a custom solution publisher and a solution. Th
 
 ![A screenshot of the new publisher properties pane](02-1/media/image105.png)
 
-6.  Click on the **Publisher** dropdown again and select the **Lamna Healthcare** publisher you created.
+6.  Click on the **Publisher** dropdown and select the **Lamna Healthcare** publisher you created.
 
 8.  Click **Create**.
 
@@ -89,37 +89,37 @@ In this exercise, you will create Tables, Columns, and the Relationships you ide
 
 2.  Click **+ New** and select **Table**.
 
-3.  Enter **Building** for **Display name** and click **Create**.
+3.  Enter **Building** for **Display name** and click **Save**.
 
 ![A screenshot of the new table window with the relevant value in each field](02-1/media/image5.png)
 
-4.  Go back to the solution by clicking on the solution name.
+4.  Make sure you are on the **Company 311** solution page.
 
 5.  Click **+ New** and select **Table** again.
 
-6.  Enter **Department** for **Display name** and click **Create**.
+6.  Enter **Department** for **Display name** and click **Save**.
 
 ![A screenshot of the new table window with the relevant value in each field](02-1/media/image7.png)
 
-7.  Go back to the solution by clicking on the solution name.
+7.  Make sure you are on the **Company 311** solution page.
 
 ![Building Table properties - screenshot](02-1/media/image99.png)
 
 8.  Click **+ New** and select **Table** one more time.
 
-9.  Enter **Problem Report** for **Display name**, change the **Primary Column** **Display name** to **Title**, and click **More settings**.
+9.  Enter **Problem Report** for **Display name**, on the **Primary Column** tab, enter **Display name** for **Title**.
 
 ![A screenshot with a border around the primary name column settings: display name and name. There is also an arrow pointing to the more settings button below](02-1/media/image8.png)
 
-10. Click to expand the **Collaboration** section.
+10. Click to expand the **Advanced Options** under the **Properties** tab.
 
 ![A Screenshot with an arrow pointing to the collaboration button](02-1/media/image9.png)
 
-11. Check the **Enable queues** checkbox and click **Create**. Enabling queues allows Problem Report Rows to be associated with one or more queues to help facilitate routing to the different departments.
+11. Check the **Can be added to a queue** checkbox under the **Rows in this table** and click **Save**. Enabling queues allows Problem Report Rows to be associated with one or more queues to help facilitate routing to the different departments.
 
 ![A screenshot of the enable queues checkbox highlighted](02-1/media/image10.png)
 
-12. Click **Okay** on the **Confirm changes** popup.
+12. Click **Okay** on the **Confirm changes** popup(if it appears).
 
 ![A screenshot of the confirm changes popup](02-1/media/image11.png)
 
@@ -172,7 +172,7 @@ In this task, you will add Columns to the Problem Report Table.
 
 ![A screenshot showing the 5 new columns you have created: details, location, photo, resolution, and resolved on](02-1/media/image18.png)
 
-17. Go back to the solution by clicking on the solution name.
+17. Go back to the **Solutions**, click on the solution name **Company 311**.
 
 18. Click **Publish all customizations** and wait for the publishing to complete.
 
@@ -250,7 +250,7 @@ In this task, you will create many to one relationships between the problem repo
 
 ![A Screenshot with an arrow pointing to the add relationship button](02-1/media/image27.png)
 
-3.  Select **Many-to-one**.
+3.  Select **+ Many-to-one**.
 
 ![A screenshot of a border around the many to one button](02-1/media/image28.png)
 
@@ -260,13 +260,13 @@ In this task, you will create many to one relationships between the problem repo
 
 5.  Click **+ Add relationship** again.
 
-6.  Select **Many-to-one**.
+6.  Select **+ Many-to-one**.
 
 7.  Select **Department** for **Related (One) Table** and click **Done**.
 
 8.  Click **Save Table**.
 
-9.  Go back to the solution by clicking on the solution name.
+9.  Go back to the **Solutions**, click on the solution name **Company 311**.
 
 10. Click **Publish all customizations** and wait for the publishing to complete.
 
@@ -421,11 +421,11 @@ In this task, you will create a new view from the Active Problem Reports view.
 
 ![A screenshot of the save as window](02-1/media/image56.png)
 
-9.  Click on the **Back Button** of your browser to go back to the solution.
+9.  Click on the **Back Button** of your browser to go back to the **Solutions**.
 
 ![A Screenshot with an arrow pointing to the back button](02-1/media/image57.png)
 
-10. Go to the solution by clicking on the solution name.
+10. On the **Solutions**, click the solution name **Company 311**.
 
 ![A Screenshot with an arrow pointing to the solution name company 311](02-1/media/image58.png)
 
