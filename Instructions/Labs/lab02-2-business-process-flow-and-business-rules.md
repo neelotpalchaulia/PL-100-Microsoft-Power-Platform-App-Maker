@@ -63,7 +63,7 @@ In this task, you will add a lookup Column to the problem report table.
 
 6.  Click **Save Table**.
 
-7.  Go back to the solution by clicking on the solution name.
+7.  Go back to the **Solutions** and click on the solution name **Company 311**.
 
 ![A Screenshot with an arrow pointing to the solution name](02-2/media/image2.png)
 
@@ -165,7 +165,7 @@ In this task, you will add the business process flow you created to the Company 
 
 2.  Select **Solutions** and click to open the **Company 311** solution.
 
-3.  Click **+ Add existing** and select **Process**.
+3.  Click **Add existing >> Automation** and select **Process**.
 
 ![A Screenshot with an arrow pointing to the drop down icon next to the add existing button and a border around the process button](02-2/media/image10.png)
 
