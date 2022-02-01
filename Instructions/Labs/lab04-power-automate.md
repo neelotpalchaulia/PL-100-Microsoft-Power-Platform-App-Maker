@@ -61,7 +61,7 @@ In this task, you will create a flow that send notification when the status of p
 
 2.  Select **Solutions** and click to open the **Company 311** solution.
 
-3.  Click **+ New** and select **Cloud Flow**.
+3.  Click **+ New >> Automation >> Cloud Flow >> Automated**.
 
 ![A screenshot with an arrow pointing to the + New button with a red border around the Cloud Flow link](04/media/image1.png)
 
@@ -225,7 +225,7 @@ In this task, you will create the escalation flow.
 
 2.  Select **Solutions** and click to open the **Company 311** solution.
 
-3.  Click **+ New** and select **Cloud flow**.
+3.  Click **+ New >> Automation >> Cloud Flow >> Automated**.
 
 4.  Search for **when a row is added** and select **When a row is added, modified, or deleted**  from **Microsoft Dataverse** connector.
 
@@ -374,6 +374,8 @@ In this exercise, you will setup a team in Microsoft Teams dedicated to the Comp
 
 In this task you will setup a Microsoft Teams team for the Lamna Healthcare Company, if you have not done so in previous exercises.
 
+**Note:** If you have already created the **Company 311** Teams in the Microsoft teams, skip this part and continue to the next task.
+
 1.  Navigate to [Microsoft Teams](https://teams.microsoft.com) and sign in with the same credentials you have been using previously.
 
 2.  Select **Use the web app instead** on the welcome screen.
@@ -401,7 +403,7 @@ In this task you will setup a Microsoft Teams team for the Lamna Healthcare Comp
 
 In this task you will replace the approval sent by email with the adaptive card.
 
-1. Locate **Start and wait for an approval** step created earlier in **Exercise 2, Task 2**.
+1. Locate **Start and wait for an approval** step created earlier in **Exercise 2, Task 2**. (Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in the correct environment. **Solutions >> Company 311 Solution>> Flows >> Escalate Expense Approval**) 
 2. Select **...** then select **Delete**.
 3. Click **+** between the steps to insert a new step then select **Add an action**.
 4. Search for **approval** and select **Create an approval**.
