@@ -48,7 +48,7 @@ In this exercise, you will create a custom solution publisher and a solution. Th
 
 1.  Enter **Company 311** for **Display name**.
 
-1.  Click on the **Publisher** dropdown and select **+ Publisher**.
+1.  Click on the **+ New Publisher**, under the **Publisher** option.
 
     ![A Screenshot with an arrow pointing to the new publisher button](02-1/media/image1.png)
 
@@ -56,7 +56,7 @@ In this exercise, you will create a custom solution publisher and a solution. Th
 
     ![A screenshot of the new publisher properties pane](02-1/media/image105.png)
 
-1.  Click on the **Publisher** dropdown again and select the **Lamna Healthcare** publisher you created.
+1.  Click on the **Publisher** dropdown and select the **Lamna Healthcare** publisher you created.
 
 1.  Click **Create**.
 
@@ -76,7 +76,7 @@ In this exercise, you will create Tables, Columns, and the Relationships you ide
 
 1.  Click **+ New** and select **Table**.
 
-1.  Enter **Building** for **Display name** and click **Create**.
+1.  Enter **Building** for **Display name** and click **Save**.
 
     ![A screenshot of the new table window with the relevant value in each field](02-1/media/image002.jpg)
 
@@ -88,13 +88,13 @@ In this exercise, you will create Tables, Columns, and the Relationships you ide
 
 1.  Click **+ New** and select **Table** again.
 
-1.  Enter **Department** for **Display name** and click **Create**.
+1.  Enter **Department** for **Display name** and click **Save**.
 
     ![A screenshot of the new table window with the relevant value in each field](02-1/media/image003.jpg)
 
 1.  Click **+ New** and select **Table** one more time.
 
-1.  Enter **Problem Report** for **Display name**, on **Primary Column** tab, change the **Primary Column** **Display name** to **Title**, 
+1.  Enter **Problem Report** for **Display name**, on the **Primary Column** tab, enter **Display name** for **Title**.
 
     ![A screenshot with a border around the primary name column settings: display name and name. There is also an arrow pointing to the more settings button below](02-1/media/image005.jpg)
 
@@ -231,7 +231,7 @@ In this task, you will create many to one relationships between the problem repo
 
     ![A Screenshot with an arrow pointing to the add relationship button](02-1/media/image27.png)
 
-1.  Select **Many-to-one**.
+1. Select **+ Many-to-one**.
 
     ![A screenshot of a border around the many to one button](02-1/media/image28.png)
 
@@ -241,7 +241,7 @@ In this task, you will create many to one relationships between the problem repo
 
 1.  Click **+ Add relationship** again.
 
-1.  Select **Many-to-one**.
+1.  Select **+ Many-to-one**.
 
 1.  Select **Department** for **Related (One) Table** and click **Done**.
 
@@ -402,7 +402,7 @@ In this task, you will create a new view from the Active Problem Reports view.
 
     ![A screenshot of the save as window](02-1/media/image56.png)
 
-1.  Click on the **Back Button** of your browser to go back to the solution.
+1.  Click on the **Back Button** of your browser to go back to the **Solutions**.
 
     ![A Screenshot with an arrow pointing to the back button](02-1/media/image57.png)
 
