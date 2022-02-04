@@ -26,7 +26,7 @@ Exercise 1 – Acquire your Power Platform trial tenant
 ------------------------------------------
 
 1. Copy your **Microsoft 365 credentials** from the Authorized Lab Hoster.
-2. Navigate to [Power Apps](https://.<powerapps.microsoft.com) and click **Start free**.
+2. Navigate to [Power Apps](https://powerapps.microsoft.com/en-us/) and click **Start free**.
 3. Under **Work email**, enter the email address from your Microsoft 365 credentials and click **Next**.
 4. You will see a prompt that you have an existing account with Microsoft. Select **Sign in**.
 5. Enter the password provided by the Authorized Lab Hoster. 
