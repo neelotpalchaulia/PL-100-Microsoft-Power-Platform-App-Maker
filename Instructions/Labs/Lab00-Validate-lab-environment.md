@@ -49,7 +49,7 @@ In this exercise, you will create a **Practice** environment that you will use t
 
 ### Task 1 – Create environment
 
-1.  Navigate to [Power Platform admin center](<https://admin.Powerplatform.microsoft.com) and log in with your Microsoft 365 credentials if prompted again.
+1.  Navigate to [Power Platform admin center](https://admin.Powerplatform.microsoft.com) and log in with your Microsoft 365 credentials if prompted again.
 
 2. Select **Environments** and click **+ New**.
 
