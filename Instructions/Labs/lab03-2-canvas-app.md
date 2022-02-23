@@ -146,7 +146,7 @@ In this task, you will create a canvas application using the phone form factor.
 
 ![A screenshot with the Screen 1 name highlighted and renamed Main Screen](03-2/media/image10.png)
 
-11. Select the **Main Screen** and click **Insert**.
+11. Select the **Main Screen** and select on the **+** **Insert** from the left navigation pane .
 
 ![A Screenshot with an arrow pointing to the plus icon for insert](03-2/media/image11.png)
 
