@@ -474,7 +474,7 @@ In this exercise, you will create a canvas application and add it to the model-d
 
 ![A Screenshot with an arrow pointing to the word information with a border around the form type being main](03-2/media/opentableform.png)
 
-5. Select the **form section**.
+5. Select the **General section** of the **Form Section**.
 6. Go to the Properties pane and click to expand **Formatting**.
 7. Change the **Columns** value to **2**.
 
