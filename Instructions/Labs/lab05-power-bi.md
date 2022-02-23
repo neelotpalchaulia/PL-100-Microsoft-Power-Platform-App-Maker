@@ -250,7 +250,7 @@ This will open the published report in the browser.
 #### Task 4: Build Mobile Phone View
 
 1. Select the **Problem Management dashboard** from **Dashboards** area.
-2. Click **Edit** and then select **Mobile view** from the drop down box.
+2. Click **Edit** and then select **Mobile Layout** from the drop down box.
 3. Rearrange tiles as desired.
 
 ![A photo of the mobile phone layout with tiles rearrange to display data](05/media/image-6-26.png)
