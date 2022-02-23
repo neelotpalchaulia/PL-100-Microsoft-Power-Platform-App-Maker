@@ -461,6 +461,7 @@ In this exercise, you will create model-driven application.
 
 ![A Screenshot with an arrow pointing to area 1 selected](02-1/media/image63.png)
 
+**Hint:** Make sure **Enable Areas** option has been been checked under the **Navigation bar** to view the **Area1**.
 8. Go to the **Properties** pane, enter **Manage Problems** for **Title**, and enter **area\_manage\_problems** for **ID**.
 
 ![A screenshot of the properties pane with the title and ID changed](02-1/media/image64.png)
