@@ -107,7 +107,7 @@ In this exercise, you will create Tables, Columns, and the Relationships you ide
 
 8.  Click **+ New** and select **Table** one more time.
 
-9.  Enter **Problem Report** for **Display name**, on the **Primary Column** tab, enter **Display name** for **Title**.
+9.  Enter **Problem Report** for **Display name**, on the **Primary Column** tab, enter **Title** for **Display name**.
 
 ![A screenshot with a border around the primary name column settings: display name and name. There is also an arrow pointing to the more settings button below](02-1/media/image8.png)
 
