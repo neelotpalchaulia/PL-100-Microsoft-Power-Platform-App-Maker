@@ -580,7 +580,7 @@ In this exercise, you will create a canvas application and add it to the model-d
 
 1.  Select the label you just added and set the **Text** value.
 
-```Broken door```
+```CurrentItem.Title````
 
 1.  Set the **Height** value of the label to **60**.
 
