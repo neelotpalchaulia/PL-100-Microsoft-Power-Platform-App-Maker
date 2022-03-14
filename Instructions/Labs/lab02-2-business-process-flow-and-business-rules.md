@@ -176,7 +176,7 @@ In this exercise, you will create a business rule that will block completion of 
 
     ![A screenshot of the business rules tab](02-2/media/image12.png)
 
-1.  Make sure the **Scope** is set to **Entity** and click **Show details**.
+1.  Make sure the **Scope** is set to **Entity** and click **Show details** **Chevron**.
 
     ![A Screenshot with an arrow pointing to the drop down icon next to the text problem report: new business rule and a border around the scope set to entity on the right hand side of the page](02-2/media/image13.png)
 
