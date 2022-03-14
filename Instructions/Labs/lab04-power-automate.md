@@ -208,7 +208,7 @@ In this task, you will create the escalation flow.
 
 1.  Select **Solutions** and click to open the **Company 311** solution.
 
-1.  Click **+ New** and select **Cloud flow**.
+1.  Click **+ New** and select **Cloud flow** and click on **Automate**.
 
 1.  Search for **when a row is added** and select **When a row is added, modified, or deleted**  from **Microsoft Dataverse** connector.
 
