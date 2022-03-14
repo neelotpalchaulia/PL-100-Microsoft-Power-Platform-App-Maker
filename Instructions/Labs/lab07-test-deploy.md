@@ -221,7 +221,7 @@ In this exercise, you will export the company 311 solution and import it into a 
 
 1.  Select **Solutions** and click **Import**.
 
-1.  Click **Choose File**.
+1.  Click **Browse**.
 
 1.  Select the managed solution you exported and click **Open**.
     ![A screenshot of a border around a zip file of the managed solution you exported](07/media/image10.png)
