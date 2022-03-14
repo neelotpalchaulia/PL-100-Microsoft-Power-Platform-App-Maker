@@ -500,7 +500,7 @@ In this task, you will test the bot.
 
 1. Select **Green** team chat. Select the **Upcycle** tab.
 
-1. Search for bot. You should see the **Bot changer** the bot added to the application.
+1. Search for bot. You should see the **Bot charger** the bot added to the application.
 
     ![A screenshot with the word bot in the search bar in the upcycle tab](06/media/ex2-t1-image5.png)
 
