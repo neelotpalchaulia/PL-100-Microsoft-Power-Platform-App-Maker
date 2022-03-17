@@ -168,23 +168,23 @@ In this task, you will create a canvas application using the phone form factor.
 
 1. Select the **Tree view**, select **App** and change the **OnStart** value to the formula below. This formula will create a new variable named My Tabs and set it to a table of tab items.
 
-```javascript
-Set('My Tabs', Table( {
-	Label: "My Reports",
-	Screen: 'Main Screen',
-	Icon: "",
-	SelectedIcon:""
-},
-{
-	Label: "New Report",
-	Screen: 'New Reports Screen',
-	Icon: "",
-	SelectedIcon:""
-}
-))
-```
+	```javascript
+	Set('My Tabs', Table( {
+		Label: "My Reports",
+		Screen: 'Main Screen',
+		Icon: "",
+		SelectedIcon:""
+	},
+	{
+		Label: "New Report",
+		Screen: 'New Reports Screen',
+		Icon: "",
+		SelectedIcon:""
+	}
+	))
+	```
 
-  **IMPORTANT:** When expressions are copied, the quotes and double quotes are sometimes replaced with their "smart" counterparts which are not valid in formulas. If you copy and paste the expression above, make sure the resulting formula does not contain any errors.     
+    **IMPORTANT:** When expressions are copied, the quotes and double quotes are sometimes replaced with their "smart" counterparts which are not valid in formulas. If you copy and paste the expression above, make sure the resulting formula does not contain any errors.     
 
 1. Select the **Tab Control** in the **Main Screen** and change the **Items** value to **‘My Tabs’**.
 
@@ -264,11 +264,11 @@ In this exercise, you will allow unassigned reports to be removed. This will all
 
 1.  Change the **Visible** value to the formula below. This formula will hide the icon if the status reason is not New.
 
-`If(Text(ThisItem.'Status Reason') = "New", true, false)`
+     `If(Text(ThisItem.'Status Reason') = "New", true, false)`
 
 1.  Make sure you still have the icon selected. Change the **OnSelect** value to the formula below. This formula will remove item from the data source.
 
-`Remove('Problem Reports', ThisItem)`
+     `Remove('Problem Reports', ThisItem)`
 
 1.  Click **File** and then click **Save**.
 
@@ -324,19 +324,19 @@ In this exercise, you will add a form to submit new problem reports.
 
 1. Select the Submit Report button and change the **OnSelect** value to the formula below. This formula will create a new Row in the Problem Reports table.
 
-`SubmitForm('New Report Form') `
+    `SubmitForm('New Report Form') `
 
 1. Select the **New Report Form**.
 
 1. Change the **OnSuccess** value to the formula below. This formula will show a notification after the new Row gets created and clear the form when the record creation is successful.
 
-`Notify("Created new problem report row");NewForm('New Report Form')`
+    `Notify("Created new problem report row");NewForm('New Report Form')`
 
 1. Select the **New Report Screen**.
 
 1. Set the **OnVisible** value to the formula below. This formula will create a new form when the screen becomes visible.
 
-`NewForm('New Report Form')`
+    `NewForm('New Report Form')`
 
 1. Click **File** and then click **Save**.
 
@@ -492,13 +492,13 @@ In this exercise, you will create a canvas application and add it to the model-d
 
 1.   Select the **Controls** tab and click **Add control**.
 
-![A Screenshot with an arrow pointing to the add control button](03-2/media/ex_7_addcontrol.png)
+        ![A Screenshot with an arrow pointing to the add control button](03-2/media/ex_7_addcontrol.png)
 
 1.   Select **Canvas app** and click **Add**.
 
 1.   Click **Customize**.
 
-![A Screenshot with an arrow pointing to the customize button](03-2/media/ex_7_customizeapp.png)
+        ![A Screenshot with an arrow pointing to the customize button](03-2/media/ex_7_customizeapp.png)
 
 1.   A new browser window or tab should open and load the app studio.
 
@@ -536,16 +536,16 @@ In this exercise, you will create a canvas application and add it to the model-d
 
 1.  Select the **OnStart** of the **App** object and set it to the formula below. This formula will create two variables one to keep track of the current index of the reports table and another to keep track of the current item row.
 
-```Set(currentIndex,1);Set(CurrentItem, Last(FirstN([@ModelDrivenFormIntegration].Item.'Problem Reports',currentIndex)))```
+    ```Set(currentIndex,1);Set(CurrentItem, Last(FirstN([@ModelDrivenFormIntegration].Item.'Problem Reports',currentIndex)))```
 
-![A screenshot with a border around the app object changed to onstart and set to the aforementioned formula. There is also another border around the app button selected](03-2/media/ex_7_apponstart.png)
+   ![A screenshot with a border around the app object changed to onstart and set to the aforementioned formula. There is also another border around the app button selected](03-2/media/ex_7_apponstart.png)
 
 1.  Select the **Insert** insert tab, click **Media**, and select **Image**.
 	![A screenshot of a border around the image button](03-2/media/ex_7_insertimage.png)
 
 1.  Select the image you just added and set the **Image** value to the formula below.
 
-```CurrentItem.Photo```
+     ```CurrentItem.Photo```
 
 1.   Click on the **...** button of the **App** object and select **Run OnStart**.
 
@@ -559,11 +559,11 @@ In this exercise, you will create a canvas application and add it to the model-d
 
 1. Set the **Width** value of the image to the formula below.
 
-```Parent.Width```
+    ```Parent.Width```
 
 1. Set the **Height** value of the image to the formula below.
 
-```Parent.Height```
+    ```Parent.Height```
 
 1. Go to the **Properties** pane and select **Fill** for **Image position**.
 
@@ -580,7 +580,7 @@ In this exercise, you will create a canvas application and add it to the model-d
 
 1.  Select the label you just added and set the **Text** value.
 
-```CurrentItem.Title````
+     ```CurrentItem.Title````
 
 1.  Set the **Height** value of the label to **60**.
 
@@ -588,11 +588,11 @@ In this exercise, you will create a canvas application and add it to the model-d
 
 1.  Set the **Y** value of the label to formula below.
 
-```Parent.Height -Self.Height```
+     ```Parent.Height -Self.Height```
 
 1.  Set the the **Width** value of the label to formula below.
 
-```Parent.Width```
+     ```Parent.Width```
 
 1.  Set the **Fill** value of the label to **RGBA(0, 108, 191, .5)**.
 
@@ -600,7 +600,7 @@ In this exercise, you will create a canvas application and add it to the model-d
 
 1.  Set the **Align** value to the formula below.
 
-```Align.Center```
+     ```Align.Center```
 
 1. The label should now look like the image below. If you don't see the title, click on the **...** button of the **App** object and **Run OnStart** again.
 
@@ -624,19 +624,19 @@ In this exercise, you will create a canvas application and add it to the model-d
 
 1.  Select the **Next icon** and set the **OnSelect** value to the formula below.
 
-```UpdateContext({CurrentItem: Last(FirstN([@ModelDrivenFormIntegration].Item.'Problem Reports',currentIndex))});Set(currentIndex, currentIndex +1)```
+     ```UpdateContext({CurrentItem: Last(FirstN([@ModelDrivenFormIntegration].Item.'Problem Reports',currentIndex))});Set(currentIndex, currentIndex +1)```
 
 1.  Set the **DisplayMode** value of the **Next icon** to the formula below.
 
-```If(currentIndex = CountRows([@ModelDrivenFormIntegration].Item.'Problem Reports'), DisplayMode.Disabled, DisplayMode.Edit)```
+     ```If(currentIndex = CountRows([@ModelDrivenFormIntegration].Item.'Problem Reports'), DisplayMode.Disabled, DisplayMode.Edit)```
 
 1.  Select the **Back icon** and set the **OnSelect** value to the formula below.
 
-```UpdateContext({CurrentItem: Last(FirstN([@ModelDrivenFormIntegration].Item.'Problem Reports',currentIndex))});Set(currentIndex, currentIndex -1);```
+     ```UpdateContext({CurrentItem: Last(FirstN([@ModelDrivenFormIntegration].Item.'Problem Reports',currentIndex))});Set(currentIndex, currentIndex -1);```
 
 1.  Set the **DisplayMode** value of the **Back icon** to the formula below.
 
-```If(currentIndex > 1, DisplayMode.Edit, DisplayMode.Disabled)```
+     ```If(currentIndex > 1, DisplayMode.Edit, DisplayMode.Disabled)```
 
 1. Click **File** and then click **Save**.
 
