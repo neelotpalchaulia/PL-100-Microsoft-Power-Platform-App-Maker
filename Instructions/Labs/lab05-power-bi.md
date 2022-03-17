@@ -269,8 +269,8 @@ This will open the published report in the browser.
 
 1. If you have a mobile device, scan the code using a QR scanner app available on both iOS and Android platforms.
 
-> [!NOTE]
-> To access the dashboard and report you will have to sign in on the phone as the same user.
+   > [!NOTE]
+   > To access the dashboard and report you will have to sign in on the phone as the same user.
 
 1. Navigate and explore reports and dashboards on a mobile device. 
 
@@ -421,11 +421,11 @@ In this exercise, you will add embedded canvas application to Power BI as a visu
 
 1. Resize and reposition the visuals as shown below.
 
-      ![Power BI visuals - screenshot](05/media/image-6-powerbivisuaLs.png)
+     ![Power BI visuals - screenshot](05/media/image-6-powerbivisuaLs.png)
 
 1. Click on an empty area of the canvas, go to the **Visualizations** and click **Power Apps for Power BI**.
 
-      ![Power Apps for Power BI - screenshot](05/media/image-6-powerappsforpowerbi.png)
+     ![Power Apps for Power BI - screenshot](05/media/image-6-powerappsforpowerbi.png)
 
 1. Select the Power BI visual you just created, expand the **lh_problemreport** table select **Problem Report** column.
 
@@ -459,7 +459,7 @@ In this exercise, you will add embedded canvas application to Power BI as a visu
 
 1.  Select **Data** and click **Add data**.
 
-      ![Add data - screenshot](05/media/ex_5_adddata.png)
+        ![Add data - screenshot](05/media/ex_5_adddata.png)
 
 1.  Select the **Problem reports** table.
 
@@ -475,7 +475,7 @@ In this exercise, you will add embedded canvas application to Power BI as a visu
 
 1.   Select the **Insert** tab, click **Media**, and select **Image**.
 
-      ![Insert image- screenshot](05/media/ex_5_insertimaGe.png)
+        ![Insert image- screenshot](05/media/ex_5_insertimaGe.png)
 
 1.  Set the **Image** value to the formula below.
 
