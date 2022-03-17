@@ -108,7 +108,7 @@ In this task, you will create a flow that send notification when the status of p
 
 1. Type **Current Status:** go to the Dynamic pane, select the **Expression** tab, paste the expression below, and click **OK**. This expression will show the label of the choice instead of the value.
 
-`triggerOutputs()?['body/_statuscode_label']`
+    `triggerOutputs()?['body/_statuscode_label']`
 
 1. Click on the **… Menu** button of the new step and select **Rename**.
 
@@ -264,15 +264,15 @@ In this task, you will create the escalation flow.
 
 1. Paste the markdown text below in the **Details** Column.
 
-> \#\# URGENT Approval Required
->
-> This is \*\*very\*\* expensive item with the estimated cost of
+    > \#\# URGENT Approval Required
+    >
+    > This is \*\*very\*\* expensive item with the estimated cost of
 
 1. Place your cursor after cost of, go to the Dynamic content pave, select the Expression tab, paste the expression below, and click **OK**.
 
-`formatNumber(triggerOutputs()?['body/lh_estimatedcost'], 'C2')`
+    `formatNumber(triggerOutputs()?['body/lh_estimatedcost'], 'C2')`
 
-![A Screenshot with an arrow pointing to the ok button in the expression tab under the pasted expression](04/media/image14.png)
+    ![A Screenshot with an arrow pointing to the ok button in the expression tab under the pasted expression](04/media/image14.png)
 
 1. Click **Add an action**.
 
@@ -405,15 +405,15 @@ In this task you will replace the approval sent by email with the adaptive card.
 
 1. Paste the markdown text below in the **Details** Column.
 
-> \*\*{title}\*\*
->
-> 
->
-> {details}
->
-> 
->
-> This is a \_very\_ expensive item with the estimated cost of
+    > \*\*{title}\*\*
+    >
+    > 
+    >
+    > {details}
+    >
+    > 
+    >
+    > This is a \_very\_ expensive item with the estimated cost of
 
 1. Select **{title}** placeholder, go to the **Dynamic content** pane, locate and select **Title** Column from **When a problem report is created or updated** step.
 
@@ -421,7 +421,7 @@ In this task you will replace the approval sent by email with the adaptive card.
 
 1. Place your cursor after **cost of** , go to the **Dynamic content** pane, select the **Expression** tab, paste the expression below, and click OK.
 
-`formatNumber(triggerOutputs()?['body/lh_estimatedcost'], 'C2')`
+    `formatNumber(triggerOutputs()?['body/lh_estimatedcost'], 'C2')`
 
 1. Your step should look like the following:
 
