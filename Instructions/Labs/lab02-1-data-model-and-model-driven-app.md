@@ -466,15 +466,15 @@ In this exercise, you will create model-driven application.
 
 1. Select **Save and Continue**.
 
-  **Note:** If the pop-ups are not enabled on the browser, the classic view will not open. Make sure that you have enabled open popups and redirects on the browser tab. 
+   **Note:** If the pop-ups are not enabled on the browser, the classic view will not open. Make sure that you have enabled open popups and redirects on the browser tab. 
 
-   ![Select Save and continue - screenshot](02-1/media/image103.png)
+    ![Select Save and continue - screenshot](02-1/media/image103.png)
 
 1. Click **Edit** on the Site Map.
 
     ![A Screenshot with an arrow pointing to the pencil icon to edit the site map](02-1/media/image70.png)
 
-1.   Click **+ Add** and select **Area**.
+1. Click **+ Add** and select **Area**.
 
    ![A Screenshot with an arrow pointing to the add button and a border around the area button](02-1/media/image96.png)
 
@@ -508,7 +508,7 @@ In this exercise, you will create model-driven application.
 
 1.   Select **Table** for **Content type**, **Building** for **Table** and click **Add**.
 
-  ![A screenshot of the New Subarea window and the content type changed](02-1/media/image74.png)
+     ![A screenshot of the New Subarea window and the content type changed](02-1/media/image74.png)
 
 1.  Select the **Taxonomy** group, click **+ Add** and select **Subarea** again.
 
