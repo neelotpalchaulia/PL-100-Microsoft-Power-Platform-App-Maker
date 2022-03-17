@@ -224,13 +224,13 @@ In this task, you will edit the application by filters for gadgets that are avai
 
 1.  Go to the formula bar and change the value of the Image to the formula below.
 
-```ThisItem.Photo```
+     ```ThisItem.Photo```
 
-   ![A screenshot of the relevant command put into the formula bar](03-1/media/ex2-t4-image8.png)
+    ![A screenshot of the relevant command put into the formula bar](03-1/media/ex2-t4-image8.png)
 
-1.   Select the **Data** tab, click on the **...More actions** button of the **Gadgets** table and select **Refresh**.
+1.  Select the **Data** tab, click on the **...More actions** button of the **Gadgets** table and select **Refresh**.
 
-   ![A Screenshot with an arrow pointing to the ellipsis icon for more actions and a border around the refresh button](03-1/media/ex2-t4-image9.png)
+    ![A Screenshot with an arrow pointing to the ellipsis icon for more actions and a border around the refresh button](03-1/media/ex2-t4-image9.png)
 
 1.  Click **Save** and wait for the app to be saved.
 
@@ -264,9 +264,9 @@ In this task, you will add buttons that will let users reserve and/or pick up it
 
 1. Select **App** from the Tree view and set the **OnStart** value to the formula below. This formula will create a variable named CurrentUser and set its value to the first user that matches the logged in user's email.
 
-```Set(CurrentUser, First(Filter(Users, 'Primary Email' = User().Email)))```
+    ```Set(CurrentUser, First(Filter(Users, 'Primary Email' = User().Email)))```
 
-   ![A screenshot with a border around app selected in the screens tab on the left and another border around the formula bar with the relevant command typed in](03-1/media/ex2-t5-image1.png)
+    ![A screenshot with a border around app selected in the screens tab on the left and another border around the formula bar with the relevant command typed in](03-1/media/ex2-t5-image1.png)
 
 1. Select App, select **ellipsis** and select **Run OnStart**.
 
@@ -290,15 +290,15 @@ In this task, you will add buttons that will let users reserve and/or pick up it
 
 1. Set the **DisplayMode** value of the Reserve Button to the formula below. This formula will disable the button if the selected item is not available.
 
-```If(BrowseGallery1.Selected.Availability = 'Availability (Gadgets)'.Available, DisplayMode.Edit, DisplayMode.Disabled)```
+   ```If(BrowseGallery1.Selected.Availability = 'Availability (Gadgets)'.Available, DisplayMode.Edit, DisplayMode.Disabled)```
 
 1. Set the **OnSelect** value of the Reserve Button to the formula below. This formula will update the selected record by setting the reserved by value to the current user and the availability value to reserved.
 
-```Patch(Gadgets, BrowseGallery1.Selected, {Availability: 'Availability (Gadgets)'.Reserved, 'Reserved by': CurrentUser})```
+   ```Patch(Gadgets, BrowseGallery1.Selected, {Availability: 'Availability (Gadgets)'.Reserved, 'Reserved by': CurrentUser})```
 
 1. Set the **Visible** value of the Reserve Button to the formula below. This formula will hide the button if the user is creating a new record.
 
-```If(EditForm1.Mode = FormMode.View, true, false)```
+   ```If(EditForm1.Mode = FormMode.View, true, false)```
 
 1. Select the **RightContainer** again.
 
@@ -316,19 +316,19 @@ In this task, you will add buttons that will let users reserve and/or pick up it
 
 1. Set the **DisplayMode** value of the Picked Up Button to the formula below. This formula will disable the button if the selected item is reserved and the reserved by user is not the current user.
 
- ```If(BrowseGallery1.Selected.Availability = 'Availability (Gadgets)'.Reserved And BrowseGallery1.Selected.'Reserved by'.'Primary Email' <> CurrentUser.'Primary Email', DisplayMode.Disabled, DisplayMode.Edit)```
+   ```If(BrowseGallery1.Selected.Availability = 'Availability (Gadgets)'.Reserved And BrowseGallery1.Selected.'Reserved by'.'Primary Email' <> CurrentUser.'Primary Email', DisplayMode.Disabled, DisplayMode.Edit)```
 
 1. Set the **OnSelect** value of the Picked Up Button to the formula below. This formula will update the selected record by setting the reserved by value to the current user and the availability value to picked up. The second formula will select the first item of the gallery.
 
-```Patch(Gadgets, BrowseGallery1.Selected, {Availability: 'Availability (Gadgets)'.'Picked up', 'Reserved by': CurrentUser});Select(BrowseGallery1,1)```
+   ```Patch(Gadgets, BrowseGallery1.Selected, {Availability: 'Availability (Gadgets)'.'Picked up', 'Reserved by': CurrentUser});Select(BrowseGallery1,1)```
 
 1. Set the **Visible** value of the Picked Up Button to the formula below. This formula will hide the button if the user is creating a new record.
 
-```If(EditForm1.Mode = FormMode.View, true, false)```
+   ```If(EditForm1.Mode = FormMode.View, true, false)```
 
- 1. Click **Save** to save your changes.
+1. Click **Save** to save your changes.
  
- 1. Do not navigate away from this page.
+1. Do not navigate away from this page.
 
 
 #### Task 6: Add search
@@ -360,11 +360,11 @@ In this task, you will add search capability to your application.
 
 1.  Select the **Search Box** and set **OnChange** value to the formula below. This formula will reset the gallery.
 
-```Reset(BrowseGallery1)```
+    ```Reset(BrowseGallery1)```
 
 1. Select the **BrowseGallery** and change the **Items** formula to the formula below. The formula is incomplete, we will complete it in the next step.
 
-```Filter(Search(Gadgets, 'Search Box'.Value, ), Availability <> 'Availability (Gadgets)'.'Picked up')```
+    ```Filter(Search(Gadgets, 'Search Box'.Value, ), Availability <> 'Availability (Gadgets)'.'Picked up')```
 
 1. Place your cursor after **'Search Box'.Value** and type name. You should see a suggestion with crxxx_name, select the suggested column.
 
