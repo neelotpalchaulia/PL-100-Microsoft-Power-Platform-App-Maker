@@ -535,7 +535,7 @@ In this task, you will publish the bot you created.
 
 1.  Click **Publish**.
 
-   ![A Screenshot with an arrow pointing to the publish button](06/media/ex2-t2-image3.png)
+     ![A Screenshot with an arrow pointing to the publish button](06/media/ex2-t2-image3.png)
 
 1. Click **Publish** again.
 
