@@ -46,7 +46,7 @@ In this task, you will add a lookup Column to the problem report table.
 
 1.  Enter **Assign to** for **Display name**, select **Lookup** for **Data type**, select **User** for **Related table**, and click **Done**.
 
-   ![A screenshot of the assign to panel with all relevant values in each field](02-2/media/image1.png)
+    ![A screenshot of the assign to panel with all relevant values in each field](02-2/media/image1.png)
 
 1.  Click **Save Table**.
 
