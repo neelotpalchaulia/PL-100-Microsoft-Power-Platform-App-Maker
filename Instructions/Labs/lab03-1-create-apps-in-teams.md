@@ -100,7 +100,7 @@ In this task, you will create a table and columns.
 ![A Screenshot with an arrow pointing to the with data option and a box around the create new table button from the select a data source prompt](03-1/media/ex2-t2-image2.png)
 
 2. Enter **Gadget** for Table name and click **Create**.
-3. Click **+ Add column**.
+3. Click **+ New column**.
 4. Enter **Description** for Name select **Text** for Type, and click to expand the **Advanced options** section.
 
 ![A Screenshot with an arrow pointing to the advanced options button](03-1/media/ex2-t2-image3.png)
