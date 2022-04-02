@@ -693,7 +693,7 @@ In this exercise, you will import sample data into the environment. Rows are imp
 
 1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in the correct environment.
 
-2.  Select **Apps** and click to open the **Company 311 Admin** application.
+2.  Select **Apps** and click to open the **Company 311 Admin** model-driven application.
 
 3.  Select Problem Reports. You should see at least three new Rows.
 
