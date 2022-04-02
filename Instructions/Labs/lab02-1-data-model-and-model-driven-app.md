@@ -676,6 +676,7 @@ In this exercise, you will import sample data into the environment. Rows are imp
 ![A Screenshot with an arrow pointing to the arrow icon to go back](02-1/media/image92.png)
 
 13. Click **Run**.
+**Hint:** If the **Run** option is disabled then make sure the flow has been enabled by selecting the **Turn ON** option.
 
 14. Click **Run flow**.
 
