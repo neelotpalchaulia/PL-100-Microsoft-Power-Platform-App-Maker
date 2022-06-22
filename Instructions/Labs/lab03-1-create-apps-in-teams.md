@@ -106,7 +106,7 @@ In this task, you will create a table and columns.
 ![A Screenshot with an arrow pointing to the advanced options button](03-1/media/ex2-t2-image3.png)
 
 5. Change the **Max length** to **500** and click **Create**.
-6. Click **+ Add column** again.
+6. Click **+ New column** again.
 7. Enter **Availability** for Name, select **Choice** for Type, enter **Available** for the first choice and click **+ New choice**.
 
 ![A Screenshot with an arrow pointing to the new choice button](03-1/media/ex2-t2-image4.png)
