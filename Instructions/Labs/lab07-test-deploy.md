@@ -131,6 +131,14 @@ In this exercise, you use test studio to create test case for submitting a probl
     ```; Navigate('New Reports Screen')```
 
     ![A screenshot with a border around the relevant formula added to the existing formula](07/media/image7.png)
+    
+**Note:** Navigate in App Onstart has been retired, to enable it perform the following steps:
+    1. Select **File**
+    2. Select **Settings**
+    3. Select **Upcoming Features**
+    4. Select **Retired**
+    5. Turn on the **Enable the Navigate function in App.onstart** feature
+    6. Close the **Settings** pane.
 
 9. Click **File** and select **Save**.
 
