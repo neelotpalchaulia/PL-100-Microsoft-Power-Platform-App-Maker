@@ -184,14 +184,14 @@ In this task, you will edit the status reason Column of the problem report Table
 
 1.  Make sure you are in the **Company 311** solution.
 
-2.  Click to open the **Problem Report** Table.
-
-3.  Click on the **… More commands** button and select **Switch to classic**.
+2.  Click on the **… More commands** button and select **Switch to classic**.
 
 > [!NOTE]  
 > You are switching to classic because the modern solution explorer does not support editing status reason yet but will in the future.
 
 ![A Screenshot with an arrow pointing to the ellipses icon for more options next to AI builder and a border around the switch to classic button](02-1/media/image19.png)
+
+3.  Double-click to open the **Problem Report** Table.
 
 4.  Select **Fields** and look for **Status Reason** in the Display Name column, double click to open the **Status Reason** Column.
 
