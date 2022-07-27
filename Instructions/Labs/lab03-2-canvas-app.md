@@ -299,7 +299,7 @@ In this exercise, you will add a form to submit new problem reports.
 
 #### Task 1: Add new report form
 
-1.  Select the **New Report Screen**, go to the **Insert** tab, click **Form**, and select **Edit**.
+1.  Select the **New Reports Screen**, go to the **Insert** tab, click **Form**, and select **Edit**.
 
 ![A screenshot of the inset tab and forms button selected](03-2/media/image27.png)
 
