@@ -329,7 +329,7 @@ In this exercise, you will add a form to submit new problem reports.
 
 ![A screenshot of the form resized and reposition for room at the bottom for a button](03-2/media/image31.png)
 
-11. Select the **New Report Screen**.
+11. Select the **New Reports Screen**.
 
 12. Go to the **Insert** tab and select **Button**.
 
