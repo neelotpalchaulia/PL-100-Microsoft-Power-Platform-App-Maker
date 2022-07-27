@@ -349,7 +349,7 @@ In this exercise, you will add a form to submit new problem reports.
 
 `Notify("Created new problem report row");NewForm('New Report Form')`
 
-19. Select the **New Report Screen**.
+19. Select the **New Reports Screen**.
 
 20. Set the **OnVisible** value to the formula below. This formula will create a new form when the screen becomes visible.
 
