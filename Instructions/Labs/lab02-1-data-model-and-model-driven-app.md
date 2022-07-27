@@ -135,7 +135,7 @@ In this task, you will add Columns to the Problem Report Table.
 
 ![A screenshot of a border around the problem report button](02-1/media/image12.png)
 
-4.  Select the **Columns** tab and click **+ Add Column**.
+4.  There are many ways to add a new column in the table. Select the **+** icon on the right hand side of the menubar under the **Problem report columns and data** or by selecting the **Edit** option. For this lab purpose select the chevron next to the **Edit** option under the **Problem report columns and data** and select the **Edit**. A new page will open with **Problem Reports** edit fields. Select **+ New Column** from the top menu.
 
 ![A Screenshot with an arrow pointing to the add column button](02-1/media/image13.png)
 
@@ -143,40 +143,33 @@ In this task, you will add Columns to the Problem Report Table.
 
 ![A Screenshot with an arrow pointing to the advanced options at the bottom of the location window](02-1/media/image14.png)
 
-6.  Change **Max length** to **150** and click **Done**.
+6.  Change **Max length** to **150** and click **Save**.
 
 ![A screenshot showing the max length at a value of 150](02-1/media/image15.png)
 
-7.  Click **+ Add Column** again.
+7.  Click **+ New Column** again from the top menu.
 
-8.  Enter **Details** for **Display name**, select **Multiline text** for **Data type**, make the Column **Required**, and click **Done**.
+8.  Enter **Details** for **Display name**, select **Text >> Multiline text >> Plain Text** for **Data type**, make the Column **Business Required**, and click **Save**.
 
 ![A screenshot of the details window with the relevant values in each field](02-1/media/image16.png)
 
-9.  Click **+ Add Column** again.
+9.  Click **+ New Column** again.
 
-10. Enter **Photo** for **Display name**, select **Image** for **Data type**, and click **Done**.
+10. Enter **Photo** for **Display name**, select **File >> Image** for **Data type**, and click **Save**.
 
-11. Click **+ Add Column**.
+11. Click **+ New Column**.
 
-12. Enter **Resolution** for **Display name**, select **Multiline text** for **Data type**, and click **Done**.
+12. Enter **Resolution** for **Display name**, select **Multiline text** for **Data type**, and click **Save**.
 
-13. Click **+ Add Column**.
+13. Click **+ New Column**.
 
-14. Enter **Resolved On** for **Display name**, select **Date and time** for **Data type**, and click **Done**.
+14. Enter **Resolved On** for **Display name**, select **Date and time** for **Data type**, and click **Save**. Select the **Back** from the top menu option.
 
-15. Click **Default** Filter and select **Custom**. (For small screen devices, default dropdown goes into the **ellipsis**).
-![A Screenshot with an arrow pointing to the default dropdown menu and a border around the custom button](02-1/media/image17.png)
+15. Go back to the **Solutions**, click on the solution name **Company 311**.
 
-16. You should now see the 5 new Columns you created. Click **Save Table**.
+16. Click **Publish all customizations** and wait for the publishing to complete.
 
-![A screenshot showing the 5 new columns you have created: details, location, photo, resolution, and resolved on](02-1/media/image18.png)
-
-17. Go back to the **Solutions**, click on the solution name **Company 311**.
-
-18. Click **Publish all customizations** and wait for the publishing to complete.
-
-19. Do not navigate away from this page until all customizations have been published successfully.
+17. Do not navigate away from this page until all customizations have been published successfully.
 
 #### Task 3: Edit status reason Choice
 
