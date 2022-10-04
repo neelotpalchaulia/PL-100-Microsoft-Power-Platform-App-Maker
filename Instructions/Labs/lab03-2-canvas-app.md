@@ -41,7 +41,7 @@ In this module you will design and build a canvas app for the company employees 
 
   ### Exercise 1: Create canvas application
 
-In this exercise, you will import a solution with shared components, create a view for the problem report Table and create a canvas application.
+In this exercise, you will import a solution with shared components, create a view for the Problem Report table and create a canvas application.
 
 #### Task 1: Import component library solution
 
@@ -98,7 +98,7 @@ In this task, you will create a view that will show the current user’s problem
 
 2.  Select **Solutions** and click to open the **Company 311** solution.
 
-3.  Locate and click to open the **Problem Reports** Table.
+3.  Locate and click to open the **Problem Reports** table.
 
 4.  Select the **Views** tab and click to open the **Active Problem Reports** view.
 

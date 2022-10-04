@@ -214,7 +214,7 @@ In this task, you will create many-to-one relationships between the Problem Repo
 
 ### Exercise 3: Configure form and views
 
-In this exercise, you will configure form and views for the problem report Table.
+In this exercise, you will configure form and views for the Problem Report table.
 
 #### Task 1: Configure form
 

@@ -183,11 +183,11 @@ In this task, you will test the notify problem creator flow.
 
 ### Exercise 2: Build escalation flow
 
-In this exercise, you create add two new Columns to the problem report Table and create escalation flow.
+In this exercise, you create add two new columns to the Problem Report table and create escalation flow.
 
 #### Task 1: Add Columns
 
-In this task, you add a new Columns to the problem report Table.
+In this task, you add a new Columns to the Problem Report table.
 
 1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in the correct environment.
 

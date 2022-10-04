@@ -52,7 +52,7 @@ In this exercise, you will create security roles for users.
 2.  Select **Solutions** and click to open the **Company 311** solution.
 3.  Click **+ New >> Security** and select **Security Role**.
 4.  Enter **Company 311 User** for **Role Name** and select the **Custom Entities** tab.
-5.  Set the read privilege of the **Building** Table to **Organization**.
+5.  Set the read privilege of the **Building** table to **Organization**.
 6.  Set the read privilege of the **Problem Report** Table to **User**.
 7. The read privileges for the **Building** and **Problem Report** Tables should now look like the image below. Click **Save Create New**.
 
@@ -132,6 +132,7 @@ In this exercise, you use test studio to create test case for submitting a probl
 
     ![A screenshot with a border around the relevant formula added to the existing formula](07/media/image7.png)
     
+
 **Note:** Navigate in App Onstart has been retired, to enable it perform the following steps:
     1. Select **File**
     2. Select **Settings**

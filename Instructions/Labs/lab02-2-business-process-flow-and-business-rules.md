@@ -53,27 +53,23 @@ In this task, you will add a lookup Column to the problem report table.
 
 2.  Select **Solutions** and click to open the **Company 311** solution.
 
-3.  Locate and click to open the **Problem Report** Table.
+3.  Locate and click to open the **Problem Report** table.
 
-4.  Make sure you have the **Columns** tab and click **+ Add Column**.
+4.  Click **+ New**, then click **Column**.
 
-5.  Enter **Assign to** for **Display name**, select **Lookup** for **Data type**, select **User** for **Related table**, and click **Done**.
+5.  Enter **Assign to** for **Display name**, select **Lookup** for **Data type**, select **User** for **Related table**, and click **Save**.
 
-![A screenshot of the assign to panel with all relevant values in each field](02-2/media/image1.png)
+![A screenshot of the column properties panel for Assign To column with all relevant values in each field](02-2/media/image1.png)
 
-6.  Click **Save Table**.
+6.  Select **All** in the **Objects** navigation tree.
 
-7.  Go back to the **Solutions** and click on the solution name **Company 311**.
-
-![A Screenshot with an arrow pointing to the solution name](02-2/media/image2.png)
-
-8.  Click **Publish all customizations** and wait for the publishing to complete.
+7.  Click **Publish all customizations** and wait for the publishing to complete.
 
 #### Task 2: Create business process flow
 
-In this task, you will create a business process flow for the problem report Table.
+In this task, you will create a business process flow for the Problem Report table.
 
-1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) page and make sure you are in the correct environment.
+1.  Locate and click to open the **Problem Report** table.
 
 2.  Select **Flows**.
 
