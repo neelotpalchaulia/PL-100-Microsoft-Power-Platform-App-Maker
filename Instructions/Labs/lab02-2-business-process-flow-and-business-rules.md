@@ -6,6 +6,7 @@ lab:
 
 > [!NOTE]
 > Effective November 2020:
+>
 > - Common Data Service has been renamed to Microsoft Dataverse. [Learn more](https://aka.ms/PAuAppBlog)
 > - Some terminology in Microsoft Dataverse has been updated. For example, *entity* is now *table* and *field* is now *column*. [Learn more](https://go.microsoft.com/fwlink/?linkid=2147247)
 >
@@ -69,15 +70,19 @@ In this task, you will add a lookup Column to the problem report table.
 
 In this task, you will create a business process flow for the Problem Report table.
 
-1.  Locate and click to open the **Problem Report** table.
+1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) page and make sure you are in the correct environment.
 
-2.  Select **Flows**.
+2.  Select **Solutions** and click to open the **Company 311** solution.
 
-3.  Select the **Business process flows** tab and click **+ New**.
+3.  Click **+ New > Automation > Process > Business process flow**.
 
-![A Screenshot with an arrow pointing to the new button](02-2/media/image3.png)
+![image-20221004145025636](02-2/media/image2.png)
 
-4.  Enter **Problem resolution process** for **Flow Name**, select **Problem Report** for **Table**, and click **Create**.
+
+
+4. In the **New busines process flow** panel enter **Problem resolution process** for **Display name**, select **Problem Report** for **Table**, and click **Create**.
+
+![A screenshot of New business process flow panel with relevant field values.](02-2/media/image3.png)
 
 5.  Select the **New stage**, go to the **Properties** pane, change the **Display Name** to **Route**, and click **Apply**.
 
@@ -141,7 +146,7 @@ In this task, you will create a business process flow for the Problem Report tab
 
 29. The Business process flow should now look like the image below. Click **Save**.
 
-![A Screenshot of a Business Process Designer with an arrow pointing to the save button](02-2/media/image9.png)
+![A screenshot of a Business Process Designer with an arrow pointing to the save button](02-2/media/image9.png)
 
 30. Click **Activate**.
 
@@ -153,23 +158,7 @@ In this task, you will create a business process flow for the Problem Report tab
 
 33. Close the process editor browser window or tab.
 
-#### Task 3: Add business process flow to solution
-
-In this task, you will add the business process flow you created to the Company 311 solution.
-
-1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) page and make sure you are in the correct environment.
-
-2.  Select **Solutions** and click to open the **Company 311** solution.
-
-3.  Click **Add existing >> Automation** and select **Process**.
-
-![A Screenshot with an arrow pointing to the drop down icon next to the add existing button and a border around the process button](02-2/media/image10.png)
-
-4.  Search for problem, select **Problem resolution process**, and click **Add**.
-
-![A screenshot of the add existing processes window with problem resolution process selected](02-2/media/image11.png)
-
-5.  Click **Publish all customizations** and wait for the publishing to complete.
+34. Click **Done**.
 
 ### Exercise 2: Create business rule
 
@@ -185,7 +174,7 @@ In this exercise, you will create a business rule that will block completion of 
 
 4.  Select the **Business rules** tab and click **Add business rule**.
 
-![A screenshot of the business rules tab](02-2/media/image12.png)
+![A screenshot of the flyout New menu with the cursor positioned over the highlighted Business rule entry](02-2/media/image12.png)
 
 5.  Make sure the **Scope** is set to **Entity** and click **Show details** chevron.
 
@@ -259,11 +248,10 @@ In this exercise, you will test the business process flow and the business rule 
 
 6. Enter **North-end** for **Location**, select **Facility Maintenance** for **Department** and select the **Next stage** stage.
 
-   > [!NOTE]
-   >
-   > If the Next Stage option is not visible, then refresh the page.
-  
-   ![A screenshot of the drop down from the route stage with the relevant options selected and typed in](02-2/media/image24.png)
+> [!NOTE]
+>If the Next Stage option is not visible, then refresh the page.
+
+![A screenshot of the drop down from the route stage with the relevant options selected and typed in](02-2/media/image24.png)
 
 7. Select a user for **Assign to** and click **Next stage**.
 
@@ -278,6 +266,4 @@ In this exercise, you will test the business process flow and the business rule 
 ![A screenshot of the form without the error message after resolution](02-2/media/image26.png)
 
 11. **Save** the Row.
-
-Click **Next** to advance to the next lab.
 
