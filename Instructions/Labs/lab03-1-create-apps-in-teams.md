@@ -16,7 +16,7 @@ Lab 03.1: Create apps in Teams
 
 ## Scenario
 
-It is not uncommon for organizations to accumulate unused computer Peripherals, power cords and other electronics. Your organization is taking steps to reuse existing devices and computer peripherals before ordering new equipment.
+It is not uncommon for organizations to accumulate unused computer peripherals, power cords and other electronics. Your organization is taking steps to reuse existing devices and computer peripherals before ordering new equipment.
 
 You are asked to create an application where users can post devices they no longer need and browse through what their colleagues posted.
 
@@ -56,7 +56,7 @@ In this task you will create a new team
 
 ![A screenshot with the word green in the team name field](03-1/media/ex1-t1-image2.png)
 
-6. Click **Skip**.
+6. Click **Skip** on **Add members to Green** screen.
 7. You should now have a new team named **Green**.
 
 ![A screenshot of the microsoft teams page with your new team named green now under your teams](03-1/media/ex1-t1-image3.png)
@@ -86,37 +86,46 @@ In this task, you will provision Dataverse for Teams by creating an application.
 
 2. Select Power Apps and click **Start now**.
 
-![A screenshot of the power apps home page](03-1/media/ex2-t1-image1.png)
+![A screenshot of the power apps for teams home page](03-1/media/ex2-t1-image1.png)
 
 3. Select the **Green** team you created and click **Create**.
-4. Enter **Upcycle** for App name and click **Save**.
-5. Do not navigate away from this page.
+4. Wait until provisioning is complete.
+5. Click **New > App**. 
+6. Enter **Upcycle** for App name and click **Save**.
+7. Do not navigate away from this page.
 
 #### Task 2: Create table
 In this task, you will create a table and columns.
 
-1. Click **With data** and select **+ Create new table**.
+1. Click **With data** and select **Create new table**.
 
-![A Screenshot with an arrow pointing to the with data option and a box around the create new table button from the select a data source prompt](03-1/media/ex2-t2-image2.png)
+![A screenshot with data option selected and cursor pointing to the create new table link from the select a data source prompt](03-1/media/ex2-t2-image2.png)
 
 2. Enter **Gadget** for Table name and click **Create**.
 3. Click **+ New column**.
-4. Enter **Description** for Name select **Text** for Type, and click to expand the **Advanced options** section.
+4. Enter **Description** for **Display name**, select **Text** for **Data type** (displayed as **Single line of text**), and click to expand the **Advanced options** section.
 
-![A Screenshot with an arrow pointing to the advanced options button](03-1/media/ex2-t2-image3.png)
+![A screenshot with the cursor pointing to the advanced options link](03-1/media/ex2-t2-image3.png)
 
-5. Change the **Max length** to **500** and click **Create**.
+5. Change the **Maximum character count** to **500** and click **Save**.
 6. Click **+ New column** again.
-7. Enter **Availability** for Name, select **Choice** for Type, enter **Available** for the first choice and click **+ New choice**.
+7. Enter **Availability** for Name, select **Choice** for Type, and click **+ New choice** under **Sync this choice with** dropdown box. That will open a window to create a global choice to sync with.
+8. Enter **Availability** for **Display name**.
+9. Enter **Available** for the first choice and click **+ New choice**.
+10. Enter **Reserved** for the second choice and click **+ New choice**.
+11. Enter **Picked up** for the third choice and click **Save**.
 
-![A Screenshot with an arrow pointing to the new choice button](03-1/media/ex2-t2-image4.png)
+![A screenshot of the new global choice with 3 choice values entered](03-1/media/ex2-t2-image4.png)
 
-8.  Enter **Reserved** for the second choice and click **+ New choice**.
-9.  Enter **Picked up** for the third choice and click **Create**.
-10.  Your table screen should now look like the image below.
-     ![A Screenshot with an arrow pointing to the word saved in the right hand corner of the window](03-1/media/ex2-t2-image5.png)
-11.  Close the table editor by clicking on the **Close** button.
-12.  Do not navigate away from this page.
+12. Select **Availability** in **Sync this choice with**.
+13. Select **Available** for **Default choice** and click **Save**.
+
+![A screenshot of a new choice column with global choice to sync with selected](03-1/media/ex2-t2-image6.png)
+
+8.  Your table screen should now look like the image below.
+    ![A screenshot of the new Gadget table with Name, Description, Availability columns in a grid layout](03-1/media/ex2-t2-image5.png)
+9.  Close the table editor by clicking **Close** button.
+10.  Do not navigate away from this page.
 
 
 #### Task 3: Add columns
@@ -124,31 +133,23 @@ In this task, you will add new columns to the table.
 
 1. Select the **Home** tab and click **See more**.
 
-![A screenshot of a box around the home button and an arrow pointing to the see more button in the recent apps window of the home page of power apps](03-1/media/ex2-t3-image1.png)
+![A screenshot of power apps in teams screen with Home tab selected and the cursor pointing to the see more button in the recent apps window of the home page of power apps](03-1/media/ex2-t3-image1.png)
 
 2. Click to open the **Gadget** table.
-3. Click  **+ Add column** column.
-4. Enter **Location** for Display name, select **Text** for Data type, make the column **Required** and click **Done**.
+3. Click  **+ New > Column** menu.
+4. Enter **Location** for **Display name**, select **Text** for **Data type** (displayed as **Single line of text**), select **Business required** for **Required** and click **Save**.
 
 ![A screenshot of the add column window with the relevant text in each field](03-1/media/ex2-t3-image.png)
 
-5. Click **+ Add column**.
-6. Enter **Photo** for Display name, select **Image** for Data type, check the **Primary image** checkbox and click **Done**.
+5. Click **+ New > Column**.
+6. Enter **Photo** for **Display name**, select **File > Image** for **Data type**, check the **Primary image** checkbox and click **Save**.
 
 ![A screenshot of the add column window with the relevant text in each field](03-1/media/ex2-t3-image3.png)
 
-7.  Click **+ Add column**.
-8.  Enter **Reserved by** for Display name, select **Lookup** for Data type, select **User** for Related table and click **Done**.
+7.  Click **+ New > Column**.
+8.  Enter **Reserved by** for Display name, select **Lookup** for Data type, select **User** for Related table and click **Save**.
 
 ![A screenshot of the add column window with the relevant text in each field](03-1/media/ex2-t3-image4.png)
-
-9.  Select the **Availability** column.
-10. Select **Available** for Default value and click **Done**
-
-![A screenshot with a box around available selected as the default value option](03-1/media/ex2-t3-image5.png)
-
-11. Click the **Save table** button located on the bottom right of the screen.
-12. Do not navigate away from this page.
 
 
 #### Task 4: Edit the application
@@ -165,18 +166,18 @@ In this task, you will edit the application by filters for gadgets that are avai
 ![A Screenshot with an arrow pointing to the edit fields button](03-1/media/ex2-t4-image2.png)
 
 4. Click on the **+ Add field** button.
-5. Select the fields that does not exist on the EditForm control from the below list and click **Add**.
-   1. **Name**
-   2. **Description**
-   3. **Availability**
-   4. **Location**
-   5. **Reserved by**
-   6. **Photo**
+5. If any of the fields below does not exist on the EditForm control, click on the **+ Add field** butto, select the missing field and click **Add**.
+   - **Name**
+   - **Description**
+   - **Availability**
+   - **Location**
+   - **Reserved by**
+   - **Photo**
 
 ![A screenshot of the add field window](03-1/media/ex2-t4-image3.png)
 
 6. Remove any extra fields and close the **Fields** pane. Your form should only have **Name, Description, Availability, Location, Reserved By and Photo** columns.
-7. Change **Columns** for Snap to columns to **1**.
+7. Change **Columns** for **Snap to columns** to **1**.
 
 ![A screenshot with a border around the columns field and the value of 1 in the field itself](03-1/media/ex2-t4-image4.png)
 
@@ -196,10 +197,10 @@ In this task, you will edit the application by filters for gadgets that are avai
 
 ![A screenshot with a border around the display mode field](03-1/media/ex2-t4-image5_3.png)
 
-12.  Select the **Browse gallery**.
-13. Select **Items** form the formula bar and replace the value with formula below. This formula will filter the gadgets to show only the available gadgets
+12.  Select the **Browse gallery** under **LeftContainer** in the treeview.
+13. Select **Items** on the formula bar and replace the value with formula below. This formula will filter the gadgets to show only the available gadgets
 
-    ```Filter(Gadgets, Availability <> 'Availability (Gadgets)'.'Picked up')```
+    ```Filter(Gadgets, Availability <> [@Availability].'Picked up')```
 
 ![Filter data - screenshot](03-1/media/ex2-t4-image6.png)
 
@@ -207,18 +208,16 @@ In this task, you will edit the application by filters for gadgets that are avai
 
 ![A Screenshot with an arrow pointing to image 1 inside the gallery](03-1/media/ex2-t4-image7.png)
 
-15.  Go to the formula bar and change the value of the Image to the formula below.
+15.  Go to the formula bar and varify that the value of the Image is set to the formula below.
 
 ```ThisItem.Photo```
 
-![A screenshot of the relevant command put into the formula bar](03-1/media/ex2-t4-image8.png)
-
-16.   Select the **Data** tab, click on the **...More actions** button of the **Gadgets** table and select **Refresh**.
+16.   Select the **Data** tab (database icon) in the left navigation, click on the **...More actions** button of the **Gadgets** table and select **Refresh**.
 
 ![A Screenshot with an arrow pointing to the ellipsis icon for more actions and a border around the refresh button](03-1/media/ex2-t4-image9.png)
 
 17.  Click **Save** and wait for the app to be saved.
-18.  Click **Preview**.
+18.  Click **Preview the app**.
 19.  Click **+ New record**.
 
 ![A screenshot of a border around the new record button](03-1/media/ex2-t4-image10.png)
@@ -237,13 +236,13 @@ In this task, you will edit the application by filters for gadgets that are avai
 
 ![A screenshot of the running app with an arrow pointing to the cross icon to close the preview](03-1/media/ex2-t4-image13.png)
 
-25.  Do not navigate away from this page.
+25.  Click X to close the app.
 
 
 #### Task 5: Update Dataverse rows
 In this task, you will add buttons that will let users reserve and/or pick up item, you will also update the rows in Dataverse as reserved or picked up.
 
-1. Select **App** from the Tree view and set the **OnStart** value to the formula below. This formula will create a variable named CurrentUser and set its value to the first user that matches the logged in user's email.
+1. Select **App** from the Tree view and set the **OnStart** property to the formula below. This formula will create a variable named CurrentUser and set its value to the first user that matches the logged in user's email.
 
 ```Set(CurrentUser, First(Filter(Users, 'Primary Email' = User().Email)))```
 
@@ -269,11 +268,11 @@ In this task, you will add buttons that will let users reserve and/or pick up it
 
 7. Set the **DisplayMode** value of the Reserve Button to the formula below. This formula will disable the button if the selected item is not available.
 
-```If(BrowseGallery1.Selected.Availability = 'Availability (Gadgets)'.Available, DisplayMode.Edit, DisplayMode.Disabled)```
+```If(BrowseGallery1.Selected.Availability = [@Availability].Available, DisplayMode.Edit, DisplayMode.Disabled)```
 
 8. Set the **OnSelect** value of the Reserve Button to the formula below. This formula will update the selected record by setting the reserved by value to the current user and the availability value to reserved.
 
-```Patch(Gadgets, BrowseGallery1.Selected, {Availability: 'Availability (Gadgets)'.Reserved, 'Reserved by': CurrentUser})```
+```Patch(Gadgets, BrowseGallery1.Selected, {Availability: [@Availability].Reserved, 'Reserved by': CurrentUser})```
 
 9. Set the **Visible** value of the Reserve Button to the formula below. This formula will hide the button if the user is creating a new record.
 
@@ -292,11 +291,11 @@ In this task, you will add buttons that will let users reserve and/or pick up it
 
 14. Set the **DisplayMode** value of the Picked Up Button to the formula below. This formula will disable the button if the selected item is reserved and the reserved by user is not the current user.
 
- ```If(BrowseGallery1.Selected.Availability = 'Availability (Gadgets)'.Reserved And BrowseGallery1.Selected.'Reserved by'.'Primary Email' <> CurrentUser.'Primary Email', DisplayMode.Disabled, DisplayMode.Edit)```
+ ```If(BrowseGallery1.Selected.Availability = [@Availability].Reserved And BrowseGallery1.Selected.'Reserved by'.'Primary Email' <> CurrentUser.'Primary Email', DisplayMode.Disabled, DisplayMode.Edit)```
 
 15. Set the **OnSelect** value of the Picked Up Button to the formula below. This formula will update the selected record by setting the reserved by value to the current user and the availability value to picked up. The second formula will select the first item of the gallery.
 
-```Patch(Gadgets, BrowseGallery1.Selected, {Availability: 'Availability (Gadgets)'.'Picked up', 'Reserved by': CurrentUser});Select(BrowseGallery1,1)```
+```Patch(Gadgets, BrowseGallery1.Selected, {Availability: [@Availability].'Picked up', 'Reserved by': CurrentUser});Select(BrowseGallery1,1)```
 
 16. Set the **Visible** value of the Picked Up Button to the formula below. This formula will hide the button if the user is creating a new record.
 
@@ -310,7 +309,7 @@ In this task, you will add buttons that will let users reserve and/or pick up it
 In this task, you will add search capability to your application.
 
 1. Select the **RightContainer**.
-2. Click on the **+** Insert menu and select **+ Add icon**.
+2. Click on the **+ Insert** menu, select **Icons** and then select **+ Add**.
 3. Place the icon above the form.
 
 ![A screenshot of the plus icon selected](03-1/media/ex2-t6-image1.png)
@@ -333,7 +332,7 @@ In this task, you will add search capability to your application.
 
 ```Reset(BrowseGallery1)```
 
-10. Select the **BrowseGallery** and change the **Items** formula to the formula below. The formula is incomplete, we will complete it in the next step.
+10. Select the **BrowseGallery** under **LeftContainer1** and change the **Items** formula to the formula below. The formula is incomplete, we will complete it in the next step.
 
 ```Filter(Search(Gadgets, 'Search Box'.Value, ), Availability <> 'Availability (Gadgets)'.'Picked up')```
 
@@ -350,7 +349,7 @@ In this task, you will add search capability to your application.
 ![Suggested description column - screenshot](03-1/media/ex2-t6-image7.png)
 
 14.  Select the **Search Box**.
-15.  Go to the formula bar and remove the **Value** text.
+15.  Go to the formula bar and clear the **Value** text.
 
 ![A screenshot with a border around the formula bar](03-1/media/ex2-t6-image8.png)
 
