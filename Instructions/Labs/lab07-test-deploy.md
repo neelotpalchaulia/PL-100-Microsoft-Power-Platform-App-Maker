@@ -4,7 +4,8 @@ lab:
     module: 'Module 07: Testing & deployment'
 ---
 
-> [!NOTE]
+> **NOTE**
+>
 > Effective November 2020:
 > - Common Data Service has been renamed to Microsoft Dataverse. [Learn more](https://aka.ms/PAuAppBlog)
 > - Some terminology in Microsoft Dataverse has been updated. For example, *entity* is now *table* and *field* is now *column*. [Learn more](https://go.microsoft.com/fwlink/?linkid=2147247)
@@ -80,7 +81,7 @@ In this exercise, you will run the solution checker on the Company 311 solution.
 
 #### Task 1: Run solutions checker
 
-1.  Make sure you are still on the [Power Apps maker portal](https://make.powerapps.com/) site and you are in the correct environment.
+1. Make sure you are still on the [Power Apps maker portal](https://make.powerapps.com/) site and you are in the correct environment.
 
 2. Select **Solutions**, select **Company 311** solution, click **Solution checker** and select **Run**.
 
@@ -94,13 +95,13 @@ In this exercise, you will run the solution checker on the Company 311 solution.
 
 5. Review the solution check results and make sure there are no issues.
 
-   > [!NOTE]
-   >
-   > If you are seeing errors in the Solution Check Result, open the component showing errors one by one and resolve the issues.
-   >
-   > At this point you will see errors for Canvas Apps. Open both the apps one by one and fix the assessible label and Tab Index error. For assistance, you can refer to [Microsoft Documentation](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/accessibility-checker). After resolving the issues, save and publish your app. Go back to the solution and re-run the solution checker.
-   >
-   > Users who have vision, hearing, or other impairments can use your canvas app more easily and successfully if you consider accessibility as you design how the app looks and behaves.
+> **NOTE**
+>
+> If you are seeing errors in the Solution Check Result, open the component showing errors one by one and resolve the issues.
+>
+> At this point you will see errors for Canvas Apps. Open both the apps one by one and fix the assessible label and Tab Index error. For assistance, you can refer to [Microsoft Documentation](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/accessibility-checker). After resolving the issues, save and publish your app. Go back to the solution and re-run the solution checker.
+>
+> Users who have vision, hearing, or other impairments can use your canvas app more easily and successfully if you consider accessibility as you design how the app looks and behaves.
 
 ### Exercise 3: Use test studio
 

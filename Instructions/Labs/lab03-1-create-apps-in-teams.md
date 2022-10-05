@@ -4,7 +4,8 @@ lab:
     module: 'Module 03: Create a canvas app'
 ---
 
-> [!NOTE]
+> **NOTE**
+>
 > Effective November 2020:
 >
 > - Common Data Service has been renamed to Microsoft Dataverse. [Learn more](https://aka.ms/PAuAppBlog)

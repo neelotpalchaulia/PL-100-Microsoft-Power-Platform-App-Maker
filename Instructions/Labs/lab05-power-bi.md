@@ -4,7 +4,8 @@ lab:
     module: 'Module 05: Power BI'
 ---
 
-> [!NOTE]
+> **NOTE**
+>
 > Effective November 2020:
 > - Common Data Service has been renamed to Microsoft Dataverse. [Learn more](https://aka.ms/PAuAppBlog)
 > - Some terminology in Microsoft Dataverse has been updated. For example, *entity* is now *table* and *field* is now *column*. [Learn more](https://go.microsoft.com/fwlink/?linkid=2147247)
@@ -51,14 +52,16 @@ We will follow the below steps to design and create the Power BI dashboard:
 
 **Objective:** In this exercise, you will install and configure Power BI Desktop and configure a connection to Microsoft Dataverse. 
 
-> [!IMPORTANT]
+> **IMPORTANT**
+>
 > If you do not have required permissions to install desktop applications or experience difficulties in configuring Power BI Desktop and connecting it to the data, follow **Addendum: Import sample data** and then continue on **Exercise 2** but using Power BI service instead of Power BI Desktop.
 
 #### Task 1: Configure Power BI Desktop
 
 1. If you do not have Power BI Desktop installed, navigate to [https://aka.ms/pbidesktopstore](https://aka.ms/pbidesktopstore) to download and install Power BI app.
 
-> [!IMPORTANT]
+> **IMPORTANT**
+>
 > If you experience issues installing Power BI Desktop using Microsoft Store, try standalone installer that can be downloaded from [https://aka.ms/pbiSingleInstaller](https://aka.ms/pbiSingleInstaller).
 
 2. Open Power BI Desktop.
@@ -206,7 +209,8 @@ We will follow the below steps to design and create the Power BI dashboard:
 
 This will open the published report in the browser.
 
-> [!NOTE]
+> **NOTE**
+>
 > If you are getting an error on PowerBI Service with message "the data source is missing credentials and cannot be accessed", follow the below steps:
 >
 > 1. Select 311 Workspace and select Problem Management dataset.
@@ -262,7 +266,8 @@ This will open the published report in the browser.
 
 6. If you have a mobile device, scan the code using a QR scanner app available on both iOS and Android platforms.
 
-> [!NOTE]
+> **NOTE**
+>
 > To access the dashboard and report you will have to sign in on the phone as the same user.
 
 7. Navigate and explore reports and dashboards on a mobile device. 

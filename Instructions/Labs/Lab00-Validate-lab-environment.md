@@ -5,8 +5,9 @@ lab:
 ---
 
 
-> [!NOTE]
+> **NOTE**
 > Effective November 2020:
+>
 > - Common Data Service has been renamed to Microsoft Dataverse. [Learn more](https://aka.ms/PAuAppBlog)
 > - Some terminology in Microsoft Dataverse has been updated. For example, *entity* is now *table* and *field* is now *column*. [Learn more](https://go.microsoft.com/fwlink/?linkid=2147247)
 >
@@ -34,12 +35,13 @@ Exercise 1 – Acquire your Power Platform trial tenant
 7. Enter your country or region and Phone Number. Select **Get Started**.
 8. Click **Get Started** again.
 
-> [!NOTE]
+> **NOTE**
+>
 > If you encounter an error: "Sorry, there's been a disconnect", you can follow the steps below. If not, you can continue to **Exercise 2**.
 >
 > 1. Navigate to [Power Apps Maker Portal](https://make.powerapps.com).
 > 2. Select the **Gear Icon** (Settings) from top-right corner on the header of the page.
->3. Select **Plan(s)** and verify if you have **Power Apps Per User Plan Trial**. 
+> 3. Select **Plan(s)** and verify if you have **Power Apps Per User Plan Trial**. 
 > 4. If you have the above mentioned license, please proceed to **Exercise 2** otherwise repeat **Exercise 1**.
 
 Exercise 2 - Create your environment 

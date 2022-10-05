@@ -4,12 +4,12 @@ lab:
     module: 'Module 03: Create a canvas app'
 ---
 
-> [!NOTE]
+> **NOTE**
+>
 > Effective November 2020:
 > - Common Data Service has been renamed to Microsoft Dataverse. [Learn more](https://aka.ms/PAuAppBlog)
 > - Some terminology in Microsoft Dataverse has been updated. For example, *entity* is now *table* and *field* is now *column*. [Learn more](https://go.microsoft.com/fwlink/?linkid=2147247)
 >
-
 
 # Lab 03.2: Canvas app
 
@@ -69,7 +69,8 @@ In this task, you will import the shared components solution into your environme
 
 ![A screenshot of the shared components window with the Lamna Healthcare shared components item](03-2/media/image2.png)
 
-> [!IMPORTANT]
+> **IMPORTANT**
+>
 > There is an issue where importing the app as part of a solution may not add it to your components library. The following steps are designed to resolve the issue.
 
 10. Navigate to **Apps**, Select the **Lamna Healthcare Shared Components App**.
@@ -79,8 +80,9 @@ In this task, you will import the shared components solution into your environme
 
 12. Select your **Region/Country** and click **Get started** if prompted.
     
-    > [!NOTE]
-    >When the app is open in Edit mode, move on to next step, as the Preloader component shows a Loading icon but it is not actually waiting for something to load.
+> **NOTE**
+>
+>When the app is open in Edit mode, move on to next step, as the Preloader component shows a Loading icon but it is not actually waiting for something to load.
 13. After the app opens, click **File** > **Save As**.
 14. Change app name to **Lamna Healthcare Share Components A** and click **Save**.
 
@@ -196,7 +198,8 @@ Set('My Tabs', Table( {
 ))
 ```
 
-> [!IMPORTANT]
+> **IMPORTANT**
+>
 > When expressions are copied, the quotes and double quotes are sometimes replaced with their "smart" counterparts which are not valid in formulas. If you copy and paste the expression above, make sure the resulting formula does not contain any errors.     
 
 ![A screenshot of the copied expression into the expression tab](03-2/media/image15.png)
@@ -442,7 +445,8 @@ In this task, you will setup a **Microsoft Teams** team for the Lamna Healthcare
 
 6.  Select the **Company 311 Phone App** that you created earlier in this lab. 
 
-> [!IMPORTANT]
+> **IMPORTANT**
+>
 > If you do not see the app you need to go back to the app editor and publish the app
 
 7. Select **Save**.

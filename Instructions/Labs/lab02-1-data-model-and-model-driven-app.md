@@ -4,7 +4,8 @@ lab:
     module: 'Module 02: Create a model-driven app'
 ---
 
-> [!NOTE]
+> **NOTE**
+>
 > Effective November 2020:
 > - Common Data Service has been renamed to Microsoft Dataverse. [Learn more](https://aka.ms/PAuAppBlog)
 > - Some terminology in Microsoft Dataverse has been updated. For example, *entity* is now *table* and *field* is now *column*. [Learn more](https://go.microsoft.com/fwlink/?linkid=2147247)
@@ -116,7 +117,8 @@ In this exercise, you will create Tables, Columns, and the Relationships you ide
 
 ![A screenshot of the Rows in this table section with Can be added to a queue checkbox selected](02-1/media/image10.png)
 
-> [!NOTE]
+> **NOTE**
+>
 > Enabling queues for Problem Report table allows rows to be associated with one or more queues to help facilitate routing problem reports to the different departments. Once this option is enabled, it can't be turned off. 
 
 12. Select **All** in the **Objects** navigation tree.  The tables you created should now be visible in the list view and in the tree navigation.
@@ -160,7 +162,8 @@ In this task, you will add Columns to the Problem Report Table.
 15.  Select **All** in the **Objects** navigation tree.
 16.  Click **Publish all customizations** and wait for the publishing to complete.
 
-> [!IMPORTANT]
+> **IMPORTANT**
+>
 > Do not navigate away from this page until all customizations have been published successfully.
 
 #### Task 3: Edit Status Reason Choice
@@ -386,7 +389,8 @@ In this exercise, you will create model-driven application.
 
 ![A screentshot of the app designer with the first area selected](02-1/media/image63.png)
 
-> [!TIP]
+> **TIP**
+> 
 > Make sure **Enable Areas** option has been been checked in the **Navigation bar** panel on the right-hand side to see the **Area1** entry.
 
 8. Go to the **Properties** pane, enter **Manage Problems** for **Title**, and enter **area\_manage\_problems** for **ID**.
@@ -568,7 +572,8 @@ In this exercise, you will import sample data into the environment. Rows are imp
 
 13. Click **Run**.
 
-> [!TIP]
+> **TIP**
+>
 > If the **Run** option is disabled then make sure the flow has been enabled by selecting the **Turn ON** option.
 
 13. Click **Run flow**.
@@ -591,7 +596,8 @@ In this exercise, you will import sample data into the environment. Rows are imp
 
 ![A screenshot with a border around problem new reports rows.](02-1/media/image104.png)
 
-> [!NOTE]
+> **NOTE**
+>
 > Because the input status reason is randomized, some of the imported problem report rows may have the status reason of Completed, Won't Fix, or Inactive. Select **Resolved Problems** view to find these rows.
 
 4.  Click to open one of the **Problem Report** Rows.

@@ -4,7 +4,8 @@ lab:
     module: 'Module 02: Building model-driven apps'
 ---
 
-> [!NOTE]
+> **NOTE**
+>
 > Effective November 2020:
 >
 > - Common Data Service has been renamed to Microsoft Dataverse. [Learn more](https://aka.ms/PAuAppBlog)
@@ -248,7 +249,8 @@ In this exercise, you will test the business process flow and the business rule 
 
 6. Enter **North-end** for **Location**, select **Facility Maintenance** for **Department** and select the **Next stage** stage.
 
-> [!NOTE]
+> **NOTE**
+>
 >If the Next Stage option is not visible, then refresh the page.
 
 ![A screenshot of the drop down from the route stage with the relevant options selected and typed in](02-2/media/image24.png)
