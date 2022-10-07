@@ -51,7 +51,7 @@ In this exercise, you will create security roles for users.
 
 1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in the correct environment.
 2.  Select **Solutions** and click to open the **Company 311** solution.
-3.  Click **+ New >> Security** and select **Security Role**.
+3.  Click **+ New > Security** and select **Security Role**.
 4.  Enter **Company 311 User** for **Role Name** and select the **Custom Entities** tab.
 5.  Set the read privilege of the **Building** table to **Organization**.
 6.  Set the read privilege of the **Problem Report** Table to **User**.
@@ -99,7 +99,7 @@ In this exercise, you will run the solution checker on the Company 311 solution.
 >
 > If you are seeing errors in the Solution Check Result, open the component showing errors one by one and resolve the issues.
 >
-> At this point you will see errors for Canvas Apps. Open both the apps one by one and fix the assessible label and Tab Index error. For assistance, you can refer to [Microsoft Documentation](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/accessibility-checker). After resolving the issues, save and publish your app. Go back to the solution and re-run the solution checker.
+> At this point you will see errors for Canvas Apps. Open both the apps one by one and fix the assessible label and Tab Index error. For assistance, you can refer to [Microsoft Documentation](https://docs.microsoft.com/powerapps/maker/canvas-apps/accessibility-checker). After resolving the issues, save and publish your app. Go back to the solution and re-run the solution checker.
 >
 > Users who have vision, hearing, or other impairments can use your canvas app more easily and successfully if you consider accessibility as you design how the app looks and behaves.
 
@@ -115,34 +115,26 @@ In this exercise, you use test studio to create test case for submitting a probl
 
     ![A Screenshot with an arrow pointing to the edit button](07/media/image6.png)
 
-3.  Click **File** and select **Settings**.
+3.  Click **Settings**.
 
 4.  Select **Upcoming features**.
 
 5.  Select the **Experimental** tab and enable **Formula level error management**.
 6.  Close the settings pane.
     
-    Note: Currently test studio cannot record steps inside components like the tab control we are using, you edit the App OnStart formula, so the app navigates directly to the new report screen.
+    Note: Currently test studio cannot record steps inside components like the tab control we are using, you edit the App StartScreen formula, so the app navigates directly to the new report screen.
 
 7.  Select the **Tree view** menu.
 
-8.  Select **App** and select **OnStart**.
-9.  Add the formula below to the existing formula.
+8.  Select **App** and select **StartScreen**.
+9.  Add the formula below.
 
-    ```; Navigate('New Reports Screen')```
+    ```'New Reports Screen'```
 
-    ![A screenshot with a border around the relevant formula added to the existing formula](07/media/image7.png)
+    ![A screenshot of a StartScreen formula set to new reports screen](07/media/image7.png)
     
 
-**Note:** Navigate in App Onstart has been retired, to enable it perform the following steps:
-    1. Select **File**
-    2. Select **Settings**
-    3. Select **Upcoming Features**
-    4. Select **Retired**
-    5. Turn on the **Enable the Navigate function in App.onstart** feature
-    6. Close the **Settings** pane.
-
-9. Click **File** and select **Save**.
+9. Click **Save**.
 
 10. Click **Publish**.
 
@@ -188,9 +180,9 @@ In this exercise, you will export the company 311 solution and import it into a 
 1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in the correct environment.
 
 2.  Select **Solutions**, and click to open the **Company 311** solution.
-3.  Click **+ Add existing** and select **Connection Reference**.
+3.  Click **+ Add existing**, select **More**, then select **Connection Reference**.
 
-![A Screenshot with an arrow pointing to the add existing drop down icon](07/media/add_connection_ref.png)
+![A screenshot of the expanded Add existing menu with add connection reference menu item selected](07/media/add_connection_ref.png)
 
 4.  Select all of the connection references and click **Add**.
 5.  Click **Publish all customizations** and wait for the publishing to complete.
@@ -213,10 +205,10 @@ In this exercise, you will export the company 311 solution and import it into a 
 
 #### Task 2: Create new environment and import solution
 
-1.  Navigate to [Power Apps Community Plan page](https://powerapps.microsoft.com/en-us/communityplan/)
+1.  Navigate to [Power Apps Community Plan page](https://powerapps.microsoft.com/communityplan/)
 2.  Click on **Existing User? Add a dev environment**.
-3.  Enter your credentials when prompt to sign in
-4.  Select your country from the dropdown menu and click **Accept**
+3.  Enter your credentials when prompt to sign in.
+4.  Select your country from the dropdown menu and click **Accept**.
 5.  Navigate to [Power Platform Admin Center](https://admin.powerplatform.microsoft.com/environments) to see a new environment had been created by the system. We will refer to it as "Prod" environment for the rest of this course (the environment name will be <your account name>'s Environment).
 6.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and select the environment you just created.
 7.  Select **Solutions** and click **Import**.
