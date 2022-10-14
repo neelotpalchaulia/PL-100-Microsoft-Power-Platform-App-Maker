@@ -4,7 +4,8 @@ lab:
     module: 'Module 06: AI builder and Power Virtual Agents'
 ---
 
-> [!NOTE]
+> **NOTE**
+>
 > Effective November 2020:
 > - Common Data Service has been renamed to Microsoft Dataverse. [Learn more](https://aka.ms/PAuAppBlog)
 > - Some terminology in Microsoft Dataverse has been updated. For example, *entity* is now *table* and *field* is now *column*. [Learn more](https://go.microsoft.com/fwlink/?linkid=2147247)
@@ -14,8 +15,9 @@ lab:
 
 ## Scenario
 
- Your organization is trying to recycle E-waste and decided to schedule a quarterly E-waste pickup service. Facilities department created an Excel file in OneDrive for business and want employees to be able to add their name and information about the item they want to get picked up to the list.
- In this exercise, you will create a Power Virtual Agents bot that will get the information from users and add them to the pickup list.
+Your organization is trying to recycle E-waste and decided to schedule a quarterly E-waste pickup service. Facilities department created an Excel file in OneDrive for business and want employees to be able to add their name and information about the item they want to get picked up to the list.
+
+In this exercise, you will create a Power Virtual Agents bot that will get the information from users and add them to the pickup list.
 
 ## Requirement
 
@@ -67,7 +69,7 @@ In this task, you will install PVA.
 ![A Screenshot with an arrow pointing to the ellipsis icon on the left side of the window and a box around the power virtual agents option](06/media/ex1-t2-image1.png)
 
 3. Click **Add**.
-4. Right click on the **Power Virtual Agents** and select **Pin**. (If the **Power Virtual Agents** menu is not coming on the left menu, then click again on **...More added aaps** and pin it from the recents.)
+4. Right click on the **Power Virtual Agents** and select **Pin**. (If the **Power Virtual Agents** menu is not coming on the left menu, then click again on **... More added apps** and pin it from the recents.)
 
 ![A Screenshot with an arrow pointing to the power virtual agents icon and a box around the pin button](06/media/ex1-t2-image2.png)
 
@@ -82,10 +84,10 @@ In this task, you will create the bot.
 ![A Screenshot with an arrow pointing to the start now button](06/media/ex1-t3-image1.png)
 
 2. Select the **Green** team you created and click **Continue**.
-3. Enter **Green Bot** for name and click **Create**.
+3. Enter **Green Bot** for name, select **English (US)** for language, and then click **Create**.
 4. Wait for the bot to be created.
-5. Click **Explore bot**.
-6. Type **Hello** in the text box located in the bottom left and click **Send**. If you don't see the textbox click the **Test your bot** button located in the bottom left.
+5. Click **Test your bot** in the bottom left.
+6. Type **Hello** in the text box and click **Send**. 
 7. The bot should respond with the default greeting. You will edit this greeting in the next task.
 
 ![A screenshot with a box around the bot's default greeting reading: "Hi! I'm a virtual agent. I can help with account questions, orders, store information and more. If you'd like to speak to a human agent, let me know at any time. So what can I help you with today?"](06/media/ex1-t3-image2.png)
@@ -105,11 +107,7 @@ In this task, you will edit the default greeting.
 ![A Screenshot with an arrow pointing to the greeting topic in the topics menu](06/media/ex1-t4-image1.png)
 
 2. Take a look and see the trigger phrases for this topic.
-3. Click on the **Go to authoring canvas** button.
-
-![A Screenshot with an arrow pointing to the go to authoring canvas button](06/media/ex1-t4-image2.png)
-
-4. Go to the first **Message** and replace the message with the text below.
+3. On the authoring canvas go to the first **Message** and replace the message with the text below.
 
 ```Hi! I'm a virtual agent. I can help you recycle e-waste by posting items to the Upcycle application or add them to the quarterly e-waste pickup list.```
 
@@ -132,91 +130,93 @@ In this task, you will create a new topic for the bot so it can respond to inqui
 
 ![A Screenshot with an arrow pointing to the new topic button](06/media/ex1-t5-image1.png)
 
-2. Enter **Recycle Reuse Reduce** for Name.
-3. Enter **Recycle** for trigger phrase and click **Add**.
+2. Click **Details** to open Details pane.
+3. Enter **Recycle Reuse Reduce** for Name.
+4. Click **Trigger phrases**.
+5. Copy the multi-line text below and paste it into **Add phrases** input box.
 
-![A Screenshot with an arrow pointing to the add button](06/media/ex1-t5-image2.png)
+```
+Recycle
+E-waste
+Green
+Add me
+Upcycle
+Reuse
+Reduce
+Recycle list
+```
 
-4. Type **E-waste** as another trigger phrase and click **Add**.
-5. Type **Green** as another trigger phrase and click **Add**.
-6. Type **Add me** as another trigger phrase and click **Add**.
-7. Type **Upcycle** as another trigger phrase and click **Add**.
-8. Type **Reuse** as another trigger phrase and click **Add**.
-9. Type **Reduce** as another trigger phrase and click **Add**.
-10. Type **Recycle list** as another trigger phrase and click **Add**.
-11. You should now have at least 8 trigger phrases. Click **Save topic**.
+![A screenshot of multiple trigger phrases entered in Add phrases textbox](06/media/ex1-t5-image2.png)
 
-![A Screenshot with an arrow pointing to the test bot button](06/media/ex1-t5-image3.png)
-
-9. Click on the **Go to authoring canvas button**.
-10. Type **I can help you with that.** for message and click on the **+ Add node** button.
+6. Click **+** to add entries for trigger phrases in bulk.
+7. Click on the first message, enter **I can help you with that.** And then click on the **+ Add node** button.
 
 ![A Screenshot with an arrow pointing to the plus icon to add a node](06/media/ex1-t5-image4.png)
 
-11. Select **Ask a question**.
+8. Select **Ask a question**.
 
 ![A Screenshot with an arrow pointing to the ask a question button](06/media/ex1-t5-image5.png)
 
-12. Enter the text below in the Ask a question textbox.
+9. Enter the text below in the Ask a question textbox.
 
 ```I can add your item to the Upcycle application or to the e-waste pick-up list. What would you like me to do?```
 
-13.  Make sure you have **Multiple choice options** selected for Identity, type **Add to the Upcycle app** for first option and click **+ New option**.
+10. Make sure you have **Multiple choice options** selected for Identity, type **Add to the Upcycle app** for first option and click **+ New option**.
 
 ![A Screenshot with an arrow pointing to the new option button](06/media/ex1-t5-image6.png)
 
-14. Type **Add to the pick-up list** as another option.
-15. You should now have two conditions. Click on the **...** Options button of one of the conditions and click **Delete**.
+11. Type **Add to the pick-up list** as another option.
+
+12. You should now have two conditions. Click on the **...** Options button of one of the conditions and click **Delete**. We are deleting the conditions because adding item to the pick-up list and adding item to the Upcycle application required similar information.
 
 ![A Screenshot with an arrow pointing to the three dots icon and a red box around the delete button](06/media/ex1-t5-image7.png)
 
-16. Delete the other condition. We are deleting the conditions because adding item to the pick-up list and adding item to the Upcycle application required similar information.
+13. Change the second input value in Condition menu to **has value**.
 
-17. Change the second input value in Condition menu to **has value**.
+![has value - screenshot](06/media/image1.png)
 
-    ![has value - screenshot](06/media/image1.png)
-
-18. Click on the edit variable icon.
+14. Click on the edit variable icon.
 
 ![A Screenshot with an arrow pointing to the pencil icon in the box under the text save response as](06/media/ex1-t5-image8.png)
 
-18. Change the variable name to **UserOption** and close the variable properties pane.
+15. Change the variable name to **UserOption** and close the variable properties pane.
 
 ![A Screenshot with an arrow pointing to the cross icon in the top right corner of the pane](06/media/ex1-t5-image9.png)
 
-19. Click **+ Add node** and select **Ask a question**
-20. Enter the text below in the Ask a question textbox.
+16. Click **+ Add node** and select **Ask a question**
+
+17. Enter the text below in the Ask a question textbox.
 
 ```What is the name of the item?```
 
-21.   Click on the **Identify** dropdown and select **User's entire response**.
+18. Click on the **Identify** dropdown and select **User's entire response**.
 
 ![A Screenshot with an arrow pointing to the drop down icon in the identify field and a box around the user's entire response button](06/media/ex1-t5-image10.png)
 
-22.  Click on the **Edit variable** icon.
+19. Click on the **Edit variable** icon.
 
 ![A Screenshot with an arrow pointing to the pencil icon in the box under the text save response as](06/media/ex1-t5-image11.png)
 
-23. Change the variable Name to **ItemName** and close the variable properties pane.
-24. Click **+ Add node** after the question.
-25. Select **Ask a question** again.
-26. Enter the text below in the Ask a question textbox.
+20. Change the variable Name to **ItemName** and close the variable properties pane.
+21. Click **+ Add node** after the question.
+22. Select **Ask a question** again.
+23. Enter the text below in the Ask a question textbox.
 
 ```What is the description of this item?```
 
-27. Click on the **Identify** dropdown and select **User's entire response** again.
-28. Click on the **Edit variable** icon again.
-29. Change the variable Name to **Description** and close the variable properties pane.
-30. Click **+ Add node** after the question.
-31. Select **Ask a question** one more time.
-32. Enter the text below in the Ask a question textbox.
+24. Click on the **Identify** dropdown and select **User's entire response** again.
+25. Click on the **Edit variable** icon again.
+26. Change the variable Name to **Description** and close the variable properties pane.
+27. Click **+ Add node** after the question.
+28. Select **Ask a question** one more time.
+29. Enter the text below in the Ask a question textbox.
 
 ```What is the location of this item?```
 
-33. Click on the **Identify** dropdown and select **User's entire response** again.
-34. Click on the **Edit variable** icon again.
-35. Change the variable Name to **Location** and close the variable properties pane.
-36. The three questions should now look like the image below. Click **Save**
+30. Click on the **Identify** dropdown and select **User's entire response** again.
+31. Click on the **Edit variable** icon again.
+32. Change the variable Name to **Location** and close the variable properties pane.
+33. The three questions should now look like the image below. Click **Save**
 
 ![A Screenshot with an arrow pointing to the save button in the top right corner](06/media/ex1-t5-image12.png)
 
@@ -407,7 +407,7 @@ In this task, you will test the bot.
 
 ![A Screenshot with an arrow pointing to the yes button](06/media/ex2-t1-image2.png)
 
-7.  The bot should ask you to rate your experience. give it a rating.
+7.  The bot should ask you to rate your experience, give it a rating.
 8.  The bot should thank you and ask you if it can help you with anything else. Click **Yes**.
 9.  Type **Reuse** and click **Send**.
 10. Select **Add to the pick-up list** this time.
@@ -466,17 +466,20 @@ In this task, you will publish the bot you created.
 ![A screenshot with a box around the channels button](06/media/ex2-t2-image4.png)
 
 7. Select **Microsoft Teams**.
-8. Click **Add to Teams**.
+8. Click **Availability options**.
+9. Click **Show to my teammates and shared users**.
 
-![A screenshot of a box around the add to teams button](06/media/ex2-t2-image5.png)
+![A screenshot of a publish pane with a cursor over shaow to my teammates and shared users.](06/media/ex2-t2-image5.png)
+
+10. Click **Share**.
 
 9. Select **Apps**.
 
 ![A Screenshot with an arrow pointing to the apps icon](06/media/ex2-t2-image6.png)
 
-10. Select **Built for your org** and click on the **Green Bot** you created.
+10. Select **Built with Power Platform** and click on the **Green Bot** you created.
 
-![A Screenshot with an arrow pointing to the green bot button](06/media/ex2-t2-image7.png)
+![A screenshot with a cursor pointing to Green Bot button](06/media/ex2-t2-image7.png)
 
 11. Click **Add**.
 12. The bot should greet you. You may test the bot again.

@@ -4,7 +4,8 @@ lab:
     module: 'Module 05: Power BI'
 ---
 
-> [!NOTE]
+> **NOTE**
+>
 > Effective November 2020:
 > - Common Data Service has been renamed to Microsoft Dataverse. [Learn more](https://aka.ms/PAuAppBlog)
 > - Some terminology in Microsoft Dataverse has been updated. For example, *entity* is now *table* and *field* is now *column*. [Learn more](https://go.microsoft.com/fwlink/?linkid=2147247)
@@ -51,14 +52,16 @@ We will follow the below steps to design and create the Power BI dashboard:
 
 **Objective:** In this exercise, you will install and configure Power BI Desktop and configure a connection to Microsoft Dataverse. 
 
-> [!IMPORTANT]
+> **IMPORTANT**
+>
 > If you do not have required permissions to install desktop applications or experience difficulties in configuring Power BI Desktop and connecting it to the data, follow **Addendum: Import sample data** and then continue on **Exercise 2** but using Power BI service instead of Power BI Desktop.
 
 #### Task 1: Configure Power BI Desktop
 
 1. If you do not have Power BI Desktop installed, navigate to [https://aka.ms/pbidesktopstore](https://aka.ms/pbidesktopstore) to download and install Power BI app.
 
-> [!IMPORTANT]
+> **IMPORTANT**
+>
 > If you experience issues installing Power BI Desktop using Microsoft Store, try standalone installer that can be downloaded from [https://aka.ms/pbiSingleInstaller](https://aka.ms/pbiSingleInstaller).
 
 2. Open Power BI Desktop.
@@ -145,7 +148,7 @@ We will follow the below steps to design and create the Power BI dashboard:
 
 ![A Screenshot with an arrow pointing to the pie chart icon](05/media/image-6-14.png)
 
-2. Drag **Building** Column and drop it into **Legend** target box.
+2. Expand **lh_ProblemReport** table in the **Fields** panel, drag **Building** Column and drop it into **Legend** target box.
 3. Drag **Problem Report** Column and drop it into **Values** target box.
 
 ![A Screenshot with an arrow pointing to the direction the problem report needs to be dragged from the fields column into the values field](05/media/image-6-15.png)
@@ -154,12 +157,12 @@ We will follow the below steps to design and create the Power BI dashboard:
 
 ![A screenshot with a border around the legend next to pie chart after resizing to make all your components visible](05/media/image-6-16.png)
 
-5. Click **New visual** on the Power BI ribbon then select **stacked column** chart in **Visualizations** pane. 
+5. Click on the report's design surface outside of the chart area. Click **New visual** on the Power BI ribbon then select **stacked column** chart in **Visualizations** pane. 
 
 ![A Screenshot with an arrow pointing to the stacked column chart icon](05/media/image-6-17.png)
 
-6. Drag **Problem Report** Column and drop it into **Values** target box.
-7. Drag **Status** Column and drop it into **Axis** target box.
+6. Drag **Problem Report** Column and drop it into **Y-axis** target box.
+7. Drag **Status** Column and drop it into **X-axis** target box.
 8. Resize the chart as required using the corner handles.
 9. Test the report interactivity:
 
@@ -206,7 +209,8 @@ We will follow the below steps to design and create the Power BI dashboard:
 
 This will open the published report in the browser.
 
-> [!NOTE]
+> **NOTE**
+>
 > If you are getting an error on PowerBI Service with message "the data source is missing credentials and cannot be accessed", follow the below steps:
 >
 > 1. Select 311 Workspace and select Problem Management dataset.
@@ -262,7 +266,8 @@ This will open the published report in the browser.
 
 6. If you have a mobile device, scan the code using a QR scanner app available on both iOS and Android platforms.
 
-> [!NOTE]
+> **NOTE**
+>
 > To access the dashboard and report you will have to sign in on the phone as the same user.
 
 7. Navigate and explore reports and dashboards on a mobile device. 
@@ -351,38 +356,35 @@ In this task you will setup a Microsoft Teams team for the Lamna Healthcare Comp
 
 ![A Screenshot with an arrow pointing to the company 311 admin option with another border around model-driven application in the type column in line with the correct company 311 admin option](05/media/image-6-editmodeldrivenapp.png)
 
-13.  Click on the **Edit** icon of the Sitemap.
+13.  In app designer select **Navigation** icon then select **Manage Problems** area.
 
-![A Screenshot with an arrow pointing to the pencil icon to edit the sitemap](05/media/image-6-editsitemap.png)
+![A screenshot of the app designer navigation area with an arrow pointing to the navigation icon and cursor pointing to manage problems area](05/media/image-6-editsitemap.png)
 
 14.  Click **+ Add** and select **Group**.
 
-![A Screenshot with an arrow pointing to the add button and a border around the group button](05/media/image-6-eddgroup.png)
+![A screenshot with a cursor pointing to the Group option under Add button](05/media/image-6-eddgroup.png)
 
-16.  Go to the **Properties** pane and enter **Reports** for Title.
-17.  Select the **Reports** group you just created, click **+ Add** and select **Subarea**.
+15. Go to the **Properties** pane and enter **Reports** for Title.
 
-![A Screenshot with an arrow pointing to the add button and a border around the subarea button](05/media/image-6-eddsubarea.png)
+16.  Select the **Reports** group you just created, click **+ Add** and select **Subarea**.
 
-18.   Go to the **Properties** pane, select **Dashboard** for Type, select **Problem management** for Default dashboard, and enter **Problem report** for Title.
+![A screenshot with a cursor pointing to the subarea option under Add button](05/media/image-6-eddsubarea.png)
 
-![A screenshot of the subarea window with the relevant option selected in each field](05/media/image-6-subareaprop.png)
+17. Select **Dashboard** for Type, select **Problem management** for Dashboard, enter **Problem report** for Title and click **Add**.
 
-19.  Drag the new **Reports** group and drop it before the **Problems** group.
-20.  The groups in the **Manage Problems** area should now look like the image below.
+![A screenshot of the subarea properties dialog with the relevant option selected in each field](05/media/image-6-subareaprop.png)
 
-![A screenshot of the manage problems area with reports and problems being the two items in this area](05/media/image-6-areagroups.png)
+18. Click **ellipsis** icon next to **Reports** group and select **Move up**.
 
-21.  Click **Save and Close** to close the sitemap editor.
-22.  Click **Save and Close** again to close the app designer.
-23.  Click **Done**.
-24.  Click **Publish all customizations** and wait for the publishing to complete.
-25.  Select **Apps** and click to launch the **Company 311 Admin** Model-driven application.
-26.  The report should load.
+19.  Click **Save**, then click **Publish**, wait for the publishing to complete and then click **Play**.
+
+![A screenshot of the top-level menu with Save, Publish, and Play buttons. Cursor is pointing to the Save button](05/media/image-6-savepublishplay.png)
+
+20. The report should load.
 
 ![A screenshot of your problem management report](05/media/image-6-PowerBIinModel.png)
 
-27.  Interact with report and make sure it behaves as expected.
+21. Interact with report and make sure it behaves as expected.
 
 ### Exercise 5: Power BI embedded canvas
 
@@ -420,11 +422,9 @@ In this exercise, you will add embedded canvas application to Power BI as a visu
 
 ![Delete gallery button - screenshot](05/media/ex_5_deletegallery.png)
 
-2.  Click **File**.
-4.  Select **Settings**.
+2.  Click **Settings**.
 5.  Select **Display**.
-6.  Change the **Orientation** for **Landscape**.
-7.  Click **Apply** on the popup.
+6.  Change the **Orientation** for **Landscape** and click **Apply** on the popup.
 8.  Close the **Settings** window.
 9.  Select **Data** and click **Add data**.
 
@@ -441,9 +441,7 @@ In this exercise, you will add embedded canvas application to Power BI as a visu
 
 ![A screentshot showing OnStart property set to the expression described on the previous step](05/media/ex_5_apponstart.png)
 
-13.   Select the **Insert** tab, click **Media**, and select **Image**.
-
-![Insert image- screenshot](05/media/ex_5_insertimaGe.png)
+13.   Select the **+ Insert** button, expand **Media** group, then select **Image**.
 
 14  Set the **Image** value to the formula below.
 
@@ -476,7 +474,7 @@ In this exercise, you will add embedded canvas application to Power BI as a visu
 
 #### Task 3: Add controls
 
-1.  Select the **Insert** tab and click **Label**.
+1.  Select the **Insert** tab and click **Text label**.
 2.  Select the label you just added and set the **Text** value to the formula below.
 
 ```CurrentItem.Title```
@@ -501,10 +499,10 @@ In this exercise, you will add embedded canvas application to Power BI as a visu
 
 ![Resized label - screenshot](05/media/ex_7_resizedlabel.png)
 
-11.  Go to the **Insert** tab, click **Icons** and select **Next**.
-12.  Double click on the icon you just added and rename it **Next icon**.
-13.  Go to the **Insert** tab, click **Icons** and select **Back**.
-14.  Double click on the second icon you just added and rename it **Back icon**.
+11.  Select **+ Insert**, enter **next** in the search box, then select **Next arrow** under **Icons**.
+12.  Double click on the name of the icon you just added and rename it **Next icon**.
+13.  Select **+ Insert**, enter **back** in the search box, then select **Back arrow** under **Icons**.
+14.  Double click on the name of second icon you just added and rename it **Back icon**.
 15.  Drag and place the the **Next icon** above the right side of the label.
 16.  Drag and place the the **Back icon** above the left side of the label.
 17.  The icons should now look like the image below.
@@ -513,7 +511,7 @@ In this exercise, you will add embedded canvas application to Power BI as a visu
 
 18.  Select the **Next icon** and set the **OnSelect** value to the formula below.
 
-```UpdateContext({CurrentItem: LookUp('Problem Reports', 'Problem Report' = GUID(Last(FirstN([@PowerBIIntegration].Data,currentIndex)).'Problem Report'))});UpdateContext({currentIndex: currentIndex +1})```
+```UpdateContext({CurrentItem: LookUp('Problem Reports', 'Problem Report' = GUID(Last(FirstN([@PowerBIIntegration].Data,currentIndex+1)).'Problem Report'))});UpdateContext({currentIndex: currentIndex+1})```
 
 19.  Set the **DisplayMode** value of the **Next icon** to the formula below.
 
@@ -521,29 +519,29 @@ In this exercise, you will add embedded canvas application to Power BI as a visu
 
 20.  Select the **Back icon** and set the **OnSelect** value to the formula below.
 
-```UpdateContext({CurrentItem: LookUp('Problem Reports', 'Problem Report' = GUID(Last(FirstN([@PowerBIIntegration].Data,currentIndex)).'Problem Report'))});UpdateContext({currentIndex: currentIndex -1})```
+```UpdateContext({CurrentItem: LookUp('Problem Reports', 'Problem Report' = GUID(Last(FirstN([@PowerBIIntegration].Data,currentIndex-1)).'Problem Report'))});UpdateContext({currentIndex: currentIndex-1})```
 
 21.   Set the **DisplayMode** value of the **Back icon** to the formula below.
 
 ```If(currentIndex > 1, DisplayMode.Edit, DisplayMode.Disabled)```
 
-22.   Go to the **Insert** tab, click **Icons** and select **Check**.
+22.   Select **+ Insert**, enter **check** in the search box, then select **Check** under **Icons**.
 23.   Rename the Check icon **Complete icon**.
 24.   Move the **Complete icon** to the top right of the screen.
 25.   Set the OnSelect of the **Check icon** to the formula below. This formula will update the status of the row to completed and then refresh Power BI.
 
 ```Patch('Problem Reports', CurrentItem, {'Status Reason': 'Status Reason (Problem Reports)'.Completed}); PowerBIIntegration.Refresh()```
 
-26.   Click **Play**.
-27.   Click on the next and back icons and make sure the image changes.
-28.   Close the preview.
+26. Click **Play**.
+27. Click on the next and back icons and make sure the image changes.
+28. Close the preview.
 
-29.   Click **File**.
-30.   Click **Save**.
-31.   Select **Cloud** enter **Power BI embed app**.
-32.   Click **Save**.
-33.   Close the app studio browser window or tab.
-34.   You should now be back on the Power BI report. Click **Refresh** on the top header.
+29. Click **Save** button.
+30. Enter **Power BI embed app** for Name.
+31. Click **Save**.
+32. Click **Publish** button.
+33. Close the app studio browser window or tab.
+34. You should now be back on the Power BI report. Click **Refresh** on the top header.
 35. Click on the **Next** and **Back** icons to make sure the application loads the images.
 
     ![Canvas inside Power BI report - screenshot](05/media/ex_7_canvasembedded.png)
@@ -589,3 +587,7 @@ In this exercise you will import sample data into Power BI service. That allows 
 ![A Screenshot with an arrow pointing to the ellipses icon for more options and the edit button selected](05/media/image-6-30.png)
 
 9. You can now start **Exercise 2: Create Power BI Report** of this lab.
+
+> **NOTE**
+>
+> The sample data contained in **pbix** file may differ from the data present in the Dataverse instance. If reports are built using imported file, some of the visual elements and functionality may vary as a result.
