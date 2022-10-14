@@ -399,7 +399,7 @@ In this exercise, you will add embedded canvas application to Power BI as a visu
 4. Click **Edit**.
 5. Resize and reposition the visuals as shown below.
 
-![Power BI visuals - screenshot](05/media/image-6-powerbivisuaLs.png)
+![Power BI visuals - screenshot](05/media/image-6-PowerBIVisuals.png)
 
 6. Click on an empty area of the canvas, go to the **Visualizations** and click **Power Apps for Power BI**.
 
