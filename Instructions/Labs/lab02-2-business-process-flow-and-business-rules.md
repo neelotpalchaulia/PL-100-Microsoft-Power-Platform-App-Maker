@@ -85,7 +85,7 @@ In this task, you will create a business process flow for the Problem Report tab
 
 ![A screenshot of New business process flow panel with relevant field values.](02-2/media/image3.png)
 
-5.  Select the **New stage**, go to the **Properties** pane, change the **Display Name** to **Route**, and click **Apply**.
+5. Click to open the **Problem resoultion Process**' Business Process flow created in the previous step. Select the **New stage**, go to the **Properties** pane, change the **Display Name** to **Route**, and click **Apply**.
 
 ![A screenshot of the new stage and properties pane](02-2/media/image4.png)
 
