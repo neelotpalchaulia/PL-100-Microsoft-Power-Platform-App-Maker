@@ -405,7 +405,7 @@ In this exercise, you will add embedded canvas application to Power BI as a visu
 
 ![Power Apps for Power BI - screenshot](05/media/image-6-powerappsforpowerbi.png)
 
-7. Select the Power BI visual you just created, expand the **lh_problemreport** table select **Problem Report** column.
+7. Select the Power BI visual you just created, expand the **lh_problemreport** table select **Problem Report** column. Drag the **Problem Report** column into the **Add data fields here** can be tracked under the **Visualizations >> PowerApps Data**
 
 ![Table column - screenshot](05/media/image-6-tablecolumn.png)
 
