@@ -335,7 +335,7 @@ In this task, you will add search capability to your application.
 
 10. Select the **BrowseGallery** under **LeftContainer1** and change the **Items** formula to the formula below. The formula is incomplete, we will complete it in the next step.
 
-```Filter(Search(Gadgets, 'Search Box'.Value, ), Availability <> 'Availability (Gadgets)'.'Picked up')```
+```Filter(Search(Gadgets, 'Search Box'.Value, ), Availability <> [@Availability].'Picked up')```
 
 11. Place your cursor after **'Search Box'.Value** and type name. You should see a suggestion with crxxx_name, select the suggested column.
 
