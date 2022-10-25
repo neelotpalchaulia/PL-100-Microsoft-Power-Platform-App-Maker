@@ -49,7 +49,7 @@ In this task, you will import the shared components solution into your environme
 
 1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) page and make sure you are in the correct environment.
 
-2.  Select **Solutions** and click **Import**.
+2.  Select **Solutions** and click **Import Solution**.
 
 ![A screenshot with an arrow pointing to the import button](03-2/media/image1.png)
 
