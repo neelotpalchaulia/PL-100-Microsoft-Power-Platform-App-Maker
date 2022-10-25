@@ -114,7 +114,7 @@ We will follow the below steps to design and create the Power BI dashboard:
 
 ![A Screenshot with an arrow pointing to the report icon on the left toolbar](05/media/image-6-10.png)
 
-11. Expand **lh_ProblemReports** node in the **Fields** panel.
+11. Expand **lh_ProblemReport** node in the **Fields** panel.
 
 12. Click on the **...** More options button of the **lh_ProblemReports** table.
 
