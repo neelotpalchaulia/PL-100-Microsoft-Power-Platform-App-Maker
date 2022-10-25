@@ -130,7 +130,7 @@ We will follow the below steps to design and create the Power BI dashboard:
 
 ![A Screenshot with an arrow pointing to the checkmark icon](05/media/image-6-13.png)
 
-15. Repeat the three previous steps on **lh_problemreports** node to add a column **Department** with the below formula.
+15. Repeat the three previous steps on **lh_problemreport** node to add a column **Department** with the below formula.
 
 ```Department = RELATED(lh_Department[lh_name])```
 
