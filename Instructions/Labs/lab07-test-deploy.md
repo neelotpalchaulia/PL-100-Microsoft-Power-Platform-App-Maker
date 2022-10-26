@@ -186,7 +186,7 @@ In this exercise, you will export the company 311 solution and import it into a 
 
 4.  Select all of the connection references and click **Add**.
 5.  Click **Publish all customizations** and wait for the publishing to complete.
-7.  Click **Export**.
+7.  Click **Export Solution**.
 
 ![A Screenshot with an arrow pointing to the export button](07/media/image8.png)
 
