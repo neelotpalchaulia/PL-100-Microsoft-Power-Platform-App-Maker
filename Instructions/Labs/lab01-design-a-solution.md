@@ -169,7 +169,7 @@ Use whatever tools you have available; you can use a whiteboard, Visio, PowerPoi
 
 1.  Compare the data model you created in the previous task with the one we prepared. If there are significant differences you should discuss those with your instructor.
 
-![A data model showing problem report, department and building](01/media/image2.png)
+    ![A data model showing problem report, department and building](01/media/image2.png)
 
 ### Exercise 4: Identify apps and automation needed
 
