@@ -221,7 +221,7 @@ In this task, you will create the escalation flow.
 
 5.  Select **Added or Modified** for **Change type**, select **Problem Reports** for **Table name**, select **Organization** for **Scope** and click **Show advanced options**.
 
-6.  Enter **lh_estimatedcost,lh_assignedto** for **Select columns**.
+6.  Enter **lh_estimatedcost,lh_assignto** for **Select columns**.
 
 7.  Click on the **… Menu** button of the trigger step and select **Rename**.
 
