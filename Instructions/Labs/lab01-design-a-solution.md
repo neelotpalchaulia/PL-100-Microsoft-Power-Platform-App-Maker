@@ -162,14 +162,14 @@ Use whatever tools you have available; you can use a whiteboard, Visio, PowerPoi
 
 1.  Draw your data model, including relationships and any relationship behaviors. Your drawing should look like the following example, except yours should be for your Company 311 solution.
     
-    ![Whiteboard drawing of an example data model containing entities Course and Module and 1:N parental raltionship from Course to Module](01/media/image1.png)
+    ![Data model containing entities Course and Module and 1:N parental raltionship from Course to Module](01/media/image1.png)
 
 
 #### Task 3: Compare data models
 
 1.  Compare the data model you created in the previous task with the one we prepared. If there are significant differences you should discuss those with your instructor.
 
-![A close up of text on a whiteboard with a data model showing problem report, department and building](01/media/image2.png)
+    ![A data model showing problem report, department and building](01/media/image2.png)
 
 ### Exercise 4: Identify apps and automation needed
 
@@ -247,4 +247,4 @@ Review the following user story:
 
 The following is an example UI mockup showing both the add new item an My reports list. There is no single answer to what this has to look like and there are possibly many examples you could come up with. The goal for UI markup is to be able to quickly demonstrate what you want to build and show it to somebody and without having to actually build it. Depending on the tool you used you can often make changes quickly as you evolve the mockup. The markup is used to help you build the actual applications screens quicker with less rework.
 
-![A close up of text on a whiteboard showing a UI mockup of the add and my reports list](01/media/image3.png)
+![A UI mockup of the add and my reports list](01/media/image3.png)
