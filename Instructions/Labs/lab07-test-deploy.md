@@ -195,7 +195,7 @@ In this exercise, you will export the company 311 solution and import it into a 
 
 10. Save the solution on your computer.
 
-11. Click **Export** again.
+11. Click **Export Solution** again.
 
 12. Click **Next**.
 
