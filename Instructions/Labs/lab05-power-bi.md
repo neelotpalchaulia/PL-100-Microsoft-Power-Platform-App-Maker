@@ -327,7 +327,7 @@ In this task you will setup a Microsoft Teams team for the Lamna Healthcare Comp
 #### Task 3: Embed Power BI report to Model-driven app
 
 1. Navigate to [Power BI](https://app.powerbi.com/home).
-2. Click to select **Datasets**.
+2. Click to select **Datahub**.
 
 ![A screenshot of a border around the datasets button](05/media/image-6-datasets.png)
 
