@@ -530,7 +530,7 @@ In this exercise, you will import sample data into the environment. Rows are imp
 #### Task 1: Import solution
 
 1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in the correct environment.
-2.  Select **Solutions** and click **Import**.
+2.  Select **Solutions** and click **Import Solution**.
 3.  Click **Browse**.
 4.  Select the **DataImport.zip** solution file located in the lab resources folder and click **Open**.
 5.  Click **Next**.
