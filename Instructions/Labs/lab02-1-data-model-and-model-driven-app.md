@@ -86,7 +86,7 @@ In this exercise, you will create Tables, Columns, and the Relationships you ide
 
 #### Task 1: Create Tables
 
-1.  In the [Power Apps maker portal](https://make.powerapps.com/) select **Solutions** and click to open the **Company 311** solution you created in Exercise 1.
+1.  In the [Power Apps maker portal](https://make.powerapps.com/) page, make sure you are in the correct environment. Select **Solutions** and click to open the **Company 311** solution you created in Exercise 1.
 
 2.  Click **+ New** and select **Table**.
 
