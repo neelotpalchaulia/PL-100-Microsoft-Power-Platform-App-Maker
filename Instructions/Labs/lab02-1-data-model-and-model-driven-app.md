@@ -197,7 +197,7 @@ In this task, you will edit the Status Reason column of the Problem Report table
 
 In this task, you will create many-to-one relationships between the Problem Report table and the Building and Department tables.
 
-1.  In the **Objects** navigation tree expand **Tables**, expand **Problem Report** table.
+1.  In the **Objects** navigation tree expand **Tables**, Select and expand **Problem Report** table.
 
 2.  Click **+ New > Relationship > Many-to-one** menu.
 
