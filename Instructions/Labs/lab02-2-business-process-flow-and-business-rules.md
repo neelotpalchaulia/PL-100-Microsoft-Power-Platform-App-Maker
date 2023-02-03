@@ -143,7 +143,7 @@ In this task, you will create a business process flow for the Problem Report tab
 
 27. Add the new data step below the **Resolution** data step.
 
-28. Select the new data step, go to the **Properties** pane, select **Resolved on** for **Date Field** and click **Apply**.
+28. Select the new data step, go to the **Properties** pane, select **Resolved on** for **Data Field** and click **Apply**.
 
 29. The Business process flow should now look like the image below. Click **Save**.
 
