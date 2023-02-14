@@ -242,13 +242,13 @@ In this exercise, you will configure form and views for the Problem Report table
 
 5.  Use the Zoom control at the bottom of the form to make the form large enough for you to work easily. Select the **General** tab. 
 
-![A screenshot of the form design with General form section selected.](02-1/media/image31.png)
+![A screenshot of the form designer with General form section selected.](02-1/media/image31.png)
 
 6.  Go to the **Properties** pane, change the **Label** to **Problem details**, and enter **section\_problem\_report** for **Name**.
 
-![A screenshot of the properties pain with the relevant text in each field](02-1/media/image32.png)
+![A screenshot of the properties pane with the relevant text in each field](02-1/media/image32.png)
 
-7.  While you still have the section selected, go to the **Table Columns** pane, and click on the **Building** Column. The Building Column will be added to the form.
+7.  While you still have the section selected, go to the **Table columns** pane, and click on the **Building** Column. The Building Column will be added to the form.
 
 ![A screenshot of the form designer with Building column selected in the Table columns section.](02-1/media/image33.png)
 
