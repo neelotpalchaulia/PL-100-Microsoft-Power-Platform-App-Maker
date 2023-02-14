@@ -85,34 +85,35 @@ In this exercise, you will create Tables, Columns, and the Relationships you ide
 
 1.  In the [Power Apps maker portal](https://make.powerapps.com/) page, make sure you are in the correct environment. Select **Solutions** and click to open the **Company 311** solution you created in Exercise 1.
 
-2.  Select **+ New** and select **Table**.
+2.  Select **+ New** \> **Table** \> **Table**. 
 
 3.  Enter **Building** for **Display name** and select **Save**.
 
 ![A screenshot of the new table window with the relevant value in each field](02-1/media/image5.png)
 
-4.  Select **All** in the solution navigation tree to display all solution components. 
+4.  Select **All** from the tree view, in the **Objects** pane to display all solution objects and subcomponents. 
 
-5.  Click **+ New** and select **Table** again.
+5.  Select **+ New** \> **Table** \> **Table** again.
 
-6.  Enter **Department** for **Display name** and click **Save**.
+6.  Enter **Department** for **Display name** and select **Save**.
 
 ![A screenshot of the new table window with the relevant value in each field](02-1/media/image7.png)
 
-7.  Select **All** from the tree view, in the Object pane to display all solution objects and subcomponents. 
+7.  Select **All** from the tree view, in the **Objects** pane to display all solution objects and subcomponents. 
 
-8.  Click **+ New** and select **Table** one more time.
+8.  Select **+ New** \> **Table** \> **Table** one more time.
 
 9.  Enter **Problem Report** for **Display name**.
 
 ![A screenshot of the new table window with the relevant value in each field](02-1/media/image8.png)
 
-7.  Select **Primary Column** tab, enter **Title** for **Display name**.
+7.  Select the **Primary column** tab, enter **Title** for **Display name**.
 
 ![A screenshot of the new table window with the Primary column tab selected and the word Title entered in the Display name textbox](02-1/media/image8-1.png)
 
-10. Select **Properties** tab, click to expand **Advanced Options**, then scroll to **Rows in this table** section. 
-10. Check the **Can be added to a queue** checkbox and click **Save**. 
+10. Select the **Properties** tab, expand **Advanced options**, then scroll to the **Rows in this table** section. 
+
+11. Check the **Can be added to a queue** checkbox and select **Save**. 
 
 ![A screenshot of the Rows in this table section with Can be added to a queue checkbox selected](02-1/media/image10.png)
 
@@ -120,7 +121,7 @@ In this exercise, you will create Tables, Columns, and the Relationships you ide
 >
 > Enabling queues for Problem Report table allows rows to be associated with one or more queues to help facilitate routing problem reports to the different departments. Once this option is enabled, it can't be turned off. 
 
-12. Select **All** in the **Objects** navigation tree.  The tables you created should now be visible in the list view and in the tree navigation.
+12. Select **All** from the tree view in the **Objects** pane. The tables you created should now be visible in the list view and in the tree navigation. 
 
 ![Screenshot of the Company 311 solution page with all components visible. The component list contains three tables Building, Department, Problem Report](02-1/media/image10-1.png)
 
@@ -132,34 +133,41 @@ In this task, you will add Columns to the Problem Report Table.
 
 2.  Select **Solutions** and click to open the **Company 311** solution you created in exercise 1.
 
-3.  Click to open the **Problem Report** Table.
+3.  Select the **Problem Report** Table.
 
-4.  There are many ways to add a new column in the table. For this lab purpose select the **+ New** menu, then select **Column** item.
+4.  There are many ways to add a new column to the table. For this lab, select **+ New**, then select **Column** from the Schema group. 
 
 ![A screenshot of the solution page with +New menu expanded and cursor pointing to the Column item](02-1/media/image13.png)
 
-5.  Enter **Location** for **Display name**. Select **Text > Single line of text > Plain text** for **Data type**.
+5.  Enter **Location** for **Display name**. Select **Text > Single line of text > Plain text** for **Data type**. 
 
 ![A screenshot of a New column form with Data type dropdown expanded with Text > Plain text option selected](02-1/media/image14-1.png)
 
-6. Expand **Advanced options** section, change **Maximum character count** to **150**, then click **Save**.
+6. Expand the **Advanced options** section, change **Maximum character count** to **150**, then select **Save**. 
 
 ![A screenshot of expanded Advanced options section with the cursor pointing to Save button](02-1/media/image14.png)
 
-7.  Click **+ New > Column** in the top menu.
+7.  Select **+ New \> Column** from the top menu. 
 
-8.  Enter **Details** for **Display name**, select **Text > Multiline text > Plain Text** for **Data type**, make the Column **Business Required**, and click **Save**.
+8.  Enter **Details** for **Display name**, select **Text \> Multiple lines of text \> Plain Text** for **Data type**, make the Column **Business required**, and select **Save**. 
 
 ![A screenshot of the details window with the relevant values in each field](02-1/media/image16.png)
 
-9.  Click **+ New > Column** again.
-10.  Enter **Photo** for **Display name**, select **File > Image** for **Data type**, and click **Save**.
-11.  Click **+ New > Column**.
-12.  Enter **Resolution** for **Display name**, select **Text > Multiline text > Plain Text** for **Data type**, and click **Save**.
-13.  Click **+ New Column**.
-14.  Enter **Resolved On** for **Display name**, select **Date and time** for **Data type**, and click **Save**. Select the **Back** from the top menu option.
-15.  Select **All** in the **Objects** navigation tree.
-16.  Click **Publish all customizations** and wait for the publishing to complete.
+9.  Select **+ New \> Column** again.
+
+10.  Enter **Photo** for **Display name**, select **File > Image** for **Data type**, and select **Save**.
+
+11.  Select **+ New \> Column**.
+
+12.  Enter **Resolution** for **Display name**, select **Text \> Multiple lines of text \> Plain Text** for **Data type**, and select **Save**.
+
+13.  Select **+ New \> Column**.
+
+14.  Enter **Resolved On** for **Display name**, select **Date and time** for **Data type**, and click **Save**. 
+
+15.  Select **All** from the tree view in the **Objects** pane. 
+
+16.  Select **Publish all customizations** from the command bar and wait for the publishing to complete.
 
 > **IMPORTANT**
 >
@@ -171,48 +179,50 @@ In this task, you will edit the Status Reason column of the Problem Report table
 
 1.  Make sure you are in the **Company 311** solution.
 
-2.  In the **Objects** navigation tree expand **Tables**, expand **Problem Report**, select **Columns**. Locate and click **Status Reason** column.
+2.  In the **Objects** navigation tree expand **Tables**, expand **Problem Report**, select **Columns**. Locate and select the **Status Reason** column.
 
 ![A screenshot with Tables > Problem Report expanded, Column selected in the Objects navigation tree on the left. On the right hand side there is a list of columns with Status Reason selected.](02-1/media/image19.png)
 
 3.  Change the label of **Active** option to **New**.
 
-4.  Click **+ New choice** and enter **Assigned** for **Label**.
+4.  Select **+ New choice** and enter **Assigned** for **Label**.
 
-5.  Click **+ New choice** and enter **In Progress** for **Label**.
+5.  Select **+ New choice** and enter **In Progress** for **Label**.
 
-6.  Click **+ New choice** and enter **Completed** for **Label**.
+6.  Select **+ New choice** and enter **Completed** for **Label**.
 
-7.  Click **+ New choice** and enter **Won’t Fix** for **Label** and click **OK**.
+7.  Select **+ New choice** and enter **Won’t Fix** for **Label**.
 
 8.  You should now have 5 options. Select **New** for **Default choice** and click **Save**.
 
 ![A screenshot of the Status Reason column properties with 5 options and New as Default choice](02-1/media/image25.png)
 
-9. Select **All** in the **Objects** navigation tree.
-10. Click **Publish all customizations** and wait for the publishing to complete.
+9. Select **All** from the tree view in the **Objects** pane. 
+
+10. Select **Publish all customizations** and wait for the publishing to complete.
 
 #### Task 4: Relationships
 
 In this task, you will create many-to-one relationships between the Problem Report table and the Building and Department tables.
 
-1.  In the **Objects** navigation tree expand **Tables**, Select and expand **Problem Report** table.
+1.  In the **Objects** navigation tree expand **Tables**, select and expand **Problem Report** table.
 
-2.  Click **+ New > Relationship > Many-to-one** menu.
+2.  Select **+ New \> Relationship \> Many-to-one**.
 
 ![A screenshot of the solution window with Problem Report table selected and + New > Relationship > Many-to-one menu selected.](02-1/media/image28.png)
 
-4.  Select **Building** for **Related (One)** table and click **Done**.
+4.  Select **Building** for the **Related (One)** table and select **Done**.
 
 ![A screenshot of the many-to-one relationship settings](02-1/media/image29.png)
 
-5.  Click **+ New > Relationship > Many-to-one** menu again.
+5.  Select **+ New > Relationship > Many-to-one** menu again.
 
 6.  Select **Department** for **Related (One)** table and click **Done**.
 
-7.  Select **All** in the **Objects** navigation tree.
+7.  Select **All** from the tree view in the **Objects** pane. 
 
-8.  Click **Publish all customizations** and wait for the publishing to complete.
+8.  Select **Publish all customizations** and wait for the publishing to complete. 
+
 
 ### Exercise 3: Configure form and views
 
@@ -222,7 +232,7 @@ In this exercise, you will configure form and views for the Problem Report table
 
 1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in the correct environment.
 
-2.  Select Solutions and click to open the **Company 311** solution.
+2.  Select **Solutions** and select the **Company 311** solution.
 
 3.  In the **Objects** navigation tree expand **Tables**, expand **Problem Report** table.
 
@@ -230,7 +240,7 @@ In this exercise, you will configure form and views for the Problem Report table
 
 ![A screenshot of the solution explorer with Forms selected under Problems Report table. In the list view Information form of type Main is selected.](02-1/media/image30.png)
 
-5.  Use the Zoom control at the bottom of the form to make the form large enough for you to work easily. Select the **General** form section.
+5.  Use the Zoom control at the bottom of the form to make the form large enough for you to work easily. Select the **General** tab. 
 
 ![A screenshot of the form design with General form section selected.](02-1/media/image31.png)
 
