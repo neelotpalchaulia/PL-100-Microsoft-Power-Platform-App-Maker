@@ -76,9 +76,6 @@ In this exercise, you will create a custom solution publisher and a solution. Th
 
 ![A screenshot of the new solution pane](02-1/media/image3.png)
 
-8.  You should now see the solution you created in the solution list.
-
-![A screenshot with a border around your solution](02-1/media/image4.png)
 
 ### Exercise 2: Implement data model
 
