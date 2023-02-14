@@ -85,9 +85,9 @@ In this exercise, you will create Tables, Columns, and the Relationships you ide
 
 1.  In the [Power Apps maker portal](https://make.powerapps.com/) page, make sure you are in the correct environment. Select **Solutions** and click to open the **Company 311** solution you created in Exercise 1.
 
-2.  Click **+ New** and select **Table**.
+2.  Select **+ New** and select **Table**.
 
-3.  Enter **Building** for **Display name** and click **Save**.
+3.  Enter **Building** for **Display name** and select **Save**.
 
 ![A screenshot of the new table window with the relevant value in each field](02-1/media/image5.png)
 
@@ -99,8 +99,10 @@ In this exercise, you will create Tables, Columns, and the Relationships you ide
 
 ![A screenshot of the new table window with the relevant value in each field](02-1/media/image7.png)
 
-7.  Select **All** in the solution navigation tree to display all solution components. 
+7.  Select **All** from the tree view, in the Object pane to display all solution objects and subcomponents. 
+
 8.  Click **+ New** and select **Table** one more time.
+
 9.  Enter **Problem Report** for **Display name**.
 
 ![A screenshot of the new table window with the relevant value in each field](02-1/media/image8.png)
