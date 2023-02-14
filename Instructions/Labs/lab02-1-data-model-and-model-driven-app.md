@@ -14,7 +14,7 @@ lab:
 
 # Lab 02.1: Data model and model-driven app
 
-In this lab you will be implementing the data model for the solution and building a model-driven app that will be used for fixing problems or managing the overall effort.
+In this lab you will be implementing the data model for the solution and building a model-driven app that will be used for tracking problems and managing the overall effort.
 
 ## What you will learn
 
@@ -52,31 +52,31 @@ In this lab you will be implementing the data model for the solution and buildi
 
 ### Exercise 1: Create publisher and solution
 
-In this exercise, you will create a custom solution publisher and a solution. This solution will be used in all the labs for this course to keep all the components together.
+In this exercise, you will create a custom solution publisher and a solution. This solution will be used in all the labs for this course to keep all the components together. 
 
 #### Task 1: Create publisher and solution
 
-1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in the practice environment you created.
+1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in the practice environment you created. 
 
-2.  Select **Solutions** and click **+ New solution**.
+2.  From the left navigation pane, select **Solutions** and then select **+ New solution**. 
 
-3.  Enter **Company 311** for **Display name** and click.
+3.  For **Display name**, enter **Company 311**. 
 
-4.  Click on the **+ New Publisher**, under the **Publisher** option.
+4.  Select **+ New publisher**, under the **Publisher** field. 
 
 ![A Screenshot with an arrow pointing to the new publisher button](02-1/media/image1.png)
 
-5.  Enter **Lamna Healthcare** for **Display name**, **lamnahealthcare** for **Name**, **lh** for **Prefix**, **88186** for Choice value prefix, and click **Save**.
+5.  Enter **Lamna Healthcare** for **Display name**, **lamnahealthcare** for **Name**, **lh** for **Prefix**, **88186** for Choice value prefix, and select **Save**.
 
 ![A screenshot of the new publisher properties pane](02-1/media/image105.png)
 
-6.  Click on the **Publisher** dropdown and select the **Lamna Healthcare** publisher you created.
+6.  Select **Lamna Healthcare (lamnahealthcare)** from the **Publisher** dropdown menu. 
 
-8.  Click **Create**.
+7.  Select **Create**. 
 
 ![A screenshot of the new solution pane](02-1/media/image3.png)
 
-9.  You should now see the solution you created in the solution list.
+8.  You should now see the solution you created in the solution list.
 
 ![A screenshot with a border around your solution](02-1/media/image4.png)
 
