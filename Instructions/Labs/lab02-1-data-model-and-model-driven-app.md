@@ -379,7 +379,7 @@ In this task, you will create a new view from the Active Problem Reports view.
 
 ### Exercise 4: Compose model-driven application
 
-In this exercise, you will create model-driven application.
+In this exercise, you will create a model-driven application.
 
 #### Task 1: Create new model-driven application
 
@@ -389,29 +389,29 @@ In this exercise, you will create model-driven application.
 
 3.  Select **+ New > App > Model-driven app** from the command bar.
 
-![A screenshot of the menu to create a new model-driven app](02-1/media/image60.png)
+    ![A screenshot of the menu to create a new model-driven app](02-1/media/image60.png)
 
 4.  Enter **Company 311 Admin** for name and select **Create**.
 
-![A screenshot of the New model-driven app window](02-1/media/image61.png)
+    ![A screenshot of the New model-driven app window](02-1/media/image61.png)
 
-5. Select **Navigation** from the left menu.
+5.  Select **Navigation** from the left menu.
 
-   ![A screenshot of the Pages selection pane with a red arrow pointing to the tree icon in the navigation pane](02-1/media/image102.png)
+    ![A screenshot of the Pages selection pane with a red arrow pointing to the tree icon in the navigation pane](02-1/media/image102.png)
 
-6. Select **Navigation bar** and in the properties pane, check **Enable Areas**.
+6.  Select **Navigation bar** and in the properties pane, check **Enable Areas**.
 
-7. Select **Area1** in the Navigation tree view. 
+7.  Select **Area1** in the Navigation tree view. 
 
-![A screenshot of the app designer with the first area selected](02-1/media/image63.png)
+    ![A screenshot of the app designer with the first area selected](02-1/media/image63.png)
 
-8. Go to the **Properties** pane, enter **Manage Problems** for **Title**, and enter **area\_manage\_problems** for **ID**.
+8.  Go to the **Properties** pane, enter **Manage Problems** for **Title**, and enter **area\_manage\_problems** for **ID**.
 
-![A screenshot of the properties pane with the title and ID changed](02-1/media/image64.png)
+    ![A screenshot of the properties pane with the title and ID changed](02-1/media/image64.png)
 
-9. Select **Group1**.
+9.  Select **Group1**.
 
-![A screenshot of group 1 selected](02-1/media/image65.png)
+    ![A screenshot of group 1 selected](02-1/media/image65.png)
 
 10. Go to the **Properties**, enter **Problems** for **Title**, and enter **group\_problems** for **ID**.
 
@@ -419,49 +419,53 @@ In this exercise, you will create model-driven application.
 
 12. Go to the **Properties** pane, select **Table** for **Content Type**, and select **Problem Report** for **Table**, and enter **Problem reports** for **Title**.
 
-![A screenshot of the properties pane and the Content type, Table, and Title values set](02-1/media/image68.png)
+    ![A screenshot of the properties pane and the Content type, Table, and Title values set](02-1/media/image68.png)
 
-13. Click **+ Add** and select **Area**.
+13. Select **+ Add** and select **Area**.
 
-![A screenshot with an arrow pointing to the add button and a border around the area button](02-1/media/image96.png)
+    ![A screenshot with an arrow pointing to the add button and a border around the area button](02-1/media/image96.png)
 
-18.   Go to the **Properties** pane, enter **Settings** for **Title**, and enter **area\_settings** for **ID**.
+14. Go to the **Properties** pane, enter **Settings** for **Title**, and enter **area\_settings** for **ID**.
+
+    ![A screenshot of the properties pane with the title and ID changed](02-1/media/image97.png)
+
+15. Click **+ Add** and select **Group**.
+
+    ![A screenshot of the Add menu with option Group selected](02-1/media/image98.png)
+
+16. Select the **New Group** you just added.
+
+17. Go to the **Properties** pane, enter **Taxonomy** for **Title**, and enter **group\_taxonomy** for **ID**.
+
+    ![A screenshot of the properties pane with the title and ID changed](02-1/media/image72.png)
+
+18. Select the **Taxonomy** group you just added, click **+ Add** and select **Subarea**
+
+    ![A screenshot of the Add menu with option Subarea selected](02-1/media/image73.png)
+
+19. Select **Table** for **Content type**, **Building** for **Table** and click **Add**.
+
+    ![A screenshot of the New Subarea window and the content type changed](02-1/media/image74.png)
+
+20.  Select the **Taxonomy** group, click **+ Add** and select **Subarea** again.
+
+21.  Select **Table** for **Content type**, select **Department** for **Table**, and click **Add**.
+
+22. The sitemap should now look like the image below. Click **Save** to save the sitemap.
+
+    ![A screenshot with an arrow pointing to the save button on the site map which should have active departments with a name column below](02-1/media/image76.png)
+
+23. Select **Publish** to publish the sitemap and wait for the publishing to complete.
+
+24. Select the **<- Back** button to return to the solution explorer.
+
+25. Select **All** in the **Objects** navigation tree.
+
+26. Select **Publish all customizations** and wait for the publishing to complete.
+
+    ![A screenshot with an arrow pointing to the publish all customizations button](02-1/media/image77.png)
 
 
-![A screenshot of the properties pane with the title and ID changed](02-1/media/image97.png)
-
-20.  Click **+ Add** and select **Group**.
-
-
-![A screenshot of the Add menu with option Group selected](02-1/media/image98.png)
-
-25.  Select the **New Group** you just added.
-
-26.  Go to the **Properties** pane, enter **Taxonomy** for **Title**, and enter **group\_taxonomy** for **ID**.
-
-![A screenshot of the properties pane with the title and ID changed](02-1/media/image72.png)
-
-27.  Select the **Taxonomy** group you just added, click **+ Add** and select **Subarea**
-
-![A screenshot of the Add menu with option Subarea selected](02-1/media/image73.png)
-
-28.   Select **Table** for **Content type**, **Building** for **Table** and click **Add**.
-
-![A screenshot of the New Subarea window and the content type changed](02-1/media/image74.png)
-
-29.  Select the **Taxonomy** group, click **+ Add** and select **Subarea** again.
-
-30.  Select **Table** for **Content type**, select **Department** for **Table**, and click **Add**.
-
-31. The sitemap should now look like the image below. Click **Save** to save the sitemap.
-
-![A Screenshot with an arrow pointing to the save button on your site map which should have active departments with a name column below](02-1/media/image76.png)
-
-32. Click **Publish** to publish the sitemap and wait for the publishing to complete.
-33. Press **<- Back** button.
-36. Click **Publish all customizations** and wait for the publishing to complete.
-
-![A Screenshot with an arrow pointing to the publish all customizations button](02-1/media/image77.png)
 
 ### Exercise 5: Input data
 
@@ -471,11 +475,11 @@ In this exercise, you will input data to the Dataverse tables.
 
 1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in the correct environment.
 
-2.  Select **Apps** and click to open the **Company 311 Admin** application you created.
+2.  Select **Apps** and open the **Company 311 Admin** application created in the previous exercise.
 
 ![A Screenshot with an arrow pointing to the Company 311 Admin app](02-1/media/image80.png)
 
-3.  Click **Change area**.
+3.  Select **Change area**.
 
 ![A screenshot with an arrow pointing to chevron icon next to Manage Problems](02-1/media/image81.png)
 
@@ -485,15 +489,15 @@ In this exercise, you will input data to the Dataverse tables.
 
 ![A Screenshot with an arrow pointing to the new button at the top of the window](02-1/media/image82.png)
 
-6.  Enter **Facility Maintenance** for **Name** and click **Save**.
+6.  Enter **Facility Maintenance** for **Name** and select **Save**.
 
 ![A screenshot showing the change in name to facility maintenance](02-1/media/image83.png)
 
-7.  Click **+ New** again.
+7.  Select **+ New** again.
 
 8.  Enter **Human Resources** for **Name** and click **Save**.
 
-9.  Click **+ New** one more time.
+9.  Select **+ New** one more time.
 
 10. Enter **Marketing** for **Name** and click **Save**.
 
@@ -503,29 +507,29 @@ In this exercise, you will input data to the Dataverse tables.
 
 ![A Screenshot with an arrow pointing to the buildings button under taxonomy](02-1/media/image84.png)
 
-13. Click **+ New**.
+13. Select **+ New**.
 
-14. Enter **San Francisco Main Campus** for **Name** and click **Save & Close**.
+14. Enter **San Francisco Main Campus** for **Name** and select **Save & Close**.
 
-15. Click **+ New** again.
+15. Select **+ New** again.
 
-16. Enter **London Paddington** for **Name** and click **Save & Close**.
+16. Enter **London Paddington** for **Name** and select **Save & Close**.
 
-17. You should now have two building Rows. Click **Change area**.
+17. You should now have two building Rows. Select **Change area**.
 
 ![A Screenshot with an arrow pointing to the chevron icon next to settings in the bottom left corner of the window](02-1/media/image85.png)
 
 18. Select **Manage Problems**.
 
-19. Click **+ New**.
+19. Select **+ New**.
 
 ![A screenshot of the active problem reports page](02-1/media/image86.png)
 
-20. Enter **Broken door** for **Title**, select **San Francisco Main Campus** for **Building**, enter **The main entrance door will not open all the way** for **Details**, and click **Save**
+20. Enter **Broken door** for **Title**, select **San Francisco Main Campus** for **Building**, enter **The main entrance door will not open all the way** for **Details**, and select **Save**.
 
 ![A screenshot of the new problem report window with all relevant text in each field](02-1/media/image87.png)
 
-21. Click on the **Photo** Column.
+21. Select **Open file** on the **Photo** field.
 
 ![A Screenshot with an arrow pointing to the upload an image button](02-1/media/image88.png)
 
@@ -535,7 +539,9 @@ In this exercise, you will input data to the Dataverse tables.
 
 ![A screenshot of a vector image of a door which should appear](02-1/media/image89.png)
 
-24. Click **Save & Close**.
+24. Select **Save & Close**.
+
+
 
 ### Exercise 6: Import data
 
@@ -544,16 +550,27 @@ In this exercise, you will import sample data into the environment. Rows are imp
 #### Task 1: Import solution
 
 1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in the correct environment.
-2.  Select **Solutions** and click **Import Solution**.
-3.  Click **Browse**.
-4.  Select the **DataImport.zip** solution file located in the lab resources folder and click **Open**.
-5.  Click **Next**.
-6.  Click **Next** again.
+
+2.  Select **Solutions** and select  **Import Solution**.
+
+3.  Select **Browse**.
+
+4.  Select the **DataImport.zip** solution file located in the lab resources folder and select **Open**.
+
+5.  Select **Next**.
+
+6.  Select **Next** again.
+
 7.  Expand **Select a connection** dropdown and click **+ New connection**.
+
 8.  New tab will open with a prompt to create **Microsoft Dataverse** connection. 
+
 9.  Click **Create**, authenticate if required, wait until new connection is created. Close the browser tab.
+
 10.  Click **Refresh**. Make sure new connection is selected in the dropdown. 
+
 11.  Click **Import** and wait for the message **Solution "Data Import" imported successfully** to appear.
+
 12.  Click **Publish all customizations** and wait for the publishing to complete. 
 
 #### Task 2: Review and run flow
