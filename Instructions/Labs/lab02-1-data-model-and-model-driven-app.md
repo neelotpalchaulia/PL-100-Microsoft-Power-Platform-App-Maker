@@ -14,7 +14,7 @@ lab:
 
 # Lab 02.1: Data model and model-driven app
 
-In this lab you will be implementing the data model for the solution and building a model-driven app that will be used for fixing problems or managing the overall effort.
+In this lab you will be implementing the data model for the solution and building a model-driven app that will be used for tracking problems and managing the overall effort.
 
 ## What you will learn
 
@@ -52,33 +52,30 @@ In this lab you will be implementing the data model for the solution and buildi
 
 ### Exercise 1: Create publisher and solution
 
-In this exercise, you will create a custom solution publisher and a solution. This solution will be used in all the labs for this course to keep all the components together.
+In this exercise, you will create a custom solution publisher and a solution. This solution will be used in all the labs for this course to keep all the components together. 
 
 #### Task 1: Create publisher and solution
 
-1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in the practice environment you created.
+1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in the practice environment you created. 
 
-2.  Select **Solutions** and click **+ New solution**.
+2.  From the left navigation pane, select **Solutions** and then select **+ New solution**. 
 
-3.  Enter **Company 311** for **Display name** and click.
+3.  For **Display name**, enter **Company 311**. 
 
-4.  Click on the **+ New Publisher**, under the **Publisher** option.
+4.  Select **+ New publisher**, under the **Publisher** field. 
 
 ![A Screenshot with an arrow pointing to the new publisher button](02-1/media/image1.png)
 
-5.  Enter **Lamna Healthcare** for **Display name**, **lamnahealthcare** for **Name**, **lh** for **Prefix**, **88186** for Choice value prefix, and click **Save**.
+5.  Enter **Lamna Healthcare** for **Display name**, **lamnahealthcare** for **Name**, **lh** for **Prefix**, **88186** for Choice value prefix, and select **Save**.
 
 ![A screenshot of the new publisher properties pane](02-1/media/image105.png)
 
-6.  Click on the **Publisher** dropdown and select the **Lamna Healthcare** publisher you created.
+6.  Select **Lamna Healthcare (lamnahealthcare)** from the **Publisher** dropdown menu. 
 
-8.  Click **Create**.
+7.  Select **Create**. 
 
 ![A screenshot of the new solution pane](02-1/media/image3.png)
 
-9.  You should now see the solution you created in the solution list.
-
-![A screenshot with a border around your solution](02-1/media/image4.png)
 
 ### Exercise 2: Implement data model
 
@@ -88,32 +85,35 @@ In this exercise, you will create Tables, Columns, and the Relationships you ide
 
 1.  In the [Power Apps maker portal](https://make.powerapps.com/) page, make sure you are in the correct environment. Select **Solutions** and click to open the **Company 311** solution you created in Exercise 1.
 
-2.  Click **+ New** and select **Table**.
+2.  Select **+ New** \> **Table** \> **Table**. 
 
-3.  Enter **Building** for **Display name** and click **Save**.
+3.  Enter **Building** for **Display name** and select **Save**.
 
 ![A screenshot of the new table window with the relevant value in each field](02-1/media/image5.png)
 
-4.  Select **All** in the solution navigation tree to display all solution components. 
+4.  Select **All** from the tree view, in the **Objects** pane to display all solution objects and subcomponents. 
 
-5.  Click **+ New** and select **Table** again.
+5.  Select **+ New** \> **Table** \> **Table** again.
 
-6.  Enter **Department** for **Display name** and click **Save**.
+6.  Enter **Department** for **Display name** and select **Save**.
 
 ![A screenshot of the new table window with the relevant value in each field](02-1/media/image7.png)
 
-7.  Select **All** in the solution navigation tree to display all solution components. 
-8.  Click **+ New** and select **Table** one more time.
+7.  Select **All** from the tree view, in the **Objects** pane to display all solution objects and subcomponents. 
+
+8.  Select **+ New** \> **Table** \> **Table** one more time.
+
 9.  Enter **Problem Report** for **Display name**.
 
 ![A screenshot of the new table window with the relevant value in each field](02-1/media/image8.png)
 
-7.  Select **Primary Column** tab, enter **Title** for **Display name**.
+7.  Select the **Primary column** tab, enter **Title** for **Display name**.
 
 ![A screenshot of the new table window with the Primary column tab selected and the word Title entered in the Display name textbox](02-1/media/image8-1.png)
 
-10. Select **Properties** tab, click to expand **Advanced Options**, then scroll to **Rows in this table** section. 
-10. Check the **Can be added to a queue** checkbox and click **Save**. 
+10. Select the **Properties** tab, expand **Advanced options**, then scroll to the **Rows in this table** section. 
+
+11. Check the **Can be added to a queue** checkbox and select **Save**. 
 
 ![A screenshot of the Rows in this table section with Can be added to a queue checkbox selected](02-1/media/image10.png)
 
@@ -121,7 +121,7 @@ In this exercise, you will create Tables, Columns, and the Relationships you ide
 >
 > Enabling queues for Problem Report table allows rows to be associated with one or more queues to help facilitate routing problem reports to the different departments. Once this option is enabled, it can't be turned off. 
 
-12. Select **All** in the **Objects** navigation tree.  The tables you created should now be visible in the list view and in the tree navigation.
+12. Select **All** from the tree view in the **Objects** pane. The tables you created should now be visible in the list view and in the tree navigation. 
 
 ![Screenshot of the Company 311 solution page with all components visible. The component list contains three tables Building, Department, Problem Report](02-1/media/image10-1.png)
 
@@ -133,34 +133,41 @@ In this task, you will add Columns to the Problem Report Table.
 
 2.  Select **Solutions** and click to open the **Company 311** solution you created in exercise 1.
 
-3.  Click to open the **Problem Report** Table.
+3.  Select the **Problem Report** Table.
 
-4.  There are many ways to add a new column in the table. For this lab purpose select the **+ New** menu, then select **Column** item.
+4.  There are many ways to add a new column to the table. For this lab, select **+ New**, then select **Column** from the Schema group. 
 
 ![A screenshot of the solution page with +New menu expanded and cursor pointing to the Column item](02-1/media/image13.png)
 
-5.  Enter **Location** for **Display name**. Select **Text > Single line of text > Plain text** for **Data type**.
+5.  Enter **Location** for **Display name**. Select **Text > Single line of text > Plain text** for **Data type**. 
 
 ![A screenshot of a New column form with Data type dropdown expanded with Text > Plain text option selected](02-1/media/image14-1.png)
 
-6. Expand **Advanced options** section, change **Maximum character count** to **150**, then click **Save**.
+6. Expand the **Advanced options** section, change **Maximum character count** to **150**, then select **Save**. 
 
 ![A screenshot of expanded Advanced options section with the cursor pointing to Save button](02-1/media/image14.png)
 
-7.  Click **+ New > Column** in the top menu.
+7.  Select **+ New \> Column** from the top menu. 
 
-8.  Enter **Details** for **Display name**, select **Text > Multiline text > Plain Text** for **Data type**, make the Column **Business Required**, and click **Save**.
+8.  Enter **Details** for **Display name**, select **Text \> Multiple lines of text \> Plain Text** for **Data type**, make the Column **Business required**, and select **Save**. 
 
 ![A screenshot of the details window with the relevant values in each field](02-1/media/image16.png)
 
-9.  Click **+ New > Column** again.
-10.  Enter **Photo** for **Display name**, select **File > Image** for **Data type**, and click **Save**.
-11.  Click **+ New > Column**.
-12.  Enter **Resolution** for **Display name**, select **Text > Multiline text > Plain Text** for **Data type**, and click **Save**.
-13.  Click **+ New Column**.
-14.  Enter **Resolved On** for **Display name**, select **Date and time** for **Data type**, and click **Save**. Select the **Back** from the top menu option.
-15.  Select **All** in the **Objects** navigation tree.
-16.  Click **Publish all customizations** and wait for the publishing to complete.
+9.  Select **+ New \> Column** again.
+
+10.  Enter **Photo** for **Display name**, select **File > Image** for **Data type**, and select **Save**.
+
+11.  Select **+ New \> Column**.
+
+12.  Enter **Resolution** for **Display name**, select **Text \> Multiple lines of text \> Plain Text** for **Data type**, and select **Save**.
+
+13.  Select **+ New \> Column**.
+
+14.  Enter **Resolved On** for **Display name**, select **Date and time** for **Data type**, and click **Save**. 
+
+15.  Select **All** from the tree view in the **Objects** pane. 
+
+16.  Select **Publish all customizations** from the command bar and wait for the publishing to complete.
 
 > **IMPORTANT**
 >
@@ -172,48 +179,50 @@ In this task, you will edit the Status Reason column of the Problem Report table
 
 1.  Make sure you are in the **Company 311** solution.
 
-2.  In the **Objects** navigation tree expand **Tables**, expand **Problem Report**, select **Columns**. Locate and click **Status Reason** column.
+2.  In the **Objects** navigation tree expand **Tables**, expand **Problem Report**, select **Columns**. Locate and select the **Status Reason** column.
 
 ![A screenshot with Tables > Problem Report expanded, Column selected in the Objects navigation tree on the left. On the right hand side there is a list of columns with Status Reason selected.](02-1/media/image19.png)
 
 3.  Change the label of **Active** option to **New**.
 
-4.  Click **+ New choice** and enter **Assigned** for **Label**.
+4.  Select **+ New choice** and enter **Assigned** for **Label**.
 
-5.  Click **+ New choice** and enter **In Progress** for **Label**.
+5.  Select **+ New choice** and enter **In Progress** for **Label**.
 
-6.  Click **+ New choice** and enter **Completed** for **Label**.
+6.  Select **+ New choice** and enter **Completed** for **Label**.
 
-7.  Click **+ New choice** and enter **Won’t Fix** for **Label** and click **OK**.
+7.  Select **+ New choice** and enter **Won’t Fix** for **Label**.
 
 8.  You should now have 5 options. Select **New** for **Default choice** and click **Save**.
 
 ![A screenshot of the Status Reason column properties with 5 options and New as Default choice](02-1/media/image25.png)
 
-9. Select **All** in the **Objects** navigation tree.
-10. Click **Publish all customizations** and wait for the publishing to complete.
+9. Select **All** from the tree view in the **Objects** pane. 
+
+10. Select **Publish all customizations** and wait for the publishing to complete.
 
 #### Task 4: Relationships
 
 In this task, you will create many-to-one relationships between the Problem Report table and the Building and Department tables.
 
-1.  In the **Objects** navigation tree expand **Tables**, Select and expand **Problem Report** table.
+1.  In the **Objects** navigation tree expand **Tables**, select and expand **Problem Report** table.
 
-2.  Click **+ New > Relationship > Many-to-one** menu.
+2.  Select **+ New \> Relationship \> Many-to-one**.
 
 ![A screenshot of the solution window with Problem Report table selected and + New > Relationship > Many-to-one menu selected.](02-1/media/image28.png)
 
-4.  Select **Building** for **Related (One)** table and click **Done**.
+4.  Select **Building** for the **Related (One)** table and select **Done**.
 
 ![A screenshot of the many-to-one relationship settings](02-1/media/image29.png)
 
-5.  Click **+ New > Relationship > Many-to-one** menu again.
+5.  Select **+ New > Relationship > Many-to-one** menu again.
 
 6.  Select **Department** for **Related (One)** table and click **Done**.
 
-7.  Select **All** in the **Objects** navigation tree.
+7.  Select **All** from the tree view in the **Objects** pane. 
 
-8.  Click **Publish all customizations** and wait for the publishing to complete.
+8.  Select **Publish all customizations** and wait for the publishing to complete. 
+
 
 ### Exercise 3: Configure form and views
 
@@ -223,7 +232,7 @@ In this exercise, you will configure form and views for the Problem Report table
 
 1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in the correct environment.
 
-2.  Select Solutions and click to open the **Company 311** solution.
+2.  Select **Solutions** and select the **Company 311** solution.
 
 3.  In the **Objects** navigation tree expand **Tables**, expand **Problem Report** table.
 
@@ -231,15 +240,15 @@ In this exercise, you will configure form and views for the Problem Report table
 
 ![A screenshot of the solution explorer with Forms selected under Problems Report table. In the list view Information form of type Main is selected.](02-1/media/image30.png)
 
-5.  Use the Zoom control at the bottom of the form to make the form large enough for you to work easily. Select the **General** form section.
+5.  Use the Zoom control at the bottom of the form to make the form large enough for you to work easily. Select the **General** tab. 
 
-![A screenshot of the form design with General form section selected.](02-1/media/image31.png)
+![A screenshot of the form designer with General form section selected.](02-1/media/image31.png)
 
 6.  Go to the **Properties** pane, change the **Label** to **Problem details**, and enter **section\_problem\_report** for **Name**.
 
-![A screenshot of the properties pain with the relevant text in each field](02-1/media/image32.png)
+![A screenshot of the properties pane with the relevant text in each field](02-1/media/image32.png)
 
-7.  While you still have the section selected, go to the **Table Columns** pane, and click on the **Building** Column. The Building Column will be added to the form.
+7.  While you still have the section selected, go to the **Table columns** pane, and click on the **Building** Column. The Building Column will be added to the form.
 
 ![A screenshot of the form designer with Building column selected in the Table columns section.](02-1/media/image33.png)
 
@@ -275,38 +284,38 @@ In this exercise, you will configure form and views for the Problem Report table
 
 18. Select the **Resolution** Column.
 
-19. Go to the **Properties** pane and click to expand the **Formatting** section.
+19. Go to the **Properties** pane and, if necessary expand the **Formatting** section.
 
 20. Change the **Form field height** to **4 rows**.
 
-21. You form should now look like the image below. Click **Save**.
+21. You form should now look like the image below. Select **Save**.
 
 ![A screenshot of the Problem Report form with the cursor over the Save button](02-1/media/image101.png)
 
-22. Click **Publish** and wait for the publishing to complete.
+22. Select **Publish** and wait for the publishing to complete.
 
-23. Click on the **<- Back** button.
+23. Select the **<- Back** button to return to the solution explorer.
 
 ![A screenshot of the form designer with the cursor over Back button inm the menu.](02-1/media/image43.png)
 
-24. You should be back at the table designer screen.
 
 #### Task 2: Edit view
 
-1.  Select **Forms** under **Problem Report** entry, then click **Views**.
+1.  In the **Problem Report** table, under **Data experiences** select **Views**.
 
 ![A screenshot of the table designer screen with Views selected under the table entry.](02-1/media/image44-1.png)
 
-2. Click to open the **Active Problem Reports** view.
+2. Select the **Active Problem Reports** view.
 
 ![A screenshot of the view list for Problem Report table with Active Problem Reports entry highlighted.](02-1/media/image44.png)
 
-3. Click on **Building** in the **Table columns** list to add the **Building** column to the view.
+3. Select **Building** in the **Table columns** list to add the **Building** column to the view.
 
 ![A screenshot of the view designer with Building column hightlighted in the Table columns list.](02-1/media/image45.png)
 
-4. Click on **Location**, **Status Reason**, and **Owner** columns to add them to the view.
-5. Go to the view properties pane and click **Edit filters**.
+4. Select **Location**, **Status Reason**, and **Owner** columns to add them to the view.
+
+5. Go to the view properties pane and select **Edit filters**.
 
 ![A Screenshot with an arrow pointing to the edit filters button](02-1/media/image47.png)
 
@@ -315,19 +324,23 @@ In this exercise, you will configure form and views for the Problem Report table
 ![A screenshot of the view filter with one condition of Status Reason Equals to New](02-1/media/image48.png) 
 
 7. Expand the values dropdown with Status Reason values where **New** is selected.
+
 8. Select **Assigned**.
-9. Click on the dropdown again and select **In progress**.
-10. The filter should now look like the image below. Click **OK**.
+
+9. Select the dropdown again and select **In progress**.
+
+10. The filter should now look like the image below. Select **Ok**.
 
 ![A screenshot of the edit filters window with the condition Status Reason equals New, Assigned, and In Progress](02-1/media/image50.png)
 
-9. Click **Save**.
+9. Select **Save**.
+
 
 #### Task 3: Create view from existing
 
 In this task, you will create a new view from the Active Problem Reports view.
 
-1.  Click **Edit filters**.
+1.  Select **Edit filters**.
 
 ![A screenshot with an arrow pointing to the Edit filters button](02-1/media/image51.png)
 
@@ -343,111 +356,116 @@ In this task, you will create a new view from the Active Problem Reports view.
 
 5.  Add **Won’t Fix** and **Inactive** values to filter.
 
-6.  The filter should now look like the image below. Click **OK**.
+6.  The filter should now look like the image below. Select **Ok**.
 
 ![A screenshot of the edit filters window with the following Status Reason values: Completed, Won't Fix, Inactive](02-1/media/image54.png)
 
-7.  Click on the chevron button next to the save button and select **Save As**.
+7.  Select the chevron next to the Save button and select **Save As**.
 
 ![A screenshot with an arrow pointing to the Save dropdown chevron icon and a border around the Save As button](02-1/media/image55.png)
 
-8.  Enter **Resolved Problems** for **Name** and click **Save**.
+8.  Enter **Resolved Problems** for **Name** and select **Save**.
 
 ![A screenshot of the Save As window](02-1/media/image56.png)
 
-9.  Click on the **Back Button** of your browser to go back to the solution explorer.
+9.  Select the **<- Back** button to return to the solution explorer.
 
 ![A Screenshot with an arrow pointing to the back button](02-1/media/image57.png)
 
 10. Select **All** in the **Objects** navigation tree.
-11. Click **Publish all customizations** and wait for the publishing to complete.
+
+11. Select **Publish all customizations** and wait for the publishing to complete.
+
 
 ### Exercise 4: Compose model-driven application
 
-In this exercise, you will create model-driven application.
+In this exercise, you will create a model-driven application.
 
 #### Task 1: Create new model-driven application
 
 1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in the correct environment.
 
-2.  Select Solutions and click to open the **Company 311** solution.
+2.  Select **Solutions** and open the **Company 311** solution.
 
-3.  Click **+ New > App > Model-driven app**.
+3.  Select **+ New > App > Model-driven app** from the command bar.
 
-![A screenshot of the menu to create a new model-driven app](02-1/media/image60.png)
+    ![A screenshot of the menu to create a new model-driven app](02-1/media/image60.png)
 
-4.  Enter **Company 311 Admin** for name and click **Create**.
+4.  Enter **Company 311 Admin** for name and select **Create**.
 
+    ![A screenshot of the New model-driven app window](02-1/media/image61.png)
 
-![A screenshot of the New model-driven app window](02-1/media/image61.png)
+5.  Select **Navigation** from the left menu.
 
-6. Select **Navigation** from left menu.
+    ![A screenshot of the Pages selection pane with a red arrow pointing to the tree icon in the navigation pane](02-1/media/image102.png)
 
-   ![A screenshot of the Pages selection pane with a red arrow pointing to the tree icon in the navigation pane](02-1/media/image102.png)
+6.  Select **Navigation bar** and in the properties pane, check **Enable Areas**.
 
-7. Select the **Area1**.
+7.  Select **Area1** in the Navigation tree view. 
 
-![A screentshot of the app designer with the first area selected](02-1/media/image63.png)
+    ![A screenshot of the app designer with the first area selected](02-1/media/image63.png)
 
-> **TIP**
-> 
-> Make sure **Enable Areas** option has been been checked in the **Navigation bar** panel on the right-hand side to see the **Area1** entry.
+8.  Go to the **Properties** pane, enter **Manage Problems** for **Title**, and enter **area\_manage\_problems** for **ID**.
 
-8. Go to the **Properties** pane, enter **Manage Problems** for **Title**, and enter **area\_manage\_problems** for **ID**.
+    ![A screenshot of the properties pane with the title and ID changed](02-1/media/image64.png)
 
-![A screenshot of the properties pane with the title and ID changed](02-1/media/image64.png)
+9.  Select **Group1**.
 
-9. Select the **Group1**.
-
-![A screenshot of group 1 selected](02-1/media/image65.png)
+    ![A screenshot of group 1 selected](02-1/media/image65.png)
 
 10. Go to the **Properties**, enter **Problems** for **Title**, and enter **group\_problems** for **ID**.
-11. Select the **Subarea1** in the tree navigation.
+
+11. Select **Subarea1**.
+
 12. Go to the **Properties** pane, select **Table** for **Content Type**, and select **Problem Report** for **Table**, and enter **Problem reports** for **Title**.
 
-![A screenshot of the properties pane and the Content type, Table, and Title values set](02-1/media/image68.png)
+    ![A screenshot of the properties pane and the Content type, Table, and Title values set](02-1/media/image68.png)
 
-13. Click **+ Add** and select **Area**.
+13. Select **+ Add** and select **Area**.
 
-![A screenshot with an arrow pointing to the add button and a border around the area button](02-1/media/image96.png)
+    ![A screenshot with an arrow pointing to the add button and a border around the area button](02-1/media/image96.png)
 
-18.   Go to the **Properties** pane, enter **Settings** for **Title**, and enter **area\_settings** for **ID**.
+14. Go to the **Properties** pane, enter **Settings** for **Title**, and enter **area\_settings** for **ID**.
+
+    ![A screenshot of the properties pane with the title and ID changed](02-1/media/image97.png)
+
+15. Click **+ Add** and select **Group**.
+
+    ![A screenshot of the Add menu with option Group selected](02-1/media/image98.png)
+
+16. Select the **New Group** you just added.
+
+17. Go to the **Properties** pane, enter **Taxonomy** for **Title**, and enter **group\_taxonomy** for **ID**.
+
+    ![A screenshot of the properties pane with the title and ID changed](02-1/media/image72.png)
+
+18. Select the **Taxonomy** group you just added, click **+ Add** and select **Subarea**
+
+    ![A screenshot of the Add menu with option Subarea selected](02-1/media/image73.png)
+
+19. Select **Table** for **Content type**, **Building** for **Table** and click **Add**.
+
+    ![A screenshot of the New Subarea window and the content type changed](02-1/media/image74.png)
+
+20.  Select the **Taxonomy** group, click **+ Add** and select **Subarea** again.
+
+21.  Select **Table** for **Content type**, select **Department** for **Table**, and click **Add**.
+
+22. The sitemap should now look like the image below. Click **Save** to save the sitemap.
+
+    ![A screenshot with an arrow pointing to the save button on the site map which should have active departments with a name column below](02-1/media/image76.png)
+
+23. Select **Publish** to publish the sitemap and wait for the publishing to complete.
+
+24. Select the **<- Back** button to return to the solution explorer.
+
+25. Select **All** in the **Objects** navigation tree.
+
+26. Select **Publish all customizations** and wait for the publishing to complete.
+
+    ![A screenshot with an arrow pointing to the publish all customizations button](02-1/media/image77.png)
 
 
-![A screenshot of the properties pane with the title and ID changed](02-1/media/image97.png)
-
-20.  Click **+ Add** and select **Group**.
-
-
-![A screenshot of the Add menu with option Group selected](02-1/media/image98.png)
-
-25.  Select the **New Group** you just added.
-
-26.  Go to the **Properties** pane, enter **Taxonomy** for **Title**, and enter **group\_taxonomy** for **ID**.
-
-![A screenshot of the properties pane with the title and ID changed](02-1/media/image72.png)
-
-27.  Select the **Taxonomy** group you just added, click **+ Add** and select **Subarea**
-
-![A screenshot of the Add menu with option Subarea selected](02-1/media/image73.png)
-
-28.   Select **Table** for **Content type**, **Building** for **Table** and click **Add**.
-
-![A screenshot of the New Subarea window and the content type changed](02-1/media/image74.png)
-
-29.  Select the **Taxonomy** group, click **+ Add** and select **Subarea** again.
-
-30.  Select **Table** for **Content type**, select **Department** for **Table**, and click **Add**.
-
-31. The sitemap should now look like the image below. Click **Save** to save the sitemap.
-
-![A Screenshot with an arrow pointing to the save button on your site map which should have active departments with a name column below](02-1/media/image76.png)
-
-32. Click **Publish** to publish the sitemap and wait for the publishing to complete.
-33. Press **<- Back** button.
-36. Click **Publish all customizations** and wait for the publishing to complete.
-
-![A Screenshot with an arrow pointing to the publish all customizations button](02-1/media/image77.png)
 
 ### Exercise 5: Input data
 
@@ -457,11 +475,11 @@ In this exercise, you will input data to the Dataverse tables.
 
 1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in the correct environment.
 
-2.  Select **Apps** and click to open the **Company 311 Admin** application you created.
+2.  Select **Apps** and open the **Company 311 Admin** application created in the previous exercise.
 
 ![A Screenshot with an arrow pointing to the Company 311 Admin app](02-1/media/image80.png)
 
-3.  Click **Change area**.
+3.  Select **Change area**.
 
 ![A screenshot with an arrow pointing to chevron icon next to Manage Problems](02-1/media/image81.png)
 
@@ -471,15 +489,15 @@ In this exercise, you will input data to the Dataverse tables.
 
 ![A Screenshot with an arrow pointing to the new button at the top of the window](02-1/media/image82.png)
 
-6.  Enter **Facility Maintenance** for **Name** and click **Save**.
+6.  Enter **Facility Maintenance** for **Name** and select **Save**.
 
 ![A screenshot showing the change in name to facility maintenance](02-1/media/image83.png)
 
-7.  Click **+ New** again.
+7.  Select **+ New** again.
 
 8.  Enter **Human Resources** for **Name** and click **Save**.
 
-9.  Click **+ New** one more time.
+9.  Select **+ New** one more time.
 
 10. Enter **Marketing** for **Name** and click **Save**.
 
@@ -489,29 +507,29 @@ In this exercise, you will input data to the Dataverse tables.
 
 ![A Screenshot with an arrow pointing to the buildings button under taxonomy](02-1/media/image84.png)
 
-13. Click **+ New**.
+13. Select **+ New**.
 
-14. Enter **San Francisco Main Campus** for **Name** and click **Save & Close**.
+14. Enter **San Francisco Main Campus** for **Name** and select **Save & Close**.
 
-15. Click **+ New** again.
+15. Select **+ New** again.
 
-16. Enter **London Paddington** for **Name** and click **Save & Close**.
+16. Enter **London Paddington** for **Name** and select **Save & Close**.
 
-17. You should now have two building Rows. Click **Change area**.
+17. You should now have two building Rows. Select **Change area**.
 
 ![A Screenshot with an arrow pointing to the chevron icon next to settings in the bottom left corner of the window](02-1/media/image85.png)
 
 18. Select **Manage Problems**.
 
-19. Click **+ New**.
+19. Select **+ New**.
 
 ![A screenshot of the active problem reports page](02-1/media/image86.png)
 
-20. Enter **Broken door** for **Title**, select **San Francisco Main Campus** for **Building**, enter **The main entrance door will not open all the way** for **Details**, and click **Save**
+20. Enter **Broken door** for **Title**, select **San Francisco Main Campus** for **Building**, enter **The main entrance door will not open all the way** for **Details**, and select **Save**.
 
 ![A screenshot of the new problem report window with all relevant text in each field](02-1/media/image87.png)
 
-21. Click on the **Photo** Column.
+21. Select **Open file** on the **Photo** field.
 
 ![A Screenshot with an arrow pointing to the upload an image button](02-1/media/image88.png)
 
@@ -521,7 +539,9 @@ In this exercise, you will input data to the Dataverse tables.
 
 ![A screenshot of a vector image of a door which should appear](02-1/media/image89.png)
 
-24. Click **Save & Close**.
+24. Select **Save & Close**.
+
+
 
 ### Exercise 6: Import data
 
@@ -530,16 +550,27 @@ In this exercise, you will import sample data into the environment. Rows are imp
 #### Task 1: Import solution
 
 1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in the correct environment.
-2.  Select **Solutions** and click **Import Solution**.
-3.  Click **Browse**.
-4.  Select the **DataImport.zip** solution file located in the lab resources folder and click **Open**.
-5.  Click **Next**.
-6.  Click **Next** again.
+
+2.  Select **Solutions** and select  **Import Solution**.
+
+3.  Select **Browse**.
+
+4.  Select the **DataImport.zip** solution file located in the lab resources folder and select **Open**.
+
+5.  Select **Next**.
+
+6.  Select **Next** again.
+
 7.  Expand **Select a connection** dropdown and click **+ New connection**.
+
 8.  New tab will open with a prompt to create **Microsoft Dataverse** connection. 
+
 9.  Click **Create**, authenticate if required, wait until new connection is created. Close the browser tab.
+
 10.  Click **Refresh**. Make sure new connection is selected in the dropdown. 
+
 11.  Click **Import** and wait for the message **Solution "Data Import" imported successfully** to appear.
+
 12.  Click **Publish all customizations** and wait for the publishing to complete. 
 
 #### Task 2: Review and run flow
