@@ -284,38 +284,38 @@ In this exercise, you will configure form and views for the Problem Report table
 
 18. Select the **Resolution** Column.
 
-19. Go to the **Properties** pane and click to expand the **Formatting** section.
+19. Go to the **Properties** pane and, if necessary expand the **Formatting** section.
 
 20. Change the **Form field height** to **4 rows**.
 
-21. You form should now look like the image below. Click **Save**.
+21. You form should now look like the image below. Select **Save**.
 
 ![A screenshot of the Problem Report form with the cursor over the Save button](02-1/media/image101.png)
 
-22. Click **Publish** and wait for the publishing to complete.
+22. Select **Publish** and wait for the publishing to complete.
 
-23. Click on the **<- Back** button.
+23. Select the **<- Back** button to return to the solution explorer.
 
 ![A screenshot of the form designer with the cursor over Back button inm the menu.](02-1/media/image43.png)
 
-24. You should be back at the table designer screen.
 
 #### Task 2: Edit view
 
-1.  Select **Forms** under **Problem Report** entry, then click **Views**.
+1.  In the **Problem Report** table, under **Data experiences** select **Views**.
 
 ![A screenshot of the table designer screen with Views selected under the table entry.](02-1/media/image44-1.png)
 
-2. Click to open the **Active Problem Reports** view.
+2. Select the **Active Problem Reports** view.
 
 ![A screenshot of the view list for Problem Report table with Active Problem Reports entry highlighted.](02-1/media/image44.png)
 
-3. Click on **Building** in the **Table columns** list to add the **Building** column to the view.
+3. Select **Building** in the **Table columns** list to add the **Building** column to the view.
 
 ![A screenshot of the view designer with Building column hightlighted in the Table columns list.](02-1/media/image45.png)
 
-4. Click on **Location**, **Status Reason**, and **Owner** columns to add them to the view.
-5. Go to the view properties pane and click **Edit filters**.
+4. Select **Location**, **Status Reason**, and **Owner** columns to add them to the view.
+
+5. Go to the view properties pane and select **Edit filters**.
 
 ![A Screenshot with an arrow pointing to the edit filters button](02-1/media/image47.png)
 
@@ -324,19 +324,23 @@ In this exercise, you will configure form and views for the Problem Report table
 ![A screenshot of the view filter with one condition of Status Reason Equals to New](02-1/media/image48.png) 
 
 7. Expand the values dropdown with Status Reason values where **New** is selected.
+
 8. Select **Assigned**.
-9. Click on the dropdown again and select **In progress**.
-10. The filter should now look like the image below. Click **OK**.
+
+9. Select the dropdown again and select **In progress**.
+
+10. The filter should now look like the image below. Select **Ok**.
 
 ![A screenshot of the edit filters window with the condition Status Reason equals New, Assigned, and In Progress](02-1/media/image50.png)
 
-9. Click **Save**.
+9. Select **Save**.
+
 
 #### Task 3: Create view from existing
 
 In this task, you will create a new view from the Active Problem Reports view.
 
-1.  Click **Edit filters**.
+1.  Select **Edit filters**.
 
 ![A screenshot with an arrow pointing to the Edit filters button](02-1/media/image51.png)
 
@@ -352,24 +356,26 @@ In this task, you will create a new view from the Active Problem Reports view.
 
 5.  Add **Won’t Fix** and **Inactive** values to filter.
 
-6.  The filter should now look like the image below. Click **OK**.
+6.  The filter should now look like the image below. Select **Ok**.
 
 ![A screenshot of the edit filters window with the following Status Reason values: Completed, Won't Fix, Inactive](02-1/media/image54.png)
 
-7.  Click on the chevron button next to the save button and select **Save As**.
+7.  Select the chevron next to the Save button and select **Save As**.
 
 ![A screenshot with an arrow pointing to the Save dropdown chevron icon and a border around the Save As button](02-1/media/image55.png)
 
-8.  Enter **Resolved Problems** for **Name** and click **Save**.
+8.  Enter **Resolved Problems** for **Name** and select **Save**.
 
 ![A screenshot of the Save As window](02-1/media/image56.png)
 
-9.  Click on the **Back Button** of your browser to go back to the solution explorer.
+9.  Select the **<- Back** button to return to the solution explorer.
 
 ![A Screenshot with an arrow pointing to the back button](02-1/media/image57.png)
 
 10. Select **All** in the **Objects** navigation tree.
-11. Click **Publish all customizations** and wait for the publishing to complete.
+
+11. Select **Publish all customizations** and wait for the publishing to complete.
+
 
 ### Exercise 4: Compose model-driven application
 
@@ -379,39 +385,38 @@ In this exercise, you will create model-driven application.
 
 1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in the correct environment.
 
-2.  Select Solutions and click to open the **Company 311** solution.
+2.  Select **Solutions** and open the **Company 311** solution.
 
-3.  Click **+ New > App > Model-driven app**.
+3.  Select **+ New > App > Model-driven app** from the command bar.
 
 ![A screenshot of the menu to create a new model-driven app](02-1/media/image60.png)
 
-4.  Enter **Company 311 Admin** for name and click **Create**.
-
+4.  Enter **Company 311 Admin** for name and select **Create**.
 
 ![A screenshot of the New model-driven app window](02-1/media/image61.png)
 
-6. Select **Navigation** from left menu.
+5. Select **Navigation** from the left menu.
 
    ![A screenshot of the Pages selection pane with a red arrow pointing to the tree icon in the navigation pane](02-1/media/image102.png)
 
-7. Select the **Area1**.
+6. Select **Navigation bar** and in the properties pane, check **Enable Areas**.
 
-![A screentshot of the app designer with the first area selected](02-1/media/image63.png)
+7. Select **Area1** in the Navigation tree view. 
 
-> **TIP**
-> 
-> Make sure **Enable Areas** option has been been checked in the **Navigation bar** panel on the right-hand side to see the **Area1** entry.
+![A screenshot of the app designer with the first area selected](02-1/media/image63.png)
 
 8. Go to the **Properties** pane, enter **Manage Problems** for **Title**, and enter **area\_manage\_problems** for **ID**.
 
 ![A screenshot of the properties pane with the title and ID changed](02-1/media/image64.png)
 
-9. Select the **Group1**.
+9. Select **Group1**.
 
 ![A screenshot of group 1 selected](02-1/media/image65.png)
 
 10. Go to the **Properties**, enter **Problems** for **Title**, and enter **group\_problems** for **ID**.
-11. Select the **Subarea1** in the tree navigation.
+
+11. Select **Subarea1**.
+
 12. Go to the **Properties** pane, select **Table** for **Content Type**, and select **Problem Report** for **Table**, and enter **Problem reports** for **Title**.
 
 ![A screenshot of the properties pane and the Content type, Table, and Title values set](02-1/media/image68.png)
