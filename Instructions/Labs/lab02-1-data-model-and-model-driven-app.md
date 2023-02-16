@@ -619,21 +619,22 @@ In this exercise, you will import sample data into the environment. Rows are imp
 
 14. Select **Done**.
 
-15. Wait for the flow run to complete. Click on the **Refresh Flow runs** button to check if the flow run completed successfully.
+15. Wait for the flow run to complete. Select the **Refresh Flow runs** button to check if the flow run completes successfully.
 
 ![A Screenshot with an arrow pointing to the refresh button in the top right corner and a border around the status showing it has succeeded](02-1/media/image93.png)
 
-17. Close the flow editor browser window or tab.
+16. Close the flow editor browser window or tab.
 
-18. Click **Done** on the popup if prompted.
+17. Select **Done** on the popup, if prompted.
+
 
 #### Task 3: Review imported data
 
 1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in the correct environment.
 
-2.  Select **Apps** and click to open the **Company 311 Admin** model-driven application.
+2.  Select **Apps** and open the **Company 311 Admin** model-driven application.
 
-3.  Select Problem Reports. You should see new rows of data.
+3.  Select **Problem Reports**. You should see new rows of data.
 
 ![A screenshot with a border around problem new reports rows.](02-1/media/image104.png)
 
@@ -641,13 +642,13 @@ In this exercise, you will import sample data into the environment. Rows are imp
 >
 > Because the input status reason is randomized, some of the imported problem report rows may have the status reason of Completed, Won't Fix, or Inactive. Select **Resolved Problems** view to find these rows.
 
-4.  Click to open one of the **Problem Report** Rows.
+4.  Open one of the **Problem Report** Rows.
 
 5.  Click on the **Search** icon of the **Building** lookup and make sure building Rows were imported.
 
 ![A screenshot of a border around the building lookup with the building rows imported](02-1/media/image95.png)
 
-6.  Scroll down and click on the **Department** lookup.
+6.  Scroll down and select the **Department** lookup.
 
 7.  Make sure the department Rows got imported.
 
