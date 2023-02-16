@@ -561,55 +561,57 @@ In this exercise, you will import sample data into the environment. Rows are imp
 
 6.  Select **Next** again.
 
-7.  Expand **Select a connection** dropdown and click **+ New connection**.
+7.  Expand the **Select a connection** dropdown and select **+ New connection**.
 
-8.  New tab will open with a prompt to create **Microsoft Dataverse** connection. 
+8.  A new tab will open with a prompt to create the **Microsoft Dataverse** connection. 
 
-9.  Click **Create**, authenticate if required, wait until new connection is created. Close the browser tab.
+9.  Select **Create**, authenticate if required, wait until new connection is created. Close the browser tab.
 
-10.  Click **Refresh**. Make sure new connection is selected in the dropdown. 
+10. Select **Refresh**. Make sure new connection is selected in the dropdown. 
 
-11.  Click **Import** and wait for the message **Solution "Data Import" imported successfully** to appear.
+11. Select **Import** and wait for the message **Solution "Data Import" imported successfully** to appear.
 
-12.  Click **Publish all customizations** and wait for the publishing to complete. 
+12. Select **Publish all customizations** and wait for the publishing to complete. 
 
 #### Task 2: Review and run flow
 
-1. Click to open the **Data Import** solution you imported.
+1.  Open the **Data Import** solution you imported.
 
-3.  Select the **Import Data** flow. 
+2.  Select the **Import Data** flow. 
 
 ![A screenshot with the Import Data flow highlighted](02-1/media/image90.png)
 
-4.  Click **Edit** menu.
+3.  Select **Edit** from the Command Bar.
 
-5.  Click **Continue**.
+4.  Select **Continue**.
 
-6.  Click to expand the **Input** **Data** step.
+5.  Expand the **InputData** step.
 
-7.  Review the JSON text in the value Column. This is the data that will be imported into your environment. Note the image data encoded as a text.
+6.  Review the JSON text in the value Column. This is the data that will be imported into your environment. Note the image data encoded as a text.
 
-8.  Expand the **Each Department** for each control
+7.  Expand the **EachDepartment** for each control
 
-9.  Expand and review the **Upsert Department** step.
+8.  Expand and review the **Upsert Department** step.
 
-10. Expand and review the rest of the steps.
+9.  Expand and review the rest of the steps.
 
-11. Click **Save** to save the flow.
+10. Select **Save** to save the flow.
 
-12. Click on the button and go back to the flow details page.
+11. Select the **<-** button to go back to the previous page.
 
 ![A Screenshot with an arrow pointing to the arrow icon to go back](02-1/media/image92.png)
 
-13. Click **Run**.
+12. Open the **Import Data** flow **Details** and select **Run**.
 
-> **TIP**
->
-> If the **Run** option is disabled then make sure the flow has been enabled by selecting the **Turn ON** option.
+    > **TIP**
+    >
+    > If the **Run** option is disabled then make sure the flow has been enabled by selecting **Turn on**.
 
-13. Click **Run flow**.
-14. Click **Done**.
-15. Wait for the flow run to complete. Click on the **Refresh** button to check if the flow run completed successfully.
+13. Select **Run flow**.
+
+14. Select **Done**.
+
+15. Wait for the flow run to complete. Click on the **Refresh Flow runs** button to check if the flow run completed successfully.
 
 ![A Screenshot with an arrow pointing to the refresh button in the top right corner and a border around the status showing it has succeeded](02-1/media/image93.png)
 
