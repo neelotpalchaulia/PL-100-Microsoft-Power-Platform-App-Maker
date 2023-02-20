@@ -103,13 +103,13 @@ In this task, you will provision Dataverse for Teams by creating an application.
 
 1.  Navigate to [Microsoft Teams](https://teams.microsoft.com).
 
-2.  Select Power Apps and select **Start now**.
+2.  Select **Power Apps** and select **Start now**.
 
     ![A screenshot of the power apps for teams home page](03-1/media/ex2-t1-image1.png)
 
 3.  Select the **Green** team you created and select **Create**.
 
-4.  Wait until provisioning is complete.
+4.  **Wait** until provisioning is complete.
 
 5.  Select **New > App**. 
 
