@@ -83,7 +83,7 @@ In this exercise, you will create Tables, Columns, and the Relationships you ide
 
 #### Task 1: Create Tables
 
-1.  In the [Power Apps maker portal](https://make.powerapps.com/) page, make sure you are in the correct environment. Select **Solutions** and click to open the **Company 311** solution you created in Exercise 1.
+1.  In the [Power Apps maker portal](https://make.powerapps.com/) page, make sure you are in the correct environment. Select **Solutions** and open the **Company 311** solution you created in Exercise 1.
 
 2.  Select **+ New** \> **Table** \> **Table**. 
 
@@ -125,13 +125,14 @@ In this exercise, you will create Tables, Columns, and the Relationships you ide
 
 ![Screenshot of the Company 311 solution page with all components visible. The component list contains three tables Building, Department, Problem Report](02-1/media/image10-1.png)
 
+
 #### Task 2: Add Columns
 
 In this task, you will add Columns to the Problem Report Table.
 
 1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) page and make sure you are in the correct environment.
 
-2.  Select **Solutions** and click to open the **Company 311** solution you created in exercise 1.
+2.  Select **Solutions** and open the **Company 311** solution you created in exercise 1.
 
 3.  Select the **Problem Report** Table.
 
@@ -163,7 +164,7 @@ In this task, you will add Columns to the Problem Report Table.
 
 13.  Select **+ New \> Column**.
 
-14.  Enter **Resolved On** for **Display name**, select **Date and time** for **Data type**, and click **Save**. 
+14.  Enter **Resolved On** for **Display name**, select **Date and time** for **Data type**, and select **Save**. 
 
 15.  Select **All** from the tree view in the **Objects** pane. 
 
@@ -225,7 +226,7 @@ In this task, you will create many-to-one relationships between the Problem Repo
 
 5.  Select **+ New > Relationship > Many-to-one** menu again.
 
-6.  Select **Department** for **Related (One)** table and click **Done**.
+6.  Select **Department** for **Related (One)** table and select **Done**.
 
 7.  Select **All** from the tree view in the **Objects** pane. 
 
@@ -244,7 +245,7 @@ In this exercise, you will configure form and views for the Problem Report table
 
 3.  In the **Objects** navigation tree expand **Tables**, expand **Problem Report** table.
 
-4.  Select the **Forms** tab and click to open the **Information** form of type **Main**.
+4.  Select the **Forms** tab and open the **Information** form of type **Main**.
 
 ![A screenshot of the solution explorer with Forms selected under Problems Report table. In the list view Information form of type Main is selected.](02-1/media/image30.png)
 
@@ -256,7 +257,7 @@ In this exercise, you will configure form and views for the Problem Report table
 
 ![A screenshot of the properties pane with the relevant text in each field](02-1/media/image32.png)
 
-7.  While you still have the section selected, go to the **Table columns** pane, and click on the **Building** Column. The Building Column will be added to the form.
+7.  While you still have the section selected, go to the **Table columns** pane, and select the **Building** Column. The Building Column will be added to the form.
 
 ![A screenshot of the form designer with Building column selected in the Table columns section.](02-1/media/image33.png)
 
@@ -437,7 +438,7 @@ In this exercise, you will create a model-driven application.
 
     ![A screenshot of the properties pane with the title and ID changed](02-1/media/image97.png)
 
-15. Click **+ Add** and select **Group**.
+15. Select **+ Add** and select **Group**.
 
     ![A screenshot of the Add menu with option Group selected](02-1/media/image98.png)
 
@@ -447,19 +448,19 @@ In this exercise, you will create a model-driven application.
 
     ![A screenshot of the properties pane with the title and ID changed](02-1/media/image72.png)
 
-18. Select the **Taxonomy** group you just added, click **+ Add** and select **Subarea**
+18. Select the **Taxonomy** group you just added, select **+ Add** and select **Subarea**
 
     ![A screenshot of the Add menu with option Subarea selected](02-1/media/image73.png)
 
-19. Select **Table** for **Content type**, **Building** for **Table** and click **Add**.
+19. Select **Table** for **Content type**, **Building** for **Table** and select **Add**.
 
     ![A screenshot of the New Subarea window and the content type changed](02-1/media/image74.png)
 
-20.  Select the **Taxonomy** group, click **+ Add** and select **Subarea** again.
+20.  Select the **Taxonomy** group, select **+ Add** and select **Subarea** again.
 
-21.  Select **Table** for **Content type**, select **Department** for **Table**, and click **Add**.
+21.  Select **Table** for **Content type**, select **Department** for **Table**, and select **Add**.
 
-22. The sitemap should now look like the image below. Click **Save** to save the sitemap.
+22. The sitemap should now look like the image below. Select **Save** to save the sitemap.
 
     ![A screenshot with an arrow pointing to the save button on the site map which should have active departments with a name column below](02-1/media/image76.png)
 
@@ -493,7 +494,7 @@ In this exercise, you will input data to the Dataverse tables.
 
 4.  Select **Settings** area.
 
-5.  Select **Departments** and click **+ New**.
+5.  Select **Departments** and select **+ New**.
 
 ![A Screenshot with an arrow pointing to the new button at the top of the window](02-1/media/image82.png)
 
@@ -503,11 +504,11 @@ In this exercise, you will input data to the Dataverse tables.
 
 7.  Select **+ New** again.
 
-8.  Enter **Human Resources** for **Name** and click **Save**.
+8.  Enter **Human Resources** for **Name** and select **Save**.
 
 9.  Select **+ New** one more time.
 
-10. Enter **Marketing** for **Name** and click **Save**.
+10. Enter **Marketing** for **Name** and select **Save**.
 
 11. Select **Departments**.
 
@@ -644,7 +645,7 @@ In this exercise, you will import sample data into the environment. Rows are imp
 
 4.  Open one of the **Problem Report** Rows.
 
-5.  Click on the **Search** icon of the **Building** lookup and make sure building Rows were imported.
+5.  Select the **Search** icon of the **Building** lookup and make sure building Rows were imported.
 
 ![A screenshot of a border around the building lookup with the building rows imported](02-1/media/image95.png)
 
