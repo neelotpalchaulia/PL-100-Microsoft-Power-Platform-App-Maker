@@ -240,17 +240,17 @@ In this exercise, you will test the business process flow and the business rule 
 
 2.  Select **Apps** and open the **Company 311 Admin** application.
 
-![A Screenshot with an arrow pointing to the company 311 admin option in apps](02-2/media/image21.png)
+    ![A Screenshot with an arrow pointing to the company 311 admin option in apps](02-2/media/image21.png)
 
 3.  Select **Problem Reports** and select **+ New**.
 
 4.  You should see the business process flow stages. Enter **Dark parking lot** for **Title**, select **London Paddington** for **Building**, enter **There are no lights at the north end of the parking lot** for **Details**, and select **Save**.
 
-![A screenshot of the new problem report](02-2/media/image22.png)
+    ![A screenshot of the new problem report](02-2/media/image22.png)
 
 5.  Select the **Route** stage.
 
-![A Screenshot with an arrow pointing to the route stage at the top of the page](02-2/media/image23.png)
+    ![A Screenshot with an arrow pointing to the route stage at the top of the page](02-2/media/image23.png)
 
 6.  Enter **North-end** for **Location**, select **Facility Maintenance** for **Department** and select the **Next stage** button.
 
@@ -260,16 +260,16 @@ In this exercise, you will test the business process flow and the business rule 
 
     ![A screenshot of the drop down from the route stage with the relevant options selected and entered](02-2/media/image24.png)
 
-7.  Select a user for **Assign to** and select **Next stage**.
+7.  Select a user for **Assign to** and select **Next Stage**.
 
 8.  Select date and time for the **Resolved on** and leave the **Resolution** value empty.
 
-9.  Scroll down to the resolution details section and select **Completed** for **Status Reason**. You should see the business rule error message.
+9.  Scroll down to the **Resolution details** section and select **Completed** for **Status Reason**. You should see the business rule error message defined earlier.
 
     ![A screenshot of the error message under status reason](02-2/media/image25.png)
 
-10. Provide **Resolution**. The error message should go away.
+10. Provide a value for **Resolution**. The error message should go away.
 
     ![A screenshot of the form without the error message after resolution](02-2/media/image26.png)
 
-11. **Save** the Row.
+11. Select **Save** to save the Problem Report.
