@@ -75,7 +75,7 @@ Review the following discussion with your coworker and take notes of any of the 
 > 
 > **Coworker**:  Them to fix it of course\!  
 > 
-> **You**: No, I mean in the app, what do you see after you click submit problem? 
+> **You**: No, I mean in the app, what do you see after you hit submit problem? 
 > 
 > **Coworker**: I want to know that someone got it and it’s being worked on and when it'll be fixed. Actually, not always but most of the time... maybe let me choose to be notified? 
 > 
