@@ -252,11 +252,11 @@ In this exercise, you will test the business process flow and the business rule 
 
 ![A Screenshot with an arrow pointing to the route stage at the top of the page](02-2/media/image23.png)
 
-6.  Enter **North-end** for **Location**, select **Facility Maintenance** for **Department** and select the **Next stage** stage.
+6.  Enter **North-end** for **Location**, select **Facility Maintenance** for **Department** and select the **Next stage** button.
 
     > **NOTE**
     >
-    >If the Next Stage option is not visible, then refresh the page.
+    > If the **Next Stage** button is not visible, then refresh the page.
 
     ![A screenshot of the drop down from the route stage with the relevant options selected and entered](02-2/media/image24.png)
 
