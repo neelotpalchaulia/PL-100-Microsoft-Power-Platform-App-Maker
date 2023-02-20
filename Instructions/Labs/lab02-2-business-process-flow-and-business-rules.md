@@ -272,4 +272,4 @@ In this exercise, you will test the business process flow and the business rule 
 
     ![A screenshot of the form without the error message after resolution](02-2/media/image26.png)
 
-11. Select **Save**.
+11. Select **Save** to save the Problem Report.
