@@ -80,7 +80,7 @@ In this task, you will create a business process flow for the Problem Report tab
 
     ![image-20221004145025636](02-2/media/image2.png)
 
-4.  In the **New busines process flow** panel enter **Problem resolution process** for **Display name**, select **Problem Report** for **Table**, and select **Create**.
+4.  In the **New business process flow** panel enter **Problem resolution process** for **Display name**, select **Problem Report** for **Table**, and select **Create**.
 
     ![A screenshot of New business process flow panel with relevant field values.](02-2/media/image3.png)
 
@@ -152,7 +152,7 @@ In this task, you will create a business process flow for the Problem Report tab
 
 31. Select **Activate** again on the pop-up.
 
-32. Confirm that **Status: Active** on the bottom-left side of the screen.
+32. Confirm that Status: **Active** shows at the bottom left of the Business Process Flow canvas.
 
     ![A screeshot of a high-level overview of a business process with the words "Status: Active" highlighted in the left bottom corner](02-2/media/image28.png)
 
@@ -173,7 +173,7 @@ In this exercise, you will create a business rule that will block completion of 
 
 3.  Locate and open the **Problem Report** Table.
 
-4.  Select the **Business rules** tab and select **Add business rule**.
+4.  Select **+ New** and under **Customizations**, select **Business rule**.
 
     ![A screenshot of the flyout New menu with the cursor positioned over the highlighted Business rule entry](02-2/media/image12.png)
 
@@ -189,7 +189,7 @@ In this exercise, you will create a business rule that will block completion of 
 
 8.  Go to the **Properties** pane and change the **Display name** to **Resolution required**.
 
-9.  Scroll down to **Rule 1**, select **Status Reason** for **Field**, select **Equals** for **Operator**, select **Value** for **Type**, select **Completed** for **Value**, and select **Apply**.
+9.  Scroll down the **Rules** section, select **Status Reason** for **Field**, select **Equals** for **Operator**, select **Value** for **Type**, select **Completed** for **Value**, and select **Apply**.
 
     ![A screenshot of the rules panel](02-2/media/image14.png)
 
@@ -205,7 +205,7 @@ In this exercise, you will create a business rule that will block completion of 
 
 ![A Screenshot with an arrow pointing to the add button](02-2/media/image17.png)
 
-13. Select **Add show error message**.
+13. Select **Add Show Error Message**.
 
 14. Add the action on the **true** path of the condition.
 
@@ -223,7 +223,7 @@ In this exercise, you will create a business rule that will block completion of 
 
 18. Select **Activate** again on the pop-up.
 
-19. Confirm activation.
+19. Confirm activation. The **Activate** button will change to **Deactivate** and it will show **Activated** in the bottom left of the Business Rule canvas.
 
 20. Close the process editor browser window or tab.
 
