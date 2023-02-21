@@ -159,7 +159,7 @@ In this task, you will create a table and columns.
 
     ![A screenshot of the new Gadget table with Name, Description, Availability columns in a grid layout](03-1/media/ex2-t2-image5.png)
 
-15.  Close the table editor by clicking **Close** button.
+15.  Close the table editor by selecting the **Close** button.
 
 16. Do not navigate away from this page.
 
@@ -188,7 +188,7 @@ In this task, you will add new columns to the table.
 
 7.  Select **+ New > Column**.
 
-8.  Enter **Reserved by** for Display name, select **Lookup** for Data type, select **User** for Related table and select **Save**.
+8.  Enter **Reserved by** for **Display name**, select **Lookup** for Data type, select **User** for **Related table** and select **Save**.
 
 ![A screenshot of the add column window with the relevant text in each field](03-1/media/ex2-t3-image4.png)
 
@@ -245,7 +245,7 @@ In this task, you will edit the application by filters for gadgets that are avai
 
 12. Select the **Browse gallery** under **LeftContainer** in the treeview.
 
-13. Select **Items** on the formula bar and replace the value with formula below. This formula will filter the gadgets to show only the available gadgets
+13. Select **Items** on the formula bar and replace the value with formula below. This formula will filter the gadgets to show only the available gadgets.
 
     ```Filter(Gadgets, Availability <> [@Availability].'Picked up')```
 
@@ -255,9 +255,9 @@ In this task, you will edit the application by filters for gadgets that are avai
 
 ![A Screenshot with an arrow pointing to image 1 inside the gallery](03-1/media/ex2-t4-image7.png)
 
-15. Go to the formula bar and varify that the value of the Image is set to the formula below.
+15. Go to the formula bar and verify that the value of the **Image** property is set to the formula below.
 
-```ThisItem.Photo```
+    ```ThisItem.Photo```
 
 16. Select the **Data** tab (database icon) in the left navigation, select the **...More actions** button of the **Gadgets** table and select **Refresh**.
 
@@ -275,15 +275,15 @@ In this task, you will edit the application by filters for gadgets that are avai
 
 ![A Screenshot with an arrow pointing to the tap or click to add a picture button](03-1/media/ex2-t4-image11.png)
 
-21. Provide your own photo or select one from the lab resources folder.
+21. Provide your own photo or choose one from the Lab Resources folder.
 
 22. Select **Save**.
 
 ![A Screenshot with an arrow pointing to the tick icon to save](03-1/media/ex2-t4-image12.png)
 
-23. Add few more items.
+23. **Add** a few more new records.
 
-24. Your app should now look like the image below. Close the preview.
+24. Your app should now look like the image below. **Close** the preview.
 
 ![A screenshot of the running app with an arrow pointing to the cross icon to close the preview](03-1/media/ex2-t4-image13.png)
 
@@ -314,9 +314,9 @@ In this task, you will add buttons that will let users reserve and/or pick up it
 
 ![A screenshot with the text "Reserve Button" highlighted as the new name for the button you added](03-1/media/ex2-t5-image4.png)
 
-5.  Set the **Text** value of the Reserve Button to **Reserve**.
+5.  Set the **Text** property of the Reserve Button to **Reserve**.
 
-6.  Move the Reserve Button and place it next to the Image.
+6.  **Move** the Reserve Button and place it next to the Gadget Image.
 
     ![A screenshot of the Reserve button selected and moved next to the image on the right hand side](03-1/media/ex2-t5-image5.png)
 
@@ -340,9 +340,9 @@ In this task, you will add buttons that will let users reserve and/or pick up it
 
     ![A screenshot with the text "Picked Up Button" highlighted as the name new for button you added](03-1/media/ex2-t5-image6.png)
 
-12. Set the **Text** value of the Reserve Button to **Picked up**.
+12. Set the **Text** value of the Reserve Button to **Picked Up**.
 
-13. Adjust the width and move the Picked Up Button and place it to the right of the Reserve Button.
+13. Adjust the **width** property to **150** and **move** the Picked Up Button and place it to the right of the Reserve Button.
 
     ![A screenshot showing the Picked Up button selected and moved to the right of the Reserve button](03-1/media/ex2-t5-image7.png)
 
@@ -382,11 +382,11 @@ In this task, you will add search capability to your application.
 
 6.  Select the **Tree view**.
 
-7.  Select the text box you just added and rename it **Search box**.
+7.  Select the text box you just added and rename it **Search Box**.
 
 ![A screenshot of the words "Search Box" highlighted as the new name for the text box you added](03-1/media/ex2-t6-image3.png)
 
-8.  Place the Search Box to the right of the icon.
+8.  **Move** the Search Box to the right of the icon.
 
 ![A screenshot of the Search Box placed to the right of the icon](03-1/media/ex2-t6-image4.png)
 
@@ -432,7 +432,7 @@ In this task, you will test the application.
 
 2.  The **Reserve** and **Picked up** button should be visible and enabled.
 
-3.  Search for cable. The gallery should show items that have the text **cable** in the name or description column.
+3.  Search for **cable**. The gallery should show items that have the text **cable** in the name or description column.
 
     ![A screenshot with the word cable in the search bar and a gallery showing items that have the text cable in their name or description column on the left side of the window](03-1/media/ex3-t1-image2.png)
 
@@ -442,13 +442,13 @@ In this task, you will test the application.
 
     ![A screenshot of a border around the Reserved by field and an arrow pointing to the Reserve button](03-1/media/ex3-t1-image3.png)
 
-6.  The **Reserve** button should become disabled and the **reserved by** value will be set to your username. Select the **Picked up** button.
+6.  The **Reserve** button should become disabled and the **Reserved by** value will be set to your username. Select the **Picked up** button.
 
     ![A screenshot with a border around the reserved by field with your username and another border around the now-disabled reserve button](03-1/media/ex3-t1-image4.png)
 
 7.  The item should no longer show up on the gallery and the first item of the gallery should get selected.
 
-8.  **Close** the preview.
+8.  **Close** preview mode.
 
 9.  Do not navigate away from this page.
 
@@ -463,21 +463,21 @@ In this task, you will publish the application to Teams.
 
 2.  Select **Next**.
 
-3.  Select **+** add app as a tab.
+3.  Select the **+** to add app as a tab.
 
 ![A Screenshot with an arrow pointing to the plus icon for add app as a tab in the general box](03-1/media/ex3-t2-image2.png)
 
-4.  Select **Save and close**
+4.  Select **Save and close**.
 
 5.  Select **Teams** and select the new **Upcycle** tab.
 
 ![A Screenshot with an arrow pointing to the upcycle button](03-1/media/ex3-t2-image3.png)
 
-6.  The app should load. If the app is not loaded, refresh the page.
+6.  The app should load. If the app is not loaded, **refresh** the page.
 
 ![A screenshot of the loaded app](03-1/media/ex3-t2-image4.png)
 
-7. Test the application in Teams and make sure it behaves as you expected.
+7. **Test** the application in Teams and make sure it behaves as you expect.
 
 
 #### Task 3: Give permissions
@@ -494,7 +494,7 @@ In this task, you will give your colleagues permission to create new items, edit
 
     ![A Screenshot with an arrow pointing to the manage permissions button](03-1/media/ex3-t3-image2.png)
 
-4.  Select **Members**, select **Collaborate** permission and select **Save**
+4.  Select **Member**, select the **Collaborate** permission and select **Save**.
 
     ![A screenshot of the collaborate permission selected](03-1/media/ex3-t3-image3.png)
 
