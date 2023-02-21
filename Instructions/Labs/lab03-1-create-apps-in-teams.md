@@ -159,7 +159,7 @@ In this task, you will create a table and columns.
 
     ![A screenshot of the new Gadget table with Name, Description, Availability columns in a grid layout](03-1/media/ex2-t2-image5.png)
 
-15.  Close the table editor by clicking **Close** button.
+15.  Close the table editor by selecting the **Close** button.
 
 16. Do not navigate away from this page.
 
@@ -188,7 +188,7 @@ In this task, you will add new columns to the table.
 
 7.  Select **+ New > Column**.
 
-8.  Enter **Reserved by** for Display name, select **Lookup** for Data type, select **User** for Related table and select **Save**.
+8.  Enter **Reserved by** for **Display name**, select **Lookup** for Data type, select **User** for **Related table** and select **Save**.
 
 ![A screenshot of the add column window with the relevant text in each field](03-1/media/ex2-t3-image4.png)
 
@@ -245,7 +245,7 @@ In this task, you will edit the application by filters for gadgets that are avai
 
 12. Select the **Browse gallery** under **LeftContainer** in the treeview.
 
-13. Select **Items** on the formula bar and replace the value with formula below. This formula will filter the gadgets to show only the available gadgets
+13. Select **Items** on the formula bar and replace the value with formula below. This formula will filter the gadgets to show only the available gadgets.
 
     ```Filter(Gadgets, Availability <> [@Availability].'Picked up')```
 
@@ -255,9 +255,9 @@ In this task, you will edit the application by filters for gadgets that are avai
 
 ![A Screenshot with an arrow pointing to image 1 inside the gallery](03-1/media/ex2-t4-image7.png)
 
-15. Go to the formula bar and varify that the value of the Image is set to the formula below.
+15. Go to the formula bar and verify that the value of the **Image** property is set to the formula below.
 
-```ThisItem.Photo```
+    ```ThisItem.Photo```
 
 16. Select the **Data** tab (database icon) in the left navigation, select the **...More actions** button of the **Gadgets** table and select **Refresh**.
 
@@ -275,15 +275,15 @@ In this task, you will edit the application by filters for gadgets that are avai
 
 ![A Screenshot with an arrow pointing to the tap or click to add a picture button](03-1/media/ex2-t4-image11.png)
 
-21. Provide your own photo or select one from the lab resources folder.
+21. Provide your own photo or choose one from the Lab Resources folder.
 
 22. Select **Save**.
 
 ![A Screenshot with an arrow pointing to the tick icon to save](03-1/media/ex2-t4-image12.png)
 
-23. Add few more items.
+23. **Add** a few more new records.
 
-24. Your app should now look like the image below. Close the preview.
+24. Your app should now look like the image below. **Close** the preview.
 
 ![A screenshot of the running app with an arrow pointing to the cross icon to close the preview](03-1/media/ex2-t4-image13.png)
 
