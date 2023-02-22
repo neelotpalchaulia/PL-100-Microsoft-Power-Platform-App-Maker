@@ -179,7 +179,7 @@ In this task, you will create a canvas application using the phone form factor.
 
     ![Set Height - Header](03-2/media/image37.png)
 
-18. Back on the **Tree view**, right-click on the Main Screen and select **Duplicate screen**.
+18. On the **Tree view**, right-click on the Main Screen and select **Duplicate screen**.
 
     ![A screenshot with a border around the duplicate screen button](03-2/media/image14.png)
 
