@@ -195,7 +195,7 @@ In this task, you add a new Columns to the Problem Report table.
 
 2.  Select **Solutions** and open the **Company 311** solution.
 
-3.  Locate and open the **Problem Report** table in the tree view.
+3.  Locate and open the **Problem Report** table in the **Objects** pane.
 
 4.  Select **+ New > Column**.
 
