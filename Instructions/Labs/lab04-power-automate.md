@@ -67,7 +67,7 @@ In this task, you will create a flow that send notification when the status of p
 
     ![A screenshot showing dropdown menu to create new automated cloud flow](04/media/image1.png)
 
-4.  Enter **when a row** in the search box, then locate and select **When a row is added, modified or deleted** from **Microsoft Dataverse** connector. 
+4.  Enter **when a row** in the search box, then locate and select the **When a row is added, modified or deleted** action from the **Microsoft Dataverse** connector. 
 
 5.  Select **Create**.
 
@@ -105,7 +105,7 @@ In this task, you will create a flow that send notification when the status of p
 
 19. Search for **send email** and select **Send an email (V2).**
 
-20. Select the **To** field and select **Switch to advanced mode**. Selecting this button toggles show/hide of the dynamic pane.
+20. Select the **To** field and select the **Switch to Advanced Mode** arrows icon. Selecting this button toggles show/hide of the Dynamic content pane.
 
     ![A Screenshot with an arrow pointing to the switch to advanced mode icon](04/media/image5.png)
 
@@ -141,7 +141,7 @@ In this task, you will create a flow that send notification when the status of p
 
     ![A screenshot of the current flow](04/media/image8.png)
 
-33. Press **<-** button to go back to solution explorer.
+33. Select the **<-** button to go back to the Solution Explorer.
 
 
 #### Task 2: Test the flow
@@ -164,7 +164,7 @@ In this task, you will test the notify problem creator flow.
 
 8.  Select **Solutions** and open the **Company 311** solution.
 
-9.  Locate and open the **Notify Problem Creator** flow you created.
+9.  Locate and open the **Notify Problem Creator** Cloud flow you created.
 
 10. You should see a succeeded flow run in the **28-day run history section**. Open the run.
 
@@ -185,7 +185,7 @@ In this task, you will test the notify problem creator flow.
 
 ### Exercise 2: Build escalation flow
 
-In this exercise, you create add two new columns to the Problem Report table and create escalation flow.
+In this exercise, you will create and add two new columns to the Problem Report table and create an escalation flow.
 
 #### Task 1: Add Columns
 
