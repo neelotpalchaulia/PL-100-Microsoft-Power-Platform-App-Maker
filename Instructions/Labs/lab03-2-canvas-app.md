@@ -39,7 +39,7 @@ In this module you will design and build a canvas app for the company employees 
 
 ## Detailed steps
 
-  ### Exercise 1: Create canvas application
+### Exercise 1: Create canvas application
 
 In this exercise, you will import a solution with shared components, create a view for the Problem Report table and create a canvas application.
 
@@ -83,11 +83,11 @@ In this task, you will import the shared components solution into your environme
     
     > **NOTE**
     >
-    >When the app is open in Edit mode, move on to next step, as the Preloader component shows a Loading icon but it is not actually waiting for something to load.
+    > When the app is open in Edit mode, move on to next step, as the Preloader component shows a Loading icon but it is not actually waiting for something to load.
 
 13. After the app opens, select **File** > **Save As**.
 
-14. Change app name to **Lamna Healthcare Share Components A** and select **Save**.
+14. Change app name to **Lamna Healthcare Shared Components A** and select **Save**.
 
     ![A screenshot with a border around the app name saved as Lamna Healthcare Shared Components A](03-2/media/image2-2.png)
 
@@ -114,7 +114,7 @@ In this task, you will create a view that will show the current user’s problem
 
     ![A Screenshot with an arrow pointing to the edit filters button](03-2/media/image4.png)
 
-6.  Change the filter to **Created By Equals current user** and select **OK**.
+6.  Change the filter to **Created By, Equals current user** and select **Ok**.
 
     ![A screenshot of the edit filters window](03-2/media/image5.png)
 
@@ -145,7 +145,7 @@ In this task, you will create a canvas application using the phone form factor.
 
 5.  Select **Skip**.
 
-6.  Go to the Tree view and double-click **Screen1**.
+6.  Go to the **Tree view** and double-click **Screen1**.
 
     ![A Screenshot with an arrow pointing to the screen 1 button](03-2/media/image9.png)
 
@@ -153,11 +153,11 @@ In this task, you will create a canvas application using the phone form factor.
 
     ![A screenshot with the Screen 1 name highlighted and renamed Main Screen](03-2/media/image10.png)
 
-11. Select the **Main Screen** and select on the **+ Insert** from the left navigation pane .
+11. Select the **Main Screen** and then select **+ Insert** from the left navigation pane.
 
     ![A Screenshot with an arrow pointing to the plus icon for insert](03-2/media/image11.png)
 
-12. Select **Get more Components**.
+12. Select **Get more components**.
 
     ![A screenshot with a border around the get more components button](03-2/media/image12-1.png)
 
@@ -179,7 +179,7 @@ In this task, you will create a canvas application using the phone form factor.
 
     ![Set Height - Header](03-2/media/image37.png)
 
-18. Right-click on the Main Screen and select **Duplicate screen**.
+18. Back on the **Tree view**, right-click on the Main Screen and select **Duplicate screen**.
 
     ![A screenshot with a border around the duplicate screen button](03-2/media/image14.png)
 
@@ -205,7 +205,7 @@ In this task, you will create a canvas application using the phone form factor.
 
     > **IMPORTANT**
     >
-    > When expressions are copied, the quotes and double quotes are sometimes replaced with their "smart" counterparts which are not valid in formulas. If you copy and paste the expression above, make sure the resulting formula does not contain any errors.     
+    > When expressions are copied, the quotes and double quotes are sometimes replaced with their “smart” counterparts which are not valid in formulas. If you copy and paste the expression above, make sure the resulting formula does not contain any errors.
 
     ![A screenshot of the copied expression into the expression tab](03-2/media/image15.png)
 
@@ -219,19 +219,17 @@ In this task, you will create a canvas application using the phone form factor.
 
 24. Change the **SelectedColor** value to **WhiteSmoke**.
 
-25. Select the **…** button of the **App** and select **Run OnStart**.
+25. In the **Tree view**, right-click on **App** and select **Run OnStart**.
 
     ![A screenshot of the run on start button coming from the ellipsis icon for see more under the app button](03-2/media/image17.png)
 
-26. Your tabs should now show the two tabs you added.
+26. The tab names should update.
 
     ![A screenshot of the two tabs you added](03-2/media/image18.png)
 
-27. Select **File** and then **Save**.
+27. Select **Save** from the command bar.
 
-28. Select the **<- Back** button.
-
-29. Do not navigate away from this page.
+28. Do not navigate away from this page.
 
 
 ### Exercise 2: My reports
@@ -272,6 +270,7 @@ In this exercise, you will add a gallery that will show reports created by the c
 
 10. Do not navigate away from this page.
 
+
 ### Exercise 3: Allow removing reports
 
 In this exercise, you will allow unassigned reports to be removed. This will allow users to easily remove any reports that were accidentally created.
@@ -283,6 +282,8 @@ In this exercise, you will allow unassigned reports to be removed. This will all
 2.  Select the **Icon** inside the **My Reports Gallery**.
 
     ![A screenshot of the arrow icon inside the my reports gallery](03-2/media/image24.png)
+
+3.  In the Tree View, double-click **NextArrow1** and rename it to **Remove Report**.
 
 3.  Change the **Icon** value to **Icon.Trash**.
 
@@ -298,7 +299,9 @@ In this exercise, you will allow unassigned reports to be removed. This will all
 
     `Remove('Problem Reports', ThisItem)`
 
-6.  Select **Save**.
+6.  Change the **ToolTip** value to **"Remove this report"**.
+
+7.  Select **Save**. 
 
 
 ### Exercise 4: Add new report
@@ -343,9 +346,9 @@ In this exercise, you will add a form to submit new problem reports.
 
 14. Place the button below the form and make it stretch across the screen
 
-15. Change the **Submit Report** button's **text** property to **Submit**.
+15. Change the **Submit Report** button's **Text** property to **Submit**.
 
-16. Select the Submit Report button and change the **OnSelect** value to the formula below. This formula will create a new Row in the Problem Reports table.
+16. Select the **Submit Report** button and change the **OnSelect** value to the formula below. This formula will create a new Row in the Problem Reports table.
 
     `SubmitForm('New Report Form') `
 
@@ -390,7 +393,7 @@ In this exercise, you will test the canvas application you created by submitting
 
 5.  Select an image.
 
-6.  Select **Submit**
+6.  Select **Submit**.
 
 7.  The Row should get created successfully and you should see the success message.
 
@@ -398,7 +401,7 @@ In this exercise, you will test the canvas application you created by submitting
 
 8.  Select the **My Reports** tab.
 
-9.  You should see the new report you created. Select **Delete** to test the delete.
+9.  You should see the new report you created. Select the **Remove Report** button to test the delete.
 
     ![A Screenshot with an arrow pointing to the trash can icon to delete](03-2/media/image35.png)
 
@@ -462,9 +465,9 @@ In this task, you will setup a **Microsoft Teams** team for the Lamna Healthcare
 
     > **IMPORTANT**
     >
-    > If you do not see the app you need to go back to the app editor and publish the app
+    > If you do not see the app you need to go back to the app editor and publish the app.
 
-7.  Select **Save**.
+7.  Select **Save**. 
 
 8.  The **Company 311** app should now appear on a tab in Microsoft Teams.
 
