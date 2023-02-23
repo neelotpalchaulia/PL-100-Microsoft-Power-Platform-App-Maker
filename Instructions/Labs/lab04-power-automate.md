@@ -201,7 +201,7 @@ In this task, you add a new Columns to the Problem Report table.
 
 5.  Enter **Estimated Cost** for **Display name**, select **Currency** for **Data type** and select **Save**.
 
-6.  Select the **Forms** in the tree view.
+6.  Select **Forms** from the **Objects** pane.
 
 7.  Open the **Information** form of type **Main**.
 
@@ -213,7 +213,7 @@ In this task, you add a new Columns to the Problem Report table.
 
     ![A screenshot with a border around estimated cost and assign to columns placed on the form and an arrow pointing to the save button](04/media/image12.png)
 
-11. Select the **Back** button located on the top left of the screen.
+11. Select the **← Back** button located on the top left of the screen.
 
 12. Select **All**, select **Publish all customizations**, and wait for the publishing to complete.
 
@@ -284,7 +284,7 @@ In this task, you will create the escalation flow.
     >
     > This is \*\*very\*\* expensive item with the estimated cost of
 
-30. Place your cursor after cost of, go to the Dynamic content pave, select the Expression tab, paste the expression below, and select **OK**.
+30. Place your cursor after cost of, go to the Dynamic content pane, select the **Expression** tab, paste the expression below, and select **OK**.
 
     `formatNumber(triggerOutputs()?['body/lh_estimatedcost'], 'C2')`
 
@@ -292,7 +292,7 @@ In this task, you will create the escalation flow.
 
 31. Select **Add an action**.
 
-32. Search for **condition** and select **Condition** control.
+32. Search for **condition** and select the **Condition** action from the Control connector.
 
 33. Select the first **Choose a value** field.
 
@@ -341,7 +341,7 @@ In this task, you will test the escalation flow.
 
 4.  Scroll down, enter **2500** for **Estimated Cost**, assign it to **yourself** (for test purposes) and select **Save**.
 
-5.  Navigate to [Power Automate](https://flow.microsoft.com/)
+5.  Navigate to the [Power Automate maker portal](https://make.powerautomate.com/).
 
 6.  Select **Approvals**.
 
@@ -403,25 +403,31 @@ In this task you will setup a Microsoft Teams team for the Lamna Healthcare Comp
 
 #### Task 2: Modify flow to send adaptive card in Teams chat
 
-In this task you will replace the approval sent by email with the adaptive card.
+In this task you will replace the approval sent by email with an adaptive card. 
 
-1.  Locate **Start and wait for an approval** step created earlier in **Exercise 2, Task 2**. (Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in the correct environment. **Solutions > Company 311 Solution > Flows > Escalate Expense Approval**) 
+1.  Navigate to the [Power Automate maker portal](https://make.powerautomate.com/) and make sure you are in the correct environment.
 
-2.  Select **...** then select **Delete**.
+2.  Select **Solutions** and open the **Company 311** solution.
 
-3.  Select the **+** between the steps to insert a new step then select **Add an action**. 
+3.  Select **Cloud flows** from the **Objects** pane and open the **Escalate Expense Approval** flow. Select **Edit**. 
 
-4.  Search for **approval** and select **Create an approval**.
+4.  Locate **Start and wait for an approval** step created earlier in **Exercise 2, Task 2**. 
 
-5.  Select **Approve/Reject - Everyone must approve** for **Approval type**.
+5.  Select the **...** menu, and then select **Delete**. 
 
-6.  Enter **Cost approval required** for **Title**.
+6.  Select the **+** between the steps to insert a new step then select **Add an action**. 
 
-7.  Select the **Assigned to** field.
+7.  Search for **approval**, and select **Create an approval**. 
 
-8.  Go to the **Dynamic content** pane and select **Primary Email** from the **Get user** step.
+8.  Select **Approve/Reject - Everyone must approve** for **Approval type**. 
 
-9.  Paste the markdown text below in the **Details** field.
+9.  Enter **Cost approval required** for **Title**. 
+
+10. Select the **Assigned to** field. 
+
+11. Go to the **Dynamic content** pane and select **Primary Email** from the **Get user** step. 
+
+12. Paste the markdown text below in the **Details** field. 
 
     > \*\*{title}\*\*
     >
@@ -433,65 +439,65 @@ In this task you will replace the approval sent by email with the adaptive card.
     >
     > This is a \_very\_ expensive item with the estimated cost of
 
-10. Select **{title}** placeholder, go to the **Dynamic content** pane, locate and select **Title** field from **When a problem report is created or updated** step.
+13. Select **{title}** placeholder, go to the **Dynamic content** pane, locate and select **Title** field from **When a problem report is created or updated** step.
 
-11. Select **{details}** placeholder, go to the **Dynamic content** pane, locate and select **Details** field from **When a problem report is created or updated** step.
+14. Select **{details}** placeholder, go to the **Dynamic content** pane, locate and select **Details** field from **When a problem report is created or updated** step.
 
-12. Place your cursor after **cost of** , go to the **Dynamic content** pane, select the **Expression** tab, paste the expression below, and select **OK**.
+15. Place your cursor after **cost of** , go to the **Dynamic content** pane, select the **Expression** tab, paste the expression below, and select **OK**.
 
     `formatNumber(triggerOutputs()?['body/lh_estimatedcost'], 'C2')`
 
-13. Your step should look like the following:
+16. Your step should look like the following: 
 
     ![A screenshot of the create an approval window with the following. Approval type as approve/reject - everyone must approve, title as cost approval required, assigned to primary email, details as title, details, some text and format number, item link, and item link description](04/media/image-5-create-approval.png)
 
-14. Select **+** then select **Add an action**.
+17. Select **+** then select **Add an action**.
 
-15. Search for **teams** and select **Post adaptive card in a chat or channel** action.
+18. Search for **teams** and select **Post adaptive card in a chat or channel** action.
 
-16. Select **Flow bot** for Post as and select **Chat with Flow bot** for Post in.
+19. Select **Flow bot** for Post as and select **Chat with Flow bot** for Post in.
 
-17. Select the **Recipient** field.
+20. Select the **Recipient** field.
 
-18. Go to the **Dynamic content** pane and select **Primary Email** from the **Get user** step.
+21. Go to the **Dynamic content** pane and select **Primary Email** from the **Get user** step.
 
-19. Select **Adaptive Card** field.
+22. Select **Adaptive Card** field.
 
-20. Go to the **Dynamic content** pane and select **Teams Adaptive Card** from the **Create an approval** step.
+23. Go to the **Dynamic content** pane and select **Teams Adaptive Card** from the **Create an approval** step.
 
-21. Post adaptive card in chat or channel should look like the image below.
+24. Post adaptive card in chat or channel should look like the image below.
 
     ![A screenshot of the post adaptive card in a chat or channel pane](04/media/image-5-post-adaptive-card.png)
 
-22. Select **+** then select **Add an action**.
+25. Select **+** then select **Add an action**.
 
-23. Search for **approval** and select **Wait for an approval** action.
+26. Search for **approval** and select **Wait for an approval** action.
 
-24. Select **Approval ID** field.
+27. Select **Approval ID** field.
 
-25. Go to the **Dynamic content** pane and select **Approval ID** from the **Create an approval** step.
+28. Go to the **Dynamic content** pane and select **Approval ID** from the **Create an approval** step.
 
     ![A screenshot of the wait for an approval panel with approval ID in the approval ID field](04/media/image-5-wait-for-approval.png)
 
-26. You now have replaced **Start and wait for an approval** step with the following:
+29. You now have replaced **Start and wait for an approval** step with the following:
 
     ![A screenshot of the current flow with: create an approval, post adaptive card in a chat or channel, and wait for an approval](04/media/image-5-replaced-approval.png)
 
-25. Expand **Condition 2** step. The left side of the condition should be empty because it was referring the step which is now removed. 
+30. Expand the **Condition** step. The left side of the condition should be empty because it was referring the step which is now removed. 
 
-26. Go to the **Dynamic content** pane, search for **outcome,** and select **Outcome** from **Wait for an approval** step. 
+31. Go to the **Dynamic content** pane, search for **outcome,** and select **Outcome** from **Wait for an approval** step. 
 
-27. Locate **Update problem report** step under **If yes** branch.
+32. Locate **Update problem report** step under **If yes** branch. 
 
-28. Select **Show advanced options**.
+33. Select **Show advanced options**.
 
-29. Select the **Resolution** field, go to the **Dynamic content** pane, and select **Response summary** from **Wait for an approval** step.
+34. Select the **Resolution** field, go to the **Dynamic content** pane, and select **Response summary** from **Wait for an approval** step.
 
-30. Select **Save**.
+35. Select **Save**.
 
-31. **Close** the flow designer browser window or tab.
+36. **Close** the flow designer browser window or tab.
 
-32. Select **Done** on the popup.
+37. Select **Done** on the popup.
 
 
 #### Task 3: Test flow
@@ -506,17 +512,17 @@ In this task, you will test the escalation flow with the Teams and adaptive card
 
 4.  Scroll down, enter any amount greater than **1000** for **Estimated Cost**, assign it to **yourself** (for test purposes) and select **Save**.
 
-5.  Navigate to [Microsoft Teams](https://teams.microsoft.com)
+5.  Navigate to [Microsoft Teams](https://teams.microsoft.com).
 
 6.  Select **Chat**.
 
-7. You should see the Cost Approval Required Adaptive Card.
+7. You should see the **Cost approval required** adaptive card in a message from **Power Automate**.
 
     ![A screen shot of the request for cost approval pane](04/media/image-5-sample-adaptive-card.png)  
 
-8. Press **Reject** button and enter a comment of your choice in the Comments area, for example **The item is too expensive**.
+8. Select the **Reject** button and enter a comment of your choice in the **Comments** area, for example **The item is too expensive**.
 
-9. Select **Submit**.  The card will become read-only.
+9. Select **Submit**. The card will become read-only.
 
     ![A screenshot of the request once you have rejected it](04/media/image-5-readonly-card.png)
 
