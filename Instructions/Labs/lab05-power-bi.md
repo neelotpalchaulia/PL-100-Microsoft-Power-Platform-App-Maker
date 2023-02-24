@@ -116,11 +116,11 @@ We will follow the below steps to design and create the Power BI dashboard:
 
     ![A screenshot of the relationship between the table. There should be three main panels, Ih_building, Ih_problemreport, and Ih_department](05/media/image-6-9.png)
 
-10. Select **Report** icon on the left toolbar.
+10. Select the **Report** icon on the left side of the canvas.
 
     ![A Screenshot with an arrow pointing to the report icon on the left toolbar](05/media/image-6-10.png)
 
-11. Expand **lh_ProblemReport** node in the **Fields** panel. 
+11. Expand the **lh_problemreport** node in the **Data** panel. 
 
 12. Select the **...** More options button of the **lh_ProblemReport** table. 
 
@@ -157,7 +157,7 @@ We will follow the below steps to design and create the Power BI dashboard:
 
     ![A Screenshot with an arrow pointing to the pie chart icon](05/media/image-6-14.png)
 
-2.  Expand **lh_ProblemReport** table in the **Fields** panel, drag **Building** Column and drop it into **Legend** target box.
+2.  Expand **lh_ProblemReport** table in the **Data** panel, drag **Building** Column and drop it into **Legend** target box.
 
 3.  Drag **Problem Report** Column and drop it into **Values** target box.
 
@@ -230,10 +230,10 @@ We will follow the below steps to design and create the Power BI dashboard:
 > If you are getting an error on PowerBI Service with message "the data source is missing credentials and cannot be accessed", follow the below steps:
 >
 > 1. Select **311 Workspace** and select the **Problem Management** dataset.
-> 2. Expand Refresh dropdown and select Schedule refresh.
-> 3. Expand Data Source credentials section and select Edit Credentials.
-> 4. Select OAuth2 for Authentication Method and Organizational for Privacy level setting.
-> 5. Select Sign In. This will resolve the issue for report and it should display properly on Power BI Service.
+> 2. Expand Refresh dropdown and select **Schedule refresh**.
+> 3. Expand **Data Source credentials** section and select **Edit Credentials**.
+> 4. Select **OAuth2** for **Authentication** Method and **Organizational** for **Privacy level setting**.
+> 5. Select **Sign in**. This will resolve the issue for report and it should display properly on Power BI.
 
 
 #### Task 2: Create Power BI Dashboard
