@@ -355,7 +355,7 @@ In this task you will setup a Microsoft Teams team for the Lamna Healthcare Comp
 
 1.  Navigate to [Power BI](https://app.powerbi.com/home).
 
-2.  Select **Datahub**.
+2.  Select **Data hub**.
 
     ![A screenshot of a border around the datasets button](05/media/image-6-datasets.png)
 
@@ -379,7 +379,7 @@ In this task you will setup a Microsoft Teams team for the Lamna Healthcare Comp
 
     ![A Screenshot with an arrow pointing to the new button, dashboard selected, and a border around the Power Bi embedded option](05/media/image-6-newpowerbiembeddeddash.png)
 
-10. Enter **Problem management** for Display name, select **Power BI report** for type, select **311 Workspace** for Power BI workspace, select **Problem management** for Power BI report and select **Save**.
+10. Enter **Problem management** for **Display name**, select **Power BI report** for type, uncheck **Show reports in this environment only** and select **311 Workspace** for **Power BI workspace**, select **Problem management** for **Power BI report** and select **Save**.
 
     ![A screenshot of the New Power BI embedded data window with all relevant text in each field](05/media/image-6-powerbidashprop.png)
 
@@ -397,7 +397,7 @@ In this task you will setup a Microsoft Teams team for the Lamna Healthcare Comp
 
     ![A screenshot with a cursor pointing to the Group option under Add button](05/media/image-6-eddgroup.png)
 
-15. Go to the **Properties** pane and enter **Reports** for Title.
+15. Go to the **Display options** pane and enter **Reports** for **Title**.
 
 16. Select the **Reports** group you just created, select **+ Add** and select **Subarea**.
 
@@ -407,9 +407,9 @@ In this task you will setup a Microsoft Teams team for the Lamna Healthcare Comp
 
     ![A screenshot of the subarea properties dialog with the relevant option selected in each field](05/media/image-6-subareaprop.png)
 
-18. Select the **ellipsis** icon next to the **Reports** group and select **Move up**.
+18. Select the **...** ellipsis icon next to the **Reports** group and select **Move up**. 
 
-19. Select **Save**, then select **Publish**, wait for the publishing to complete and then select **Play**.
+19. Select **Save**, then select **Publish**, wait for the publishing to complete and then select **Play**. 
 
     ![A screenshot of the top-level menu with Save, Publish, and Play buttons. Cursor is pointing to the Save button](05/media/image-6-savepublishplay.png)
 
@@ -434,7 +434,7 @@ In this exercise, you will add embedded canvas application to Power BI as a visu
 
 4.  Select **Edit**.
 
-5.  Resize and reposition the visuals as shown below.
+5.  **Resize** and **reposition** the visuals as shown below.
 
     ![Power BI visuals - screenshot](05/media/image-6-PowerBIVisuals.png)
 
@@ -450,23 +450,24 @@ In this exercise, you will add embedded canvas application to Power BI as a visu
 
     ![create app - screenshot](05/media/image-6-createembeddedapp.png)
 
-9.  A new browser window or tab should open and load the app studio.
+9.  A **new browser tab** should open and load the **Power Apps Studio**.
 
 10. Do not navigate away from this page.
 
+
 #### Task 2: Customize the app
 
-1.  Right-click on **Gallery** and select **Delete**.
+1.  Right-click on the **Gallery** and select **Delete**.
 
     ![Delete gallery button - screenshot](05/media/ex_5_deletegallery.png)
 
-2.  Select **Settings**.
+2.  Select **Settings** from the toolbar. 
 
-3.  Select **Display**.
+3.  Select the **Display** tab.
 
-4.  Change the **Orientation** for **Landscape** and select **Apply** on the popup.
+4.  Change the **Orientation** to **Landscape** and select **Apply** on the popup. 
 
-5.  Close the **Settings** window.
+5.  Close the **Settings** window. 
 
 6.  Select **Data** and select **Add data**.
 
@@ -476,11 +477,11 @@ In this exercise, you will add embedded canvas application to Power BI as a visu
 
     ![Select data table - screenshot](05/media/ex_5_datatable.png)
 
-8.  Select the **App** object from the Tree view.
+8.  From the **Tree view**, select the **App** object.
 
-9.  Select the **OnStart** of the **App** object and set it to the formula below. This formula will create two variables one to keep track of the current index of the reports table and another to keep track of the current item row.
+9.  Select the **OnStart** property of the **App** object (found in the **Advanced** tab) and set it to the formula below. This formula will create two variables one to keep track of the current index of the reports table and another to keep track of the current item row.
 
-    ```Set(currentIndex,1);Set(CurrentItem, LookUp('Problem Reports', 'Problem Report' = GUID(Last(FirstN([@PowerBIIntegration].Data,currentIndex)).'Problem Report')))```
+    ```Set(currentIndex,1);Set(CurrentItem, LookUp('Problem Reports', 'Problem Report' = GUID(Last(FirstN([@PowerBIIntegration].Data,currentIndex)).'Problem Report'))) ```
 
     ![A screentshot showing OnStart property set to the expression described on the previous step](05/media/ex_5_apponstart.png)
 
@@ -494,7 +495,7 @@ In this exercise, you will add embedded canvas application to Power BI as a visu
 
     ![Run app OnStart - screenshot](05/media/ex_5_runonstart.png)
 
-13. You should see the photo. If you are not seeing the photo, then go to your Model Driven App and add photo to Problem Reports records where the Photo field is empty.
+13. The photo from the Problem Report should load. If you are not seeing the photo, then go to the Admin **Model-driven App** and add photo to any Problem Report records where the **Photo** field is **empty**. 
 
     ![Current image with photo - screenshot](05/media/ex_7_imagephoto.png)
 
@@ -521,17 +522,17 @@ In this exercise, you will add embedded canvas application to Power BI as a visu
 
 1.  Select the **Insert** tab and select **Text label**.
 
-2.  Select the label you just added and set the **Text** value to the formula below.
+2.  Select **Label1** from the tree view and set the **Text** value to the formula below.
 
     ```CurrentItem.Title```
 
-3.  Set the **Height** value of the labe to **60**.
+3.  Set the **Height** value of the label to **60**.
 
 4.  Set the **X** value of the label to **0**.
 
 5.  Set the **Y** value of the label to formula below.
 
-    ```Parent.Height -Self.Height```
+    ```Parent.Height - Self.Height```
 
 6.  Set the the **Width** value of the label to formula below.
 
@@ -545,7 +546,7 @@ In this exercise, you will add embedded canvas application to Power BI as a visu
 
     ```Align.Center```
 
-10. The label should now look like the image below. If you don't see the title, select the **...** button of the **App** object and **Run OnStart** again.
+10. The label should now look like the image below. If you don't see the title, select the **...** button of the **App** object and select **Run OnStart** again.
 
     ![Resized label - screenshot](05/media/ex_7_resizedlabel.png)
 
@@ -583,7 +584,7 @@ In this exercise, you will add embedded canvas application to Power BI as a visu
 
 22. Select **+ Insert**, enter **check** in the search box, then select **Check** under **Icons**.
 
-23. Rename the Check icon **Complete icon**.
+23. Rename the Check icon **Complete icon**. 
 
 24. Move the **Complete icon** to the top right of the screen.
 
@@ -599,15 +600,15 @@ In this exercise, you will add embedded canvas application to Power BI as a visu
 
 29. Select the **Save** button.
 
-30. Enter **Power BI embed app** for Name.
+30. Enter **Power BI embed app** for **Name**.
 
 31. Select **Save**.
 
-32. Select the **Publish** button.
+32. Select the **Publish** button. Select **Publish this version**.
 
 33. **Close** the app studio browser window or tab.
 
-34. You should now be back on the Power BI report. Select **Refresh** on the top header.
+34. You should now be back on the Power BI report. Select **Refresh** on the top header. 
 
 35. Select the **Next** and **Back** icons to make sure the application loads the images.
 
