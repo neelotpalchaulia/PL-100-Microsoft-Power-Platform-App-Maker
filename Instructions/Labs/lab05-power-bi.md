@@ -584,7 +584,7 @@ In this exercise, you will add embedded canvas application to Power BI as a visu
 
 22. Select **+ Insert**, enter **check** in the search box, then select **Check** under **Icons**.
 
-23. Rename the Check icon **Complete icon**. 
+23. In the tree view, double-click **Icon1** and rename the Check icon to **Complete icon**. 
 
 24. Move the **Complete icon** to the top right of the screen.
 
