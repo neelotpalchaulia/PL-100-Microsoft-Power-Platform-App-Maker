@@ -26,30 +26,30 @@ In this Module 0 lab, you will acquire a Power Platform trial tenant and access 
 Exercise 1 – Acquire your Power Platform trial tenant 
 -----------------------------------------------------
 
-1. Copy your **Microsoft 365 credentials** from the Authorized Lab Hoster.
+1.  Copy your **Microsoft 365 credentials** from the Authorized Lab Hoster.
 
-2. Navigate to [Power Apps](https://powerapps.microsoft.com/) and click **Start free**.
+2.  Navigate to [Power Apps](https://powerapps.microsoft.com/) and click **Start free**.
 
-3. Enter the email address from the provided Microsoft 365 credentials. Select the checkbox to agree to the terms & conditions then select **Start your free trial**.
+3.  Enter the email address from the provided Microsoft 365 credentials. Select the checkbox to agree to the terms & conditions then select **Start your free trial**.
 
-4. You will see a prompt that you have an existing account with Microsoft. Select **Sign in**.
+4.  You will see a prompt that you have an existing account with Microsoft. Select **Sign in**.
 
-5. Enter the password provided by the Authorized Lab Hoster. 
+5.  Enter the password provided by the Authorized Lab Hoster. 
 
-6. Select **Yes** to stay signed in.
+6.  Select **Yes** to stay signed in.
 
-7. In the **Phone number** field, enter **0123456789** and select **Submit**.
+7.  In the **Phone number** field, enter **0123456789** and select **Submit**.
 
-8. Read through the prompts by selecting **Next**, then select **Let's Go**.
+8.  Read through the prompts by selecting **Next**, then select **Let's Go**.
 
-> **NOTE**
->
-> If you encounter an error: "Sorry, there's been a disconnect", you can follow the steps below. If not, you can continue to **Exercise 2**.
->
-> 1. Navigate to [Power Apps Maker Portal](https://make.powerapps.com).
-> 2. Select the **Gear Icon** (Settings) from top-right corner on the header of the page.
-> 3. Select **Plan(s)** and verify if you have **Power Apps Per User Plan Trial**. 
-> 4. If you have the above mentioned license, please proceed to **Exercise 2** otherwise repeat **Exercise 1**.
+    > **NOTE**
+    >
+    > If you encounter an error: "Sorry, there's been a disconnect", you can follow the steps below. If not, you can continue to **Exercise 2**.
+    >
+    > 1. Navigate to [Power Apps Maker Portal](https://make.powerapps.com).
+    > 2. Select the **Gear Icon** (Settings) from top-right corner on the header of the page.
+    > 3. Select **Plan(s)** and verify if you have **Power Apps Per User Plan Trial**. 
+    > 4. If you have the above mentioned license, please proceed to **Exercise 2** otherwise repeat **Exercise 1**.
 
 
 Exercise 2 - Create your environment 
