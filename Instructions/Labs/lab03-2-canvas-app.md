@@ -55,7 +55,11 @@ In this task, you will import the shared components solution into your environme
 
 3.  Select **Browse**.
 
-4.  Go to the course resources folder, select the **Shared components** solution, and select **Open**.
+4.  Go to the Lab Resources folder, select the **Shared Components** solution file, and select **Open**.
+
+    > **TIP**
+    > 
+    > The lab resources can be found here: `F:\Instructions\Labs\03-2\Resources\SharedComponents_1_0_0_4.zip`
 
 5.  Select **Next**.
 

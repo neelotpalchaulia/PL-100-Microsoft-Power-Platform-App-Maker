@@ -190,7 +190,7 @@ In this task, you will add new columns to the table.
 
 8.  Enter **Reserved by** for **Display name**, select **Lookup** for Data type, select **User** for **Related table** and select **Save**.
 
-![A screenshot of the add column window with the relevant text in each field](03-1/media/ex2-t3-image4.png)
+    ![A screenshot of the add column window with the relevant text in each field](03-1/media/ex2-t3-image4.png)
 
 
 #### Task 4: Edit the application
@@ -212,14 +212,14 @@ In this task, you will edit the application by filters for gadgets that are avai
 4.  Select the **+ Add field** button.
 
 5.  If any of the fields below do not exist on the EditForm control, select the **+ Add field** button, select the missing field and select **Add**.
-   - **Name**
-   - **Description**
-   - **Availability**
-   - **Location**
-   - **Reserved by**
-   - **Photo**
+    - **Name**
+    - **Description**
+    - **Availability**
+    - **Location**
+    - **Reserved by**
+    - **Photo**
 
-   ![A screenshot of the add field window](03-1/media/ex2-t4-image3.png)
+    ![A screenshot of the add field window](03-1/media/ex2-t4-image3.png)
 
 6.  Remove any extra fields and close the **Fields** pane. Your form should only have **Name, Description, Availability, Location, Reserved By and Photo** columns.
 
@@ -229,19 +229,19 @@ In this task, you will edit the application by filters for gadgets that are avai
 
 8.  Select the **Photo** inside the canvas and change **Width** to **400**.
 
-![A screenshot of the photo selected inside the canvas and a border around the size field changed to 400 in the properties pane](03-1/media/ex2-t4-image5.png)
+    ![A screenshot of the photo selected inside the canvas and a border around the size field changed to 400 in the properties pane](03-1/media/ex2-t4-image5.png)
 
 9.  Expand the form and select the **Reserved by** data card.
 
-![A screenshot of a border around reserved by data card selected under edit form 1](03-1/media/ex2-t4-image5_1.png)
+    ![A screenshot of a border around reserved by data card selected under edit form 1](03-1/media/ex2-t4-image5_1.png)
 
 10. Go to the **Properties** pane, select the **Advanced** tab and select **Unlock**.
 
-![A Screenshot with an arrow pointing to the lock icon under the advanced tab](03-1/media/ex2-t4-image5_2.png)
+    ![A Screenshot with an arrow pointing to the lock icon under the advanced tab](03-1/media/ex2-t4-image5_2.png)
 
 11. Search for display and change the **DisplayMode** value to **DisplayMode.View**.
 
-![A screenshot with a border around the display mode field](03-1/media/ex2-t4-image5_3.png)
+    ![A screenshot with a border around the display mode field](03-1/media/ex2-t4-image5_3.png)
 
 12. Select the **Browse gallery** under **LeftContainer** in the treeview.
 
@@ -249,11 +249,11 @@ In this task, you will edit the application by filters for gadgets that are avai
 
     ```Filter(Gadgets, Availability <> [@Availability].'Picked up')```
 
-![Filter data - screenshot](03-1/media/ex2-t4-image6.png)
+    ![Filter data - screenshot](03-1/media/ex2-t4-image6.png)
 
 14. Select the **Image** inside the gallery.
 
-![A Screenshot with an arrow pointing to image 1 inside the gallery](03-1/media/ex2-t4-image7.png)
+    ![A Screenshot with an arrow pointing to image 1 inside the gallery](03-1/media/ex2-t4-image7.png)
 
 15. Go to the formula bar and verify that the value of the **Image** property is set to the formula below.
 
@@ -261,7 +261,7 @@ In this task, you will edit the application by filters for gadgets that are avai
 
 16. Select the **Data** tab (database icon) in the left navigation, select the **...More actions** button of the **Gadgets** table and select **Refresh**.
 
-![A Screenshot with an arrow pointing to the ellipsis icon for more actions and a border around the refresh button](03-1/media/ex2-t4-image9.png)
+    ![A Screenshot with an arrow pointing to the ellipsis icon for more actions and a border around the refresh button](03-1/media/ex2-t4-image9.png)
 
 17. Select **Save** and wait for the app to be saved.
 
@@ -269,23 +269,23 @@ In this task, you will edit the application by filters for gadgets that are avai
 
 19. Select **+ New record**.
 
-![A screenshot of a border around the new record button](03-1/media/ex2-t4-image10.png)
+    ![A screenshot of a border around the new record button](03-1/media/ex2-t4-image10.png)
 
 20. Fill out the form and select **Tap or click to add a picture**.
 
-![A Screenshot with an arrow pointing to the tap or click to add a picture button](03-1/media/ex2-t4-image11.png)
+    ![A Screenshot with an arrow pointing to the tap or click to add a picture button](03-1/media/ex2-t4-image11.png)
 
 21. Provide your own photo or choose one from the Lab Resources folder.
 
 22. Select **Save**.
 
-![A Screenshot with an arrow pointing to the tick icon to save](03-1/media/ex2-t4-image12.png)
+    ![A Screenshot with an arrow pointing to the tick icon to save](03-1/media/ex2-t4-image12.png)
 
 23. **Add** a few more new records.
 
 24. Your app should now look like the image below. **Close** the preview.
 
-![A screenshot of the running app with an arrow pointing to the cross icon to close the preview](03-1/media/ex2-t4-image13.png)
+    ![A screenshot of the running app with an arrow pointing to the cross icon to close the preview](03-1/media/ex2-t4-image13.png)
 
 25. Select the **X** to close the app.
 
@@ -310,37 +310,37 @@ In this task, you will add buttons that will let users reserve and/or pick up it
 
     ![A Screenshot with an arrow pointing to the plus icon to insert and a border around the button option](03-1/media/ex2-t5-image3.png)
 
-4.  Select the **Tree view**, double-click on the button you just added and rename it **Reserve Button**.
+4.  Select the **Tree view**, double-click on the button you just added and rename it `Reserve Button`.
 
-![A screenshot with the text "Reserve Button" highlighted as the new name for the button you added](03-1/media/ex2-t5-image4.png)
+    ![A screenshot with the text "Reserve Button" highlighted as the new name for the button you added](03-1/media/ex2-t5-image4.png)
 
-5.  Set the **Text** property of the Reserve Button to **Reserve**.
+5.  Set the **Text** property of the Reserve Button to `Reserve`.
 
 6.  **Move** the Reserve Button and place it next to the Gadget Image.
 
     ![A screenshot of the Reserve button selected and moved next to the image on the right hand side](03-1/media/ex2-t5-image5.png)
 
-7.  Set the **DisplayMode** value of the Reserve Button to the formula below. This formula will disable the button if the selected item is not available.
+7.  Set the **DisplayMode** property of the Reserve Button to the formula below. This formula will disable the button if the selected item is not available.
 
-```If(BrowseGallery1.Selected.Availability = [@Availability].Available, DisplayMode.Edit, DisplayMode.Disabled)```
+    ```If(BrowseGallery1.Selected.Availability = [@Availability].Available, DisplayMode.Edit, DisplayMode.Disabled)```
 
-8.  Set the **OnSelect** value of the Reserve Button to the formula below. This formula will update the selected record by setting the reserved by value to the current user and the availability value to reserved.
+8.  Set the **OnSelect** property of the Reserve Button to the formula below. This formula will update the selected record by setting the reserved by value to the current user and the availability value to reserved.
 
-```Patch(Gadgets, BrowseGallery1.Selected, {Availability: [@Availability].Reserved, 'Reserved by': CurrentUser})```
+    ```Patch(Gadgets, BrowseGallery1.Selected, {Availability: [@Availability].Reserved, 'Reserved by': CurrentUser})```
 
-9.  Set the **Visible** value of the Reserve Button to the formula below. This formula will hide the button if the user is creating a new record.
+9.  Set the **Visible** property of the Reserve Button to the formula below. This formula will hide the button if the user is creating a new record.
 
-```If(EditForm1.Mode = FormMode.View, true, false)```
+    ```If(EditForm1.Mode = FormMode.View, true, false)```
 
 10. Select the **RightContainer** again.
 
 11. Select the **+** Insert button and select **Button** again.
 
-12. Select the **Tree view**, double-click on the button you just added and rename it **Picked Up Button**.
+12. Select the **Tree view**, double-click on the button you just added and rename it to `Picked Up Button`.
 
     ![A screenshot with the text "Picked Up Button" highlighted as the name new for button you added](03-1/media/ex2-t5-image6.png)
 
-12. Set the **Text** value of the Reserve Button to **Picked Up**.
+12. Set the **Text** property of the Reserve Button to `Picked Up`.
 
 13. Adjust the **width** property to **150** and **move** the Picked Up Button and place it to the right of the Reserve Button.
 
@@ -348,15 +348,15 @@ In this task, you will add buttons that will let users reserve and/or pick up it
 
 14. Set the **DisplayMode** value of the Picked Up Button to the formula below. This formula will disable the button if the selected item is reserved and the reserved by user is not the current user.
 
- ```If(BrowseGallery1.Selected.Availability = [@Availability].Reserved And BrowseGallery1.Selected.'Reserved by'.'Primary Email' <> CurrentUser.'Primary Email', DisplayMode.Disabled, DisplayMode.Edit)```
+    ```If(BrowseGallery1.Selected.Availability = [@Availability].Reserved And BrowseGallery1.Selected.'Reserved by'.'Primary Email' <> CurrentUser.'Primary Email', DisplayMode.Disabled, DisplayMode.Edit)```
 
 15. Set the **OnSelect** value of the Picked Up Button to the formula below. This formula will update the selected record by setting the reserved by value to the current user and the availability value to picked up. The second formula will select the first item of the gallery.
 
-```Patch(Gadgets, BrowseGallery1.Selected, {Availability: [@Availability].'Picked up', 'Reserved by': CurrentUser});Select(BrowseGallery1,1)```
+    ```Patch(Gadgets, BrowseGallery1.Selected, {Availability: [@Availability].'Picked up', 'Reserved by': CurrentUser});Select(BrowseGallery1,1)```
 
 16. Set the **Visible** value of the Picked Up Button to the formula below. This formula will hide the button if the user is creating a new record.
 
-```If(EditForm1.Mode = FormMode.View, true, false)```
+    ```If(EditForm1.Mode = FormMode.View, true, false)```
 
 17. Select **Save** to save your changes.
 
@@ -372,7 +372,7 @@ In this task, you will add search capability to your application.
 
 3.  Place the icon above the form.
 
-![A screenshot of the plus icon selected](03-1/media/ex2-t6-image1.png)
+    ![A screenshot of the plus icon selected](03-1/media/ex2-t6-image1.png)
 
 4.  Select the icon, go to the **Properties** and select **Search** for Icon.
 
@@ -384,37 +384,37 @@ In this task, you will add search capability to your application.
 
 7.  Select the text box you just added and rename it **Search Box**.
 
-![A screenshot of the words "Search Box" highlighted as the new name for the text box you added](03-1/media/ex2-t6-image3.png)
+    ![A screenshot of the words "Search Box" highlighted as the new name for the text box you added](03-1/media/ex2-t6-image3.png)
 
 8.  **Move** the Search Box to the right of the icon.
 
-![A screenshot of the Search Box placed to the right of the icon](03-1/media/ex2-t6-image4.png)
+    ![A screenshot of the Search Box placed to the right of the icon](03-1/media/ex2-t6-image4.png)
 
 9.  Select the **Search Box** and set **OnChange** value to the formula below. This formula will reset the gallery.
 
-```Reset(BrowseGallery1)```
+    ```Reset(BrowseGallery1)```
 
 10. Select the **BrowseGallery** under **LeftContainer1** and change the **Items** formula to the formula below. The formula is incomplete, we will complete it in the next step.
 
-```Filter(Search(Gadgets, 'Search Box'.Value, ), Availability <> [@Availability].'Picked up')```
+    ```Filter(Search(Gadgets, 'Search Box'.Value, ), Availability <> [@Availability].'Picked up')```
 
-11. Place your cursor after **'Search Box'.Value** and enter name. You should see a suggestion with crxxx_name, select the suggested column.
+11. Place your cursor after **'Search Box'.Value** and enter `name`. You should see a suggestion with crxxx_name, select the suggested column.
 
-![A screenshot with a border around the words "crefe4_name"](03-1/media/ex2-t6-image5.png)
+    ![A screenshot with a border around the words "crefe4_name"](03-1/media/ex2-t6-image5.png)
 
-12. Add comma after the name column you just selected and enter **description** and select the suggested column again.
+12. Add comma after the name column you just selected and enter `description` and select the suggested column again.
 
-![A screenshot with a border around the worlds "crfe4_description"](03-1/media/ex2-t6-image6.png)
+    ![A screenshot with a border around the worlds "crfe4_description"](03-1/media/ex2-t6-image6.png)
 
 13. Your formula should now look like the image below. This formula will search the name and description columns of the gadgets table for whatever the user enters in the text box and filter out the picked up items.
 
-![Suggested description column - screenshot](03-1/media/ex2-t6-image7.png)
+    ![Suggested description column - screenshot](03-1/media/ex2-t6-image7.png)
 
 14. Select the **Search Box**.
 
 15. Go to the formula bar and clear the **Value** text.
 
-![A screenshot with a border around the formula bar](03-1/media/ex2-t6-image8.png)
+    ![A screenshot with a border around the formula bar](03-1/media/ex2-t6-image8.png)
 
 16. Select **Save** to save your changes.
 
@@ -430,7 +430,7 @@ In this task, you will test the application.
 
     ![A screenshot with an arrow pointing to the Preview button](03-1/media/ex3-t1-image1.png)
 
-2.  The **Reserve** and **Picked up** button should be visible and enabled.
+2.  The **Reserve** and **Picked Up** button should be visible and enabled.
 
 3.  Search for **cable**. The gallery should show items that have the text **cable** in the name or description column.
 
@@ -442,7 +442,7 @@ In this task, you will test the application.
 
     ![A screenshot of a border around the Reserved by field and an arrow pointing to the Reserve button](03-1/media/ex3-t1-image3.png)
 
-6.  The **Reserve** button should become disabled and the **Reserved by** value will be set to your username. Select the **Picked up** button.
+6.  The **Reserve** button should become disabled and the **Reserved by** value will be set to your username. Select the **Picked Up** button.
 
     ![A screenshot with a border around the reserved by field with your username and another border around the now-disabled reserve button](03-1/media/ex3-t1-image4.png)
 
@@ -465,17 +465,17 @@ In this task, you will publish the application to Teams.
 
 3.  Select the **+** to add app as a tab.
 
-![A Screenshot with an arrow pointing to the plus icon for add app as a tab in the general box](03-1/media/ex3-t2-image2.png)
+    ![A Screenshot with an arrow pointing to the plus icon for add app as a tab in the general box](03-1/media/ex3-t2-image2.png)
 
 4.  Select **Save and close**.
 
 5.  Select **Teams** and select the new **Upcycle** tab.
 
-![A Screenshot with an arrow pointing to the upcycle button](03-1/media/ex3-t2-image3.png)
+    ![A Screenshot with an arrow pointing to the upcycle button](03-1/media/ex3-t2-image3.png)
 
 6.  The app should load. If the app is not loaded, **refresh** the page.
 
-![A screenshot of the loaded app](03-1/media/ex3-t2-image4.png)
+    ![A screenshot of the loaded app](03-1/media/ex3-t2-image4.png)
 
 7. **Test** the application in Teams and make sure it behaves as you expect.
 
