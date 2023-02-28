@@ -310,25 +310,25 @@ In this task, you will add buttons that will let users reserve and/or pick up it
 
     ![A Screenshot with an arrow pointing to the plus icon to insert and a border around the button option](03-1/media/ex2-t5-image3.png)
 
-4.  Select the **Tree view**, double-click on the button you just added and rename it **Reserve Button**.
+4.  Select the **Tree view**, double-click on the button you just added and rename it `Reserve Button`.
 
     ![A screenshot with the text "Reserve Button" highlighted as the new name for the button you added](03-1/media/ex2-t5-image4.png)
 
-5.  Set the **Text** property of the Reserve Button to **Reserve**.
+5.  Set the **Text** property of the Reserve Button to `Reserve`.
 
 6.  **Move** the Reserve Button and place it next to the Gadget Image.
 
     ![A screenshot of the Reserve button selected and moved next to the image on the right hand side](03-1/media/ex2-t5-image5.png)
 
-7.  Set the **DisplayMode** value of the Reserve Button to the formula below. This formula will disable the button if the selected item is not available.
+7.  Set the **DisplayMode** property of the Reserve Button to the formula below. This formula will disable the button if the selected item is not available.
 
     ```If(BrowseGallery1.Selected.Availability = [@Availability].Available, DisplayMode.Edit, DisplayMode.Disabled)```
 
-8.  Set the **OnSelect** value of the Reserve Button to the formula below. This formula will update the selected record by setting the reserved by value to the current user and the availability value to reserved.
+8.  Set the **OnSelect** property of the Reserve Button to the formula below. This formula will update the selected record by setting the reserved by value to the current user and the availability value to reserved.
 
     ```Patch(Gadgets, BrowseGallery1.Selected, {Availability: [@Availability].Reserved, 'Reserved by': CurrentUser})```
 
-9.  Set the **Visible** value of the Reserve Button to the formula below. This formula will hide the button if the user is creating a new record.
+9.  Set the **Visible** property of the Reserve Button to the formula below. This formula will hide the button if the user is creating a new record.
 
     ```If(EditForm1.Mode = FormMode.View, true, false)```
 
@@ -340,7 +340,7 @@ In this task, you will add buttons that will let users reserve and/or pick up it
 
     ![A screenshot with the text "Picked Up Button" highlighted as the name new for button you added](03-1/media/ex2-t5-image6.png)
 
-12. Set the **Text** value of the Reserve Button to `Picked Up`.
+12. Set the **Text** property of the Reserve Button to `Picked Up`.
 
 13. Adjust the **width** property to **150** and **move** the Picked Up Button and place it to the right of the Reserve Button.
 
@@ -430,7 +430,7 @@ In this task, you will test the application.
 
     ![A screenshot with an arrow pointing to the Preview button](03-1/media/ex3-t1-image1.png)
 
-2.  The **Reserve** and **Picked up** button should be visible and enabled.
+2.  The **Reserve** and **Picked Up** button should be visible and enabled.
 
 3.  Search for **cable**. The gallery should show items that have the text **cable** in the name or description column.
 
@@ -442,7 +442,7 @@ In this task, you will test the application.
 
     ![A screenshot of a border around the Reserved by field and an arrow pointing to the Reserve button](03-1/media/ex3-t1-image3.png)
 
-6.  The **Reserve** button should become disabled and the **Reserved by** value will be set to your username. Select the **Picked up** button.
+6.  The **Reserve** button should become disabled and the **Reserved by** value will be set to your username. Select the **Picked Up** button.
 
     ![A screenshot with a border around the reserved by field with your username and another border around the now-disabled reserve button](03-1/media/ex3-t1-image4.png)
 
