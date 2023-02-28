@@ -564,7 +564,11 @@ In this exercise, you will import sample data into the environment. Rows are imp
 
 3.  Select **Browse**.
 
-4.  Select the **DataImport.zip** solution file located in the lab resources folder and select **Open**.
+4.  Select the **DataImport.zip** solution file located in the Lab Resources folder and select **Open**.
+
+    > **TIP** 
+    > 
+    > The solution file can be found here: ```F:\Instructions\Labs\02-1\Resources\DataImport.zip```
 
 5.  Select **Next**.
 
