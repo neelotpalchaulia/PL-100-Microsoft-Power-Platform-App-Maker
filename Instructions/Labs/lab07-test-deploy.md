@@ -59,19 +59,19 @@ In this exercise, you will create security roles for users.
 
 5.  Set the read privilege of the **Building** table to **Organization**.
 
-6.  Set the read privilege of the **Problem Report** Table to **User**.
+6.  Set the read privilege of the **Problem Report** table to **User**.
 
 7.  The read privileges for the **Building** and **Problem Report** Tables should now look like the image below. Select **Save Create New**.
 
    ![A Screenshot with an arrow pointing to the save create new icon in the topmost part of the window and borders around the building and problem report on the list of custom entities](07/media/image2.png)
 
-8.  Enter **Company 311 Admin** for **Role Name** and select the **Custom Entities** tab
+8.  Enter **Company 311 Admin** for **Role Name** and select the **Custom Entities** tab.
 
-9.  Set all privileges of the **Building**, **Department**, and **Problem Reports** Tables to **Organization**.
+9.  Set all privileges of the **Building**, **Department**, and **Problem Reports** tables to **Organization**.
 
     ![A screenshot of building, department, and problem report having all privileges selected in the custom entities tab](07/media/image3.png)
 
-10. Select the **Customizations** tab.
+10. Select the **Customization** tab.
 
 11. Set all privileges for **Model-driven app**.
 
@@ -79,9 +79,9 @@ In this exercise, you will create security roles for users.
 
 12. Select **Save and Close**.
 
-13. Select **Done** on the popup.
+13. Select **Done** on the pop-up.
 
-14. Select **Solutions**.
+14. Select **All** from the **Objects** pane.
 
 15. Select **Publish all customizations** and wait for the publishing to complete.
 
@@ -94,25 +94,25 @@ In this exercise, you will run the solution checker on the Company 311 solution.
 
 1.  Make sure you are still on the [Power Apps maker portal](https://make.powerapps.com/) site and you are in the correct environment.
 
-2.  Select **Solutions**, select **Company 311** solution, select **Solution checker** and select **Run**.
+2.  Select **Solutions**, select the **Company 311** solution row, select **Solution checker** and select **Run**. 
 
     ![A screenshot of the drop down from the solution checked button](07/media/image4.png)
 
-3.  The solution checker should start checking your solution, wait for it to complete. The solution check column value will change to Results with a timestamp.
+3.  The solution checker should start checking your solution, **wait** for it to complete. The **Solution check** column value will change to **Results** with a timestamp.
 
 4.  **Refresh** the page and select the solution again, select **Solution checker**, and select **View results**.
 
     ![A Screenshot with an arrow pointing to the solution checked drop down icon and a border around the view results button](07/media/image5.png)
 
-5.  Review the solution check results and make sure there are no issues.
+5.  Review the issues listed on the **Solution checker results**.
 
     > **NOTE**
     >
     > If you are seeing errors in the Solution Check Result, open the component showing errors one by one and resolve the issues.
     >
-    > At this point you will see errors for Canvas Apps. Open both the apps one by one and fix the assessible label and Tab Index error. For assistance, you can refer to [Microsoft Documentation](https://docs.microsoft.com/powerapps/maker/canvas-apps/accessibility-checker). After resolving the issues, save and publish your app. Go back to the solution and re-run the solution checker.
+    > At this point you will see errors for the Canvas App. Open the app and fix the Accessible Label and Tab Index errors. For assistance, you can refer to [Microsoft Documentation](https://docs.microsoft.com/powerapps/maker/canvas-apps/accessibility-checker). After resolving the issues, save and publish your app. Go back to the **Company 311** Solution and re-run the solution checker.
     >
-    > Users who have vision, hearing, or other impairments can use your canvas app more easily and successfully if you consider accessibility as you design how the app looks and behaves.
+    > Users who have vision, hearing, or other impairments can use your canvas app more easily and successfully if you consider accessibility as you design how the app looks and behaves. 
 
 
 ### Exercise 3: Use test studio
@@ -164,7 +164,7 @@ In this exercise, you use test studio to create test case for submitting a probl
 
 14. Select the **ellipsis** of the **Case** and select **Rename**.
 
-15. Rename the Case to **Submit problem report**.
+15. Rename the **Case** to `Submit problem report`.
 
 16. Select **Record**.
 
@@ -205,40 +205,42 @@ In this exercise, you will export the company 311 solution and import it into a 
 
 5.  Select **Publish all customizations** and wait for the publishing to complete.
 
-6.  Select **Export Solution**.
+6.  Navigate back to the **Solutions** list. 
 
-    ![A Screenshot with an arrow pointing to the export button](07/media/image8.png)
+6.  Select the **Company 311** solution and select **Export Solution** from the toolbar.
+
+    ![A Screenshot with cursor pointing to the Export Solution button](07/media/image8.png)
 
 7.  Select **Next**.
 
-8.  Select **Managed** and select **Export**.
+8.  Select **Managed** and select **Export**. Wait for the solution to be packaged and exported.
 
-9.  Save the solution on your computer.
+9.  When it has exported successfully, select **Download** to save the solution to your computer. 
 
-10. Select **Export Solution** again.
+10. Select **Export solution** again. 
 
-11. Select **Next**.
+11. Select **Next**. 
 
-12. Select **Unmanaged**, change the **version** to match the managed solution version and select **Export**.
+12. Select **Unmanaged**, change the **version** to match the managed solution version and select **Export**. 
 
-13. You should have the managed and unmanaged versions of the solution exported.
+13. You should have the **Managed** and **Unmanaged** versions of the solution exported and downloaded.
 
 
 #### Task 2: Create new environment and import solution
 
-1.  Navigate to [Power Apps Community Plan page](https://powerapps.microsoft.com/communityplan/)
+1.  Navigate to `https://powerapps.microsoft.com/communityplan/`
 
-2.  Select **Existing User? Add a dev environment**.
+2.  Select **Existing User? Add a dev environment**. 
 
 3.  Enter your credentials when prompt to sign in.
 
 4.  Select your country from the dropdown menu and select **Accept**.
 
-5.  Navigate to [Power Platform Admin Center](https://admin.powerplatform.microsoft.com/environments) to see a new environment had been created by the system. We will refer to it as "Prod" environment for the rest of this course (the environment name will be <your account name>'s Environment).
+5.  Navigate to [Power Platform Admin Center](https://admin.powerplatform.microsoft.com/environments) to see a new environment had been created by the system. We will refer to it as the "Prod" environment for the rest of this course (the environment name will be <your account name>'s Environment).
 
 6.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and select the environment you just created.
 
-7.  Select **Solutions** and select **Import**.
+7.  Select **Solutions** and select **Import solution**.
 
 8.  Select **Browse**.
 
@@ -246,9 +248,9 @@ In this exercise, you will export the company 311 solution and import it into a 
 
     ![A screenshot of a border around a zip file of the managed solution you exported](07/media/image10.png)
 
-10. Select **Next**.
+10. Select **Next**. 
 
-11. Select **Next** again.
+11. Select **Next** again. 
 
 12. Select **Select connection** for outlook and then select **+ New connection**.
 
@@ -310,7 +312,7 @@ In this task, you will create the Lunchtime Sports team.
 
 6.  Enter **Lunchtime Sports** for Team name and select **Create**.
 
-7.  Select **Skip**.
+7.  Select **Skip**. 
 
 
 #### Task 2: Create the flow
@@ -355,28 +357,28 @@ In this task, you create a flow that will get triggered when someone is added to
 
 15. Select **Add an action** again.
 
-16. Search for **send** and select **Send me an email notification**.
+16. Search for `send` and select **Send me an email notification**.
 
-17. Enter **New Lunchtime Sports Member** for Subject.
+17. Enter `New Lunchtime Sports Member` for Subject.
 
 18. Select the **Body** field and select **Display Name** from the dynamic content pane.
 
-19. Enter **was added to the Lunchtime Sports team, find out what sports this member is interested in.** after the Display Name.
+19. Enter `was added to the Lunchtime Sports team, find out what sports this member is interested in.` after the **Display Name**.
 
     ![A screenshot of the send me an email notification command in the flow with the relevant text in the subject and body field](07/media/image15.png)
 
-20. Rename the flow **Notify me when a member is added to the Lunchtime Sports group** and select **Save**.
+20. Rename the flow `Notify me when a member is added to the Lunchtime Sports group` and select **Save**. 
 
     ![A screenshot with a box around new name of the flow and an arrow pointing to the save button](07/media/image16.png)
 
 
 #### Task 3: Test the flow
 
-In this task, you will test the flow.
+In this task, you will test the flow. 
 
-1.  Navigate to [Teams](https://teams.microsoft.com/).
+1.  Navigate to [Microsoft Teams](https://teams.microsoft.com/). 
 
-2.  Select the **... More options** button of the Lunchtime Sports team and select **Manage team**.
+2.  Select the **... More options** button of the Lunchtime Sports team and select **Manage team**. 
 
     ![A Screenshot with an arrow pointing to the ellipsis icon for more options and a border around the manage team button](07/media/image17.png)
 
@@ -388,11 +390,11 @@ In this task, you will test the flow.
 
 6.  Select **Close**.
 
-7.  Navigate to [Outlook online](https://outlook.office.com/).
+7.  Navigate to [Outlook Online](https://outlook.office.com/).
 
-8.  You should receive the email notification. Open the notification email.
+8.  You should receive the email notification. Open the notification email. 
 
-9.  The email should look like the image below.
+9.  The email should look like the image below. 
 
     ![A screenshot of how the email should look](07/media/image18.png)
 
@@ -403,7 +405,7 @@ In this task, you will add the flow to the Company 311 solution.
 
 1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in the correct environment.
 
-2.  Select **Solutions** and open the **Company 311** solutions.
+2.  Select **Solutions** and open the **Company 311** solutions. 
 
 3.  Select **+ Add existing >> Automation >> Cloud flow**.
 
@@ -432,13 +434,13 @@ In this task, you will add the flow to the Company 311 solution.
 
 #### Task 5: Import solution
 
-In this task, you will import the solution into another environment.
+In this task, you will import the solution into another environment. 
 
-1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and select the **Prod** environment that you created in **Exercise 4 Task 2**.
+1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and select the **Prod** environment that you created in **Exercise 4 Task 2**. 
 
-2.  Select **Solutions** and select **Import**.
+2.  Select **Solutions** and select **Import**. 
 
-3.  Select **Browse**.
+3.  Select **Browse**. 
 
 4.  Select the **managed** version you just exported and select **Open**.
 
@@ -450,9 +452,9 @@ In this task, you will import the solution into another environment.
 
 7.  Wait for the solution import to complete.
 
-15. Open the **Company 311** solution. 
+8. Open the **Company 311** solution. 
 
-16. Locate the flow you added to the solution and open it.
+9. Locate the flow you added to the solution and open it.
 
     ![A Screenshot with an arrow pointing to the name of the flow you added to the solution](07/media/image21.png)
 
@@ -466,7 +468,7 @@ In this task, you will import the solution into another environment.
 
     ![A Screenshot with an arrow pointing to the add new connection button](07/media/image23.png)
 
-13. Expand the condition..
+13. Expand the condition.
 
 14. Expand the first step in the **If yes** branch.
 

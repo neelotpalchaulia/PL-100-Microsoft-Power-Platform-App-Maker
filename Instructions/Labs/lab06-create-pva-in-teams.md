@@ -147,7 +147,7 @@ In this task, you will edit the default greeting.
 
 In this task, you will create a new topic for the bot so it can respond to inquiries.
 
-1.  Select **Topics** and select **+ New topic**.
+1.  Select **Topics** and select **+ New topic \> From blank**.
 
     ![A Screenshot with an arrow pointing to the new topic button](06/media/ex1-t5-image1.png)
 
@@ -172,91 +172,95 @@ In this task, you will create a new topic for the bot so it can respond to inqui
 
     ![A screenshot of multiple trigger phrases entered in Add phrases textbox](06/media/ex1-t5-image2.png)
 
-6.  Select **+** to add entries for trigger phrases in bulk.
+6.  Select the **+** to add entries for trigger phrases in bulk.
 
-7.  Select the first message, enter **I can help you with that.** And then select the **+ Add node** button.
+7.  **Close** the Trigger phrases pane.
+
+8.  Select the first message, enter **I can help you with that.** And then select the **+ Add node** button.
 
     ![A Screenshot with an arrow pointing to the plus icon to add a node](06/media/ex1-t5-image4.png)
 
-8.  Select **Ask a question**.
+9.  Select **Ask a question**.
 
     ![A Screenshot with an arrow pointing to the ask a question button](06/media/ex1-t5-image5.png)
 
-9.  Enter the text below in the Ask a question textbox.
+10.  Enter the text below in the **Ask a question** textbox.
 
     ```I can add your item to the Upcycle application or to the e-waste pick-up list. What would you like me to do?```
 
-10. Make sure you have **Multiple choice options** selected for Identity, enter **Add to the Upcycle app** for first option and select **+ New option**.
+11. Make sure you have **Multiple choice options** selected for Identity, enter **Add to the Upcycle app** for first option and select **+ New option**.
 
     ![A Screenshot with an arrow pointing to the new option button](06/media/ex1-t5-image6.png)
 
-11. Enter **Add to the pick-up list** as another option.
+12. Enter **Add to the pick-up list** as another option. 
 
-12. You should now have two conditions. Select the **...** Options button of one of the conditions and select **Delete**. We are deleting the conditions because adding item to the pick-up list and adding item to the Upcycle application required similar information.
-
-    ![A Screenshot with an arrow pointing to the three dots icon and a red box around the delete button](06/media/ex1-t5-image7.png)
-
-13. Change the second input value in Condition menu to **has value**.
-
-    ![has value - screenshot](06/media/image1.png)
-
-14. Select the edit variable icon.
+13. Select the **Edit variable** icon on the **Save response as** variable. 
 
     ![A Screenshot with an arrow pointing to the pencil icon in the box under the text save response as](06/media/ex1-t5-image8.png)
 
-15. Change the variable name to **UserOption** and close the variable properties pane.
+14. Change the variable **Name** to `UserOption` and **close** the variable properties pane. 
 
     ![A Screenshot with an arrow pointing to the cross icon in the top right corner of the pane](06/media/ex1-t5-image9.png)
 
-16. Select **+ Add node** and select **Ask a question**.
+15. You should now have two conditions following the question. Select the **...** Options button on one of the conditions and select **Delete**. 
 
-17. Enter the text below in the Ask a question textbox.
+    > We are deleting one condition because adding an item to the pick-up list and adding an item to the Upcycle application requires similar information. 
+
+    ![A Screenshot with an arrow pointing to the three dots icon and a red box around the delete button](06/media/ex1-t5-image7.png)
+
+16. Change the second input value in Condition menu to **has value**.
+
+    ![has value - screenshot](06/media/image1.png)
+
+17. Select **+ Add node** and select **Ask a question**.
+
+18. Enter the text below in the Ask a question textbox.
 
     ```What is the name of the item?```
 
-18. Select the **Identify** dropdown and select **User's entire response**.
+19. Select the **Identify** dropdown and select **User's entire response**.
 
     ![A Screenshot with an arrow pointing to the drop down icon in the identify field and a box around the user's entire response button](06/media/ex1-t5-image10.png)
 
-19. Select the **Edit variable** icon.
+20. Select the **Edit variable** icon.
 
     ![A Screenshot with an arrow pointing to the pencil icon in the box under the text save response as](06/media/ex1-t5-image11.png)
 
-20. Change the variable Name to **ItemName** and close the variable properties pane.
+21. Change the variable **Name** to `ItemName` and **close** the variable properties pane.
 
-21. Select **+ Add node** after the question.
+22. Select **+ Add node** after the question.
 
-22. Select **Ask a question** again.
+23. Select **Ask a question** again.
 
-23. Enter the text below in the Ask a question textbox.
+24. Enter the text below in the Ask a question textbox.
 
     ```What is the description of this item?```
 
-24. Select the **Identify** dropdown and select **User's entire response** again.
+25. Select the **Identify** dropdown and select **User's entire response** again.
 
-25. Select the **Edit variable** icon again. 
+26. Select the **Edit variable** icon again. 
 
-26. Change the variable Name to **Description** and close the variable properties pane.
+27. Change the variable **Name** to `Description` and **close** the variable properties pane.
 
-27. Select **+ Add node** after the question.
+28. Select **+ Add node** after the question.
 
-28. Select **Ask a question** one more time.
+29. Select **Ask a question** one more time.
 
-29. Enter the text below in the Ask a question textbox.
+30. Enter the text below in the Ask a question textbox.
 
     ```What is the location of this item?```
 
-30. Select the **Identify** dropdown and select **User's entire response** again.
+31. Select the **Identify** dropdown and select **User's entire response** again.
 
-31. Select the **Edit variable** icon again.
+32. Select the **Edit variable** icon again.
 
-32. Change the variable Name to **Location** and close the variable properties pane.
+33. Change the variable **Name** to `Location` and **close** the variable properties pane. 
 
-33. The three questions should now look like the image below. Select **Save**.
+34. The three questions should now look like the image below. Select **Save**.
 
     ![A Screenshot with an arrow pointing to the save button in the top right corner](06/media/ex1-t5-image12.png)
 
-34. Do not navigate away from this page.
+35. Do not navigate away from this page.
 
 
 #### Task 6 - Create flow
@@ -273,155 +277,155 @@ In this task, you will create a flow that will add the item to the recycle list 
 
     ![A screenshot of a box around the power virtual agents flow template option](06/media/ex1-t6-image2.png)
 
-4.  Rename the flow **Add item to app or list** and select **+ Add an input**.
+4.  Rename the flow `Add item to app or list` and select **+ Add an input**.
 
     ![A screenshot of a box around the add item to app or list button and an arrow pointing to the add an input button under power virtual agents](06/media/ex1-t6-image3.png)
 
 5.  Select **Text**.
 
-6.  Enter **User ID** and select **+ Add an input** again.
+6.  Enter `User ID` and select **+ Add an input** again.
 
     ![A Screenshot with an arrow pointing to the add an input button](06/media/ex1-t6-image4.png)
 
 7.  Select **Text**.
 
-8.  Enter **UserOption** and select **+ Add an input** one more time.
+8.  Enter `UserOption` and select **+ Add an input** one more time.
 
 9.  Select **Text**.
 
-10. Enter **ItemName** and select **+ Add an input** one more time.
+10. Enter `ItemName` and select **+ Add an input** one more time.
 
 11. Select **Text**.
 
-12. Enter **Description** and select **+ Add an input** one more time.
+12. Enter `Description` and select **+ Add an input** one more time.
 
 13. Select **Text**.
 
-14. Enter **Location**.
+14. Enter `Location`.
 
-15. You should now have five inputs.
+15. You should now have **five inputs**.
 
 16. Select **+ Insert a new step** and select **Add an action**.
 
     ![A Screenshot with an arrow pointing to the plus icon at the bottom of the power virtual agents pane and a box around the add an action button](06/media/ex1-t6-image5.png)
 
-17. Search for initialize and select **Initialize variable**.
+17. Search for `initialize` and select the **Initialize variable** action.
 
     ![A screenshot with a box around the initialize variable button](06/media/ex1-t6-image6.png)
 
-18. Enter **Response to bot** for Name, select **String** for Type.
+18. Enter `Response to bot` for Name, select **String** for Type.
 
 19. Select **+ Insert a new step** and select **Add an action**.
 
     ![A Screenshot with an arrow pointing to the plus icon at the bottom of the initialize variable pane and a box around the add an action button](06/media/ex1-t6-image7.png)
 
-20. Select **+ Insert a new step** again and select **Add an action**.
-
-21. Search for get user profile and select **Get user profile (V2)**.
+20. Search for `get user profile` and select the **Get user profile (V2)** action from the **Office 365 Users** connector.
 
     ![A screenshot with a box around the get user profile V2 button](06/media/ex1-t6-image8.png)
 
-22. Select the **User (UPN)** field and select **User ID** from the dynamic content pane.
+21. Select the **User (UPN)** field and select **User ID** from the Dynamic content pane.
 
     ![A screenshot with a box around the user ID box in the user UPN field. There is also an arrow pointing to the user ID option in the dynamic content pane](06/media/ex1-t6-image9.png)
 
-23. Select **+ Insert a new step** again and select **Add an action**.
+22. Select **+ Insert a new step** again and select **Add an action**.
 
-24. Search for condition and select **Condition**.
+23. Search for `condition` and select the **Condition** action from the **Control** connector.
 
-25. Select the first **Choose a value** field and select **UserOption** from the dynamic content pane.
+24. Select the first **Choose a value** field and select **UserOption** from the dynamic content pane.
 
     ![A Screenshot with an arrow pointing to the UserOption in the dynamic content pane. There is also a box around the user option box in the condition pane](06/media/ex1-t6-image10.png)
 
-26. Select **is equal to** and enter **Add to the Upcycle app**.
+25. Select **is equal to** and enter **Add to the Upcycle app**.
 
-27. Go to the **if no** branch and select **Add an action**.
+26. Go to the **if no** branch and select **Add an action**.
 
     ![A Screenshot with an arrow pointing to the add an action button in the if no window](06/media/ex1-t6-image11.png)
 
-28. Search for add a row and select **Add a row into a table** from Excel Online (Business).
+27. Search for `add a row` and select the **Add a row into a table** action from the **Excel Online (Business)** connector.
 
     ![A screenshot with a box around the add a row into a table button](06/media/ex1-t6-image12.png)
 
-29. Select **OneDrive for Business** for Location, **OneDrive** for Document Library, **Recycle.xlsx** for File and **PickupTable** for table.
+28. Select **OneDrive for Business** for Location, **OneDrive** for Document Library, **Recycle.xlsx** for File and **PickupTable** for table.
 
-30. Select the **Name** field and select **Display Name** from the dynamic content pane.
+29. Select the **Name** field and select **Display Name** from the dynamic content pane.
 
     ![A screenshot of a box around the display name box in the name field. There is also an arrow pointing to the dynamic content pane and the display name button](06/media/ex1-t6-image13.png)
 
-31. Select the **Email** field and select **Mail** from the dynamic content pane.
+30. Select the **Email** field and select **Mail** from the dynamic content pane.
 
-32. Select the **Location** field and select the **Location** dynamic content from the Power Virtual Agents step in the dynamic content pane.
+31. Select the **Location** field and select the **Location** dynamic content from the Power Virtual Agents step in the dynamic content pane.
 
     ![A screenshot with a box around the power virtual agents part of the dynamic content pane and an arrow pointing to the location button. There is also a box around the location box in the location field](06/media/ex1-t6-image14.png)
 
-33. Select the **Description** field and select **Description**  from the dynamic content pane.
+32. Select the **Description** field and select **Description**  from the dynamic content pane.
 
-34. The flow step should now look like the image below. Select **Add an action**
+33. The flow step should now look like the image below. Select **Add an action**.
 
     ![A Screenshot with an arrow pointing to the add an action button](06/media/ex1-t6-image15.png)
 
-35. Search for set variable and select **Set variable**.
+34. Search for `set variable` and select the **Set variable** action from the **Variable** connector. 
 
-36. Select **Response to bot** for name, select the Value field and select **ItemName** from the dynamic content pane.
+35. Select **Response to bot** for name, select the Value field and select **ItemName** from the dynamic content pane. 
 
     ![A Screenshot with an arrow pointing to the item name option in the dynamic content pane](06/media/ex1-t6-image16.png)
 
-37. Add the text below after the ItemName.
+36. Add the text below after the ItemName. 
 
     ``` was added to the e-waste pick-up list.```
 
-38. Go to the **If yes** branch and select **Add an action**.
+37. Go to the **If yes** branch and select **Add an action**. 
 
     ![A Screenshot with an arrow pointing to the add an action button](06/media/ex1-t6-image17.png)
 
-39. Search for add new row and select **Add a new row** from Microsoft Dataverse.
+38. Search for `add new row` and select the **Add a new row** action from the **Microsoft Dataverse** connector. 
 
     ![A screenshot with a box around the add a new row microsoft dataverse button](06/media/ex1-t6-image18.png)
 
-40. Select **Gadgets** for the table name.
+39. Select **Gadgets** for the **Table name**. 
 
-41. Select the Location field and select **Location** from the dynamic content pane.
+40. Select the **Location** field and select **Location** from the dynamic content pane. 
 
-42. Select the Name field and select **ItemName** from the dynamic content pane.
+41. Select the **Name** field and select **ItemName** from the dynamic content pane. 
 
-43. Select **Show advanced options**.
+42. Expand **Show advanced options**. 
 
     ![A Screenshot with an arrow pointing to the show advanced options button](06/media/ex1-t6-image19.png)
 
-44. Select **Available** for Availability, select the Description field and select **Description** from the dynamic content pane.
+43. Select **Available** for Availability, select the Description field and select **Description** from the dynamic content pane. 
 
-45. Select **Add an action** after the add a new row step.
+44. Select **Add an action** after the add a new row step. 
 
-46. Search for set variable and select **Set variable**.
+45. Search for `set variable` and select the **Set variable** action from the **Variable** connector. 
 
-47. Select **Response to bot** for Name, select the Value field and select **ItemName** from the dynamic content pane.
+46. Select **Response to bot** for Name, select the Value field and select **ItemName** from the dynamic content pane.
 
-48. Add the text below after the ItemName.
+47. Add the text below after the **ItemName**.
 
     ``` was added to the Upcycle application.```
 
-48. The two branches of the condition should now look like the image below. Expand the **Return value(s) to Power Virtual Agents** step.
+48. The two branches of the condition should now look like the image below.
 
     ![A Screenshot with an arrow pointing to the return values to power virtual agents box beneath the if yes and if no conditions boxed](06/media/ex1-t6-image20.png)
 
-49. Select **+ Add an output**.
+49. Expand the **Return value(s) to Power Virtual Agents** step.
 
-50. Select **Text**.
+50. Select **+ Add an output**.
 
-51. Enter **Response**, select the value field, and select **Response to bot** from the dynamic content pane.
+51. Select **Text**.
+
+52. Enter **Response**, select the value field, and select **Response to bot** from the dynamic content pane.
 
     ![A Screenshot with an arrow pointing to the response to bot option in the dynamic content pane under variables](06/media/ex1-t6-image21.png)
 
-52. Select **Save** to save the flow.
+53. Select **Save** to save the flow. 
 
-53. Select the **<-** back button next to the flow name.
+54. Select the **<-** back button next to the flow name.
 
     ![Back to PVA button - screenshot](06/media/ex1-t6-image22.png)
 
-54. You should now be back to the bot authoring canvas.
+55. You should now be back to the bot authoring canvas.
 
-55. Do not navigate away from this page.
+56. Do not navigate away from this page.
 
 
 #### Task 7 - Call flow 
@@ -460,7 +464,7 @@ In this task, you will call the flow as an action from the Power Virtual Agents 
 
     ![A screenshot of the end of the bot conversation which shows a message command with {x} response in the box and then an end of conversation command connected below](06/media/ex1-t7-image5.png)
 
-12. Select **save** to save your changes and wait for the bot to be saved.
+12. Select **Save** to save your changes and wait for the bot to be saved.
 
 13. Do not navigate away from this page.
 
@@ -495,51 +499,51 @@ In this task, you will test the bot.
 
 10. Enter **Reuse** and select **Send**.
 
-11. Select **Add to the pick-up list** this time.
+11. Select **Add to the pick-up list** this time. 
 
-12. The bot should ask you to provide name. Enter **Bad bot charger** and select **Send**.
+12. The bot should ask you to provide name. Enter **Bad bot charger** and select **Send**. 
 
-13. The bot should ask you the description of the item. Enter **Bad universal bot charger** and select **Send**.
+13. The bot should ask you the description of the item. Enter **Bad universal bot charger** and select **Send**. 
 
-14. The bot should ask you the location of the item. Enter **Building 4 Room A-754** and select **Send**.
+14. The bot should ask you the location of the item. Enter **Building 4 Room A-754** and select **Send**. 
 
-15. The bot should tell you the item was added to the e-waste pick-up list and ask you if your question was answered. Select **Yes**.
+15. The bot should tell you the item was added to the e-waste pick-up list and ask you if your question was answered. Select **Yes**. 
 
     ![A Screenshot with an arrow pointing to the yes button](06/media/ex2-t1-image3.png)
 
-16. Rate the bot.
+16. Rate the bot. 
 
-17. Select **No, thanks**.
+17. Select **No, thanks**. 
 
-18. The bot should end the conversation.
+18. The bot should end the conversation. 
 
-19. Select **Teams**.
+19. Select **Teams**. 
 
     ![A Screenshot with an arrow pointing to the teams icon](06/media/ex2-t1-image4.png)
 
-20. Select **Green** team chat. Select the **Upcycle** tab.
+20. Select **Green** team chat. Select the **Upcycle** tab. 
 
-21. Search for bot. You should see the **Bot charger** the bot added to the application.
+21. Search for bot. You should see the **Bot charger** the bot added to the application. 
 
     ![A screenshot with the word bot in the search bar in the upcycle tab](06/media/ex2-t1-image5.png)
 
-22. Select the App launcher and select **OneDrive**.
+22. Select the App launcher and select **OneDrive**. 
 
     ![A Screenshot with an arrow pointing to the app launcher icon and a box around the onedrive option](06/media/ex2-t1-image6.png)
 
 23. Open the **Recycle.xlsx** file. 
 
-24. You should see the **Bad universal bot charger** added by the bot.
+24. You should see the **Bad universal bot charger** added by the bot. 
 
     ![Excel table- screenshot](06/media/ex2-t1-image7.png)
 
-25. Close the **Excel file**.
+25. Close the **Excel file**. 
 
-26. Close **OneDrive**
+26. Close **OneDrive**. 
 
-27. You should now be back on the Upcycle application.
+27. You should now be back on the Upcycle application. 
 
-28. Do not navigate away from this page.
+28. Do not navigate away from this page. 
 
 
 #### Task 2 - Publish and add bot
@@ -550,40 +554,34 @@ In this task, you will publish the bot you created.
 
     ![A Screenshot with an arrow pointing to the power virtual agents icon on the left hand side of the window](06/media/ex2-t2-image1.png)
 
-2.  Select the **Chatbots** tab and open the **Green Bot**.
+2.  Select the **Chatbots** tab and open the **Green Bot**. 
 
     ![A Screenshot with an arrow pointing to the green bot button](06/media/ex2-t2-image2.png)
 
-3.  Select **Publish**.
+3.  Select **Publish** from the left navigation. 
 
     ![A Screenshot with an arrow pointing to the publish button](06/media/ex2-t2-image3.png)
 
-4.  Select **Publish** again.
+4.  Select the **Publish** button. 
 
-5.  Select **Publish** on the Publish latest content pop-up and wait for the publishing to complete.
+5.  Select **Publish** on the pop-up dialogue and wait for the publishing to complete. 
 
-6.  Expand **Manage** and select **Channels**.
+6.  Select **Availability options**. 
 
-    ![A screenshot with a box around the channels button](06/media/ex2-t2-image4.png)
-
-7.  Select **Microsoft Teams**.
-
-8.  Select **Availability options**.
-
-9.  Select **Show to my teammates and shared users**.
+7.  Select **Show to my teammates and shared users**. 
 
     ![A screenshot of a publish pane with a cursor over shaow to my teammates and shared users.](06/media/ex2-t2-image5.png)
 
-10. Select **Share**.
+8. Select **Share**. 
 
-11. Select **Apps**.
+9. Select **Apps**. 
 
     ![A Screenshot with an arrow pointing to the apps icon](06/media/ex2-t2-image6.png)
 
-12. Select **Built with Power Platform** and select the **Green Bot** you created.
+10. Select **Built with Power Platform** and select the **Green Bot** you created. 
 
     ![A screenshot with a cursor pointing to Green Bot button](06/media/ex2-t2-image7.png)
 
-13. Select **Add**. 
+11. Select **Add**. 
 
-14. The bot should greet you. You may test the bot again.
+12. The bot should greet you. You may test the bot again. 
