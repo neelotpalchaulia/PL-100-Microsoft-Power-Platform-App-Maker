@@ -310,7 +310,7 @@ In this task, you will create the Lunchtime Sports team.
 
 5.  Select **Public**.
 
-6.  Enter **Lunchtime Sports** for Team name and select **Create**.
+6.  Enter `Lunchtime Sports` for **Team name** and select **Create**.
 
 7.  Select **Skip**. 
 
@@ -319,45 +319,41 @@ In this task, you will create the Lunchtime Sports team.
 
 In this task, you create a flow that will get triggered when someone is added to the group "Lunchtime Sports", the flow will send a notification to you and tell you to find out what sport the new member will be playing.
 
-1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in the correct environment (your practice environment).
+1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in the correct environment (your practice environment). 
 
-2.  Select **Flows**.
+2.  Select **Flows**. 
 
-3.  Select **+ New flow \> Automated cloud flow**.
+3.  Select **+ New flow \> Automated cloud flow**. 
 
     ![A Screenshot with an arrow pointing to the new flow button](07/media/image11.png)
 
-4.  Select **Skip**.
+4.  Select **Skip**. 
 
-5.  Search for groups and select **When a group member is added or removed** Office 365.
+5.  Search for `groups` and select the **When a group member is added or removed** action from the **Office 365 Groups** connector. 
 
     ![A screenshot with a border around the when a group member is added is added or removed button](07/media/image12.png)
 
-6.  Select **Sign in**.
+8.  Select **Lunchtime Sports** for Group Id and select **+ New step**. 
 
-7.  Provide your credentials.
+9.  Select the **Condition** action from the **Control** connector. 
 
-8.  Select **Lunchtime Sports** for Group Id and select **+ New step**.
+10. Select the first **Choose a value** field and select **@removed** from the **Dynamic content** pane. 
 
-9.  Select **Condition**.
-
-10. Select the left value field and select **@removed** from the dynamic content pane.
-
-11. Select **is equal to** on the second value field, for third value field select the **Expression** tab, enter **null** and select **OK**.
+11. Select **is equal to** for the second value field, and for the third value field select the **Expression** tab, enter `null` and select **OK**. 
 
     ![A screenshot of a border around the choose value field, then another border around the text null typed into the expression tab and an arrow pointing to the ok button](07/media/image13.png)
 
-12. Go to the **If yes** branch and select **Add an action**.
+12. Go to the **If yes** branch and select **Add an action**. 
 
-13. Search for **get user profile** and select **Get user profile (V2)**.
+13. Search for `get user profile` and select the **Get user profile (V2)** action from the **Office 365 Users** connector. 
 
-14. Select the **User (UPN)** field and select **User Id** from the dynamic content pane.
+14. Select the **User (UPN)** field and select **User Id** from the dynamic content pane. 
 
     ![A screenshot of a border around user UPN field and user Id in the field. There is also an arrow pointing to the user Id option in the dynamic content pane](07/media/image14.png)
 
-15. Select **Add an action** again.
+15. Select **Add an action** again. 
 
-16. Search for `send` and select **Send me an email notification**.
+16. Search for `send` and select the **Send me an email notification** action from the **Notifications** connector. 
 
 17. Enter `New Lunchtime Sports Member` for Subject.
 
