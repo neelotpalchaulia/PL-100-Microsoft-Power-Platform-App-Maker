@@ -329,7 +329,7 @@ In this task, you create a flow that will get triggered when someone is added to
 
 4.  Select **Skip**. 
 
-5.  Search for `groups` and select the **When a group member is added or removed** action from the **Office 365 Groups** connector. 
+5.  Search for `groups` and select the **When a group member is added or removed** trigger from the **Office 365 Groups** connector. 
 
     ![A screenshot with a border around the when a group member is added is added or removed button](07/media/image12.png)
 
@@ -347,7 +347,7 @@ In this task, you create a flow that will get triggered when someone is added to
 
 13. Search for `get user profile` and select the **Get user profile (V2)** action from the **Office 365 Users** connector. 
 
-14. Select the **User (UPN)** field and select **User Id** from the dynamic content pane. 
+14. Select the **User (UPN)** field and select **User Id** from the Dynamic content pane. 
 
     ![A screenshot of a border around user UPN field and user Id in the field. There is also an arrow pointing to the user Id option in the dynamic content pane](07/media/image14.png)
 
@@ -386,9 +386,9 @@ In this task, you will test the flow.
 
 6.  Select **Close**.
 
-7.  Navigate to [Outlook Online](https://outlook.office.com/).
+7.  Navigate to [Outlook Online](https://outlook.office.com/). 
 
-8.  You should receive the email notification. Open the notification email. 
+8.  After a few minutes, you should receive the email notification. Open the email. 
 
 9.  The email should look like the image below. 
 
