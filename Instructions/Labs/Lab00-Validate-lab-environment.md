@@ -70,11 +70,17 @@ In this exercise, you will create a **Practice** environment that you will use t
     
     - For **Type**, select **Trial**. 
     
-    - Change the toggle on **Create a database for this environment?** to **Yes**. 
+    - Change the toggle on **Add a Dataverse data store?** to **Yes**. 
     
     - Leave all other selections as default and select **Next**. 
 
-    - On the next tab, leave all selections as default and select **Save**. 
+    - On the next tab, under Security group click **Select**.
+
+    - Under Open access select **None (All users from thi...)**
+
+    - Select **Done**
+    
+    - Leave all selections as default and select **Save**. 
 
 4.  Your **Practice** environment should now show in the list of Environments. 
 
