@@ -74,9 +74,9 @@ In this exercise, you will create a **Practice** environment that you will use t
     
     - Leave all other selections as default and select **Next**. 
 
-    - On the next tab, under Security group click **Select**.
+    - On the next tab, under **Security group** click **Select**.
 
-    - Under Open access select **None (All users from thi...)**
+    - Under **Open access** select **None (All users from thi...)**
 
     - Select **Done**
     
