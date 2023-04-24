@@ -342,7 +342,7 @@ In this exercise, you will configure form and views for the Problem Report table
 
 ![A screenshot of the edit filters window with the condition Status Reason equals New, Assigned, and In Progress](02-1/media/image50.png)
 
-9. Select **Save**.
+9. Select **Save and publish**.
 
 
 #### Task 3: Create view from existing
@@ -369,7 +369,7 @@ In this task, you will create a new view from the Active Problem Reports view.
 
 ![A screenshot of the edit filters window with the following Status Reason values: Completed, Won't Fix, Inactive](02-1/media/image54.png)
 
-7.  Select the chevron next to the Save button and select **Save As**.
+7.  Select the chevron next to the Save and publish button and select **Save As**.
 
 ![A screenshot with an arrow pointing to the Save dropdown chevron icon and a border around the Save As button](02-1/media/image55.png)
 
@@ -404,77 +404,69 @@ In this exercise, you will create a model-driven application.
 
     ![A screenshot of the New model-driven app window](02-1/media/image61.png)
 
-5.  Select **Navigation** from the left menu.
+5.  Under pages select **Navigation** from the left menu.
 
     ![A screenshot of the Pages selection pane with a red arrow pointing to the tree icon in the navigation pane](02-1/media/image102.png)
 
-6.  Select **Navigation bar** and in the properties pane, check **Enable Areas**.
+6.  In the properties pane, check **Enable Areas**.
 
-7.  Select **Area1** in the Navigation tree view. 
+7.  Click on **Area1**. From opening popup click the ellipses next to **Area1** and **Edit properties**. 
 
-    ![A screenshot of the app designer with the first area selected](02-1/media/image63.png)
+    ![A screenshot of the area editing](02-1/media/image106.png)
 
 8.  Go to the **Properties** pane, enter **Manage Problems** for **Title**, and enter **area\_manage\_problems** for **ID**.
 
     ![A screenshot of the properties pane with the title and ID changed](02-1/media/image64.png)
 
-9.  Select **Group1**.
+9.  Select **+ New** on the **Pages** menu.
 
-    ![A screenshot of group 1 selected](02-1/media/image65.png)
+10. Select **Next**.
 
-10. Go to the **Properties**, enter **Problems** for **Title**, and enter **group\_problems** for **ID**.
+11. Search for **Problem Report** and check the checkbox next to it.
 
-11. Select **Subarea1**.
+12. Select **Add**
 
-12. Go to the **Properties** pane, select **Table** for **Content Type**, and select **Problem Report** for **Table**, and enter **Problem reports** for **Title**.
+    ![A screenshot of the adding Problem Reports](02-1/media/image65.png)
+    
+13. Click on **New Group** in the navigation pane.     
 
-    ![A screenshot of the properties pane and the Content type, Table, and Title values set](02-1/media/image68.png)
+14. Go to the **Properties**, enter **Problems** for **Title**, and enter **group\_problems** for **ID**.
 
-13. Select **+ Add** and select **Area**.
+15. Click on area selection and then select **New area**
+    
+    ![A screenshot of the adding new area](02-1/media/image107.png)
 
-    ![A screenshot with an arrow pointing to the add button and a border around the area button](02-1/media/image96.png)
-
-14. Go to the **Properties** pane, enter **Settings** for **Title**, and enter **area\_settings** for **ID**.
+16. Go to the **Properties** pane, enter **Settings** for **Title**, and enter **area\_settings** for **ID**.
 
     ![A screenshot of the properties pane with the title and ID changed](02-1/media/image97.png)
+    
+17. Select **+ New** on the **Pages** menu.
 
-15. Select **+ Add** and select **Group**.
+18. Select **Next**.
 
-    ![A screenshot of the Add menu with option Group selected](02-1/media/image98.png)
+19. Search for **Building** and check the checkbox next to it.
 
-16. Select the **New Group** you just added.
+20. Search for **Building** and check the checkbox next to it.
 
-17. Go to the **Properties** pane, enter **Taxonomy** for **Title**, and enter **group\_taxonomy** for **ID**.
+21. Select **Add**
 
-    ![A screenshot of the properties pane with the title and ID changed](02-1/media/image72.png)
+22. Select **New Group**.
 
-18. Select the **Taxonomy** group you just added, select **+ Add** and select **Subarea**
+23. Go to the **Properties** pane, enter **Taxonomy** for **Title**, and enter **group\_taxonomy** for **ID**.
 
-    ![A screenshot of the Add menu with option Subarea selected](02-1/media/image73.png)
+24. The navigation should now look like the image below. Select **Save**.
 
-19. Select **Table** for **Content type**, **Building** for **Table** and select **Add**.
+    [A screenshot of the navigation in Settings area](02-1/media/image108.png)
 
-    ![A screenshot of the New Subarea window and the content type changed](02-1/media/image74.png)
+25. Select **Publish** to publish the sitemap and wait for the publishing to complete.
 
-20.  Select the **Taxonomy** group, select **+ Add** and select **Subarea** again.
+26. Select the **<- Back** button to return to the solution explorer.
 
-21.  Select **Table** for **Content type**, select **Department** for **Table**, and select **Add**.
+27. Select **All** in the **Objects** navigation tree.
 
-22. The sitemap should now look like the image below. Select **Save** to save the sitemap.
-
-    ![A screenshot with an arrow pointing to the save button on the site map which should have active departments with a name column below](02-1/media/image76.png)
-
-23. Select **Publish** to publish the sitemap and wait for the publishing to complete.
-
-24. Select the **<- Back** button to return to the solution explorer.
-
-25. Select **All** in the **Objects** navigation tree.
-
-26. Select **Publish all customizations** and wait for the publishing to complete.
+28. Select **Publish all customizations** and wait for the publishing to complete.
 
     ![A screenshot with an arrow pointing to the publish all customizations button](02-1/media/image77.png)
-
-
 
 ### Exercise 5: Input data
 
@@ -536,6 +528,10 @@ In this exercise, you will input data to the Dataverse tables.
 
 20. Enter **Broken door** for **Title**, select **San Francisco Main Campus** for **Building**, enter **The main entrance door will not open all the way** for **Details**, and select **Save**.
 
+> **NOTE**
+>
+> You cannot save images before creating the row in the database. Press save and then you may upload a picture.
+
 ![A screenshot of the new problem report window with all relevant text in each field](02-1/media/image87.png)
 
 21. Select **Open file** on the **Photo** field.
@@ -549,7 +545,6 @@ In this exercise, you will input data to the Dataverse tables.
 ![A screenshot of a vector image of a door which should appear](02-1/media/image89.png)
 
 24. Select **Save & Close**.
-
 
 
 ### Exercise 6: Import data
