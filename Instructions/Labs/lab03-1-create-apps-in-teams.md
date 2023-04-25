@@ -111,11 +111,9 @@ In this task, you will provision Dataverse for Teams by creating an application.
 
 4.  **Wait** until provisioning is complete.
 
-5.  Select **New > App**. 
+5.  Enter **Upcycle** for App name and select **Save**.
 
-6.  Enter **Upcycle** for App name and select **Save**.
-
-7.  Do not navigate away from this page.
+6.  Do not navigate away from this page.
 
 
 #### Task 2: Create table
