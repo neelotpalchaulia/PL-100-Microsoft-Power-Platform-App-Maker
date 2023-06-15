@@ -165,11 +165,11 @@ In this task, you will create a canvas application using the phone form factor.
 
     ![A screenshot with a border around the get more components button](03-2/media/image12-1.png)
 
-13.  Expand the **Lamna Healthcare Shared Components A** Library, select **Header** and **Tab Control**, and then select **Import**.
+13. Expand the **Lamna Healthcare Shared Components A** Library, select **Header** and **Tab Control**, and then select **Import**.
 
     ![A screenshot of the import components window with Ta control and header selected](03-2/media/image12-2.png)
 
-14.  Expand **Library components**, select **Header Control** and **Tab Control**. These are both components from the library you imported earlier in the lab.
+14. Expand **Library components**, select **Header Control** and **Tab Control**. These are both components from the library you imported earlier in the lab.
 
     ![A screenshot with a border around the library components Header and Tab control](03-2/media/image12-3.png)
 
