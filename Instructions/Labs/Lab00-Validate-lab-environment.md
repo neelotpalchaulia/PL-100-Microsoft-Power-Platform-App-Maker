@@ -28,7 +28,7 @@ Exercise 1 – Acquire your Power Platform trial tenant
 
 1.  Copy your **Microsoft 365 credentials** from the Authorized Lab Hoster.
 
-2.  Navigate to [Power Apps](https://powerapps.microsoft.com/) and click **Start free**.
+2.  Navigate to [Power Apps](https://powerapps.microsoft.com/) and select **Start free**.
 
 3.  Enter the email address from the provided Microsoft 365 credentials. Select the checkbox to agree to the terms & conditions then select **Start your free trial**.
 
@@ -38,7 +38,7 @@ Exercise 1 – Acquire your Power Platform trial tenant
 
 6.  Select **Yes** to stay signed in.
 
-7.  In the **Phone number** field, enter **0123456789** and select **Submit**.
+7.  In the **Phone number** field, enter `0123456789` and select **Submit**.
 
 8.  Read through the prompts by selecting **Next**, then select **Let's Go**.
 
@@ -70,14 +70,17 @@ In this exercise, you will create a **Practice** environment that you will use t
     
     - For **Type**, select **Trial**. 
     
-    - Change the toggle on **Create a database for this environment?** to **Yes**. 
+    - Change the toggle for **Add a Dataverse data store?** to **Yes**. 
     
     - Leave all other selections as default and select **Next**. 
 
-    - On the next tab, leave all selections as default and select **Save**. 
+    - On the **Add Dataverse** tab, under **Security group** use the **+ Select** button and under **Open acces** select **None**.
 
-4.  Your **Practice** environment should now show in the list of Environments. 
+    - Select **Done** and select **Save**.  
 
-5.  Your environment may take a few minutes to provision. Refresh the page if needed. When your environment is prepared, select your **Practice** environment by clicking on the ellipses next to its name to expand the drop down menu and select **Settings**.  
+5.  Your **Practice** environment should now show in the list of Environments. 
 
-6.  Explore the different areas in **Settings** that you are interested in but do not make any changes. 
+6.  Your environment may take a few minutes to provision. Refresh the page if needed. When your environment is prepared, select your **Practice** environment by clicking on the ellipses next to its name to expand the drop down menu and select **Settings**.  
+
+7.  Explore the different areas in **Settings** that you are interested in but do not make any changes. 
+
