@@ -4,31 +4,39 @@
 
 Students will need one Dataverse environment each to complete the course work. Environments can be provisioned as trial environments by the students during class or they can be provisioned prior to the delivery with credentials handed over to the students prior to the first exercise.
 
-The environments need no specific configuration considerations, a plain CDS *without any sample data* is all that is needed.
+The environments need no specific configuration considerations, a plain Dataverse *without any sample data* is all that is needed.
 
 ## Course Flow
 
 PL-100 is broken down into two different delivery formats.
 
-  - Days 1 & 2: PowerPoint presentations, instructor led demos, quick hands-on-labs.
+  - Days 1 & 2: PowerPoint presentations, instructor led demos, quick hands-on labs.
 
-  - Day 3: Scenario driven hands on labs.
+  - Day 3: Scenario driven hands-on labs.
+
+  - Day 4: Optional, Applied Workshop.
 
 ### Day 1 and 2
 
 Most of the content delivered on days 1 and 2 is based on the content available on Microsoft Learn. Some topics that don’t currently have a lot of coverage on Microsoft Learn have had some additional slides added to fill in any gaps. Microsoft Learn labs are sprinkled in throughout both days to act as a supplement PPT decks and instructor led demonstrations.
 
-The PowerPoint decks specifically callout when to have the students do the hands-on-labs and which ones to have them do. Some of the Microsoft Learn labs build off each other, and some of them are stand alone, it is a good Idea to familiarize yourself with the Microsoft Learn labs. This will also help you determine which ones could be skipped during class time in the even that you are falling behind.
+The PowerPoint decks specifically call out when to have the students do the hands-on labs and which ones to have them do. Some of the Microsoft Learn labs build off each other, and some of them are stand alone, it is a good idea to familiarize yourself with the Microsoft Learn labs. This will also help you determine which ones could be skipped during class time in the event that you are falling behind.
 
 ### Day 3
 
-Day 3 is a full day of hands-on-labs where students will be building a company 311 solutions. At the beginning of the day, you will present the students with the solution and talk about some of the key elements in the lab. Since students will be working on labs all day, you should check back with them periodically to keep them engaged. After each lab is completed, check back, and talk about some of the discussion points related to that lab as well as introduce the tasks and expectations for the next lab.
+Day 3 is a full day of hands-on labs where students will be building the Company 311 solutions. At the beginning of the day, you will present the students with the solution and talk about some of the key elements in the lab. Since students will be working on labs all day, you should check back with them periodically to keep them engaged. After each lab is completed, check back, and talk about some of the discussion points related to that lab as well as introduce the tasks and expectations for the next lab.
 
-It is highly recommended that you walk through and complete the complete list of Day 3 labs as a student prior to the training delivery.
+It is highly recommended that you walk through and complete the complete list of Day 3 labs as a student prior to delivering the training.
 
   - Familiarity with the exercises will make the delivery more efficient.
 
-  - Solution components built during this exercise can be used as needed for your demos. While demos are not required, they are a very effective delivery tool and will provide students a visual change from just listening to power points. You should plan to do as many as you feel comfortable with on the topics you know best.
+  - Solution components built during this exercise can be used as needed for the demos. While demos are not required, they are a very effective delivery tool and will provide students a visual change from just listening to PowerPoint slides. You should plan to do as many as you feel comfortable with on the topics you know best.
+
+### Day 4 - Applied Workshop (Optional)
+
+Now that your students are skilled app makers, let’s get them to make an app. In this workshop, students will showcase their new skills by working all the way from idea to design to build to a working app. In this workshop, each student will make an app and at least one flow. This workshop should be open-ended and there is no right solution. This is a chance for the learners to practice their skills with your 
+support. 
+
 
 ## Days 1 & 2 Agenda
 
@@ -48,11 +56,11 @@ Below you will find a general agenda outline that you can use while delivering. 
 </tr>
 <tr class="even">
 <td>8:30 – 9:00</td>
-<td>M01 – Power Platform Introduction  </td>
+<td>Lab 01 – Power Platform Introduction  </td>
 </tr>
 <tr class="odd">
 <td>9:00 – 9:30</td>
-<td>M01 – Getting Started with the Power Platform</td>
+<td>Lab 01 – Getting Started with the Power Platform</td>
 </tr>
 <tr class="even">
 <td>9:30 – 9:45  </td>
@@ -60,7 +68,7 @@ Below you will find a general agenda outline that you can use while delivering. 
 </tr>
 <tr class="odd">
 <td>9:45 – 10:45</td>
-<td>M02 – Data Model &amp; Model Driven Application 
+<td>Lab 02 – Data Model &amp; Model Driven Application 
 <ul>
 <li>
 Intro the Common Data Service 
@@ -85,7 +93,7 @@ Practice Exercises
 </tr>
 <tr class="odd">
 <td>11:00 – 12:00</td>
-<td>M02 – Data Model &amp; Model Driven Application (Cont)
+<td>Lab 02 – Data Model &amp; Model Driven Application (Cont)
 <ul>
 <li>
 Intro to Solutions
@@ -107,7 +115,7 @@ Practice Exercises
 </tr>
 <tr class="odd">
 <td>1:00 – 2:00</td>
-<td>M02 – Data Model &amp; Model Driven Application (Cont.)
+<td>Lab 02 – Data Model &amp; Model Driven Application (Cont.)
 <ul>
 <li>
 Relationships
@@ -129,7 +137,7 @@ Practice Exercises
 </tr>
 <tr class="odd">
 <td>2:15 – 3:30 </td>
-<td>M03 – Canvas Apps 
+<td>Lab 03.1 – Create apps in Teams 
 <ul>
 <li>
 Building Power Apps 
@@ -151,7 +159,7 @@ Practice Exercises
 </tr>
 <tr class="odd">
 <td>3:45 – 4:30 </td>
-<td>M03 – Canvas App UI 
+<td>Lab 03.2 – Canvas App UI 
 <ul>
 <li>
 Building a UI elements
@@ -177,7 +185,7 @@ Practice Exercises
 </tr>
 <tr class="even">
 <td>8:00 – 10:00 </td>
-<td>M04 – Automate Business Processes 
+<td>Lab 04 – Automate Business Processes 
 <ul>
 <li>
 Get Started with power Automate 
@@ -196,7 +204,7 @@ Building Flows Practice Exercises
 </tr>
 <tr class="even">
 <td>10:15 – 12:00</td>
-<td>M04 – Automate Business Processes 
+<td>Lab 04 – Automate Business Processes 
 <ul>
 <li>
 Working with Power Automate Admin Center
@@ -216,7 +224,7 @@ Power Automate Security and Governance
 </tr>
 <tr class="even">
 <td>1:00 – 2:00 </td>
-<td>M05 – Create and Use Analytics 
+<td>Lab 05 – Create and Use Analytics 
 <ul>
 <li>
 Getting Started with Power BI 
@@ -235,19 +243,12 @@ Practice Exercise
 </tr>
 <tr class="even">
 <td>2:15 – 3:00 </td>
-<td>M06 – Getting Started with AI Builder
+<td>Lab 06 – Power Virtual Agents in Teams
 <ul>
 <li>
-AI Builder Overview
-</li>
+Create PVA bot</li>
 <li>
-Capabilities
-</li>
-<li>
-Model Types
-</li>
-<li>
-Using Models
+Test and publish the bot
 </li>
 </ul></td>
 </tr>
@@ -257,13 +258,13 @@ Using Models
 </tr>
 <tr class="even">
 <td>3:15 – 4:00 </td>
-<td>M07 –Testing and Documentation
+<td>Lab 07 – Testing and Deployment
 <ul>
 <li>
 Testing apps
 </li>
 <li>
-Documentation
+Deployment
 </li>
 </ul></td>
 </tr>
@@ -406,7 +407,7 @@ Below you will find a general agenda outline for Day 3 that you can use while de
 </table>
 
 
-## Day 3 Hands on Labs Overview
+## Day 3 Hands-on Labs Overview
 
 Below, you will find the scenario that students will be walking through as part of day three. Make sure that you have taken time to be familiar with the scenario.
 
@@ -421,13 +422,13 @@ As you were walking out to your car from work you noticed the company digital si
 The next day at work you met with your friend in the facility department and shared your idea.  She was excited too because today there is no coordinated way, she can get problems like these reported and fixed. She explained how often they involve different departments and must be routed and followed up to find out the status.  She had looked at commercial options, but they had been too complex and inflexible, overengineered, and expensive. She did however give you an example of a 311-system used by cities for their citizens to report problems.  Based on that example, you decided you would call it Company 311
 
 > [!IMPORTANT]
-> The intent hands-on-labs on day three is to help the students to better understand how to build a complete solution using the Power Platform. They will be building components typical for Power Platform solutions. There will be dependencies. Students will need to perform the labs in order to ensure any required components are available moving forward. Labs two and three will involve importing solutions. Sample data imported during the lab makes building and testing the apps easier, more realistic, and more relatable.
+> The intent of hands-on labs on day three is to help the students to better understand how to build a complete solution using the Power Platform. They will be building components typical for Power Platform solutions. There will be dependencies. Students will need to perform the labs in order to ensure any required components are available moving forward. Labs two and three will involve importing solutions. Sample data imported during the lab makes building and testing the apps easier, more realistic, and more relatable.
 
 Trainers should clearly explain the objective of every lab and outline high-level solution components and techniques. Students then should be encouraged to design and build their own solutions without following step by step instructions for every exercise.
 
 ### Microsoft Teams
 
-The world has changed rapidly in the recent months and organizations need tools to work collaboratively yet remotely.  Microsoft Teams provides a powerful platform for collaboration and communication, and also provides an app maker with additional options when deploying apps and building business processes.  Consider ways some of your business apps and processes could be elevated by integrating with Microsoft Teams. 
+The world is changing rapidly and organizations continue to need tools to work collaboratively and remotely.  Microsoft Teams provides a powerful platform for collaboration and communication, and also provides an app maker with additional options when deploying apps and building business processes.  Consider ways some of your business apps and processes could be elevated by integrating with Microsoft Teams. 
 
 To help students better understand Microsoft Teams as a communication and collaboration mechanism, some of the labs include additional exercises highlighting integration of the Power Platform components in Microsoft Teams.
 
@@ -437,10 +438,12 @@ Completed components are available for *all* exercises. They include canvas apps
 
 ### General notes
 
-1. Ensure that the students can see the full app pages in their browsers. If their VM is recognized as a tablet, views will move some of the menu options to the …More details menu. Ask students to decrease their browser zoom level until the full menu appears (usually 80% is sufficient). That will match instructions and VM user experience, make it easier to follow the screenshots, and avoid any missed steps.
+1. Ensure that the students can see the full app pages in their browsers. If their VM is recognized as a tablet, views will move some of the menu options to the **…More details** menu. Ask students to decrease their browser zoom level until the full menu appears (usually 80% is sufficient). That will match instructions and VM user experience, make it easier to follow the screenshots, and avoid any missed steps.
+
 2. Remind students throughout the course about the terminology changes. Some students won't be familiar with the previous terms and may experience difficulties reconciling the screenshots that use superseded terms and their current lab environments.
    1. Common Data Service has been renamed to Microsoft Dataverse. 
    2. Terminology in Microsoft Dataverse has been updated. For example, *entity* is now *table* and *field* is now *column*, *OptionSet* is now *Choice*, etc. 
+
 3. Encourage students to follow the terminology links on top of every lab and spend some time reading about Dataverse and Power Platform terminology.
 
 ## Labs
@@ -489,6 +492,7 @@ Some students may have questions on the creation of entities. Make sure to encou
 
 Some students may struggle with importing the demo data solution. Make sure you have walked through it a couple of times to ensure you can easily field any questions that they might have.
 
+
 ### Lab 02.2 Business Process Flows and Business Rules
 
 In this lab, students will create a Business Process Flow that can be used to help guide responsible parties in resolving any issues reported. Students will also create a Business Rule that prevents closing the Reported item if no resolution is provided.
@@ -527,11 +531,11 @@ This lab has the students building the canvas application that employees will be
 
   - How does the target audience impact the app design.
 
-  - How knowledge of Excel can benefit app makers (traditional procedural programming vs properties and expression syntax of Power Apps)
+  - How knowledge of Excel can benefit app makers (Traditional procedural programming vs. Properties and expression syntax of Power Apps)
 
   - Which connector to use. How CDS connector is now internal to canvas Power Apps.
 
-  - App checker – new metrics every day. Make sure to retest the app.
+  - App checker – new metrics every day. Make sure to re-test the app.
 
   - Accessibility – what makes a good accessible app.
 
@@ -625,8 +629,8 @@ In this lab students will learn how to deploy solutions to another environment. 
 
   - Who should be able to access the different apps?
 
-  - Model-driven vs canvas Power Apps. (How do you control access?)
+  - Model-driven apps vs. Canvas Power Apps. (How do you control access?)
 
   - Where are you deploying the applications to?
 
-  - Apps & roles, security in CDS, UI trimming in model-driven apps
+  - Apps & roles, security in CDS, UI trimming in model-driven apps.

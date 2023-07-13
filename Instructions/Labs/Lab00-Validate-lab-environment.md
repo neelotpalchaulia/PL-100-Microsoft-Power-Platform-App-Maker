@@ -28,7 +28,7 @@ Exercise 1 – Acquire your Power Platform trial tenant
 
 1.  Copy your **Microsoft 365 credentials** from the Authorized Lab Hoster.
 
-2.  Navigate to [Power Apps](https://powerapps.microsoft.com/) and click **Start free**.
+2.  Navigate to [Power Apps](https://powerapps.microsoft.com/) and select **Start free**.
 
 3.  Enter the email address from the provided Microsoft 365 credentials. Select the checkbox to agree to the terms & conditions then select **Start your free trial**.
 
@@ -38,7 +38,7 @@ Exercise 1 – Acquire your Power Platform trial tenant
 
 6.  Select **Yes** to stay signed in.
 
-7.  In the **Phone number** field, enter **0123456789** and select **Submit**.
+7.  In the **Phone number** field, enter `0123456789` and select **Submit**.
 
 8.  Read through the prompts by selecting **Next**, then select **Let's Go**.
 
@@ -60,6 +60,7 @@ In this exercise, you will create a **Practice** environment that you will use t
 ### Task 1 – Create environment
 
 1.  Open a new browser tab and navigate to the [Power Platform admin center](https://admin.powerplatform.microsoft.com). 
+    
     Log in with your Microsoft 365 credentials if prompted again. 
 
 2.  Select **Get Started** to begin the tour and select **Next** through each prompt. Select **Done** to finish the tour. 
@@ -74,16 +75,19 @@ In this exercise, you will create a **Practice** environment that you will use t
     
     - Leave all other selections as default and select **Next**. 
 
-    - On the next tab, under **Security group** click **Select**.
+    - On the next tab, under **Security group**, select the **Select** button.
 
-    - Under **Open access** select **None (All users from thi...)**
+    - Under **Open access**, select **None (All users from thi...)**
 
-    - Select **Done**
+    - Select **Done**.
     
-    - Leave all selections as default and select **Save**. 
+    - Leave all other selections as default and select **Save**. 
 
-4.  Your **Practice** environment should now show in the list of Environments. 
+    - Select **Done** and select **Save**.  
 
-5.  Your environment may take a few minutes to provision. Refresh the page if needed. When your environment is prepared, select your **Practice** environment by clicking on the ellipses next to its name to expand the drop down menu and select **Settings**.  
+5.  Your **Practice** environment should now show in the list of Environments. 
 
-6.  Explore the different areas in **Settings** that you are interested in but do not make any changes. 
+6.  Your environment may take a few minutes to provision. Refresh the page if needed. When your environment is prepared, select your **Practice** environment by clicking on the ellipses next to its name to expand the drop down menu and select **Settings**.  
+
+7.  Explore the different areas in **Settings** that you are interested in but do not make any changes. 
+
