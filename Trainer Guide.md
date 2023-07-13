@@ -56,11 +56,11 @@ Below you will find a general agenda outline that you can use while delivering. 
 </tr>
 <tr class="even">
 <td>8:30 – 9:00</td>
-<td>M01 – Power Platform Introduction  </td>
+<td>Lab 01 – Power Platform Introduction  </td>
 </tr>
 <tr class="odd">
 <td>9:00 – 9:30</td>
-<td>M01 – Getting Started with the Power Platform</td>
+<td>Lab 01 – Getting Started with the Power Platform</td>
 </tr>
 <tr class="even">
 <td>9:30 – 9:45  </td>
@@ -68,7 +68,7 @@ Below you will find a general agenda outline that you can use while delivering. 
 </tr>
 <tr class="odd">
 <td>9:45 – 10:45</td>
-<td>M02 – Data Model &amp; Model Driven Application 
+<td>Lab 02 – Data Model &amp; Model Driven Application 
 <ul>
 <li>
 Intro the Common Data Service 
@@ -93,7 +93,7 @@ Practice Exercises
 </tr>
 <tr class="odd">
 <td>11:00 – 12:00</td>
-<td>M02 – Data Model &amp; Model Driven Application (Cont)
+<td>Lab 02 – Data Model &amp; Model Driven Application (Cont)
 <ul>
 <li>
 Intro to Solutions
@@ -115,7 +115,7 @@ Practice Exercises
 </tr>
 <tr class="odd">
 <td>1:00 – 2:00</td>
-<td>M02 – Data Model &amp; Model Driven Application (Cont.)
+<td>Lab 02 – Data Model &amp; Model Driven Application (Cont.)
 <ul>
 <li>
 Relationships
@@ -137,7 +137,7 @@ Practice Exercises
 </tr>
 <tr class="odd">
 <td>2:15 – 3:30 </td>
-<td>M03 – Canvas Apps 
+<td>Lab 03.1 – Create apps in Teams 
 <ul>
 <li>
 Building Power Apps 
@@ -159,7 +159,7 @@ Practice Exercises
 </tr>
 <tr class="odd">
 <td>3:45 – 4:30 </td>
-<td>M03 – Canvas App UI 
+<td>Lab 03.2 – Canvas App UI 
 <ul>
 <li>
 Building a UI elements
@@ -185,7 +185,7 @@ Practice Exercises
 </tr>
 <tr class="even">
 <td>8:00 – 10:00 </td>
-<td>M04 – Automate Business Processes 
+<td>Lab 04 – Automate Business Processes 
 <ul>
 <li>
 Get Started with power Automate 
@@ -204,7 +204,7 @@ Building Flows Practice Exercises
 </tr>
 <tr class="even">
 <td>10:15 – 12:00</td>
-<td>M04 – Automate Business Processes 
+<td>Lab 04 – Automate Business Processes 
 <ul>
 <li>
 Working with Power Automate Admin Center
@@ -224,7 +224,7 @@ Power Automate Security and Governance
 </tr>
 <tr class="even">
 <td>1:00 – 2:00 </td>
-<td>M05 – Create and Use Analytics 
+<td>Lab 05 – Create and Use Analytics 
 <ul>
 <li>
 Getting Started with Power BI 
@@ -243,19 +243,12 @@ Practice Exercise
 </tr>
 <tr class="even">
 <td>2:15 – 3:00 </td>
-<td>M06 – Getting Started with AI Builder
+<td>Lab 06 – Power Virtual Agents in Teams
 <ul>
 <li>
-AI Builder Overview
-</li>
+Create PVA bot</li>
 <li>
-Capabilities
-</li>
-<li>
-Model Types
-</li>
-<li>
-Using Models
+Test and publish the bot
 </li>
 </ul></td>
 </tr>
@@ -265,13 +258,13 @@ Using Models
 </tr>
 <tr class="even">
 <td>3:15 – 4:00 </td>
-<td>M07 –Testing and Documentation
+<td>Lab 07 – Testing and Deployment
 <ul>
 <li>
 Testing apps
 </li>
 <li>
-Documentation
+Deployment
 </li>
 </ul></td>
 </tr>
