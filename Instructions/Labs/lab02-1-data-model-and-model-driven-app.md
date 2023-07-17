@@ -60,13 +60,13 @@ In this exercise, you will create a custom solution publisher and a solution. Th
 
 2.  From the left navigation pane, select **Solutions** and then select **+ New solution**. 
 
-3.  For **Display name**, enter **Company 311**. 
+3.  For **Display name**, enter `Company 311` 
 
 4.  Select **+ New publisher**, under the **Publisher** field. 
 
 ![A Screenshot with an arrow pointing to the new publisher button](02-1/media/image1.png)
 
-5.  Enter **Lamna Healthcare** for **Display name**, **lamnahealthcare** for **Name**, **lh** for **Prefix**, **88186** for Choice value prefix, and select **Save**.
+5.  Enter `Lamna Healthcare` for **Display name**, `lamnahealthcare` for **Name**, `lh` for **Prefix**, `88186` for **Choice value prefix**, and select **Save**.
 
 ![A screenshot of the new publisher properties pane](02-1/media/image105.png)
 
@@ -87,39 +87,37 @@ In this exercise, you will create Tables, Columns, and the Relationships you ide
 
 2.  Select **+ New** \> **Table** \> **Table**. 
 
-3.  Enter **Building** for **Display name** and select **Save**.
+3.  Enter `Building` for **Display name** and select **Save**.
 
-![A screenshot of the new table window with the relevant value in each field](02-1/media/image5.png)
+    ![A screenshot of the new table window with the relevant value in each field](02-1/media/image5.png)
 
 4.  Select **All** from the tree view, in the **Objects** pane to display all solution objects and subcomponents. 
 
 5.  Select **+ New** \> **Table** \> **Table** again.
 
-6.  Enter **Department** for **Display name** and select **Save**.
+6.  Enter `Department` for **Display name** and select **Save**.
 
-![A screenshot of the new table window with the relevant value in each field](02-1/media/image7.png)
+    ![A screenshot of the new table window with the relevant value in each field](02-1/media/image7.png)
 
 7.  Select **All** from the tree view, in the **Objects** pane to display all solution objects and subcomponents. 
 
 8.  Select **+ New** \> **Table** \> **Table** one more time.
 
-9.  Enter **Problem Report** for **Display name**.
+9.  Enter `Problem Report` for **Display name**.
 
-![A screenshot of the new table window with the relevant value in each field](02-1/media/image8.png)
+    ![A screenshot of the new table window with the relevant value in each field](02-1/media/image8.png)
 
-7.  Select the **Primary column** tab, enter **Title** for **Display name**.
+7.  Select the **Primary column** tab, enter `Title` for **Display name**.
 
-![A screenshot of the new table window with the Primary column tab selected and the word Title entered in the Display name textbox](02-1/media/image8-1.png)
+    ![A screenshot of the new table window with the Primary column tab selected and the word Title entered in the Display name textbox](02-1/media/image8-1.png)
 
 10. Select the **Properties** tab, expand **Advanced options**, then scroll to the **Rows in this table** section. 
 
 11. Check the **Can be added to a queue** checkbox and select **Save**. 
 
-![A screenshot of the Rows in this table section with Can be added to a queue checkbox selected](02-1/media/image10.png)
+    ![A screenshot of the Rows in this table section with Can be added to a queue checkbox selected](02-1/media/image10.png)
 
-> **NOTE**
->
-> Enabling queues for Problem Report table allows rows to be associated with one or more queues to help facilitate routing problem reports to the different departments. Once this option is enabled, it can't be turned off. 
+    > **Note:** Enabling queues for Problem Report table allows rows to be associated with one or more queues to help facilitate routing problem reports to the different departments. Once this option is enabled, it can't be turned off. 
 
 12. Select **All** from the tree view in the **Objects** pane. The tables you created should now be visible in the list view and in the tree navigation. 
 
