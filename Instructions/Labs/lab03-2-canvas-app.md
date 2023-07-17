@@ -59,7 +59,7 @@ In this task, you will import the shared components solution into your environme
 
     > **TIP**
     > 
-    > The lab resources can be found here: `F:\Instructions\Labs\03-2\Resources\SharedComponents_1_0_0_4.zip`
+    > The lab resources can be found here: `D:\Instructions\Labs\03-2\Resources\SharedComponents_1_0_0_4.zip`
 
 5.  Select **Next**.
 
@@ -77,27 +77,29 @@ In this task, you will import the shared components solution into your environme
     >
     > There is an issue where importing the app as part of a solution may not add it to your components library. The following steps are designed to resolve the issue.
 
-10. Navigate to **Apps**, Select the **Lamna Healthcare Shared Components App**.
+10. Navigate to the [Power Apps maker portal](https://make.powerapps.com/) page and make sure you are in the correct environment.    
 
-11. Select the **Edit Icon** to edit the app.
+11. Click on **Apps** and select the **Lamna Healthcare Shared Components App**.
+
+12. Select **Edit** to edit the app.
 
     ![A Screenshot with an arrow pointing to the edit button](03-2/media/image2-1.png)
 
-12. Select your **Region/Country** and select **Get started** if prompted.
+13. Select your **Region/Country** and select **Get started** if prompted.
     
     > **NOTE**
     >
     > When the app is open in Edit mode, move on to next step, as the Preloader component shows a Loading icon but it is not actually waiting for something to load.
 
-13. After the app opens, select **File** > **Save As**.
+14. After the app opens, click on the carret next to the save icon and select **Save As**.
 
-14. Change app name to **Lamna Healthcare Shared Components A** and select **Save**.
+15. Change app name to **Lamna Healthcare Shared Components A** and select **Save**.
 
     ![A screenshot with a border around the app name saved as Lamna Healthcare Shared Components A](03-2/media/image2-2.png)
 
-14. Select **OK** when prompted to save as a new library.
+16. Select **OK** when prompted to save as a new library.
 
-15. Close the **Lamna Healthcare Shared Components** tab in your browser.
+17. Close the **Lamna Healthcare Shared Components** tab in your browser.
 
 
 #### Task 2: Create view
@@ -122,13 +124,13 @@ In this task, you will create a view that will show the current user’s problem
 
     ![A screenshot of the edit filters window](03-2/media/image5.png)
 
-7.  Select the chevron button next to the Save button and select **Save As**.
+7.  Select **Save As**.
 
     ![A Screenshot with an arrow pointing to the save as button](03-2/media/image6.png)
 
 8.  Enter **My Reports** for **Name** and select **Save**.
 
-9.  Select **Publish** and wait for the publishing to complete.
+9.  Select **Save and publish** and wait for the publishing to complete.
 
 10. Select the **<- Back** button on the command bar to go back to the Problem Report table details.
 
@@ -169,7 +171,7 @@ In this task, you will create a canvas application using the phone form factor.
 
     ![A screenshot of the import components window with Ta control and header selected](03-2/media/image12-2.png)
 
-14. Expand **Library components**, select **Header Control** and **Tab Control**. These are both components from the library you imported earlier in the lab.
+14. Expand **Library components**, select **Header** and **Tab Control**. These are both components from the library you imported earlier in the lab.
 
     ![A screenshot with a border around the library components Header and Tab control](03-2/media/image12-3.png)
 
@@ -336,7 +338,7 @@ In this exercise, you will add a form to submit new problem reports.
 
 8.  Select **+ Add field**.
 
-9.  Select **Details**, **Building**, **Department**, and **Photo**, and then select **Add**.
+9.  Select **Building**, **Department**, **Details**, and **Photo**, and then select **Add**.
 
 10. Resize and reposition the form so it takes most of the page and leave enough room for a button in the bottom.
 

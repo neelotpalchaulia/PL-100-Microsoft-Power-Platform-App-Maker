@@ -209,7 +209,7 @@ In this task, you add a new Columns to the Problem Report table.
 
 9.  Add the **Assign to** column and place it below the **Estimated Cost** column.
 
-10. The **Resolution details** section of the form should now look like the image below. Select **Save**.
+10. The **Resolution details** section of the form should now look like the image below. Select **Save and publish**.
 
     ![A screenshot with a border around estimated cost and assign to columns placed on the form and an arrow pointing to the save button](04/media/image12.png)
 
@@ -415,7 +415,7 @@ In this task you will replace the approval sent by email with an adaptive card.
 
 5.  Select the **...** menu, and then select **Delete**. 
 
-6.  Select the **+** between the steps to insert a new step then select **Add an action**. 
+6.  Hover your mouse between the steps, select the **+** to insert a new step then select **Add an action**. 
 
 7.  Search for **approval**, and select **Create an approval**. 
 
@@ -431,11 +431,7 @@ In this task you will replace the approval sent by email with an adaptive card.
 
     > \*\*{title}\*\*
     >
-    > 
-    >
     > {details}
-    >
-    > 
     >
     > This is a \_very\_ expensive item with the estimated cost of
 
@@ -451,7 +447,7 @@ In this task you will replace the approval sent by email with an adaptive card.
 
     ![A screenshot of the create an approval window with the following. Approval type as approve/reject - everyone must approve, title as cost approval required, assigned to primary email, details as title, details, some text and format number, item link, and item link description](04/media/image-5-create-approval.png)
 
-17. Select **+** then select **Add an action**.
+17. Hover your mouse again below Create an approval step, select **+** and then select **Add an action**.
 
 18. Search for **teams** and select **Post adaptive card in a chat or channel** action.
 
@@ -469,7 +465,7 @@ In this task you will replace the approval sent by email with an adaptive card.
 
     ![A screenshot of the post adaptive card in a chat or channel pane](04/media/image-5-post-adaptive-card.png)
 
-25. Select **+** then select **Add an action**.
+25. Hover your mouse again below Post card in a chat or channel step, select **+** and then select **Add an action**.
 
 26. Search for **approval** and select **Wait for an approval** action.
 

@@ -84,7 +84,7 @@ In this task, you will create a business process flow for the Problem Report tab
 
     ![A screenshot of New business process flow panel with relevant field values.](02-2/media/image3.png)
 
-5.  Open the **Problem resoultion Process**' Business Process flow created in the previous step. Select the **New stage**, go to the **Properties** pane, change the **Display Name** to **Route**, and select **Apply**.
+5.  Open the **Problem resoultion Process** Business Process flow created in the previous step. Select the **New stage**, go to the **Properties** pane, change the **Display Name** to **Route**, and select **Apply**.
 
     ![A screenshot of the new stage and properties pane](02-2/media/image4.png)
 
@@ -114,7 +114,7 @@ In this task, you will create a business process flow for the Problem Report tab
 
 ![A screenshot of the completed route stage with three data steps: building, location, and department](02-2/media/image8.png)
 
-14. Select **+ Add** and select **Add Stage**.
+14. Select **+ Add** and select **Add Stzage**.
 
 15. Add the new stage after the **Route** stage.
 
@@ -177,7 +177,9 @@ In this exercise, you will create a business rule that will block completion of 
 
     ![A screenshot of the flyout New menu with the cursor positioned over the highlighted Business rule entry](02-2/media/image12.png)
 
-5.  Make sure the **Scope** is set to **Entity** and select the **Show details** chevron.
+5.  Make sure the **Scope** is set to **Entity** in the selector in the right corner of the screen. 
+
+6.  Select the **Show details** chevron located next to New business rule title on the same row as the socpe.
 
     ![A Screenshot with an arrow pointing to the drop down icon next to the text problem report: new business rule and a border around the scope set to entity on the right hand side of the page](02-2/media/image13.png)
 

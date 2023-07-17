@@ -111,11 +111,9 @@ In this task, you will provision Dataverse for Teams by creating an application.
 
 4.  **Wait** until provisioning is complete.
 
-5.  Select **New > App**. 
+5.  Enter **Upcycle** for App name and select **Save**.
 
-6.  Enter **Upcycle** for App name and select **Save**.
-
-7.  Do not navigate away from this page.
+6.  Do not navigate away from this page.
 
 
 #### Task 2: Create table
@@ -155,53 +153,44 @@ In this task, you will create a table and columns.
 
     ![A screenshot of a new choice column with global choice to sync with selected](03-1/media/ex2-t2-image6.png)
 
-14.  Your table screen should now look like the image below.
+14. Select  **+ New column** menu.
 
-    ![A screenshot of the new Gadget table with Name, Description, Availability columns in a grid layout](03-1/media/ex2-t2-image5.png)
-
-15.  Close the table editor by selecting the **Close** button.
-
-16. Do not navigate away from this page.
-
-
-#### Task 3: Add columns
-
-In this task, you will add new columns to the table.
-
-1.  Select the **Home** tab and select **See more**.
-
-    ![A screenshot of power apps in teams screen with Home tab selected and the cursor pointing to the see more button in the recent apps window of the home page of power apps](03-1/media/ex2-t3-image1.png)
-
-2.  Open the **Gadget** table.
-
-3.  Select  **+ New > Column** menu.
-
-4.  Enter **Location** for **Display name**, select **Text** for **Data type** (displayed as **Single line of text**), select **Business required** for **Required** and select **Save**.
+15. Enter **Location** for **Display name**, select **Text** for **Data type** (displayed as **Single line of text**), select **Business required** for **Required** and select **Save**.
 
     ![A screenshot of the add column window with the relevant text in each field](03-1/media/ex2-t3-image.png)
 
-5.  Select **+ New > Column**.
+16.  Select **+ New column**.
 
-6.  Enter **Photo** for **Display name**, select **File > Image** for **Data type**, check the **Primary image** checkbox and select **Save**.
+17.  Enter **Photo** for **Display name**, select **File > Image** for **Data type**, check the **Primary image** checkbox and select **Save**.
 
     ![A screenshot of the add column window with the relevant text in each field](03-1/media/ex2-t3-image3.png)
 
-7.  Select **+ New > Column**.
+18.  Select **+ New column**.
 
-8.  Enter **Reserved by** for **Display name**, select **Lookup** for Data type, select **User** for **Related table** and select **Save**.
+19.  Enter **Reserved by** for **Display name**, select **Lookup** for Data type, select **User** for **Related table** and select **Save**.
 
     ![A screenshot of the add column window with the relevant text in each field](03-1/media/ex2-t3-image4.png)
 
+20.  Your table screen should now look like the image below.
 
-#### Task 4: Edit the application
+    ![A screenshot of the new Gadget table with all columns in a grid layout](03-1/media/ex2-t2-image5.png)
+
+21.  Close the table editor by selecting the **Close** button.
+
+22. Do not navigate away from this page.
+
+
+#### Task 3: Edit the application
 
 In this task, you will edit the application by filters for gadgets that are available and edit the form.
 
-1.  Select the **Home** tab and open the **Upcycle** application you created.
+> **NOTE**
+>
+> If you don't have Power Apps Studio open from last step, navigate to **Power Apps app**, select the **Home** tab and open the **Upcycle** application you created. 
 
-2.  Select **Screen1**. If the screen already contains the form, move to the next step, otherwise select **With data** and select **Gadgets** table under **Current environment**. That will create the screen elements including the form.
+1.  Select **Screen1**. If the screen already contains the form, move to the next step, otherwise select **With data** and select **Gadgets** table under **Current environment**. That will create the screen elements including the form.
 
-3.  Make sure **RightContainer1** is expanded and select the **EditForm1** control from tree view.
+2.  Make sure **RightContainer1** is expanded and select the **EditForm1** control from tree view.
 
     ![A screenshot with a border around the edit form button under screen 1](03-1/media/ex2-t4-image1.png)
 
@@ -223,15 +212,15 @@ In this task, you will edit the application by filters for gadgets that are avai
 
 6.  Remove any extra fields and close the **Fields** pane. Your form should only have **Name, Description, Availability, Location, Reserved By and Photo** columns.
 
-7.  Change **Columns** for **Snap to columns** to **1**.
+7.  Change **Columns** to **1**.
 
     ![A screenshot with a border around the columns field and the value of 1 in the field itself](03-1/media/ex2-t4-image4.png)
 
-8.  Select the **Photo** inside the canvas and change **Width** to **400**.
+8.  Select the **Photo_DataCard1** inside the form and change **Width** to **400**.
 
     ![A screenshot of the photo selected inside the canvas and a border around the size field changed to 400 in the properties pane](03-1/media/ex2-t4-image5.png)
 
-9.  Expand the form and select the **Reserved by** data card.
+9.  Expand the form and select the **Reserved by_DataCard1** data card.
 
     ![A screenshot of a border around reserved by data card selected under edit form 1](03-1/media/ex2-t4-image5_1.png)
 
@@ -251,7 +240,7 @@ In this task, you will edit the application by filters for gadgets that are avai
 
     ![Filter data - screenshot](03-1/media/ex2-t4-image6.png)
 
-14. Select the **Image** inside the gallery.
+14. Select the **Image1** inside the gallery.
 
     ![A Screenshot with an arrow pointing to image 1 inside the gallery](03-1/media/ex2-t4-image7.png)
 
@@ -283,14 +272,14 @@ In this task, you will edit the application by filters for gadgets that are avai
 
 23. **Add** a few more new records.
 
-24. Your app should now look like the image below. **Close** the preview.
+24. Your app should now look like the image below. Select **X** to close the preview..
 
     ![A screenshot of the running app with an arrow pointing to the cross icon to close the preview](03-1/media/ex2-t4-image13.png)
 
-25. Select the **X** to close the app.
+25. **Do not** navigate away from this screen.
 
 
-#### Task 5: Update Dataverse rows
+#### Task 4: Update Dataverse rows
 
 In this task, you will add buttons that will let users reserve and/or pick up item, you will also update the rows in Dataverse as reserved or picked up.
 
@@ -302,7 +291,7 @@ In this task, you will add buttons that will let users reserve and/or pick up it
 
 2.  Select App, select **ellipsis** and select **Run OnStart**.
 
-3.  Select the **RightContainer**.
+3.  Select the **RightContainer1**.
 
     ![A screenshot with a border around the RightContainer1 element selected](03-1/media/ex2-t5-image2.png)
 
@@ -332,7 +321,7 @@ In this task, you will add buttons that will let users reserve and/or pick up it
 
     ```If(EditForm1.Mode = FormMode.View, true, false)```
 
-10. Select the **RightContainer** again.
+10. Select the **RightContainer1** again.
 
 11. Select the **+** Insert button and select **Button** again.
 
@@ -363,10 +352,10 @@ In this task, you will add buttons that will let users reserve and/or pick up it
 18. Do not navigate away from this page.
 
 
-#### Task 6: Add search
+#### Task 5: Add search
 In this task, you will add search capability to your application.
 
-1.  Select the **RightContainer**.
+1.  Select the **RightContainer1**.
 
 2.  Select the **+ Insert** menu, select **Icons** and then select **+ Add**.
 
@@ -394,7 +383,7 @@ In this task, you will add search capability to your application.
 
     ```Reset(BrowseGallery1)```
 
-10. Select the **BrowseGallery** under **LeftContainer1** and change the **Items** formula to the formula below. The formula is incomplete, we will complete it in the next step.
+10. Select the **BrowseGallery1** under **LeftContainer1** and change the **Items** formula to the formula below. The formula is incomplete, we will complete it in the next step.
 
     ```Filter(Search(Gadgets, 'Search Box'.Value, ), Availability <> [@Availability].'Picked up')```
 

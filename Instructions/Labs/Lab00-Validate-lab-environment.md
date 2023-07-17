@@ -60,6 +60,7 @@ In this exercise, you will create a **Practice** environment that you will use t
 ### Task 1 – Create environment
 
 1.  Open a new browser tab and navigate to the [Power Platform admin center](https://admin.powerplatform.microsoft.com). 
+    
     Log in with your Microsoft 365 credentials if prompted again. 
 
 2.  Select **Get Started** to begin the tour and select **Next** through each prompt. Select **Done** to finish the tour. 
@@ -70,11 +71,17 @@ In this exercise, you will create a **Practice** environment that you will use t
     
     - For **Type**, select **Trial**. 
     
-    - Change the toggle for **Add a Dataverse data store?** to **Yes**. 
+    - Change the toggle on **Add a Dataverse data store?** to **Yes**. 
     
     - Leave all other selections as default and select **Next**. 
 
-    - On the **Add Dataverse** tab, under **Security group** use the **+ Select** button and under **Open acces** select **None**.
+    - On the next tab, under **Security group**, select the **Select** button.
+
+    - Under **Open access**, select **None (All users from thi...)**
+
+    - Select **Done**.
+    
+    - Leave all other selections as default and select **Save**. 
 
     - Select **Done** and select **Save**.  
 
