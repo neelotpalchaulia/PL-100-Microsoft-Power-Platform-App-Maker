@@ -581,7 +581,7 @@ In this exercise, you will import sample data into the environment. Rows are imp
 
 9.  Select **Create**, authenticate if required, wait until new connection is created. Close the browser tab.
 
-10. Select **Refresh**. Make sure new connection is selected in the dropdown. 
+10. Select **Refresh**. Verify the new connection is selected in the drop-down. 
 
 11. Select **Import** and wait for the message **Solution "Data Import" imported successfully** to appear.
 
@@ -597,42 +597,42 @@ In this exercise, you will import sample data into the environment. Rows are imp
     ![A screenshot with the Import Data flow highlighted](02-1/media/image90.png)
 
 3.  Select **Edit** from the Command Bar.
+ 
+5.  If necessary, dismiss the welcome prompt by selecting **Get started**.
 
-4.  Select **Continue**.
+6.  Expand the **InputData** step.
 
-5.  Expand the **InputData** step.
+7.  Review the JSON text in the value field. This is the data that will be imported into your environment. Note: The image data is encoded as Base-64 text.
 
-6.  Review the JSON text in the value Column. This is the data that will be imported into your environment. Note the image data encoded as a text.
+8.  Expand the **EachDepartment** for each control.
 
-7.  Expand the **EachDepartment** for each control
+9.  Expand and review the **Upsert Department** step.
 
-8.  Expand and review the **Upsert Department** step.
+10.  Expand and review the rest of the steps.
 
-9.  Expand and review the rest of the steps.
+11. Select **Save** to save the flow.
 
-10. Select **Save** to save the flow.
-
-11. Select the **<-** button to go back to the previous page.
+12. Select the **<-** button to go back to the previous page.
 
     ![A Screenshot with an arrow pointing to the arrow icon to go back](02-1/media/image92.png)
 
-12. Open the **Import Data** flow **Details** and select **Run**.
+13. Open the **Import Data** flow **Details** and select **Run**.
 
     > **TIP**
     >
     > If the **Run** option is disabled then make sure the flow has been enabled by selecting **Turn on**.
 
-13. Select **Run flow**.
+14. Select **Run flow**.
 
-14. Select **Done**.
+15. Select **Done**.
 
-15. Wait for the flow run to complete. Select the **Refresh Flow runs** button to check if the flow run completes successfully.
+16. Wait for the flow run to complete. Select the **Refresh Flow runs** button to check if the flow run completes successfully.
 
     ![A Screenshot with an arrow pointing to the refresh button in the top right corner and a border around the status showing it has succeeded](02-1/media/image93.png)
 
-16. Close the flow editor browser window or tab.
+17. Close the flow editor browser window or tab.
 
-17. Select **Done** on the popup, if prompted.
+18. Select **Done** on the popup, if prompted.
 
 
 #### Task 3: Review imported data
