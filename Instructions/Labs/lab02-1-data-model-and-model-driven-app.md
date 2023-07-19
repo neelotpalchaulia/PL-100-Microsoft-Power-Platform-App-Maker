@@ -445,9 +445,9 @@ In this exercise, you will create a model-driven application.
 
 18. Select **Next**.
 
-19. Search for **Building** and check the checkbox next to it.
+19. Search for and select **Building**.
 
-20. Search for **Building** and check the checkbox next to it.
+20. Search for and select **Department**.
 
 21. Select **Add**
 
@@ -486,67 +486,71 @@ In this exercise, you will input data to the Dataverse tables.
 
     ![A screenshot with an arrow pointing to chevron icon next to Manage Problems](02-1/media/image81.png)
 
-4.  Select **Settings** area.
+4.  Select the **Settings** area.
 
 5.  Select **Departments** and select **+ New**.
 
     ![A Screenshot with an arrow pointing to the new button at the top of the window](02-1/media/image82.png)
 
-6.  Enter **Facility Maintenance** for **Name** and select **Save**.
+6.  Enter `Facility Maintenance` for **Name** and select **Save**.
 
     ![A screenshot showing the change in name to facility maintenance](02-1/media/image83.png)
 
 7.  Select **+ New** again.
 
-8.  Enter **Human Resources** for **Name** and select **Save**.
+8.  Enter `Human Resources` for **Name** and select **Save**.
 
 9.  Select **+ New** one more time.
 
-10. Enter **Marketing** for **Name** and select **Save**.
+10. Enter `Marketing` for **Name** and select **Save**.
 
 11. Select **Departments**.
 
-12. You should now have three department Rows. Select **Buildings**.
+    You should now have three Department rows.
+
+12. Select **Buildings**.
 
     ![A Screenshot with an arrow pointing to the buildings button under taxonomy](02-1/media/image84.png)
 
 13. Select **+ New**.
 
-14. Enter **San Francisco Main Campus** for **Name** and select **Save & Close**.
+14. Enter `San Francisco Main Campus` for **Name** and select **Save & Close**.
 
 15. Select **+ New** again.
 
-16. Enter **London Paddington** for **Name** and select **Save & Close**.
+16. Enter `London Paddington` for **Name** and select **Save & Close**.
 
-17. You should now have two building Rows. Select **Change area**.
+    You should now have two Building rows.
+
+18. Select **Change area**.
 
     ![A Screenshot with an arrow pointing to the chevron icon next to settings in the bottom left corner of the window](02-1/media/image85.png)
 
-18. Select **Manage Problems**.
+19. Select **Manage Problems**.
 
-19. Select **+ New**.
+20. Select **+ New**.
 
     ![A screenshot of the active problem reports page](02-1/media/image86.png)
 
-20. Enter **Broken door** for **Title**, select **San Francisco Main Campus** for **Building**, enter **The main entrance door will not open all the way** for **Details**, and select **Save**.
+21. Enter **Broken door** for **Title**, select **San Francisco Main Campus** for **Building**, enter **The main entrance door will not open all the way** for **Details**, and select **Save**.
 
     > **NOTE**
     >
-    > You cannot save images before creating the row in the database. Press save and then you may upload a picture.
+    > You cannot save images before creating the row in the database. Select **Save** and then you may upload a picture.
 
     ![A screenshot of the new problem report window with all relevant text in each field](02-1/media/image87.png)
 
-21. Select **Open file** on the **Photo** field.
+22. Select **Open file** on the **Photo** field.
 
     ![A Screenshot with an arrow pointing to the upload an image button](02-1/media/image88.png)
 
-22. Select an image from your device. The sample image displayed below can be found [here](02-1/media/image89.png).
+23. Select an image from your device. The sample image displayed below can be found [here](02-1/media/image89.png).
 
-23. The image should now show on the form.
+24. The image should now show on the form.
 
     ![A screenshot of a vector image of a door which should appear](02-1/media/image89.png)
 
-24. Select **Save & Close**.
+25. Select **Save & Close**.
 
 
 ### Exercise 6: Import data
