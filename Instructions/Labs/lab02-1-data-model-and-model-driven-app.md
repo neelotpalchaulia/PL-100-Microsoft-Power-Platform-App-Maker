@@ -647,7 +647,7 @@ In this exercise, you will import sample data into the environment. Rows are imp
 
     > **NOTE**
     >
-    > Because the input status reason is randomized, some of the imported problem report rows may have the status reason of Completed, Won't Fix, or Inactive. Select **Resolved Problems** view to find these rows.
+    > Because the input status reason is picked randomly, some of the imported problem report rows may have the status reason of Completed, Won't Fix, or Inactive. Select the **Resolved Problems** view to find these rows.
 
 4.  Open one of the **Problem Report** Rows.
 
@@ -663,3 +663,4 @@ In this exercise, you will import sample data into the environment. Rows are imp
 ### **Bonus exercise**
 
   - Deal with problem report assignment within a department.
+
