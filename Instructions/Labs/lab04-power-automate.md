@@ -63,25 +63,25 @@ In this task, you will create a flow that send notification when the status of p
 
 2.  Select **Solutions** and open the **Company 311** solution.
 
-3.  Select **+ New > Automation > Cloud Flow > Automated**.
+3.  Select **+ New** > **Automation** > **Cloud Flow** > **Automated**.
 
     ![A screenshot showing dropdown menu to create new automated cloud flow](04/media/image1.png)
 
-4.  Enter **when a row** in the search box, then locate and select the **When a row is added, modified or deleted** action from the **Microsoft Dataverse** connector. 
+4.  Enter `when a row` in the search box, then locate and select the **When a row is added, modified or deleted** action from the **Microsoft Dataverse** connector. 
 
 5.  Select **Create**.
 
     ![Trigger selection screen with Microsoft Dataverse trigger selected and a cursor over Create button](04/media/image1-1.png)
 
-6.  Select **Modified** for **Change type**, select **Problem Reports** for **Table name**, **Organization** for **Scope** and select **Show advanced options**.
+6.  Select **Modified** for **Change type**, select **Problem Reports** for **Table name**, **Organization** for **Scope** and expand **Show advanced options**.
 
-7.  Enter **statuscode** for **Select columns** then select **… Menu** button of the trigger step.
+7.  Enter `statuscode` for **Select columns** then select **… Menu** button of the trigger step.
 
     ![A Screenshot with an arrow pointing to the ellipses icon for more options and a border around the select columns statuscode](04/media/image3.png)
 
 8.  Select **Rename**.
 
-9.  Rename the trigger step **When problem report status changes**.
+9.  Rename the trigger step `When problem report status changes`
 
 10.  Select **+ New step**.
 
@@ -91,19 +91,19 @@ In this task, you will create a flow that send notification when the status of p
 
 12. Select **Users** for **Table name**.
 
-13. Select the **Row ID** field, go to the Dynamic pane, search for **created** and click once on **Created By (Value)** to add it.
+13. Select the **Row ID** field, go to the Dynamic pane, search for `created` and select **Created By (Value)** to add it.
 
 14. Select **Show advanced options** on the new step.
 
-15. Enter **internalemailaddress** for **Select columns**.
+15. Enter `internalemailaddress` for **Select columns**.
 
 16. Select the **… Menu** button of the new step and select **Rename**.
 
-17. Rename the step **Get problem creator**.
+17. Rename the step `Get problem creator`
 
 18. Select **+ New step**.
 
-19. Search for **send email** and select **Send an email (V2).**
+19. Search for `send email` and select **Send an email (V2).**
 
 20. Select the **To** field and select the **Switch to Advanced Mode** arrows icon. Selecting this button toggles show/hide of the Dynamic content pane.
 
@@ -111,17 +111,17 @@ In this task, you will create a flow that send notification when the status of p
 
 21. Select the **Primary Email** field from the **Get problem creator** step.
 
-22. Enter **Problem report status change notification** for **Subject**.
+22. Enter `Problem report status change notification` for **Subject**.
 
 23. Select the **Body** field.
 
-24. Enter **The status of the problem you reported has changed.** and press the **[ENTER]** key.
+24. Enter `The status of the problem you reported has changed.` and press the **[ENTER]** key.
 
-25. Enter **Problem Title:** go to the Dynamic pane, search for **title** and select **Title**.
+25. Enter `Problem Title: ` go to the Dynamic pane, search for `title` and select **Title**.
 
 26. Press the **[ENTER]** key.
 
-27. Enter **Current Status:** go to the Dynamic pane, select the **Expression** tab, paste the expression below, and select **OK**. This expression will show the label of the choice instead of the value.
+27. Enter `Current Status: ` go to the Dynamic pane, select the **Expression** tab, paste the expression below, and select **OK**. This expression will show the label of the choice instead of the value.
 
     `triggerOutputs()?['body/_statuscode_label']`
 
@@ -154,7 +154,7 @@ In this task, you will test the notify problem creator flow.
 
 3.  Select **+ New**.
 
-4.  Enter **Flow test** for **Title**, select **London Paddington** for **building**, enter **This is a flow test** for **Details**, and select **Save**.
+4.  Enter `Flow test` for **Title**, select **London Paddington** for **Building**, enter `This is a flow test` for **Details**, and select **Save**.
 
 5.  Scroll down and change the **Status Reason** value to **In Progress** and save again.
 
@@ -176,7 +176,7 @@ In this task, you will test the notify problem creator flow.
 
     ![A Screenshot with an arrow pointing to the app launcher and a border around outlook](04/media/image10.png)
 
-13. You should get an email from the flow. Open the email.
+13. You should have received an email from the Cloud flow. Open the email.
 
 14. The email should look like the image below.
 

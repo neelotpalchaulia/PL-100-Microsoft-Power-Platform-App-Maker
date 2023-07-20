@@ -93,7 +93,7 @@ In this task, you will import the shared components solution into your environme
 
 14. After the app opens, click on the carret next to the save icon and select **Save As**.
 
-15. Change app name to **Lamna Healthcare Shared Components A** and select **Save**.
+15. Change app name to `Lamna Healthcare Shared Components` and select **Save**.
 
     ![A screenshot with a border around the app name saved as Lamna Healthcare Shared Components A](03-2/media/image2-2.png)
 
@@ -143,7 +143,7 @@ In this task, you will create a canvas application using the phone form factor.
 
 2.  Select **Solutions** and open the **Company 311** solution.
 
-3.  Select **+ New | App | Canvas app**.
+3.  Select **+ New** > **App** > **Canvas app**.
 
     ![A screenshot of a solution explorer with new button with the dropdown menu under app and a cursor over the canvas app button](03-2/media/image7.png)
 
@@ -155,43 +155,45 @@ In this task, you will create a canvas application using the phone form factor.
 
     ![A Screenshot with an arrow pointing to the screen 1 button](03-2/media/image9.png)
 
-10. Rename the screen **Main Screen**. It’s always a good idea to give your screens a meaningful name.
+7.  Rename the screen `Main Screen` I
+
+    It’s always a good idea to give your screens a meaningful name.
 
     ![A screenshot with the Screen 1 name highlighted and renamed Main Screen](03-2/media/image10.png)
 
-11. Select the **Main Screen** and then select **+ Insert** from the left navigation pane.
+8.  Select the **Main Screen** and then select **+ Insert** from the left navigation pane.
 
     ![A Screenshot with an arrow pointing to the plus icon for insert](03-2/media/image11.png)
 
-12. Select **Get more components**.
+9.  Select **Get more components**.
 
     ![A screenshot with a border around the get more components button](03-2/media/image12-1.png)
 
-13. Expand the **Lamna Healthcare Shared Components A** Library, select **Header** and **Tab Control**, and then select **Import**.
+10. Expand the **Lamna Healthcare Shared Components A** Library, select **Header** and **Tab Control**, and then select **Import**.
 
     ![A screenshot of the import components window with Ta control and header selected](03-2/media/image12-2.png)
 
-14. Expand **Library components**, select **Header** and **Tab Control**. These are both components from the library you imported earlier in the lab.
+11. Expand **Library components**, select **Header** and **Tab Control**. These are both components from the library you imported earlier in the lab.
 
     ![A screenshot with a border around the library components Header and Tab control](03-2/media/image12-3.png)
 
-15. Move the **Tab Control** to the bottom of the screen and the **Header Control** to the top of the screens.
+12. Move the **Tab Control** to the bottom of the screen and the **Header Control** to the top of the screens.
 
-16. Select the **Header Control** and change the **Text** value to **"Company 311".**
+13. Select the **Header Control** and change the **Text** value to **"Company 311".**
 
     ![A screenshot of a border around the expression tab with the text value set to company 311](03-2/media/image13.png)
 
-17. Set the **Height** of the **Header Control** to **75**.
+14. Set the **Height** of the **Header Control** to **75**.
 
     ![Set Height - Header](03-2/media/image37.png)
 
-18. On the **Tree view**, right-click on the Main Screen and select **Duplicate screen**.
+15. On the **Tree view**, right-click on the Main Screen and select **Duplicate screen**.
 
     ![A screenshot with a border around the duplicate screen button](03-2/media/image14.png)
 
-19. Rename the new screen **New Reports Screen**.
+16. Rename the new screen `New Reports Screen`
 
-20. Select the **Tree view**, select **App** and change the **OnStart** value to the formula below. This formula will create a new variable named My Tabs and set it to a table of tab items.
+17. Select the **Tree view**, select **App** and change the **OnStart** value to the formula below. This formula will create a new variable named My Tabs and set it to a table of tab items.
 
     ```javascript
     Set('My Tabs', Table( {
@@ -215,27 +217,27 @@ In this task, you will create a canvas application using the phone form factor.
 
     ![A screenshot of the copied expression into the expression tab](03-2/media/image15.png)
 
-21. Select the **Tab Control** in the **Main Screen** and change the **Items** value to **‘My Tabs’**.
+18. Select the **Tab Control** in the **Main Screen** and change the **Items** value to **‘My Tabs’**.
 
     ![A screenshot of the items value set to my tabs for Tab control](03-2/media/image16.png)
 
-22. Change the **SelectedColor** value to **WhiteSmoke**.
+19. Change the **SelectedColor** value to **WhiteSmoke**.
 
-23. Select the **Tab Control** inside the **New Report Screen** and set the Item value to **‘My Tabs’**.
+20. Select the **Tab Control** inside the **New Report Screen** and set the Item value to **‘My Tabs’**.
 
-24. Change the **SelectedColor** value to **WhiteSmoke**.
+21. Change the **SelectedColor** value to **WhiteSmoke**.
 
-25. In the **Tree view**, right-click on **App** and select **Run OnStart**.
+22. In the **Tree view**, right-click on **App** and select **Run OnStart**.
 
     ![A screenshot of the run on start button coming from the ellipsis icon for see more under the app button](03-2/media/image17.png)
 
-26. The tab names should update.
+23. The tab names should update.
 
     ![A screenshot of the two tabs you added](03-2/media/image18.png)
 
-27. Select **Save** from the command bar.
+24. Select **Save** from the command bar.
 
-28. Do not navigate away from this page.
+25. Do not navigate away from this page.
 
 
 ### Exercise 2: My reports
@@ -272,7 +274,7 @@ In this exercise, you will add a gallery that will show reports created by the c
 
     `LookUp('Problem Reports', 'Problem Report' = ThisItem.'Problem Report').Photo`
 
-9. Select the **Save** icon.
+9.  Select the **Save** icon.
 
 10. Do not navigate away from this page.
 
@@ -289,7 +291,7 @@ In this exercise, you will allow unassigned reports to be removed. This will all
 
     ![A screenshot of the arrow icon inside the my reports gallery](03-2/media/image24.png)
 
-3.  In the Tree View, double-click **NextArrow1** and rename it to **Remove Report**.
+3.  In the Tree View, double-click **NextArrow1** and rename it to `Remove Report`
 
 3.  Change the **Icon** value to **Icon.Trash**.
 
@@ -340,7 +342,7 @@ In this exercise, you will add a form to submit new problem reports.
 
 9.  Select **Building**, **Department**, **Details**, and **Photo**, and then select **Add**.
 
-10. Resize and reposition the form so it takes most of the page and leave enough room for a button in the bottom.
+10. Resize and reposition the form so it takes most of the page and leave enough room for a button at the bottom.
 
     ![A screenshot of the form resized and reposition for room at the bottom for a button](03-2/media/image31.png)
 
@@ -348,9 +350,9 @@ In this exercise, you will add a form to submit new problem reports.
 
 12. Select **Insert** then select **Button**.
 
-13. Rename the button **Submit Report**.
+13. Rename the button `Submit Report`
 
-14. Place the button below the form and make it stretch across the screen
+14. Place the button below the form and stretch it across the screen.
 
 15. Change the **Submit Report** button's **Text** property to **Submit**.
 
@@ -478,3 +480,4 @@ In this task, you will setup a **Microsoft Teams** team for the Lamna Healthcare
 8.  The **Company 311** app should now appear on a tab in Microsoft Teams.
 
     ![A screenshot of the company 311 app appearing on a tab in Microsoft Teams](03-2/media/image-3-powerappinteams.png)
+

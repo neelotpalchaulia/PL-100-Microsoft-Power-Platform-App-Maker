@@ -66,7 +66,7 @@ In this task you will create a new team.
 
 4.  Select **Public**.
 
-5.  Enter **Green** for Team name and select **Create**.
+5.  Enter `Green` for **Team name** and select **Create**.
 
     ![A screenshot with the word green in the team name field](03-1/media/ex1-t1-image2.png)
 
@@ -111,7 +111,7 @@ In this task, you will provision Dataverse for Teams by creating an application.
 
 4.  **Wait** until provisioning is complete.
 
-5.  Enter **Upcycle** for App name and select **Save**.
+5.  Enter `Upcycle` for **App name** and select **Save**.
 
 6.  Do not navigate away from this page.
 
@@ -123,27 +123,27 @@ In this task, you will create a table and columns.
 
     ![A screenshot with data option selected and cursor pointing to the create new table link from the select a data source prompt](03-1/media/ex2-t2-image2.png)
 
-2.  Enter **Gadget** for Table name and select **Create**.
+2.  Enter `Gadget` for **Table name** and select **Create**.
 
 3.  Select **+ New column**.
 
-4.  Enter **Description** for **Display name**, select **Text** for **Data type** (displayed as **Single line of text**), and expand the **Advanced options** section.
+4.  Enter `Description` for **Display name**, select **Text** for **Data type** (displayed as **Single line of text**), and expand the **Advanced options** section.
 
     ![A screenshot with the cursor pointing to the advanced options link](03-1/media/ex2-t2-image3.png)
 
-5.  Change the **Maximum character count** to **500** and select **Save**.
+5.  Change the **Maximum character count** to `500` and select **Save**.
 
 6.  Select **+ New column** again.
 
-7.  Enter **Availability** for Name, select **Choice** for Type, and select **+ New choice** under **Sync this choice with** dropdown box. That will open a window to create a global choice to sync with.
+7.  Enter `Availability` for Name, select **Choice** for Type, and select **+ New choice** under **Sync this choice with** drop-down box. That will open a window to create a global choice to sync with.
 
-8.  Enter **Availability** for **Display name**.
+8.  Enter `Availability` for **Display name**.
 
-9.  Enter **Available** for the first choice and select **+ New choice**.
+9.  Enter `Available` for the first choice and select **+ New choice**.
 
-10. Enter **Reserved** for the second choice and select **+ New choice**.
+10. Enter `Reserved` for the second choice and select **+ New choice**.
 
-11. Enter **Picked up** for the third choice and select **Save**.
+11. Enter `Picked up` for the third choice and select **Save**.
 
     ![A screenshot of the new global choice with 3 choice values entered](03-1/media/ex2-t2-image4.png)
 
@@ -153,29 +153,29 @@ In this task, you will create a table and columns.
 
     ![A screenshot of a new choice column with global choice to sync with selected](03-1/media/ex2-t2-image6.png)
 
-14. Select  **+ New column** menu.
+14. Select **+ New column** menu.
 
-15. Enter **Location** for **Display name**, select **Text** for **Data type** (displayed as **Single line of text**), select **Business required** for **Required** and select **Save**.
+15. Enter `Location` for **Display name**, select **Text** for **Data type** (displayed as **Single line of text**), select **Business required** for **Required** and select **Save**.
 
     ![A screenshot of the add column window with the relevant text in each field](03-1/media/ex2-t3-image.png)
 
-16.  Select **+ New column**.
+16. Select **+ New column**.
 
-17.  Enter **Photo** for **Display name**, select **File > Image** for **Data type**, check the **Primary image** checkbox and select **Save**.
+17. Enter `Photo` for **Display name**, select **File > Image** for **Data type**, check the **Primary image** checkbox and select **Save**.
 
     ![A screenshot of the add column window with the relevant text in each field](03-1/media/ex2-t3-image3.png)
 
-18.  Select **+ New column**.
+18. Select **+ New column**.
 
-19.  Enter **Reserved by** for **Display name**, select **Lookup** for Data type, select **User** for **Related table** and select **Save**.
+19. Enter `Reserved by` for **Display name**, select **Lookup** for Data type, select **User** for **Related table** and select **Save**.
 
     ![A screenshot of the add column window with the relevant text in each field](03-1/media/ex2-t3-image4.png)
 
-20.  Your table screen should now look like the image below.
+20. Your table screen should now look like the image below.
 
     ![A screenshot of the new Gadget table with all columns in a grid layout](03-1/media/ex2-t2-image5.png)
 
-21.  Close the table editor by selecting the **Close** button.
+21. Close the table editor by selecting the **Close** button.
 
 22. Do not navigate away from this page.
 
@@ -194,7 +194,7 @@ In this task, you will edit the application by filters for gadgets that are avai
 
     ![A screenshot with a border around the edit form button under screen 1](03-1/media/ex2-t4-image1.png)
 
-3.  Go to the **Properties** pane and select **Edit fields**
+3.  Go to the **Properties** pane and select **Edit fields**.
 
     ![A Screenshot with an arrow pointing to the edit fields button](03-1/media/ex2-t4-image2.png)
 
@@ -216,7 +216,7 @@ In this task, you will edit the application by filters for gadgets that are avai
 
     ![A screenshot with a border around the columns field and the value of 1 in the field itself](03-1/media/ex2-t4-image4.png)
 
-8.  Select the **Photo_DataCard1** inside the form and change **Width** to **400**.
+8.  Select the **Photo_DataCard1** inside the form and change **Width** to `400`
 
     ![A screenshot of the photo selected inside the canvas and a border around the size field changed to 400 in the properties pane](03-1/media/ex2-t4-image5.png)
 
@@ -228,7 +228,7 @@ In this task, you will edit the application by filters for gadgets that are avai
 
     ![A Screenshot with an arrow pointing to the lock icon under the advanced tab](03-1/media/ex2-t4-image5_2.png)
 
-11. Search for display and change the **DisplayMode** value to **DisplayMode.View**.
+11. Search for `display` and change the **DisplayMode** value to `DisplayMode.View`
 
     ![A screenshot with a border around the display mode field](03-1/media/ex2-t4-image5_3.png)
 
@@ -353,6 +353,7 @@ In this task, you will add buttons that will let users reserve and/or pick up it
 
 
 #### Task 5: Add search
+
 In this task, you will add search capability to your application.
 
 1.  Select the **RightContainer1**.
@@ -371,7 +372,7 @@ In this task, you will add search capability to your application.
 
 6.  Select the **Tree view**.
 
-7.  Select the text box you just added and rename it **Search Box**.
+7.  Select the text box you just added and rename it `Search Box`
 
     ![A screenshot of the words "Search Box" highlighted as the new name for the text box you added](03-1/media/ex2-t6-image3.png)
 
@@ -391,7 +392,7 @@ In this task, you will add search capability to your application.
 
     ![A screenshot with a border around the words "crefe4_name"](03-1/media/ex2-t6-image5.png)
 
-12. Add comma after the name column you just selected and enter `description` and select the suggested column again.
+12. Add a comma after the name column you just selected and enter `description` and select the suggested column again.
 
     ![A screenshot with a border around the worlds "crfe4_description"](03-1/media/ex2-t6-image6.png)
 
@@ -409,6 +410,7 @@ In this task, you will add search capability to your application.
 
 
 ### Exercise 3: Test and publish application
+
 In this exercise, you will test, publish and give colleagues permission to use the application.
 
 #### Task 1: Test application
@@ -421,25 +423,27 @@ In this task, you will test the application.
 
 2.  The **Reserve** and **Picked Up** button should be visible and enabled.
 
-3.  Search for **cable**. The gallery should show items that have the text **cable** in the name or description column.
+3.  Search for `cable`
+
+    The gallery should show items that have the text **cable** in the name or description column.
 
     ![A screenshot with the word cable in the search bar and a gallery showing items that have the text cable in their name or description column on the left side of the window](03-1/media/ex3-t1-image2.png)
 
-4.  Select one of the items, the **Reserved by** column value should be empty.
+5.  Select one of the items, the **Reserved by** column value should be empty.
 
-5.  Select the **Reserve** button.
+6.  Select the **Reserve** button.
 
     ![A screenshot of a border around the Reserved by field and an arrow pointing to the Reserve button](03-1/media/ex3-t1-image3.png)
 
-6.  The **Reserve** button should become disabled and the **Reserved by** value will be set to your username. Select the **Picked Up** button.
+7.  The **Reserve** button should become disabled and the **Reserved by** value will be set to your username. Select the **Picked Up** button.
 
     ![A screenshot with a border around the reserved by field with your username and another border around the now-disabled reserve button](03-1/media/ex3-t1-image4.png)
 
-7.  The item should no longer show up on the gallery and the first item of the gallery should get selected.
+8.  The item should no longer show up on the gallery and the first item of the gallery should get selected.
 
-8.  **Close** preview mode.
+9.  **Close** preview mode.
 
-9.  Do not navigate away from this page.
+10.  Do not navigate away from this page.
 
 
 #### Task 2: Publish application
@@ -487,4 +491,5 @@ In this task, you will give your colleagues permission to create new items, edit
 
     ![A screenshot of the collaborate permission selected](03-1/media/ex3-t3-image3.png)
 
-5.  You may test the application with another user and see how it behaves.
+5.  You may wish to test the application with another user in your tenant and see how it behaves.
+
