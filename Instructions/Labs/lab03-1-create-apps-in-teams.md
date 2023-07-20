@@ -491,4 +491,5 @@ In this task, you will give your colleagues permission to create new items, edit
 
     ![A screenshot of the collaborate permission selected](03-1/media/ex3-t3-image3.png)
 
-5.  You may test the application with another user and see how it behaves.
+5.  You may wish to test the application with another user in your tenant and see how it behaves.
+
