@@ -24,7 +24,7 @@ In this Module 0 lab, you will acquire a Power Platform trial tenant and access 
 Exercise 1 – Acquire a Power Platform trial tenant 
 --------------------------------------------------
 
-    You will need your **Microsoft 365 credentials** provided by the Authorized Lab Hoster. 
+> **Note:** You will need your **Microsoft 365 credentials** provided by the Authorized Lab Hoster. 
 
 1.  Navigate to [Power Apps](https://powerapps.microsoft.com/) and select **Start free**. 
 
@@ -36,9 +36,7 @@ Exercise 1 – Acquire a Power Platform trial tenant
 
 5.  Select **Yes** to stay signed in. 
 
-6.  If applicable, in the **Phone number** field, enter `0123456789` and select **Submit**. 
-
-7.  If applicable, read through the prompts by selecting **Next**, then select **Let's Go**.
+6.  If applicable, read through the prompts by selecting **Next**, then select **Let's Go**.
 
     > **Note:** If you encounter an error: "Sorry, there's been a disconnect", you can follow the steps below. If not, you can continue to **Exercise 2**.
     >
