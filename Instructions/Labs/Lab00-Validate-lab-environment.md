@@ -55,7 +55,7 @@ In this exercise, you will create a **Practice** environment that you will use t
 
 1.  Open a new browser tab and navigate to the Power Platform admin center `https://aka.ms/ppac` 
     
-2.  Log in with your Microsoft 365 credentials if prompted again. 
+2.  Log in with your Microsoft 365 credentials, if prompted again. 
 
 3.  Skip the tour by closing the prompt, or select **Get Started** to begin the tour and select **Next** through each prompt. At the end, select **Done** to finish the tour. 
 
@@ -67,13 +67,13 @@ In this exercise, you will create a **Practice** environment that you will use t
     
 7.  Change the toggle on **Add a Dataverse data store?** to **Yes**. Leave all other selections as default and select **Next**. 
 
-8.  On the **Add Dataverse** tab, under **Security group** use the **+ Select** button, and under **Open access** select **None**.
+8.  On the **Add Dataverse** tab, under **Security group** use the **+ Select** button, and under **Open access**, select **None**.
     
 9.  Select **Done** and select **Save**. 
 
 10. In the list of environments, your **Practice** environment should now show as **Preparing**. 
 
-    Your practice environment will take a few minutes to provision. Refresh the page if needed.
+    Your practice environment will take a few minutes to provision. Refresh the **Environments** list if needed.
 
 11. When your environment shows as **Ready**, select your **Practice** environment by selecting the ellipses next to the name to expand the drop-down menu and select **Settings**. 
 
