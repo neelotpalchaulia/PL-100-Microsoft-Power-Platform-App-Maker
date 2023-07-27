@@ -19,12 +19,10 @@ Module 0: Course introduction
 Scenario
 --------
 
-In this Module 0 lab, you will acquire a Power Platform trial tenant and access the Power Platform admin center. In the admin center, you will create an individual environment for use during the rest of the course.
+In this lab, you will acquire a Power Platform trial tenant and access the Power Platform admin center. In the admin center, you will create an individual environment for use during the rest of the course. You will need **Microsoft 365 credentials** provided by the Authorized Lab Hoster, or otherwise. 
 
 Exercise 1 – Acquire a Power Platform trial tenant 
 --------------------------------------------------
-
-> **Note:** You will need your **Microsoft 365 credentials** provided by the Authorized Lab Hoster. 
 
 1.  Navigate to [Power Apps](https://powerapps.microsoft.com/) and select **Start free**. 
 
@@ -43,7 +41,7 @@ Exercise 1 – Acquire a Power Platform trial tenant
     > 1. Navigate to [Power Apps Maker Portal](https://make.powerapps.com).
     > 2. Select the **Gear Icon** (Settings) from top-right corner on the header of the page.
     > 3. Select **Plan(s)** and verify if you have **Power Apps Per User Plan Trial**. 
-    > 4. If you have the above mentioned license, please proceed to **Exercise 2** otherwise repeat **Exercise 1**.
+    > 4. If you do not have the above license, repeat **Exercise 1**. Otherwise, proceed to **Exercise 2**.
 
 
 Exercise 2 - Create your environment 
@@ -57,7 +55,7 @@ In this exercise, you will create a **Practice** environment that you will use t
     
 2.  Log in with your Microsoft 365 credentials, if prompted again. 
 
-3.  Skip the tour by closing the prompt, or select **Get Started** to begin the tour and select **Next** through each prompt. At the end, select **Done** to finish the tour. 
+3.  Skip the welcome tour by closing the prompt, or select **Get Started** to begin the tour and select **Next** through each prompt. At the end, select **Done** to finish the tour. 
 
 4.  Select **Environments** from the site navigation and select **+ New** from the toolbar. 
 
