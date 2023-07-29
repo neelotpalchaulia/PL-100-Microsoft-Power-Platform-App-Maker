@@ -188,19 +188,11 @@ In this task, you will edit the Status Reason column of the Problem Report table
 
 4.  Select **+ New choice** and enter `Assigned` for **Label**.
 
-    Set **Value** to `3`
-
 5.  Select **+ New choice** and enter `In Progress` for **Label**.
-
-    Set **Value** to `4`
 
 6.  Select **+ New choice** and enter `Completed` for **Label**.
 
-    Set **Value** to `5`
-
 7.  Select **+ New choice** and enter `Won’t Fix` for **Label**.
-
-    Set **Value** to `6`
 
 8.  You should now have 5 options. Set the **Default choice** as **New** and select **Save**.
 
