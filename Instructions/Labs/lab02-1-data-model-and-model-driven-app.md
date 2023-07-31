@@ -423,13 +423,13 @@ In this exercise, you will create a model-driven application.
     
 13. Select **New Group** in the navigation pane.
 
-14. Go to the **Properties**, enter **Problems** for **Title**, and enter **group_problems** for **ID**.
+14. Go to the **Properties**, enter `Problems` for **Title**, and enter `group_problems` for **ID**.
 
 15. Click on area selection and then select **New area**
     
     ![A screenshot of the adding new area](02-1/media/image107.png)
 
-16. Go to the **Properties** pane, enter **Settings** for **Title**, and enter **area_settings** for **ID**.
+16. Go to the **Properties** pane, enter `Settings` for **Title**, and enter `area_settings` for **ID**.
 
     ![A screenshot of the properties pane with the title and ID changed](02-1/media/image97.png)
     
@@ -453,7 +453,7 @@ In this exercise, you will create a model-driven application.
 
 25. Select **Publish** to publish the sitemap and wait for the publishing to complete.
 
-26. Select the **<- Back** button to return to the solution explorer.
+26. Select the **🡠 Back** button to return to the Solution Explorer.
 
 27. Select **All** in the **Objects** navigation tree.
 
@@ -559,7 +559,7 @@ In this exercise, you will import sample data into the environment. Rows are imp
 
 8.  A new tab will open with a prompt to create the **Microsoft Dataverse** connection. 
 
-9.  Select **Create**, authenticate if required, wait until new connection is created. Close the browser tab.
+9.  Select **Create**, authenticate if required, wait until new connection is created. **Close** the browser tab.
 
 10. Select **Refresh**. Verify the new connection is selected in the drop-down. 
 
@@ -582,7 +582,7 @@ In this exercise, you will import sample data into the environment. Rows are imp
 
 6.  Expand the **InputData** step.
 
-7.  Review the JSON text in the value field. This is the data that will be imported into your environment. Note: The image data is encoded as Base-64 text.
+7.  Review the JSON text in the **Value** field. This is the data that will be imported into your environment. Note: The image data is encoded as Base-64 text.
 
 8.  Expand the **EachDepartment** for each control.
 
@@ -592,7 +592,7 @@ In this exercise, you will import sample data into the environment. Rows are imp
 
 11. Select **Save** to save the flow.
 
-12. Select the **<-** button to go back to the previous page.
+12. Select the **🡠** back button to go back to the previous page.
 
     ![A Screenshot with an arrow pointing to the arrow icon to go back](02-1/media/image92.png)
 
