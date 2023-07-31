@@ -407,7 +407,7 @@ In this exercise, you will create a model-driven application.
 
     ![A screenshot of the area editing](02-1/media/image106.png)
 
-8.  Go to the **Properties** pane, enter `Manage Problems` for **Title**, and enter `area\_manage\_problems` for **ID**.
+8.  Go to the **Properties** pane, enter `Manage Problems` for **Title**, and enter `area_manage_problems` for **ID**.
 
     ![A screenshot of the properties pane with the title and ID changed](02-1/media/image64.png)
 
@@ -423,13 +423,13 @@ In this exercise, you will create a model-driven application.
     
 13. Select **New Group** in the navigation pane.
 
-14. Go to the **Properties**, enter **Problems** for **Title**, and enter **group\_problems** for **ID**.
+14. Go to the **Properties**, enter **Problems** for **Title**, and enter **group_problems** for **ID**.
 
 15. Click on area selection and then select **New area**
     
     ![A screenshot of the adding new area](02-1/media/image107.png)
 
-16. Go to the **Properties** pane, enter **Settings** for **Title**, and enter **area\_settings** for **ID**.
+16. Go to the **Properties** pane, enter **Settings** for **Title**, and enter **area_settings** for **ID**.
 
     ![A screenshot of the properties pane with the title and ID changed](02-1/media/image97.png)
     
