@@ -58,7 +58,7 @@ In this exercise, you will create a custom solution publisher and a solution. Th
 
 1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in the practice environment you created. 
 
-2.  From the left navigation pane, select **Solutions** and then select **+ New solution**. 
+2.  From the left navigation pane, select **s** and then select **+ New solution**. 
 
 3.  For **Display name**, enter `Company 311` 
 
@@ -194,7 +194,7 @@ In this task, you will edit the Status Reason column of the Problem Report table
 
 7.  Select **+ New choice** and enter `Won’t Fix` for **Label**.
 
-8.  You should now have 5 options. Set the **Default choice** as **New** and select **Save**.
+8.  You should now have 5 options. Verify the **Default choice** is set as **New** and select **Save**.
 
     ![A screenshot of the Status Reason column properties with 5 options and New as Default choice](02-1/media/image25.png)
 
@@ -282,7 +282,7 @@ In this exercise, you will configure form and views for the Problem Report table
 
     ![A screenshot of the form designer with Table columns section selected.](02-1/media/image40-1.png)
 
-16. Add **Department**, **Status Reason**, **Resolved on**, and **Resolution** columns to the **Resolution details** section.
+16. Add **Department**, **Status Reason**, **Resolved On**, and **Resolution** columns to the **Resolution details** section.
 
 18. Select the **Resolution** Column.
 
@@ -296,7 +296,7 @@ In this exercise, you will configure form and views for the Problem Report table
 
 22. Wait for the publishing to complete.
 
-23. Select the **<- Back** button to return to the Solution Explorer.
+23. Select the **🡠 Back** button to return to the **Solution Explorer**.
 
     ![A screenshot of the form designer with the cursor over Back button inm the menu.](02-1/media/image43.png)
 
@@ -370,7 +370,7 @@ In this task, you will create a new view from the Active Problem Reports view.
 
     ![A screenshot of the Save As window](02-1/media/image56.png)
 
-9.  Select the **<- Back** button to return to the solution explorer.
+9.  Select the **🡠 Back** button to return to the solution explorer.
 
     ![A Screenshot with an arrow pointing to the back button](02-1/media/image57.png)
 
@@ -407,7 +407,7 @@ In this exercise, you will create a model-driven application.
 
     ![A screenshot of the area editing](02-1/media/image106.png)
 
-8.  Go to the **Properties** pane, enter `Manage Problems` for **Title**, and enter `area\_manage\_problems` for **ID**.
+8.  Go to the **Properties** pane, enter `Manage Problems` for **Title**, and enter `area_manage_problems` for **ID**.
 
     ![A screenshot of the properties pane with the title and ID changed](02-1/media/image64.png)
 
@@ -423,13 +423,13 @@ In this exercise, you will create a model-driven application.
     
 13. Select **New Group** in the navigation pane.
 
-14. Go to the **Properties**, enter **Problems** for **Title**, and enter **group\_problems** for **ID**.
+14. Go to the **Properties**, enter `Problems` for **Title**, and enter `group_problems` for **ID**.
 
 15. Click on area selection and then select **New area**
     
     ![A screenshot of the adding new area](02-1/media/image107.png)
 
-16. Go to the **Properties** pane, enter **Settings** for **Title**, and enter **area\_settings** for **ID**.
+16. Go to the **Properties** pane, enter `Settings` for **Title**, and enter `area_settings` for **ID**.
 
     ![A screenshot of the properties pane with the title and ID changed](02-1/media/image97.png)
     
@@ -453,7 +453,7 @@ In this exercise, you will create a model-driven application.
 
 25. Select **Publish** to publish the sitemap and wait for the publishing to complete.
 
-26. Select the **<- Back** button to return to the solution explorer.
+26. Select the **🡠 Back** button to return to the **Solution Explorer**.
 
 27. Select **All** in the **Objects** navigation tree.
 
@@ -559,7 +559,7 @@ In this exercise, you will import sample data into the environment. Rows are imp
 
 8.  A new tab will open with a prompt to create the **Microsoft Dataverse** connection. 
 
-9.  Select **Create**, authenticate if required, wait until new connection is created. Close the browser tab.
+9.  Select **Create**, authenticate if required, wait until new connection is created. **Close** the browser tab.
 
 10. Select **Refresh**. Verify the new connection is selected in the drop-down. 
 
@@ -582,7 +582,7 @@ In this exercise, you will import sample data into the environment. Rows are imp
 
 6.  Expand the **InputData** step.
 
-7.  Review the JSON text in the value field. This is the data that will be imported into your environment. Note: The image data is encoded as Base-64 text.
+7.  Review the JSON text in the **Value** field. This is the data that will be imported into your environment. Note: The image data is encoded as Base-64 text.
 
 8.  Expand the **EachDepartment** for each control.
 
@@ -592,7 +592,7 @@ In this exercise, you will import sample data into the environment. Rows are imp
 
 11. Select **Save** to save the flow.
 
-12. Select the **<-** button to go back to the previous page.
+12. Select the **🡠** back button to go back to the previous page.
 
     ![A Screenshot with an arrow pointing to the arrow icon to go back](02-1/media/image92.png)
 
