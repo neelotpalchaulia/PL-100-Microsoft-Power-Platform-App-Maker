@@ -58,7 +58,7 @@ In this exercise, you will create a custom solution publisher and a solution. Th
 
 1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and make sure you are in the practice environment you created. 
 
-2.  From the left navigation pane, select **Solutions** and then select **+ New solution**. 
+2.  From the left navigation pane, select **s** and then select **+ New solution**. 
 
 3.  For **Display name**, enter `Company 311` 
 
@@ -453,7 +453,7 @@ In this exercise, you will create a model-driven application.
 
 25. Select **Publish** to publish the sitemap and wait for the publishing to complete.
 
-26. Select the **🡠 Back** button to return to the Solution Explorer.
+26. Select the **🡠 Back** button to return to the **Solution Explorer**.
 
 27. Select **All** in the **Objects** navigation tree.
 
