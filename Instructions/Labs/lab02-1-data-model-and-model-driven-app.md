@@ -370,7 +370,7 @@ In this task, you will create a new view from the Active Problem Reports view.
 
     ![A screenshot of the Save As window](02-1/media/image56.png)
 
-9.  Select the **<- Back** button to return to the solution explorer.
+9.  Select the **🡠 Back** button to return to the solution explorer.
 
     ![A Screenshot with an arrow pointing to the back button](02-1/media/image57.png)
 
