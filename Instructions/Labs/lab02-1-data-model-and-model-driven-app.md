@@ -194,7 +194,7 @@ In this task, you will edit the Status Reason column of the Problem Report table
 
 7.  Select **+ New choice** and enter `Won’t Fix` for **Label**.
 
-8.  You should now have 5 options. Set the **Default choice** as **New** and select **Save**.
+8.  You should now have 5 options. Verify the **Default choice** is set as **New** and select **Save**.
 
     ![A screenshot of the Status Reason column properties with 5 options and New as Default choice](02-1/media/image25.png)
 
@@ -282,7 +282,7 @@ In this exercise, you will configure form and views for the Problem Report table
 
     ![A screenshot of the form designer with Table columns section selected.](02-1/media/image40-1.png)
 
-16. Add **Department**, **Status Reason**, **Resolved on**, and **Resolution** columns to the **Resolution details** section.
+16. Add **Department**, **Status Reason**, **Resolved On**, and **Resolution** columns to the **Resolution details** section.
 
 18. Select the **Resolution** Column.
 
@@ -296,7 +296,7 @@ In this exercise, you will configure form and views for the Problem Report table
 
 22. Wait for the publishing to complete.
 
-23. Select the **<- Back** button to return to the Solution Explorer.
+23. Select the **🡠 Back** button to return to the **Solution Explorer**.
 
     ![A screenshot of the form designer with the cursor over Back button inm the menu.](02-1/media/image43.png)
 
