@@ -198,11 +198,11 @@ In this exercise, you will create a business rule that will block completion of 
 
 10. Select **+ New**.
 
-![A Screenshot with an arrow pointing to the new button](02-2/media/image15.png)
+    ![A Screenshot with an arrow pointing to the new button](02-2/media/image15.png)
 
 11. Scroll down to **Rule 2**, select **Resolution** for **Field**, select **Does not contain data** for **Operator**, make sure **AND** is selected for **Rule Logic**, and select **Apply**.
 
-![A screenshot of the rules panel if you scroll further down with the relevant text in each field](02-2/media/image16.png)
+    ![A screenshot of the rules panel if you scroll further down with the relevant text in each field](02-2/media/image16.png)
 
 12. Select **+ Add**.
 
@@ -251,7 +251,7 @@ In this exercise, you will test the business process flow and the business rule 
 
 3.  Select **Problem Reports** and select **+ New**.
 
-4.  You should see the business process flow stages. Enter **Dark parking lot** for **Title**, select **London Paddington** for **Building**, enter **There are no lights at the north end of the parking lot** for **Details**, and select **Save**.
+4.  You should see the business process flow stages. Enter `Dark parking lot` for **Title**, select **London Paddington** for **Building**, enter `There are no lights at the north end of the parking lot` for **Details**, and select **Save**.
 
     ![A screenshot of the new problem report](02-2/media/image22.png)
 
