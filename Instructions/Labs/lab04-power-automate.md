@@ -117,11 +117,11 @@ In this task, you will create a flow that send notification when the status of p
 
 24. Enter `The status of the problem you reported has changed.` and press the **[ENTER]** key.
 
-25. Enter `Problem Title: ` go to the Dynamic pane, search for `title` and select **Title**.
+25. Enter `Problem Title:` followed by a **[SPACE]**, go to the **Dynamic content** pane, search for `title` and select **Title**.
 
 26. Press the **[ENTER]** key.
 
-27. Enter `Current Status: ` go to the Dynamic pane, select the **Expression** tab, paste the expression below, and select **OK**. This expression will show the label of the choice instead of the value.
+27. Enter `Current Status:` followed by a **[SPACE]**, go to the **Dynamic content** pane, select the **Expression** tab, paste the expression below, and select **OK**. This expression will show the label of the Status Reason instead of the value.
 
     `triggerOutputs()?['body/_statuscode_label']`
 
@@ -129,26 +129,26 @@ In this task, you will create a flow that send notification when the status of p
 
 28. Select the **… Menu** button of the new step and select **Rename**.
 
-29. Rename the **Notify problem creator**.
+29. Rename the step to `Notify problem creator`
 
 30. The step should now look like the image below.
 
     ![A screenshot of the modify problem creator window being to primary email, the subject being problem report status change notification, and the body being "The status of the problem you reported has changed" with the problem title and current status as trigger outputs below that](04/media/image7.png)
 
-31. Scroll up change the flow name from Untitled to **Notify Problem Creator.**
+31. At the top of the page, change the flow name from **Untitled** to `Notify Problem Creator`
 
 32. Select **Save** and wait for the flow to be saved.
 
     ![A screenshot of the current flow](04/media/image8.png)
 
-33. Select the **<-** button to go back to the Solution Explorer.
+33. Select the **🡠** button to go back to the previous page.
 
 
 #### Task 2: Test the flow
 
-In this task, you will test the notify problem creator flow.
+In this task, you will test the Notify Problem Creator flow.
 
-1.  Make sure you are still on the [Power Apps maker portal](https://make.powerapps.com/) site and you are in the correct environment.
+1.  On the Power Apps maker portal, `https://make.powerapps.com` ensure you are in the correct environment.
 
 2.  Select **Apps**, and then select the **Company 311 Admin** Model-driven application. Select **Play**.
 
@@ -164,7 +164,7 @@ In this task, you will test the notify problem creator flow.
 
 8.  Select **Solutions** and open the **Company 311** solution.
 
-9.  Locate and open the **Notify Problem Creator** Cloud flow you created.
+9.  Locate and open the **Notify Problem Creator** Cloud flow.
 
 10. You should see a succeeded flow run in the **28-day run history section**. Open the run.
 
@@ -172,11 +172,11 @@ In this task, you will test the notify problem creator flow.
 
 11. All the flow steps should have a **green** check mark.
 
-12. Select **App launcher** and select **Outlook**.
+12. Select the **App launcher** and under **Apps**, select **Outlook**.
 
     ![A Screenshot with an arrow pointing to the app launcher and a border around outlook](04/media/image10.png)
 
-13. You should have received an email from the Cloud flow. Open the email.
+13. You should have received an email from the Cloud flow. **Open** the email.
 
 14. The email should look like the image below.
 
