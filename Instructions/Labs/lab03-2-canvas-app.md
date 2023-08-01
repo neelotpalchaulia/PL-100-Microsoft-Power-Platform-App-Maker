@@ -49,7 +49,7 @@ In this task, you will import the shared components solution into your environme
 
 1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) page and make sure you are in the correct environment.
 
-2.  Select **Solutions** and select **Import Solution**.
+2.  Select **Solutions** and select **Import solution**.
 
     ![A screenshot with an arrow pointing to the import button](03-2/media/image1.png)
 
@@ -65,9 +65,9 @@ In this task, you will import the shared components solution into your environme
 
 6.  Select **Import** and wait for the import to complete.
 
-7.  Select **Publish All Customizations** and wait for the publishing to complete.
+7.  Select **Publish all customizations** and wait for the publishing to complete.
 
-8.  You should now see the **Shared Components** solution you imported. Open the **Shared Components** solution.
+8.  Open the **Shared Components** solution.
 
 9.  The solution should have one item in it. (**Lamna Healthcare Shared Components**)
 
@@ -79,21 +79,21 @@ In this task, you will import the shared components solution into your environme
 
 10. Navigate to the [Power Apps maker portal](https://make.powerapps.com/) page and make sure you are in the correct environment.    
 
-11. Click on **Apps** and select the **Lamna Healthcare Shared Components App**.
+11. Select **Apps** and select the **Lamna Healthcare Shared Components App**.
 
 12. Select **Edit** to edit the app.
 
     ![A Screenshot with an arrow pointing to the edit button](03-2/media/image2-1.png)
 
-13. Select your **Region/Country** and select **Get started** if prompted.
+13. If prompted, select your **Region/Country** and select **Get started** or select **Skip**.
     
     > **NOTE**
     >
     > When the app is open in Edit mode, move on to next step, as the Preloader component shows a Loading icon but it is not actually waiting for something to load.
 
-14. After the app opens, click on the carret next to the save icon and select **Save As**.
+14. After the app opens, select the drop-down &#709; next to the **Save** button and select **Save as**.
 
-15. Change app name to `Lamna Healthcare Shared Components` and select **Save**.
+15. Change app name to `Lamna Healthcare Shared Components A` and select **Save**.
 
     ![A screenshot with a border around the app name saved as Lamna Healthcare Shared Components A](03-2/media/image2-2.png)
 
@@ -104,7 +104,7 @@ In this task, you will import the shared components solution into your environme
 
 #### Task 2: Create view
 
-In this task, you will create a view that will show the current user’s problem reports. Later you will use this view with the filter function in the canvas app.
+In this task, create a view that will show the current user’s problem reports. Later this view will be used with the filter function in the canvas app.
 
 1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) page and make sure you are in the correct environment.
 
@@ -112,7 +112,7 @@ In this task, you will create a view that will show the current user’s problem
 
 3.  Locate and open the **Problem Report** table.
 
-4.  Select **Views** in the treeview navigation and open the **Active Problem Reports** view.
+4.  Select **Views** in the tree view in the **Objects** pane and open the **Active Problem Reports** view.
 
     ![A screenshot of the solution explorer screen with Views selected under problem report table and the cursor over the active problem reports view link](03-2/media/image3.png)
 
@@ -128,16 +128,16 @@ In this task, you will create a view that will show the current user’s problem
 
     ![A Screenshot with an arrow pointing to the save as button](03-2/media/image6.png)
 
-8.  Enter **My Reports** for **Name** and select **Save**.
+8.  Enter `My Reports` for **Name** and select **Save**.
 
 9.  Select **Save and publish** and wait for the publishing to complete.
 
-10. Select the **<- Back** button on the command bar to go back to the Problem Report table details.
+10. Select the **🡠 Back** button on the command bar to go back to the Problem Report table details.
 
 
 #### Task 3: Create the user application
 
-In this task, you will create a canvas application using the phone form factor.
+In this task, create a canvas app using the phone form factor.
 
 1.  Navigate to the [Power Apps maker portal](https://make.powerapps.com/) page and make sure you are in the correct environment.
 
@@ -151,13 +151,11 @@ In this task, you will create a canvas application using the phone form factor.
 
 5.  Select **Skip**.
 
-6.  Go to the **Tree view** and double-click **Screen1**.
+6.  In the **Tree view**, select the three dots menu for **Screen1** and select **Rename**.
 
-    ![A Screenshot with an arrow pointing to the screen 1 button](03-2/media/image9.png)
+7.  Rename the screen to `Main Screen`
 
-7.  Rename the screen `Main Screen` I
-
-    It’s always a good idea to give your screens a meaningful name.
+    It’s always a good idea to give screens a meaningful name.
 
     ![A screenshot with the Screen 1 name highlighted and renamed Main Screen](03-2/media/image10.png)
 
@@ -177,17 +175,17 @@ In this task, you will create a canvas application using the phone form factor.
 
     ![A screenshot with a border around the library components Header and Tab control](03-2/media/image12-3.png)
 
-12. Move the **Tab Control** to the bottom of the screen and the **Header Control** to the top of the screens.
+12. Move the **Tab Control** to the bottom of the screen and the **Header Control** to the top of the screen.
 
 13. Select the **Header Control** and change the **Text** value to **"Company 311".**
 
     ![A screenshot of a border around the expression tab with the text value set to company 311](03-2/media/image13.png)
 
-14. Set the **Height** of the **Header Control** to **75**.
+14. Set the **Height** of the **Header Control** to `75`
 
     ![Set Height - Header](03-2/media/image37.png)
 
-15. On the **Tree view**, right-click on the Main Screen and select **Duplicate screen**.
+15. In the **Tree view**, right-click on the Main Screen and select **Duplicate screen**.
 
     ![A screenshot with a border around the duplicate screen button](03-2/media/image14.png)
 
@@ -217,15 +215,15 @@ In this task, you will create a canvas application using the phone form factor.
 
     ![A screenshot of the copied expression into the expression tab](03-2/media/image15.png)
 
-18. Select the **Tab Control** in the **Main Screen** and change the **Items** value to **‘My Tabs’**.
+18. Select the **Tab Control** component in the **Main Screen** and change the **Items** value to `'My Tabs'`
 
     ![A screenshot of the items value set to my tabs for Tab control](03-2/media/image16.png)
 
-19. Change the **SelectedColor** value to **WhiteSmoke**.
+19. Change the **SelectedColor** value to `Color.WhiteSmoke`
 
-20. Select the **Tab Control** inside the **New Report Screen** and set the Item value to **‘My Tabs’**.
+20. Select the **Tab Control** inside the **New Report Screen** and set the Item value to `'My Tabs'`
 
-21. Change the **SelectedColor** value to **WhiteSmoke**.
+21. Change the **SelectedColor** value to `Color.WhiteSmoke`
 
 22. In the **Tree view**, right-click on **App** and select **Run OnStart**.
 
@@ -237,12 +235,12 @@ In this task, you will create a canvas application using the phone form factor.
 
 24. Select **Save** from the command bar.
 
-25. Do not navigate away from this page.
+    Do not navigate away from this page.
 
 
 ### Exercise 2: My reports
 
-In this exercise, you will add a gallery that will show reports created by the current logged in user.
+In this exercise, add a gallery that will show reports created by the current logged in user.
 
 #### Task 1: Add gallery
 
@@ -250,9 +248,11 @@ In this exercise, you will add a gallery that will show reports created by the c
 
     ![A screenshot of the app designer with a cursor pointing to the vertical gallery option](03-2/media/image19.png)
 
-2.  Rename the new gallery **My Reports Gallery**.
+2.  Rename the new gallery to `My Reports Gallery`
 
-3.  Resize and reposition **My Reports Gallery** and make sure the screen looks like the image below.
+3.  Resize and reposition **My Reports Gallery**, setting the **Position, Y** value to `75` and the **Height** value to `1000` 
+
+    It should look like this example:
 
     ![A screenshot of the my reports gallery selected](03-2/media/image20.png)
 
@@ -262,7 +262,7 @@ In this exercise, you will add a gallery that will show reports created by the c
 
 5.  Select the **My Reports** view you created for **View**.
 
-6.  Select **Edit fields**.
+6.  Under **Fields**, select **Edit**.
 
     ![A Screenshot with an arrow pointing to the edit button](03-2/media/image22.png)
 
@@ -276,12 +276,12 @@ In this exercise, you will add a gallery that will show reports created by the c
 
 9.  Select the **Save** icon.
 
-10. Do not navigate away from this page.
+    Do not navigate away from this page.
 
 
 ### Exercise 3: Allow removing reports
 
-In this exercise, you will allow unassigned reports to be removed. This will allow users to easily remove any reports that were accidentally created.
+In this exercise, allow unassigned reports to be removed. This will allow users to easily remove any reports that were accidentally created.
 
 #### Task 1: Allow remove
 
@@ -291,7 +291,7 @@ In this exercise, you will allow unassigned reports to be removed. This will all
 
     ![A screenshot of the arrow icon inside the my reports gallery](03-2/media/image24.png)
 
-3.  In the Tree View, double-click **NextArrow1** and rename it to `Remove Report`
+3.  In the **Tree view**, double-click **NextArrow1** and rename it to `Remove Report`
 
 3.  Change the **Icon** value to **Icon.Trash**.
 
@@ -303,18 +303,18 @@ In this exercise, you will allow unassigned reports to be removed. This will all
 
     ![A screenshot of the expression tab with the relevant command pasted in](03-2/media/image26.png)
 
-5.  Make sure you still have the icon selected. Change the **OnSelect** value to the formula below. This formula will remove item from the data source.
+5.  Make sure you still have the **Remove Report** icon selected. Change the **OnSelect** value to the formula below. This formula will remove item from the data source.
 
     `Remove('Problem Reports', ThisItem)`
 
-6.  Change the **ToolTip** value to **"Remove this report"**.
+6.  Change the **Tooltip** value to `"Remove this report"`
 
 7.  Select **Save**. 
 
 
 ### Exercise 4: Add new report
 
-In this exercise, you will add a form to submit new problem reports.
+In this exercise, add a form to the canvas app to submit new problem reports.
 
 #### Task 1: Add new report form
 
@@ -322,7 +322,7 @@ In this exercise, you will add a form to submit new problem reports.
 
     ![A screenshot of the inset tab and forms button selected](03-2/media/image27.png)
 
-2.  Rename the form to **New Report Form**.
+2.  Rename the form to `New Report Form`
 
 3.  Select **New Report Form**, go to the **Properties** pane, and select **Problem Report** for **Data source**.
 
@@ -342,7 +342,9 @@ In this exercise, you will add a form to submit new problem reports.
 
 9.  Select **Building**, **Department**, **Details**, and **Photo**, and then select **Add**.
 
-10. Resize and reposition the form so it takes most of the page and leave enough room for a button at the bottom.
+10. Resize and reposition the form, setting the **Position, Y** value to `75` and the **Height** value to `900` 
+
+    It takes most of the page and leave enough room for a button at the bottom.
 
     ![A screenshot of the form resized and reposition for room at the bottom for a button](03-2/media/image31.png)
 
@@ -352,9 +354,9 @@ In this exercise, you will add a form to submit new problem reports.
 
 13. Rename the button `Submit Report`
 
-14. Place the button below the form and stretch it across the screen.
+14. Move the button below the form, or set **Position, X** value to `180` and **Y** value to `990`
 
-15. Change the **Submit Report** button's **Text** property to **Submit**.
+15. Change the **Submit Report** button **Text** property to `Submit`
 
 16. Select the **Submit Report** button and change the **OnSelect** value to the formula below. This formula will create a new Row in the Problem Reports table.
 
@@ -378,12 +380,12 @@ In this exercise, you will add a form to submit new problem reports.
 
 23. Select **Publish this version** and wait for the publishing to complete.
 
-24. Do not navigate away from this page.
+    Do not navigate away from this page.
 
 
 ### Exercise 5: Test the application
 
-In this exercise, you will test the canvas application you created by submitting a problem report.
+In this exercise, test the canvas application by submitting a problem report.
 
 #### Task 1: Test application
 
@@ -417,7 +419,7 @@ In this exercise, you will test the canvas application you created by submitting
 
     ![A screenshot of the row deleted and removed from the list](03-2/media/image36.png)
 
-11. **Close** the preview.
+11. **Close** the preview mode.
 
 12. **Close** the app studio by closing the browser tab.
 
@@ -461,23 +463,24 @@ In this task, you will setup a **Microsoft Teams** team for the Lamna Healthcare
 
 1.  Select the **General** channel of the **Company 311** team.
 
-2.  On the top of the page, press the **+** symbol to add a new tab.
+2.  At the top of the page, select the **+** symbol to add a new tab.
 
     ![A screenshot of a border around the plus icon to add a new tab](03-2/media/image-3-addpowerbitab.png)
 
-4.  Search for **power** and select **Power Apps** from the results.
+4.  Search for `power` and select **Power Apps** from the results.
 
-5.  Select **Add** to add Power Apps to Teams
+5.  Select **Add** to add Power Apps to Teams.
 
 6.  Select the **Company 311 Phone App** that you created earlier in this lab. 
 
     > **IMPORTANT**
     >
-    > If you do not see the app you need to go back to the app editor and publish the app.
+    > If you do not see the app you may need to go back to the app editor and publish the app.
 
 7.  Select **Save**. 
 
 8.  The **Company 311** app should now appear on a tab in Microsoft Teams.
 
     ![A screenshot of the company 311 app appearing on a tab in Microsoft Teams](03-2/media/image-3-powerappinteams.png)
+
 
