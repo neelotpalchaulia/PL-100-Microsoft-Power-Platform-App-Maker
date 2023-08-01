@@ -190,7 +190,7 @@ In this exercise, you will create a business rule that will block completion of 
  
 7.  Select the **Condition**.
 
-8.  Go to the **Properties** pane and change the **Display name** to `Resolution required`
+8.  Go to the **Properties** pane and change the **Display Name** to `Resolution required`
 
 9.  Scroll down the **Rules** section, select **Status Reason** for **Field**, select **Equals** for **Operator**, select **Value** for **Type**, select **Completed** for **Value**, and select **Apply**.
 
@@ -232,6 +232,10 @@ In this exercise, you will create a business rule that will block completion of 
 
 21. Select **Done**.
 
+22.  Select **All** in the **Objects** navigation tree.
+
+23.  Select **Publish all customizations** and wait for the publishing to complete.
+
 
 ### Exercise 3: Test processes
 
@@ -255,7 +259,7 @@ In this exercise, you will test the business process flow and the business rule 
 
     ![A Screenshot with an arrow pointing to the route stage at the top of the page](02-2/media/image23.png)
 
-6.  Enter `North-end` for **Location**, select **Facility Maintenance** for **Department** and select the **Next stage** button.
+6.  Enter `North-end` for **Location**, select **Maintenance** for **Department** and select the **Next stage** button.
 
     > **NOTE**
     >
