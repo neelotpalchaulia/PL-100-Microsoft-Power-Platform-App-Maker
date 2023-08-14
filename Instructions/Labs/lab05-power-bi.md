@@ -29,10 +29,10 @@ We will follow the below steps to design and create the Power BI dashboard:
 
 -   Connect to tables in Microsoft Dataverse 
 -   Transform the data to include user-friendly descriptions for the related Rows (lookups)
--    Create and publish a report with various visualizations of the information about problem reports
--    User natural language query to build additional visualizations
--    Build mobile view
--    Embed the Company 311 Power BI report to Microsoft Teams
+-   Create and publish a report with various visualizations of the information about problem reports
+-   User natural language query to build additional visualizations
+-   Build mobile view
+-   Embed the Company 311 Power BI report to Microsoft Teams
 
 ## Prerequisites
 
@@ -66,21 +66,22 @@ We will follow the below steps to design and create the Power BI dashboard:
 
 2.  Open Power BI Desktop.
 
-2.  If you signed in into Power BI Desktop previously, select **File | Sign out** 
+2.  If you were signed into Power BI Desktop previously, select **File** > **Sign out**. 
 
-3.  Sign in if prompted or select **File | Sign in** to sign in.  
+3.  Sign in if prompted or select **File** > **Sign in** to sign in. 
 
 4.  If you're signing in for the first time you may receive the following prompt
 
     ![A screenshot of a prompt to sign up for a Power Bi account if it is your first time](05/media/image-6-2.png)
 
-5.  Select **Sign up for Power BI** and follow the prompts to complete the sign up 
+5.  Select **Sign up for Power BI** and follow the prompts to complete the sign up. 
+
 
 #### Task 2: Prepare Data
 
 1.  Open Power BI Desktop.
 
-2.  Select **Get data | More...**
+2.  Select **Get data** > **More...**
 
     ![A Screenshot with an arrow pointing to the get data button and another arrow pointing to the more button at the bottom of the get data drop down](05/media/image-6-3.png)
 
@@ -94,7 +95,7 @@ We will follow the below steps to design and create the Power BI dashboard:
 
     ![A Screenshot with an arrow pointing to the load button](05/media/image-6-7.png)
 
-6.  On connection settings select **DirectQuery** and click **OK**.
+6.  On connection settings, select **DirectQuery** and select **OK**.
 
 7.  Select the **Model** icon on the left vertical toolbar.
 
@@ -130,9 +131,9 @@ We will follow the below steps to design and create the Power BI dashboard:
 
 15. Select the **...** menu next to the **lh_problemreportid** column of the **lh_problemreport** table and select **Rename**. Enter **Problem Report** as the column name.
 
-16. Select the **...** menu next to the **statuscodename** column and select **Rename**. Enter **Status** as the column name.
+16. Select the **...** menu next to the **statuscodename** column and select **Rename**. Enter `Status` as the column name.
 
-17. Save work in progress by selecting **File &#124; Save** and enter **Problem management** as a filename.
+17. Save work in progress by selecting **File** > **Save** and enter `Problem management` as a filename.
 
 
 ### Exercise 2: Create Power BI Report 
