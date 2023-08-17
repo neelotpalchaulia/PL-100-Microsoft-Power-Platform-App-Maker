@@ -64,38 +64,36 @@ We will follow the below steps to design and create the Power BI dashboard:
     >
     > If you experience issues installing Power BI Desktop using Microsoft Store, try the standalone installer that can be downloaded from [https://aka.ms/pbiSingleInstaller](https://aka.ms/pbiSingleInstaller).
 
-2.  Open Power BI Desktop.
+2.  Open Power BI Desktop and select **Get started**.
 
-2.  If you were signed into Power BI Desktop previously, select **File** > **Sign out**. 
+3.  Subscribe to the email list or select **Maybe later** and select **Close**.
 
-3.  Sign in if prompted or select **File** > **Sign in** to sign in. 
+    **Note:** If you were signed into Power BI Desktop previously, select **File** > **Sign out**. 
 
-4.  If you're signing in for the first time you may receive the following prompt
+4.  Enter your email address and select **Continue**. Sign in if prompted or select **File** > **Sign in** to sign in.
 
-    ![A screenshot of a prompt to sign up for a Power Bi account if it is your first time](05/media/image-6-2.png)
+5.  Select **Work or school account** and select **Continue**.
 
-5.  Select **Sign up for Power BI** and follow the prompts to complete the sign up. 
+6.  Sign in using your M365 credentials and select **No, sign into this app only**. 
 
 
 #### Task 2: Prepare Data
 
-1.  Open Power BI Desktop.
+1.  Open Power BI Desktop if it is not already open.
 
-2.  Select **Get data** > **More...**
+2.  Select **Get data** > **Dataverse**.
 
-    ![A Screenshot with an arrow pointing to the get data button and another arrow pointing to the more button at the bottom of the get data drop down](05/media/image-6-3.png)
-
-3.  Select **Power Platform**, then select **Dataverse** and press **Connect**.
+3.  Select **Sign in**.
 
     ![A screenshot of the dataverse selected in the power platform window](05/media/image-6-4.png)
 
-4.  The connection details dialog will open up. If you are not signed in, select **Sign in** and follow the prompts to sign in. Press **Connect**. 
+4.  The connection details dialog will open up. If you are not signed in, select **Sign in** and follow the prompts to sign in. Select **Connect**. 
 
-5.  Expand environment node, select **lh_building**, **lh_department**, **lh_problemreport** tables and select **Load**. Wait until the load is complete.
+5.  Expand environment node. Using `lh_` to filter, select the **lh_building**, **lh_department**, **lh_problemreport** tables and select **Load**. Wait until the load is complete.
 
     ![A Screenshot with an arrow pointing to the load button](05/media/image-6-7.png)
 
-6.  On connection settings, select **DirectQuery** and select **OK**.
+6.  On the **Connection settings** window, choose **DirectQuery** and select **OK**.
 
 7.  Select the **Model** icon on the left vertical toolbar.
 
