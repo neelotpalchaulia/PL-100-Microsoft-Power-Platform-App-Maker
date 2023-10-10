@@ -27,9 +27,13 @@ In this exercise, you will create a Power Virtual Agents bot that will get the i
 
 ## What you will learn
 
- 1.	How to create a Power Virtual Agents in Teams.
+ 1. How to create a Power Virtual Agents in Teams.
  2. How to publish Power Virtual Agents.
  3. How to use Power Virtual Agents flow template.
+
+## Prerequisites
+
+* Must have completed **Lab 03.1: Create apps in Teams**
 
 ## Detailed steps
 
