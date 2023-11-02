@@ -1,0 +1,49 @@
+[
+  {
+    "Name": "PL-100: Microsoft Power Platform App Maker",
+    "Language": "English",
+    "BaseURL": "https://github.com/CloudLabs-MOC/PL-100-Microsoft-Power-Platform-App-Maker/tree/prod",
+    "Files": [
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/PL-100-Microsoft-Power-Platform-App-Maker/prod/Instructions/Labs/Lab00-Validate-lab-environment.md",
+        "Order": 1
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/PL-100-Microsoft-Power-Platform-App-Maker/prod/Instructions/Labs/lab01-design-a-solution.md",
+        "Order": 2
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/PL-100-Microsoft-Power-Platform-App-Maker/prod/Instructions/Labs/lab02-data-model-and-model-driven-app.md",
+        "Order": 3
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/PL-100-Microsoft-Power-Platform-App-Maker/prod/Instructions/Labs/lab03-business-process-flow-and-business-rules.md",
+        "Order": 4
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/PL-100-Microsoft-Power-Platform-App-Maker/prod/Instructions/Labs/lab04-create-apps-in-teams.md",
+        "Order": 5
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/PL-100-Microsoft-Power-Platform-App-Maker/prod/Instructions/Labs/lab05-canvas-app.md",
+        "Order": 6
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/PL-100-Microsoft-Power-Platform-App-Maker/prod/Instructions/Labs/lab06-power-automate.md",
+        "Order": 7
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/PL-100-Microsoft-Power-Platform-App-Maker/prod/Instructions/Labs/lab07-power-bi.md",
+        "Order": 8
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/PL-100-Microsoft-Power-Platform-App-Maker/prod/Instructions/Labs/lab08-create-pva-in-teams.md",
+        "Order": 9
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/PL-100-Microsoft-Power-Platform-App-Maker/prod/Instructions/Labs/lab09-test-deploy.md",
+        "Order": 10
+      }
+    ]
+  }
+]
