@@ -42,7 +42,7 @@ Though this lab, you will be able to complete and gain insights into the followi
  
 In this exercise, you will create a **Practice** environment that you will use to do the majority of the lab work in this training.
  
-#### Task 1 – Create environment
+#### Task 1: Create environment
  
 1.  Open a new browser tab and navigate to the Power Platform admin center `https://aka.ms/ppac` 
 2.  Log in with your Microsoft 365 credentials, if prompted again.
